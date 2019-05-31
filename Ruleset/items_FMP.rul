@@ -790,7 +790,8 @@
     listOrder: 6271
   - type: ALIEN_DRONE_WEAPON
     weight: 3
-    bigSprite: -2
+    ignoreInBaseDefense: true
+    bigSprite: { mod: master, index: 60 }
     floorSprite: 31
     handSprite: 104
     bulletSprite: 2
@@ -1126,7 +1127,8 @@
     listOrder: 12223
   - type: SPITTER_WEAPON
     weight: 3
-    bigSprite: -2
+    ignoreInBaseDefense: true
+    bigSprite: { mod: master, index: 60 }
     floorSprite: 31
     handSprite: 104
     bulletSprite: 8
@@ -1151,7 +1153,8 @@
     autoShots: 3
   - type: SPITTER_RETRACT_WEAPON
     weight: 3
-    bigSprite: -2
+    ignoreInBaseDefense: true
+    bigSprite: { mod: master, index: 60 }
     floorSprite: 31
     handSprite: 104
     bulletSprite: 8
@@ -1173,7 +1176,8 @@
     arcingShot: true
   - type: SPITTER_RETRES_WEAPON
     weight: 3
-    bigSprite: -2
+    ignoreInBaseDefense: true
+    bigSprite: { mod: master, index: 60 }
     floorSprite: 31
     handSprite: 104
     bulletSprite: 8
@@ -1195,7 +1199,8 @@
     arcingShot: true
   - type: SPITTER_NAKED_WEAPON
     weight: 3
-    bigSprite: -2
+    ignoreInBaseDefense: true
+    bigSprite: { mod: master, index: 60 }
     floorSprite: 31
     handSprite: 104
     bulletSprite: 8
@@ -1220,7 +1225,8 @@
     autoShots: 3
   - type: REAPER_WEAPON
     weight: 3
-    bigSprite: -3
+    ignoreInBaseDefense: true
+    bigSprite: { mod: master, index: 59 }
     floorSprite: 31
     handSprite: 104
     meleeAnimation: 12
@@ -1871,7 +1877,8 @@
     listOrder: 7020
   - type: CEREBREAL_WEAPON
     weight: 3
-    bigSprite: -2
+    ignoreInBaseDefense: true
+    bigSprite: { mod: master, index: 60 }
     floorSprite: 31
     handSprite: 104
     bulletSprite: 8
@@ -1892,7 +1899,8 @@
     recover: false
   - type: CEREBREAL_LARVA_WEAPON
     weight: 3
-    bigSprite: -2
+    ignoreInBaseDefense: true
+    bigSprite: { mod: master, index: 60 }
     floorSprite: 31
     handSprite: 104
     bulletSprite: 8
@@ -2135,7 +2143,8 @@
     listOrder: 7010
   - type: HOLODRONE_WEAPON
     weight: 3
-    bigSprite: -3
+    ignoreInBaseDefense: true
+    bigSprite: { mod: master, index: 59 }
     floorSprite: 31
     handSprite: 104
     bulletSprite: 6
@@ -2286,7 +2295,8 @@
     listOrder: 7020
   - type: CYBERMITE_WEAPON
     weight: 3
-    bigSprite: -3
+    ignoreInBaseDefense: true
+    bigSprite: { mod: master, index: 59 }
     floorSprite: 31
     handSprite: 104
     hitSound: 54
@@ -2368,7 +2378,8 @@
     costSell: 50
     transferTime: 48
     weight: 3
-    bigSprite: -1
+    ignoreInBaseDefense: true
+    bigSprite: { mod: master, index: 61 }
     floorSprite: 12
     power: 60
     clipSize: 6
@@ -2413,7 +2424,8 @@
     costSell: 100
     transferTime: 48
     weight: 1
-    bigSprite: -1 # It must be -1 to avoid putting it to the base-defense battlescape. Original value: 12
+    ignoreInBaseDefense: true
+    bigSprite: 12
     floorSprite: 12
     hitSound: 81
     hitAnimation: 0
@@ -2454,7 +2466,8 @@
     costSell: 2250
     transferTime: 48
     weight: 1
-    bigSprite: -1 # It must be -1 to avoid putting it to the base-defense battlescape. Original value: 16
+    ignoreInBaseDefense: true
+    bigSprite: 16
     floorSprite: 16
     hitSound: 0
     hitAnimation: 0
@@ -2494,7 +2507,8 @@
     costSell: 300
     transferTime: 48
     weight: 10
-    bigSprite: -1
+    ignoreInBaseDefense: true
+    bigSprite: { mod: master, index: 61 }
     floorSprite: 12
     hitSound: 22
     hitAnimation: 26
@@ -2656,7 +2670,8 @@
     costSell: 31500
     transferTime: 48
     weight: 1
-    bigSprite: -1 # It must be -1 to avoid putting it to the base-defense battlescape. Original value: 36
+    ignoreInBaseDefense: true
+    bigSprite: 36
     floorSprite: 35
     hitSound: 0
     hitAnimation: 0
@@ -2772,7 +2787,8 @@
     costSell: 2500
     transferTime: 48
     weight: 1
-    bigSprite: -1
+    ignoreInBaseDefense: true
+    bigSprite: { mod: master, index: 61 }
     floorSprite: 12
     hitSound: 66
     hitAnimation: 26
@@ -2834,7 +2850,8 @@
     costSell: 5900
     transferTime: 48
     weight: 1
-    bigSprite: -1
+    ignoreInBaseDefense: true
+    bigSprite: { mod: master, index: 61 }
     floorSprite: 12
     hitSound: 66
     hitAnimation: 96
@@ -2866,7 +2883,8 @@
     bulletSprite: 21
   - type: MIB_SECTOPOD_WEAPON
     weight: 3
-    bigSprite: -2
+    ignoreInBaseDefense: true
+    bigSprite: { mod: master, index: 60 }
     floorSprite: 31
     handSprite: 104
     fireSound: 84
