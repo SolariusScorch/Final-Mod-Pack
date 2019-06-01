@@ -1,0 +1,285 @@
+﻿crafts:
+  - type: STR_SKYRAIDER
+    sprite: 798
+    fuelMax: 1500
+    damageMax: 100
+    speedMax: 1140
+    accel: 3
+    soldiers: 10
+    vehicles: 1
+    costBuy: 300000
+    costRent: 300000
+    repairRate: 4
+    refuelRate: 50
+    transferTime: 72
+    score: 200
+    battlescapeTerrainData:
+      name: CUTERANGER
+      mapDataSets:
+        - BLANKS
+        - PLANE
+        - CRAFTBIT_GREY
+      mapBlocks:
+        - name: CUTERANGER
+          width: 10
+          length: 20
+  - type: STR_AWACS
+    sprite: 31
+    fuelMax: 1500
+    damageMax: 100
+    speedMax: 410
+    accel: 1
+    costBuy: 500000
+    costRent: 400000
+    refuelRate: 75
+    repairRate: 1
+    radarRange: 1550
+    radarChance: 40
+    transferTime: 96
+    score: 250
+    listOrder: 207
+  - type: STR_HAWKEYE
+    requires:
+      - STR_IMPROVED_RADAR_CRAFT
+    sprite: 43
+    fuelMax: 1500
+    damageMax: 200
+    speedMax: 410
+    accel: 1
+    soldiers: 9
+    vehicles: 1
+    costSell: 650000
+    costRent: 100000
+    refuelRate: 75
+    repairRate: 1
+    radarRange: 1550
+    radarChance: 40
+    battlescapeTerrainData:
+      name: HAWKEYE
+      mapDataSets:
+        - BLANKS
+        - PLANE
+        - XBASE2
+        - XBASE1
+      mapBlocks:
+        - name: HAWKEYE
+          width: 10
+          length: 20
+    transferTime: 96
+    score: 250
+    listOrder: 207
+  - type: STR_DARKSTAR
+    requires:
+      - STR_ULTIMATE_RADAR_CRAFT
+    sprite: 44
+    fuelMax: 2500
+    damageMax: 250
+    speedMax: 360
+    weapons: 1
+    accel: 1
+    costRent: 300000
+    costSell: 1090000
+    refuelRate: 500
+    repairRate: 2
+    radarRange: 1900
+    radarChance: 60
+    transferTime: 96
+    score: 250
+    listOrder: 209
+  - type: STR_LIGHTNING
+    requires:
+      - STR_NEW_FIGHTER_TRANSPORTER
+    sprite: 1
+    fuelMax: 30
+    damageMax: 800
+    speedMax: 3100
+    accel: 9
+    weapons: 1
+    soldiers: 8
+    vehicles: 1
+    refuelItem: STR_ELERIUM_115
+    refuelRate: 5
+    repairRate: 6
+    score: 300
+    battlescapeTerrainData:
+      name: LIGHTNI2
+      mapDataSets:
+        - BLANKS
+        - LIGHTNIN
+        - U_WALL02
+      mapBlocks:
+        - name: LIGHTNI2
+          width: 10
+          length: 10
+    deployment:
+       - [4, 6, 1, 0]
+       - [5, 6, 1, 0]
+       - [4, 7, 1, 0]
+       - [5, 7, 1, 0]
+       - [3, 5, 1, 0]
+       - [6, 5, 1, 0]
+       - [3, 4, 1, 0]
+       - [6, 4, 1, 0]
+  - type: STR_DROPSHIP
+    requires:
+      - STR_HEAVY_TRANSPORTER
+    sprite: 28
+    fuelMax: 60
+    damageMax: 950
+    speedMax: 1600
+    accel: 6
+    soldiers: 18
+    vehicles: 4
+    costRent: 150000
+    costSell: 650000
+    refuelItem: STR_ELERIUM_115
+    refuelRate: 5
+    repairRate: 10
+    radarRange: 850
+    transferTime: 72
+    score: 400
+    listOrder: 102
+    battlescapeTerrainData:
+      name: DROPSHIP
+      mapDataSets:
+        - BLANKS
+        - LIGHTNIN
+        - AVENGER
+      mapBlocks:
+        - name: DROPSHIP
+          width: 10
+          length: 20
+    deployment:
+      - [2, 4, 1, 0]
+      - [3, 4, 1, 0]
+      - [6, 4, 1, 0]
+      - [7, 4, 1, 0]
+      - [2, 5, 1, 0]
+      - [3, 5, 1, 0]
+      - [6, 5, 1, 0]
+      - [7, 5, 1, 0]
+      - [2, 6, 1, 0]
+      - [3, 6, 1, 0]
+      - [6, 6, 1, 0]
+      - [7, 6, 1, 0]
+      - [2, 7, 1, 0]
+      - [3, 7, 1, 0]
+      - [6, 7, 1, 0]
+      - [7, 7, 1, 0]
+      - [4, 12, 1, 4]
+      - [4, 14, 1, 0]
+  - type: STR_ALLOY_SKYRANGER
+    requires:
+      - STR_IMPROVED_SKYRANGER
+    sprite: 30
+    fuelMax: 1500
+    damageMax: 450
+    speedMax: 1200
+    accel: 3
+    soldiers: 16
+    vehicles: 4
+    costRent: 100000
+    costSell: 350000
+    refuelRate: 50
+    repairRate: 4
+    transferTime: 72
+    score: 350
+    listOrder: 102
+    battlescapeTerrainData:
+      name: PLANE_X
+      mapDataSets:
+        - BLANKS
+        - PLANE_ALLOY
+        - CRAFTBIT
+        - AVENGER_NEW
+      mapBlocks:
+        - name: PLANE_2
+          width: 10
+          length: 20
+    deployment:
+      - [4, 7, 0, 0]
+      - [5, 7, 0, 0]
+      - [4, 8, 0, 0]
+      - [5, 8, 0, 0]
+      - [4, 9, 0, 0]
+      - [5, 9, 0, 0]
+      - [4, 10, 0, 0]
+      - [5, 10, 0, 0]
+      - [4, 11, 0, 0]
+      - [5, 11, 0, 0]
+      - [4, 12, 0, 0]
+      - [5, 12, 0, 0]
+      - [4, 13, 0, 0]
+      - [5, 13, 0, 0]
+      - [4, 14, 0, 6]
+      - [5, 14, 0, 2]
+  - type: STR_AVENGER
+    costRent: 400000
+  - type: STR_FIRESTORM
+    sprite: 22
+    costRent: 300000
+  - type: STR_RAVEN
+    requires:
+      - STR_IMPROVED_INTERCEPTOR
+    listOrder: 204
+    sprite: 23
+    fuelMax: 1200
+    damageMax: 250
+    speedMax: 2900
+    accel: 4
+    weapons: 2
+    costSell: 280000
+    costRent: 250000
+    refuelRate: 40
+    repairRate: 8
+    transferTime: 96
+    score: 250
+  - type: STR_TORMENTOR
+    requires:
+      - STR_ULTIMATE_HUNTER_CRAFT
+    sprite: 24
+    fuelMax: 40
+    damageMax: 1000
+    speedMax: 6200
+    accel: 12
+    weapons: 2
+    costRent: 350000
+    costSell: 420000
+    refuelItem: STR_ELERIUM_115
+    refuelRate: 5
+    repairRate: 7
+    transferTime: 96
+    score: 250
+  - type: STR_SENTINEL
+    requires:
+      - STR_SENTINEL_INTERCEPTOR
+    listOrder: 101
+    sprite: 25
+    fuelMax: 400
+    damageMax: 600
+    speedMax: 2200
+    accel: 6
+    weapons: 2
+    costRent: 320000
+    costSell: 480000
+    refuelItem: STR_ELERIUM_115
+    refuelRate: 25
+    repairRate: 6
+    transferTime: 96
+    score: 250
+  - type: STR_THUNDERSTORM
+    requires:
+      - STR_THUNDERSTORM_INTERCEPTOR
+    sprite: 26
+    fuelMax: 1500
+    damageMax: 450
+    speedMax: 4000
+    accel: 4
+    weapons: 1
+    costRent: 180000
+    costSell: 620000
+    transferTime: 96
+    refuelRate: 50
+    repairRate: 4
+    score: 250
+    listOrder: 205

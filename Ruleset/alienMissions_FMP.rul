@@ -1,0 +1,1139 @@
+﻿alienMissions:
+  - delete: STR_ALIEN_RESEARCH
+  - delete: STR_ALIEN_HARVEST
+  - delete: STR_ALIEN_ABDUCTION
+  - delete: STR_ALIEN_INFILTRATION
+  - delete: STR_ALIEN_BASE
+  - delete: STR_ALIEN_TERROR
+  - delete: STR_ALIEN_RETALIATION
+  - delete: STR_ALIEN_SUPPLY
+  - type: STR_ALIEN_RESEARCH
+    points: 0
+    raceWeights:
+      0:
+          STR_SECTOID: 60
+          STR_FLOATER: 20
+          STR_ANTHROPOD: 20
+      1:
+          STR_SECTOID: 55
+          STR_SNAKEMAN: 3
+          STR_SNAKEMAN_SALAMANDRON: 2
+          STR_FLOATER: 20
+          STR_ANTHROPOD: 20
+      2:
+          STR_SECTOID: 60
+          STR_SNAKEMAN: 5
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_FLOATER: 20
+          STR_ANTHROPOD: 10
+      3:
+          STR_SECTOID: 50
+          STR_SNAKEMAN: 5
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_FLOATER: 20
+          STR_ANTHROPOD: 20
+      4:
+          STR_SECTOID: 60
+          STR_SNAKEMAN: 5
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_FLOATER: 20
+          STR_ANTHROPOD: 10
+      5:
+          STR_SECTOID: 50
+          STR_SNAKEMAN: 5
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_FLOATER: 20
+          STR_ANTHROPOD: 20
+      7:
+          STR_GAZER: 10
+          STR_SECTOID: 30
+          STR_SNAKEMAN: 10
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_MUTON: 10
+          STR_FLOATER: 20
+          STR_ANTHROPOD: 15
+      8:
+          STR_GAZER: 10
+          STR_REPTOID: 10
+          STR_SECTOID: 30
+          STR_SNAKEMAN: 10
+          STR_SNAKEMAN_SALAMANDRON: 10
+          STR_MUTON: 10
+          STR_FLOATER: 20
+      9:
+          STR_SECTOID: 15
+          STR_SECTOID_SECTOPOD: 5
+          STR_SNAKEMAN: 5
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_MUTON: 10
+          STR_FLOATER: 20
+          STR_GAZER: 15
+          STR_REPTOID: 10
+          STR_WASPITE: 5
+          STR_ANTHROPOD: 10
+      10:
+          STR_SECTOID: 10
+          STR_SECTOID_SECTOPOD: 5
+          STR_SNAKEMAN: 5
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_MUTON: 10
+          STR_FLOATER: 15
+          STR_GAZER: 10
+          STR_REPTOID: 10
+          STR_CEREBREAL: 10
+          STR_WASPITE: 10
+          STR_ANTHROPOD: 10
+      11:
+          STR_SECTOID: 15
+          STR_SECTOID_SECTOPOD: 5
+          STR_SNAKEMAN: 10
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_MUTON: 10
+          STR_FLOATER: 10
+          STR_GAZER: 10
+          STR_CEREBREAL: 10
+          STR_REPTOID: 5
+          STR_WASPITE: 10
+          STR_ANTHROPOD: 10
+      12:
+          STR_SECTOID: 15
+          STR_SECTOID_SECTOPOD: 5
+          STR_SNAKEMAN: 3
+          STR_SNAKEMAN_SALAMANDRON: 2
+          STR_MUTON: 15
+          STR_FLOATER: 10
+          STR_GAZER: 15
+          STR_REPTOID: 5
+          STR_CEREBREAL: 10
+          STR_WASPITE: 10
+          STR_ANTHROPOD: 10
+      13:
+          STR_SECTOID: 15
+          STR_SECTOID_SECTOPOD: 5
+          STR_SNAKEMAN: 5
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_MUTON: 15
+          STR_FLOATER: 15
+          STR_GAZER: 10
+          STR_REPTOID: 5
+          STR_CEREBREAL: 5
+          STR_WASPITE: 10
+          STR_ANTHROPOD: 10
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 9000
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P2
+        timer: 7800
+      - ufo: STR_EXCAVATOR
+        count: 1
+        trajectory: P2
+        timer: 1000
+      - ufo: STR_LARGE_SCOUT
+        count: 2
+        trajectory: P4
+        timer: 9000
+      - ufo: STR_LAB_SHIP
+        count: 1
+        trajectory: P4
+        timer: 9000
+  - type: STR_ALIEN_HARVEST
+    points: 30
+    raceWeights:
+      0:
+          STR_SECTOID: 30
+          STR_FLOATER: 30
+          STR_CHTONITE: 20
+          STR_ANTHROPOD: 20
+      1:
+          STR_SECTOID: 30
+          STR_FLOATER: 30
+          STR_CHTONITE: 20
+          STR_ANTHROPOD: 20
+      3:
+          STR_SECTOID: 20
+          STR_FLOATER: 30
+          STR_CHTONITE: 20
+          STR_SNAKEMAN: 10
+          STR_SNAKEMAN_SALAMANDRON: 10
+          STR_ANTHROPOD: 10
+      4:
+          STR_SECTOID: 30
+          STR_SNAKEMAN: 10
+          STR_SNAKEMAN_SALAMANDRON: 10
+          STR_FLOATER: 30
+          STR_CHTONITE: 10
+          STR_ANTHROPOD: 10
+      5:
+          STR_SECTOID: 30
+          STR_SNAKEMAN: 5
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_FLOATER: 25
+          STR_CHTONITE: 20
+          STR_ANTHROPOD: 15
+      7:
+          STR_SECTOID: 20
+          STR_SNAKEMAN: 5
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_MUTON: 5
+          STR_FLOATER: 30
+          STR_CHTONITE: 20
+          STR_ANTHROPOD: 15
+      9:
+          STR_SECTOID: 10
+          STR_SNAKEMAN: 5
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_MUTON: 10
+          STR_FLOATER: 30
+          STR_CHTONITE: 20
+          STR_ANTHROPOD: 20
+      10:
+          STR_SECTOID: 10
+          STR_SNAKEMAN: 5
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_MUTON: 10
+          STR_FLOATER: 35
+          STR_CHTONITE: 15
+          STR_CEREBREAL: 10
+          STR_ANTHROPOD: 10
+      11:
+          STR_SECTOID: 25
+          STR_SNAKEMAN: 5
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_MUTON: 10
+          STR_FLOATER: 20
+          STR_CHTONITE: 15
+          STR_CEREBREAL: 10
+          STR_ANTHROPOD: 10
+      12:
+          STR_SECTOID: 20
+          STR_SNAKEMAN: 5
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_MUTON: 20
+          STR_FLOATER: 25
+          STR_CHTONITE: 10
+          STR_CEREBREAL: 5
+          STR_ANTHROPOD: 10
+      14:
+          STR_SECTOID: 25
+          STR_SNAKEMAN: 10
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_MUTON: 15
+          STR_FLOATER: 20
+          STR_CHTONITE: 10
+          STR_CEREBREAL: 5
+          STR_ANTHROPOD: 10
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 7800
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P2
+        timer: 7800
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P2
+        timer: 6000
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 7800
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P3
+        timer: 9000
+      - ufo: STR_HARVESTER
+        count: 1
+        trajectory: P4
+        timer: 3000
+      - ufo: STR_HARVESTER
+        count: 1
+        trajectory: P4
+        timer: 750
+      - ufo: STR_LAB_SHIP
+        count: 1
+        trajectory: P2
+        timer: 1500
+  - type: STR_ALIEN_ABDUCTION
+    points: 50
+    raceWeights:
+      0:
+          STR_SECTOID: 40
+          STR_FLOATER: 30
+          STR_CHTONITE: 20
+          STR_ANTHROPOD: 10
+      2:
+          STR_SECTOID: 30
+          STR_FLOATER: 20
+          STR_CHTONITE: 30
+          STR_ANTHROPOD: 20
+      4:
+          STR_SECTOID: 30
+          STR_FLOATER: 30
+          STR_REPTOID: 10
+          STR_CHTONITE: 20
+          STR_ANTHROPOD: 10
+      5:
+          STR_SECTOID: 30
+          STR_FLOATER: 20
+          STR_REPTOID: 10
+          STR_CHTONITE: 20
+          STR_ANTHROPOD: 20
+      7:
+          STR_SECTOID: 30
+          STR_FLOATER: 30
+          STR_REPTOID: 10
+          STR_CHTONITE: 20
+          STR_ANTHROPOD: 10
+      8:
+          STR_SECTOID: 40
+          STR_FLOATER: 30
+          STR_CHTONITE: 10
+          STR_REPTOID: 10
+          STR_ANTHROPOD: 10
+      9:
+          STR_SECTOID: 30
+          STR_FLOATER: 30
+          STR_CHTONITE: 10
+          STR_REPTOID: 15
+          STR_ANTHROPOD: 15
+      10:
+          STR_SECTOID: 30
+          STR_FLOATER: 30
+          STR_CHTONITE: 10
+          STR_REPTOID: 10
+          STR_CEREBREAL: 10
+          STR_ANTHROPOD: 10
+      11:
+          STR_SECTOID: 30
+          STR_FLOATER: 30
+          STR_CHTONITE: 10
+          STR_REPTOID: 10
+          STR_CEREBREAL: 10
+          STR_ANTHROPOD: 10
+      12:
+          STR_SECTOID: 30
+          STR_FLOATER: 30
+          STR_REPTOID: 10
+          STR_CHTONITE: 10
+          STR_CEREBREAL: 10
+          STR_ANTHROPOD: 10
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 15000
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P1
+        timer: 18000
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P3
+        timer: 9000
+      - ufo: STR_ABDUCTOR
+        count: 1
+        trajectory: P3
+        timer: 9000
+      - ufo: STR_ABDUCTOR
+        count: 2
+        trajectory: P4
+        timer: 60
+  - type: STR_ALIEN_INFILTRATION
+    points: 0
+    objective: 1
+    siteType: STR_ALIEN_BASE_ASSAULT
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights:
+      0:
+          STR_SECTOID: 50
+          STR_FLOATER: 30
+          STR_ANTHROPOD: 20
+          STR_RAIDERS_EARLY: 5
+      1:
+          STR_SECTOID: 40
+          STR_SNAKEMAN: 5
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_FLOATER: 25
+          STR_ANTHROPOD: 25
+          STR_RAIDERS_EARLY: 5
+      2:
+          STR_SECTOID: 40
+          STR_SNAKEMAN: 10
+          STR_SNAKEMAN_SALAMANDRON: 10
+          STR_FLOATER: 30
+          STR_ANTHROPOD: 10
+          STR_RAIDERS_EARLY: 3
+          STR_RAIDERS_MIDEARLY: 2
+      4:
+          STR_SECTOID: 50
+          STR_SNAKEMAN: 10
+          STR_SNAKEMAN_SALAMANDRON: 10
+          STR_FLOATER: 20
+          STR_ANTHROPOD: 10
+          STR_RAIDERS_EARLY: 1
+          STR_RAIDERS_MIDEARLY: 4
+      5:
+          STR_SECTOID: 40
+          STR_SNAKEMAN: 10
+          STR_SNAKEMAN_SALAMANDRON: 10
+          STR_FLOATER: 30
+          STR_ANTHROPOD: 10
+          STR_RAIDERS_EARLY: 1
+          STR_RAIDERS_MIDEARLY: 3
+          STR_RAIDERS_MID: 2
+      6:
+          STR_SECTOID: 20
+          STR_SNAKEMAN: 10
+          STR_SNAKEMAN_SALAMANDRON: 10
+          STR_FLOATER: 20
+          STR_REPTOID: 20
+          STR_ANTHROPOD: 20
+          STR_RAIDERS_EARLY: 1
+          STR_RAIDERS_MIDEARLY: 2
+          STR_RAIDERS_MID: 3
+      7:
+          STR_SECTOID: 20
+          STR_SNAKEMAN: 10
+          STR_SNAKEMAN_SALAMANDRON: 10
+          STR_MUTON: 5
+          STR_FLOATER: 10
+          STR_GAZER: 10
+          STR_REPTOID: 20
+          STR_ANTHROPOD: 15
+          STR_RAIDERS_EARLY: 1
+          STR_RAIDERS_MIDEARLY: 1
+          STR_RAIDERS_MID: 3
+          STR_RAIDERS_LATE: 1
+      9:
+          STR_SECTOID: 10
+          STR_SNAKEMAN: 5
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_ETHEREAL: 10
+          STR_MUTON: 10
+          STR_FLOATER: 10
+          STR_REPTOID: 10
+          STR_WASPITE: 20
+          STR_GAZER: 10
+          STR_ANTHROPOD: 10
+          STR_RAIDERS_EARLY: 1
+          STR_RAIDERS_MIDEARLY: 1
+          STR_RAIDERS_MID: 1
+          STR_RAIDERS_LATE: 3
+          STR_RAIDERS_VERYLATE: 1
+      11:
+          STR_SECTOID: 10
+          STR_SNAKEMAN: 5
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_ETHEREAL: 20
+          STR_MUTON: 10
+          STR_FLOATER: 10
+          STR_REPTOID: 10
+          STR_GAZER: 10
+          STR_WASPITE: 10
+          STR_ANTHROPOD: 10
+          STR_RAIDERS_EARLY: 1
+          STR_RAIDERS_MIDEARLY: 1
+          STR_RAIDERS_MID: 1
+          STR_RAIDERS_LATE: 2
+          STR_RAIDERS_VERYLATE: 3
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 16500
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P1
+        timer: 15000
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P6
+        timer: 13800
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P7
+        timer: 9000
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P7
+        timer: 60
+      - ufo: STR_TERROR_SHIP
+        count: 1
+        trajectory: P7
+        timer: 60
+      - ufo: STR_SUPPLY_SHIP
+        count: 1
+        trajectory: P7
+        timer: 60
+      - ufo: STR_BATTLESHIP
+        count: 2
+        trajectory: P7
+        timer: 60
+  - type: STR_ALIEN_BASE
+    points: 50
+    objective: 2
+    siteType: STR_ALIEN_BASE_ASSAULT
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights:
+      0:
+          STR_SECTOID: 40
+          STR_FLOATER: 30
+          STR_CHTONITE: 30
+          STR_RAIDERS_EARLY: 5
+      2:
+          STR_SECTOID: 30
+          STR_FLOATER: 30
+          STR_CHTONITE: 30
+          STR_SNAKEMAN: 5
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_RAIDERS_EARLY: 5
+      4:
+          STR_SECTOID: 30
+          STR_REPTOID: 10
+          STR_SNAKEMAN: 10
+          STR_SNAKEMAN_SALAMANDRON: 10
+          STR_FLOATER: 20
+          STR_CHTONITE: 20
+          STR_RAIDERS_EARLY: 2
+          STR_RAIDERS_MIDEARLY: 3
+      5:
+          STR_SECTOID: 20
+          STR_REPTOID: 10
+          STR_SNAKEMAN: 10
+          STR_SNAKEMAN_SALAMANDRON: 10
+          STR_FLOATER: 20
+          STR_CHTONITE: 20
+          STR_ANTHROPODB: 10
+          STR_RAIDERS_EARLY: 1
+          STR_RAIDERS_MIDEARLY: 3
+          STR_RAIDERS_MID: 2
+      7:
+          STR_SECTOID: 10
+          STR_SNAKEMAN: 10
+          STR_SNAKEMAN_SALAMANDRON: 10
+          STR_MUTON: 10
+          STR_FLOATER: 15
+          STR_GAZER: 10
+          STR_REPTOID: 10
+          STR_CHTONITE: 15
+          STR_ANTHROPODB: 10
+          STR_RAIDERS_EARLY: 1
+          STR_RAIDERS_MIDEARLY: 1
+          STR_RAIDERS_MID: 3
+          STR_RAIDERS_LATE: 1
+      9:
+          STR_SECTOID: 5
+          STR_SNAKEMAN: 10
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_ETHEREAL_CYBERDISC: 3
+          STR_ETHEREAL: 2
+          STR_MUTON: 10
+          STR_FLOATER: 15
+          STR_GAZER: 10
+          STR_REPTOID: 10
+          STR_WASPITE: 10
+          STR_CHTONITE: 10
+          STR_ANTHROPODB: 15
+          STR_RAIDERS_EARLY: 1
+          STR_RAIDERS_MIDEARLY: 1
+          STR_RAIDERS_MID: 1
+          STR_RAIDERS_LATE: 3
+          STR_RAIDERS_VERYLATE: 1
+      10:
+          STR_SECTOID: 5
+          STR_SNAKEMAN: 8
+          STR_SNAKEMAN_SALAMANDRON: 2
+          STR_ETHEREAL: 10
+          STR_MUTON_OBLITERATOR: 5
+          STR_MUTON: 10
+          STR_FLOATER: 10
+          STR_GAZER: 10
+          STR_REPTOID: 5
+          STR_WASPITE: 10
+          STR_CHTONITE: 5
+          STR_CEREBREAL: 10
+          STR_ANTHROPODB: 10
+          STR_RAIDERS_EARLY: 1
+          STR_RAIDERS_MIDEARLY: 1
+          STR_RAIDERS_MID: 1
+          STR_RAIDERS_LATE: 2
+          STR_RAIDERS_VERYLATE: 2
+      11:
+          STR_SECTOID: 10
+          STR_SNAKEMAN: 3
+          STR_SNAKEMAN_SALAMANDRON: 2
+          STR_ETHEREAL_CYBERDISC: 10
+          STR_ETHEREAL: 10
+          STR_MUTON: 5
+          STR_MUTON_OBLITERATOR: 5
+          STR_FLOATER: 5
+          STR_GAZER: 10
+          STR_REPTOID: 5
+          STR_WASPITE: 10
+          STR_CHTONITE: 10
+          STR_CEREBREAL: 5
+          STR_ANTHROPODB: 10
+          STR_RAIDERS_MIDEARLY: 1
+          STR_RAIDERS_MID: 1
+          STR_RAIDERS_LATE: 2
+          STR_RAIDERS_VERYLATE: 3
+      12:
+          STR_SECTOID: 10
+          STR_SNAKEMAN: 8
+          STR_SNAKEMAN_SALAMANDRON: 2
+          STR_ETHEREAL_CYBERDISC: 5
+          STR_ETHEREAL: 10
+          STR_MUTON: 10
+          STR_MUTON_OBLITERATOR: 5
+          STR_FLOATER: 10
+          STR_GAZER: 5
+          STR_WASPITE: 10
+          STR_CHTONITE: 5
+          STR_REPTOID: 5
+          STR_CEREBREAL: 5
+          STR_ANTHROPODB: 10
+          STR_RAIDERS_MIDEARLY: 1
+          STR_RAIDERS_MID: 1
+          STR_RAIDERS_LATE: 1
+          STR_RAIDERS_VERYLATE: 4
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P1
+        timer: 13500
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P5
+        timer: 15000
+      - ufo: STR_SENTRY_SHIP
+        count: 1
+        trajectory: P5
+        timer: 60
+      - ufo: STR_EXCAVATOR
+        count: 1
+        trajectory: P5
+        timer: 60
+      - ufo: STR_EXCAVATOR
+        count: 1
+        trajectory: P5
+        timer: 60
+      - ufo: STR_SUPPLY_SHIP
+        count: 2
+        trajectory: P5
+        timer: 60
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P6
+        timer: 60
+  - type: STR_ALIEN_TERROR
+    points: 10
+    objective: 3
+    spawnZone: 3 #Mission zone for terror missions
+    raceWeights:
+      0:
+          STR_SECTOID: 30
+          STR_FLOATER: 30
+          STR_CHTONITE: 30
+          STR_ANTHROPODT: 10
+          STR_RAIDERS_EARLY: 5
+      2:
+          STR_SECTOID: 30
+          STR_FLOATER: 30
+          STR_CHTONITE: 20
+          STR_ANTHROPODT: 20
+          STR_RAIDERS_EARLY: 4
+          STR_RAIDERS_MIDEARLY: 1
+      3:
+          STR_SECTOID: 15
+          STR_FLOATER: 30
+          STR_CHTONITE: 30
+          STR_ANTHROPODT: 20
+          STR_REPTOID: 5
+          STR_RAIDERS_EARLY: 2
+          STR_RAIDERS_MIDEARLY: 3
+      4:
+          STR_SECTOID: 20
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_FLOATER: 30
+          STR_CHTONITE: 25
+          STR_ANTHROPODT: 10
+          STR_REPTOID: 10
+          STR_RAIDERS_EARLY: 1
+          STR_RAIDERS_MIDEARLY: 3
+          STR_RAIDERS_MID: 2
+      5:
+          STR_SECTOID: 20
+          STR_SNAKEMAN_SALAMANDRON: 10
+          STR_FLOATER: 20
+          STR_CHTONITE: 20
+          STR_ANTHROPODT: 20
+          STR_GAZER: 10
+          STR_RAIDERS_EARLY: 1
+          STR_RAIDERS_MIDEARLY: 2
+          STR_RAIDERS_MID: 3
+      7:
+          STR_SECTOID: 15
+          STR_SNAKEMAN: 10
+          STR_SNAKEMAN_SALAMANDRON: 10
+          STR_FLOATER: 15
+          STR_GAZER: 10
+          STR_REPTOID: 10
+          STR_CHTONITE: 15
+          STR_ANTHROPODT: 15
+          STR_RAIDERS_EARLY: 1
+          STR_RAIDERS_MIDEARLY: 1
+          STR_RAIDERS_MID: 3
+          STR_RAIDERS_LATE: 1
+      8:
+          STR_SECTOID: 10
+          STR_SNAKEMAN: 15
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_FLOATER: 20
+          STR_GAZER: 15
+          STR_CHTONITE: 10
+          STR_REPTOID: 10
+          STR_ANTHROPODT: 15
+          STR_RAIDERS_EARLY: 1
+          STR_RAIDERS_MIDEARLY: 1
+          STR_RAIDERS_MID: 1
+          STR_RAIDERS_LATE: 3
+          STR_RAIDERS_VERYLATE: 1
+      9:
+          STR_SECTOID: 10
+          STR_SNAKEMAN: 7
+          STR_SNAKEMAN_SALAMANDRON: 3
+          STR_ETHEREAL_CYBERDISC: 10
+          STR_ETHEREAL: 5
+          STR_MUTON: 10
+          STR_MUTON_OBLITERATOR: 5
+          STR_FLOATER: 10
+          STR_GAZER: 10
+          STR_WASPITE: 5
+          STR_CHTONITE: 5
+          STR_REPTOID: 10
+          STR_ANTHROPODT: 10
+          STR_RAIDERS_EARLY: 1
+          STR_RAIDERS_MIDEARLY: 1
+          STR_RAIDERS_MID: 1
+          STR_RAIDERS_LATE: 2
+          STR_RAIDERS_VERYLATE: 2
+      10:
+          STR_SECTOID: 10
+          STR_SNAKEMAN: 7
+          STR_SNAKEMAN_SALAMANDRON: 3
+          STR_ETHEREAL_CYBERDISC: 5
+          STR_ETHEREAL: 5
+          STR_MUTON: 10
+          STR_MUTON_OBLITERATOR: 5
+          STR_FLOATER: 10
+          STR_GAZER: 5
+          STR_WASPITE: 10
+          STR_CHTONITE: 5
+          STR_REPTOID: 10
+          STR_CEREBREAL: 5
+          STR_ANTHROPODT: 10
+          STR_RAIDERS_EARLY: 1
+          STR_RAIDERS_MIDEARLY: 1
+          STR_RAIDERS_MID: 1
+          STR_RAIDERS_LATE: 1
+          STR_RAIDERS_VERYLATE: 3
+      11:
+          STR_SECTOID: 10
+          STR_SNAKEMAN: 10
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_ETHEREAL_CYBERDISC: 3
+          STR_ETHEREAL: 7
+          STR_MUTON: 5
+          STR_MUTON_OBLITERATOR: 5
+          STR_FLOATER: 5
+          STR_REPTOID: 5
+          STR_GAZER: 10
+          STR_WASPITE: 15
+          STR_CHTONITE: 10
+          STR_CEREBREAL: 5
+          STR_ANTHROPODT: 5
+          STR_RAIDERS_EARLY: 1
+          STR_RAIDERS_MIDEARLY: 1
+          STR_RAIDERS_MID: 1
+          STR_RAIDERS_LATE: 1
+          STR_RAIDERS_VERYLATE: 3
+      12:
+          STR_SECTOID: 10
+          STR_SNAKEMAN: 10
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_ETHEREAL_CYBERDISC: 5
+          STR_ETHEREAL: 10
+          STR_MUTON: 5
+          STR_MUTON_OBLITERATOR: 5
+          STR_FLOATER: 10
+          STR_GAZER: 10
+          STR_WASPITE: 10
+          STR_REPTOID: 5
+          STR_CHTONITE: 5
+          STR_CEREBREAL: 5
+          STR_ANTHROPODT: 5
+          STR_RAIDERS_EARLY: 1
+          STR_RAIDERS_MIDEARLY: 1
+          STR_RAIDERS_MID: 1
+          STR_RAIDERS_LATE: 2
+          STR_RAIDERS_VERYLATE: 4
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P1
+        timer: 8000
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P1
+        timer: 9600
+      - ufo: STR_FIGHTER_SHIP
+        count: 1
+        trajectory: P1
+        timer: 15000
+      - ufo: STR_TERROR_SHIP
+        count: 1
+        trajectory: P0
+        timer: 12000
+      - ufo: STR_TERROR_SHIP
+        count: 1
+        trajectory: P7
+        timer: 9000
+        objective: true
+  - type: STR_ALIEN_RETALIATION
+    points: 0
+    objective: 4
+    spawnUfo: STR_BATTLESHIP #Spawned for the final retaliation run
+    raceWeights: # In the case of a shootdown, race comes from the UFO that triggered the mission.
+      0:
+        STR_GAZER: 5
+        STR_WASPITE: 5
+        STR_REPTOID: 5
+        STR_SECTOID: 13
+        STR_SECTOID_SECTOPOD: 2
+        STR_SNAKEMAN: 10
+        STR_SNAKEMAN_SALAMANDRON: 10
+        STR_ETHEREAL: 5
+        STR_ETHEREAL_CYBERDISC: 5
+        STR_MUTON: 7
+        STR_MUTON_OBLITERATOR: 3
+        STR_CHTONITE: 10
+        STR_CEREBREAL: 5
+        STR_ANTHROPODB: 5
+        STR_FLOATER: 10
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_FIGHTER_SHIP
+        count: 2
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_SENTRY_SHIP
+        count: 3
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_BATTLESHIP
+        count: 2
+        trajectory: P8
+        timer: 3000
+  - type: STR_ALIEN_SUPPLY
+    points: 0
+    objective: 5
+    raceWeights: {} #Special case, race comes from base.
+    waves:
+      - ufo: STR_SUPPLY_SHIP
+        count: 1
+        trajectory: P9
+        timer: 6000
+        objective: true
+  - type: STR_MIB_COVERUP
+    points: 0
+    raceWeights:
+      0:
+          STR_MIB: 100
+      1:
+          STR_MIB: 100
+      3:
+          STR_MIB: 100
+      5:
+          STR_MIB: 100
+      7:
+          STR_MIB: 90
+          STR_LATE_MIB: 10
+      9:
+          STR_MIB: 90
+          STR_LATE_MIB: 10
+      11:
+          STR_MIB: 80
+          STR_LATE_MIB: 20
+      13:
+          STR_MIB: 80
+          STR_LATE_MIB: 20
+      15:
+          STR_MIB: 80
+          STR_LATE_MIB: 20
+      17:
+          STR_MIB: 80
+          STR_LATE_MIB: 20
+    waves:
+      - ufo: STR_DRAGONFLY_DARK
+        count: 1
+        trajectory: P0
+        timer: 6000
+      - ufo: STR_MIB_COVERUP_0
+        count: 1
+        trajectory: P0
+        timer: 7800
+      - ufo: STR_MIB_COVERUP_0
+        count: 1
+        trajectory: P2
+        timer: 7800
+      - ufo: STR_MIB_COVERUP_1
+        count: 1
+        trajectory: P0
+        timer: 7800
+      - ufo: STR_MIB_COVERUP_1
+        count: 1
+        trajectory: P3
+        timer: 9000
+      - ufo: STR_MIB_COVERUP_2
+        count: 1
+        trajectory: P4
+        timer: 3000
+      - ufo: STR_MIB_COVERUP_2
+        count: 1
+        trajectory: P4
+        timer: 750
+      - ufo: STR_MIB_COVERUP_2
+        count: 1
+        trajectory: P2
+        timer: 1500
+  - type: STR_MIB_TERROR
+    points: 0
+    raceWeights:
+      0:
+          STR_MIB: 100
+      1:
+          STR_MIB: 100
+      3:
+          STR_MIB: 100
+      5:
+          STR_MIB: 100
+      7:
+          STR_MIB: 80
+          STR_LATE_MIB: 20
+      9:
+          STR_MIB: 70
+          STR_LATE_MIB: 30
+      11:
+          STR_MIB: 50
+          STR_LATE_MIB: 50
+      13:
+          STR_MIB: 25
+          STR_LATE_MIB: 75
+    waves:
+      - ufo: STR_MIB_TERROR_MISSION
+        count: 1
+        trajectory: T0
+        timer: 35000
+      - ufo: STR_MIB_TERROR_MISSION
+        count: 1
+        trajectory: T1
+        timer: 35000
+      - ufo: STR_MIB_TERROR_MISSION
+        count: 1
+        trajectory: T2
+        timer: 35000
+  - type: STR_MIB_BASE
+    points: 0
+    raceWeights:
+      0:
+          STR_MIB: 100
+      1:
+          STR_MIB: 100
+      3:
+          STR_MIB: 100
+      5:
+          STR_MIB: 100
+      7:
+          STR_MIB: 80
+          STR_LATE_MIB: 20
+      9:
+          STR_MIB: 70
+          STR_LATE_MIB: 30
+      11:
+          STR_MIB: 50
+          STR_LATE_MIB: 50
+    waves:
+      - ufo: STR_MIB_BASE_LANDING
+        count: 1
+        trajectory: B0
+        timer: 15000
+  - type: STR_ALIEN_FLYBY
+    points: 50
+    raceWeights:
+      0:
+          STR_SECTOID: 30
+          STR_FLOATER: 70
+      1:
+          STR_SECTOID: 60
+          STR_FLOATER: 40
+      3:
+          STR_SECTOID: 20
+          STR_SNAKEMAN: 40
+          STR_SNAKEMAN_SALAMANDRON: 20
+          STR_FLOATER: 20
+      5:
+          STR_SECTOID: 10
+          STR_SNAKEMAN: 5
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_CEREBREAL: 10
+          STR_ETHEREAL_CYBERDISC: 10
+          STR_ETHEREAL: 10
+          STR_MUTON: 10
+          STR_GAZER: 30
+          STR_FLOATER: 10
+      7:
+          STR_SECTOID: 7
+          STR_SECTOID_SECTOPOD: 3
+          STR_SNAKEMAN: 5
+          STR_SNAKEMAN_SALAMANDRON: 5
+          STR_CEREBREAL: 10
+          STR_ETHEREAL_CYBERDISC: 10
+          STR_ETHEREAL: 20
+          STR_MUTON: 20
+          STR_GAZER: 20
+          STR_FLOATER: 10
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 9000
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P8
+        timer: 120
+      - ufo: STR_FIGHTER_SHIP
+        count: 1
+        trajectory: P0
+        timer: 4500
+      - ufo: STR_FIGHTER_SHIP
+        count: 1
+        trajectory: P8
+        timer: 120
+      - ufo: STR_SENTRY_SHIP
+        count: 1
+        trajectory: P8
+        timer: 120
+      - ufo: STR_TERROR_SHIP
+        count: 1
+        trajectory: P0
+        timer: 2250
+      - ufo: STR_TERROR_SHIP
+        count: 1
+        trajectory: P0
+        timer: 120
+      - ufo: STR_TERROR_SHIP
+        count: 1
+        trajectory: P8
+        timer: 120
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P0
+        timer: 120
+  - type: STR_HYBRID_MIB_MEETING
+    points: 100
+    raceWeights:
+      0:
+          STR_HYBRID_MIB: 100
+      1:
+          STR_HYBRID_MIB: 100
+      3:
+          STR_HYBRID_MIB: 100
+      5:
+          STR_HYBRID_MIB: 100
+      7:
+          STR_HYBRID_MIB: 100
+    waves:
+      - ufo: STR_MANSION_MIB
+        count: 1
+        trajectory: H0
+        timer: 8900
+  - type: STR_HYBRID_MEETING
+    points: 70
+    raceWeights:
+      0:
+          STR_HYBRID: 100
+      1:
+          STR_HYBRID: 100
+      3:
+          STR_HYBRID: 100
+      5:
+          STR_HYBRID: 100
+      7:
+          STR_HYBRID: 100
+    waves:
+      - ufo: STR_MANSION
+        count: 1
+        trajectory: H0
+        timer: 8900
+  - type: STR_HYBRID_BASE
+    points: 0
+    raceWeights:
+      0:
+          STR_HYBRID: 100
+      1:
+          STR_HYBRID: 100
+      3:
+          STR_HYBRID: 100
+      5:
+          STR_HYBRID: 100
+      7:
+          STR_HYBRID: 100
+    waves:
+      - ufo: STR_KEEP
+        count: 1
+        trajectory: B0
+        timer: 15000
+  - type: STR_ALIEN_DIPLOMACY
+    raceWeights:
+      0:
+          STR_MIXED: 100
+    waves:
+      - ufo: STR_ENVOY_SHIP
+        count: 1
+        trajectory: P0
+        timer: 12000
+  - type: STR_HYBRID_SMALL_GROUND_CONVOY
+    despawnEvenIfTargeted: true
+    objective: 3
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_HYBRID: 100
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true
+  - type: STR_HYBRID_MEDIUM_GROUND_CONVOY
+    despawnEvenIfTargeted: true
+    objective: 3
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_HYBRID: 100
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: CA_SPAWN
+        timer: 9000
+        objective: true

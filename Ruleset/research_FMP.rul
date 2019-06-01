@@ -1,0 +1,3444 @@
+﻿research:
+  - delete: STR_LASER_PISTOL
+  - delete: STR_LASER_RIFLE
+  - delete: STR_HEAVY_LASER
+  - name: STR_OBLITERATOR
+    cost: 0
+    points: 50
+    needItem: true
+  - name: STR_OBLITERATOR_AUTOPSY
+    cost: 0
+    points: 50
+    needItem: true
+  - name: STR_OBLITERATOR_TERRORIST
+    cost: 110
+    points: 50
+    lookup: STR_OBLITERATOR
+    needItem: true
+    destroyItem: true
+    listOrder: 10380
+  - name: STR_OBLITERATOR_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_OBLITERATOR_AUTOPSY
+    needItem: true
+    listOrder: 5780
+  - name: STR_PLASMA_BLADE
+    cost: 100
+    points: 10
+    dependencies:
+      - STR_PLASMA_WEAPONS_CALIBRATION
+    needItem: true
+    listOrder: 870
+  - name: STR_PLASMA_SWORD
+    cost: 100
+    points: 10
+    dependencies:
+      - STR_PLASMA_WEAPONS_CALIBRATION
+    needItem: true
+    listOrder: 872
+  - name: STR_FUSION_TORCH
+    cost: 500
+    points: 25
+    dependencies:
+      - STR_FUSION_EXPLOSIVES
+    listOrder: 850
+  - name: STR_FUSION_TORCH_POWER_CELL
+    cost: 100
+    points: 5
+    listOrder: 851
+    dependencies:
+      - STR_FUSION_TORCH
+  - name: STR_LAUNCHER_ELERIUM
+    cost: 200
+    points: 10
+    dependencies:
+      - STR_ALIEN_GRENADE
+    listOrder: 2960
+  - name: STR_GAUSS_DEFENSES
+    cost: 510
+    points: 15
+    dependencies:
+      - STR_GAUSS_CANNON
+    listOrder: 590
+  - name: STR_IMPROVED_RADAR_CRAFT
+    cost: 300
+    points: 20
+    dependencies:
+      - STR_UFO_CONSTRUCTION
+    listOrder: 3090
+  - name: STR_ULTIMATE_RADAR_CRAFT
+    cost: 400
+    points: 20
+    dependencies:
+      - STR_IMPROVED_RADAR_CRAFT
+      - STR_HYPER_WAVE_DECODER
+    listOrder: 3091
+  - name: STR_NEW_FIGHTER_CRAFT
+    cost: 600
+    points: 30
+    dependencies:
+      - STR_NEW_FIGHTER_TRANSPORTER
+      - STR_ALIEN_ELECTRONICS
+  - name: STR_NEW_FIGHTER_TRANSPORTER
+    cost: 700
+    points: 30
+    dependencies:
+      - STR_UFO_CONSTRUCTION
+  - name: STR_SECTOID_GUARD
+    dependencies:
+      - STR_SECTOID_GUARDIAN
+      - STR_ALIEN_ORIGINS
+    cost: 20
+    points: 40
+    listOrder: 15100
+  - name: STR_ETHEREAL_ORDER
+    dependencies:
+      - STR_ETHEREAL_GRAND_MASTER
+      - STR_ETHEREAL_GUARDIAN
+      - STR_ETHEREAL_SPEAKER
+      - STR_ALIEN_ORIGINS
+    cost: 50
+    points: 100
+    listOrder: 15120
+  - name: STR_ALIEN_DIPLOMACY
+    dependencies:
+      - STR_ETHEREAL_GRAND_MASTER
+      - STR_ETHEREAL_GUARDIAN
+      - STR_ETHEREAL_SPEAKER
+    cost: 0
+    points: 50
+    listOrder: 15130
+  - name: STR_ETHEREAL_GRAND_MASTER
+    cost: 400
+    points: 50
+    lookup: STR_ETHEREAL
+    needItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_DIPLOMACY
+      - STR_ETHEREAL_ORDER
+    listOrder: 8605
+  - name: STR_ETHEREAL_GUARDIAN
+    cost: 200
+    points: 50
+    lookup: STR_ETHEREAL
+    needItem: true
+    unlocks:
+      - STR_ETHEREAL_ORDER
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_DIPLOMACY
+      - STR_ENVOY_SHIP
+    listOrder: 8450
+  - name: STR_ETHEREAL_SPEAKER
+    cost: 250
+    points: 50
+    lookup: STR_ETHEREAL
+    needItem: true
+    unlocks:
+      - STR_ETHEREAL_ORDER
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_DIPLOMACY
+      - STR_ENVOY_SHIP
+    listOrder: 8510
+  - name: STR_ENVOY_SHIP
+    dependencies:
+      - STR_ETHEREAL_GUARDIAN
+      - STR_ETHEREAL_SPEAKER
+    cost: 50
+    points: 20
+  - name: STR_PHOTON_BLADE
+    cost: 150
+    points: 50
+    dependencies:
+      - STR_PLASMA_WEAPONS
+    needItem: true
+    listOrder: 15000
+  - name: STR_BLASTER_MULTI_LAUNCHER
+    cost: 150
+    points: 50
+    dependencies:
+      - STR_BLASTER_LAUNCHER
+    needItem: true
+    listOrder: 15010
+  - name: STR_BLASTER_MULTI_BOMB
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_BLASTER_BOMB
+    needItem: true
+    listOrder: 15011
+  - name: STR_FIRE_LAUNCHER
+    cost: 150
+    points: 50
+    needItem: true
+    listOrder: 15020
+  - name: STR_ELECTRO_WHIP
+    cost: 150
+    points: 50
+    needItem: true
+    listOrder: 15030
+  - name: STR_CONCUSSION_CANNON
+    cost: 150
+    points: 50
+    needItem: true
+    listOrder: 15040
+  - name: STR_TOXI_SUIT
+    cost: 180
+    points: 20
+    dependencies:
+      - STR_PERSONAL_ARMOR
+      - STR_TOXIGUN_FLASK
+    listOrder: 3310
+  - name: STR_ALLOY_VEST
+    cost: 100
+    points: 10
+    dependencies:
+      - STR_ALIEN_ALLOYS
+    listOrder: 3295
+  - name: STR_OPTRONICS
+    cost: 200
+    points: 25
+    dependencies:
+      - STR_ALIEN_OPTICAL_PROCESSOR
+    listOrder: 920
+  - name: STR_SYNTHETIC_MUSCLES
+    cost: 100
+    points: 10
+    dependencies:
+      - STR_MUTON_CORPSE
+      - STR_ALIEN_SURGERY
+    listOrder: 2911
+  - name: STR_MIB_STORMTROOPER
+    lookup: STR_MIB_ACTIVITY
+    cost: 180
+    points: 30
+    needItem: true
+    listOrder: 9345
+  - name: STR_MIB_HEAVY_TROOPER
+    lookup: STR_MIB_ACTIVITY
+    cost: 180
+    points: 30
+    needItem: true
+    listOrder: 9344
+  - name: STR_MIB_SECTOPOD_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_SECTOPOD_AUTOPSY
+    needItem: true
+  - name: STR_MIB_SECTOPOD_TERRORIST
+    cost: 170
+    points: 50
+    lookup: STR_SECTOPOD
+    needItem: true
+    destroyItem: true
+    listOrder: 9348
+  - name: STR_ADVANCED_ROCKET_LAUNCHER
+    cost: 100
+    points: 20
+    dependencies:
+      - STR_ALIEN_ELECTRONICS
+    listOrder: 2949
+  - name: STR_ELERIUM_ROCKET
+    cost: 200
+    points: 10
+    dependencies:
+      - STR_ALIEN_GRENADE
+      - STR_ADVANCED_ROCKET_LAUNCHER
+    listOrder: 2950
+  - name: STR_MIND_GUIDED_MISSILE
+    cost: 200
+    points: 10
+    dependencies:
+      - STR_ELERIUM_115
+      - STR_MIND_PROBE
+      - STR_ADVANCED_ROCKET_LAUNCHER
+    listOrder: 2951
+  - name: STR_PROXIMITY_GRENADE
+    cost: 70
+    points: 20
+    dependencies:
+      - STR_MOTION_SCANNER
+    listOrder: 840
+  - name: STR_MULTI_LAUNCHER
+    cost: 100
+    points: 20
+    dependencies:
+      - STR_ADVANCED_FIREARMS
+    listOrder: 65
+  - name: STR_HEAVY_SNIPER_RIFLE
+    cost: 50
+    points: 20
+    dependencies:
+      - STR_ADVANCED_FIREARMS
+    listOrder: 60
+  - name: STR_HEAVY_SNIPER_RIFLE_HE_CLIP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_EXPLOSIVE_AMMO
+      - STR_HEAVY_SNIPER_RIFLE
+  - name: STR_HEAVY_SNIPER_RIFLE_AA_CLIP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALLOY_AMMO
+      - STR_HEAVY_SNIPER_RIFLE
+  - name: STR_ADVANCED_FIREARMS
+    cost: 100
+    points: 20
+    listOrder: 50
+  - name: STR_AC_I_AMMO
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_INCENDIARY_AMMO
+      - STR_AUTO_CANNON
+  - name: STR_HC_I_AMMO
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_INCENDIARY_AMMO
+      - STR_HEAVY_CANNON
+  - name: STR_AC_HE_AMMO
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_EXPLOSIVE_AMMO
+      - STR_AUTO_CANNON
+  - name: STR_HC_HE_AMMO
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_EXPLOSIVE_AMMO
+      - STR_HEAVY_CANNON
+  - name: STR_EXPLOSIVE_AMMO
+    cost: 100
+    points: 20
+    listOrder: 56
+    dependencies:
+      - STR_ADVANCED_FIREARMS
+  - name: STR_INCENDIARY_AMMO
+    cost: 100
+    points: 20
+    listOrder: 57
+    dependencies:
+      - STR_ADVANCED_FIREARMS
+  - name: STR_HEAVY_CANNON
+    cost: 50
+    points: 20
+    dependencies:
+      - STR_ADVANCED_FIREARMS
+    listOrder: 58
+  - name: STR_AUTO_CANNON
+    cost: 50
+    points: 20
+    dependencies:
+      - STR_ADVANCED_FIREARMS
+    listOrder: 59
+  - name: STR_MUTLEADER_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_MUTON_AUTOPSY
+    needItem: true
+  - name: STR_MUTENG_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_MUTON_AUTOPSY
+    needItem: true
+  - name: STR_SECTARM_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_SECTOID_AUTOPSY
+    needItem: true
+  - name: STR_FLOATCOM_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_FLOATER_AUTOPSY
+    needItem: true
+  - name: STR_PRECISE_ALLOY_SHAPING
+    cost: 25
+    points: 25
+    dependencies:
+      - STR_ALIEN_ALLOYS
+      - STR_ALIEN_POWER_SYSTEMS
+    listOrder: 910
+  - name: STR_ALLOY_BLADES
+    cost: 100
+    points: 10
+    dependencies:
+      - STR_ALIEN_ALLOYS
+    listOrder: 854
+  - name: STR_ALLOY_SWORD
+    cost: 40
+    points: 10
+    dependencies:
+      - STR_ALLOY_BLADES
+    listOrder: 855
+  - name: STR_ALLOY_KNIFE
+    cost: 30
+    points: 10
+    dependencies:
+      - STR_ALLOY_BLADES
+    listOrder: 856
+  - name: STR_HYBRID_GROUND_CONVOY
+    points: 50
+    needItem: true
+  - name: STR_HYBRID_MIB_MEETING
+    points: 50
+    needItem: true
+  - name: STR_HYBRID_MEETING
+    points: 50
+    needItem: true
+  - name: STR_HYBRID_BASE
+    points: 50
+    needItem: true
+  - name: STR_STORMLANCE_MISSILE
+    cost: 580
+    points: 25
+    dependencies:
+      - STR_FUSION_EXPLOSIVES
+      - STR_ELERIUM_115
+      - STR_DELTA_RADIATION
+    listOrder: 2250
+  - name: STR_HYBRID_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_HYBRID_AUTOPSY
+    needItem: true
+    listOrder: 5050
+  - name: STR_ALIEN_DRONE_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_ALIEN_DRONE_AUTOPSY
+    needItem: true
+    listOrder: 6035
+  - name: STR_HYBRID_SOLDIER
+    cost: 192
+    points: 50
+    lookup: STR_HYBRID
+    needItem: true
+    destroyItem: true
+    listOrder: 6270
+  - name: STR_HYBRID_NAVIGATOR
+    cost: 192
+    points: 50
+    lookup: STR_HYBRID
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_ALIEN_RESEARCH
+      - STR_ALIEN_HARVEST
+      - STR_ALIEN_ABDUCTION
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_BASE
+      - STR_ALIEN_TERROR
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+    listOrder: 6273
+  - name: STR_HYBRID_MEDIC
+    cost: 192
+    points: 50
+    lookup: STR_HYBRID
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOID
+      - STR_SECTOID_CORPSE
+      - STR_HYBRID_GROUND_CONVOY
+      - STR_HYBRID_MIB_MEETING
+      - STR_HYBRID_MEETING
+      - STR_HYBRID_BASE
+    listOrder: 6272
+  - name: STR_HYBRID_ENGINEER
+    cost: 192
+    points: 50
+    lookup: STR_HYBRID
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SMALL_SCOUT
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_ALIEN_DRONE
+      - STR_ALIEN_DRONE_AUTOPSY
+    listOrder: 6271
+  - name: STR_ALIEN_DRONE_TERRORIST
+    cost: 110
+    points: 50
+    lookup: STR_ALIEN_DRONE
+    needItem: true
+    destroyItem: true
+    listOrder: 9350
+  - name: STR_ALIEN_DRONE
+    cost: 0
+    points: 50
+    needItem: true
+    listOrder: 9351
+  - name: STR_HYBRID_AUTOPSY
+    cost: 0
+    points: 50
+    needItem: true
+  - name: STR_ALIEN_DRONE_AUTOPSY
+    cost: 0
+    points: 50
+    needItem: true
+    unlocks:
+      - STR_ALIEN_POWER_SYSTEMS
+  - name: STR_ELERIUM_BOMB
+    cost: 180
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_FUSION_EXPLOSIVES
+      - STR_ELERIUM_115
+      - STR_DELTA_RADIATION
+    listOrder: 4401
+  - name: STR_ADVANCED_LASER_WEAPONS
+    cost: 20
+    points: 20
+    dependencies:
+      - STR_LASER_CANNON
+      - STR_POWER_SOURCE_MINIATURIZATION
+      - STR_ANTIMATTER_CONTAINMENT
+    listOrder: 190
+  - name: STR_XCOM_CYBERDISC
+    cost: 20
+    points: 20
+    dependencies:
+      - STR_CYBERDISC_AUTOPSY
+      - STR_ALIEN_ELECTRONICS
+      - STR_UFO_NAVIGATION
+    listOrder: 4740
+  - name: STR_ALIEN_FLYBY
+    points: 50
+    needItem: true
+  - name: STR_ALIEN_RESEARCH
+    points: 50
+    needItem: true
+  - name: STR_ALIEN_DATA_SLATE
+    cost: 50
+    points: 20
+    needItem: true
+    destroyItem: true
+    dependencies:
+      - STR_ALIEN_CODES
+      - STR_ALIEN_ELECTRONICS
+    getOneFree:
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+    listOrder: 2850
+  - name: STR_MIB_SOLDIER
+    lookup: STR_MIB_ACTIVITY
+    cost: 180
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 9340
+  - name: STR_MIB_NAVIGATOR
+    lookup: STR_MIB_ACTIVITY
+    cost: 180
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 9343
+  - name: STR_MIB_MEDIC
+    lookup: STR_MIB_ACTIVITY
+    cost: 180
+    points: 30
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOID
+      - STR_FLOATER
+      - STR_HYBRID
+      - STR_SECTOID_CORPSE
+      - STR_FLOATER_CORPSE
+      - STR_HYBRID_CORPSE
+    listOrder: 9342
+  - name: STR_MIB_ENGINEER
+    lookup: STR_MIB_ACTIVITY
+    cost: 180
+    points: 30
+    needItem: true
+    destroyItem: true
+    listOrder: 9341
+  - name: STR_MIB_LEADER
+    lookup: STR_MIB_IDENTITY
+    cost: 192
+    points: 50
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOID
+      - STR_HYBRID
+    listOrder: 9346
+  - name: STR_MIB_COMMANDER
+    lookup: STR_MIB_IDENTITY
+    cost: 192
+    points: 50
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOID
+      - STR_FLOATER
+      - STR_HYBRID
+      - STR_SMALL_SCOUT
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+    listOrder: 9347
+  - name: STR_MIB_PSI_OPS
+    cost: 192
+    points: 50
+    lookup: STR_MIB_IDENTITY
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_PSIONICS_PREREQUISITE1
+    getOneFree:
+      - STR_SECTOID
+      - STR_HYBRID
+    listOrder: 9348
+  - name: STR_MIB0_CORPSE
+    lookup: STR_MIB_AUTOPSY
+    points: 0
+    needItem: true
+    dependencies: [STR_TROLLIUM]
+  - name: STR_MIB1_CORPSE
+    lookup: STR_MIB_AUTOPSY
+    points: 0
+    needItem: true
+    dependencies: [STR_TROLLIUM]
+  - name: STR_MIB2_CORPSE
+    lookup: STR_MIB_AUTOPSY
+    points: 0
+    needItem: true
+    dependencies: [STR_TROLLIUM]
+  - name: STR_MIB3_CORPSE
+    lookup: STR_MIB_AUTOPSY
+    points: 0
+    needItem: true
+    dependencies: [STR_TROLLIUM]
+  - name: STR_MIB_AUTOPSY
+    points: 50
+    needItem: true
+  - name: STR_MIB
+    points: 0
+    dependencies: [STR_TROLLIUM]
+  - name: STR_MIB_ACTIVITY
+    points: 50
+    needItem: true
+  - name: STR_MIB_IDENTITY
+    points: 50
+    needItem: true
+  - name: STR_FLYING_SUIT
+    cost: 400
+    points: 20
+    dependencies:
+      - STR_POWER_SUIT
+      - STR_JUMP_ARMOR
+  - name: STR_STORMTROOPER_ARMOR
+    cost: 220
+    points: 10
+    listOrder: 2810
+    dependencies:
+      - STR_POWER_SUIT
+      - STR_GRAVMODULE_ARMOR
+  - name: STR_JUGGERNAUT_SUIT
+    cost: 100
+    points: 10
+    listOrder: 2805
+    dependencies:
+      - STR_POWER_SUIT
+      - STR_FUSION_EXPLOSIVES
+  - name: STR_JUMP_ARMOR
+    cost: 200
+    points: 10
+    listOrder: 3350
+    dependencies:
+      - STR_PERSONAL_ARMOR
+      - STR_GRAVMODULE_ARMOR
+  - name: STR_GRAVMODULE_ARMOR
+    cost: 100
+    points: 10
+    listOrder: 3220
+    dependencies:
+      - STR_GRAV_MODULE
+  - name: STR_GRAV_MODULE
+    cost: 10
+    points: 10
+    dependencies:
+      - STR_FLOATER_AUTOPSY
+    listOrder: 2910
+  - name: STR_PERSONAL_ARMOR
+    cost: 100
+    points: 10
+    dependencies:
+      - STR_PRECISE_ALLOY_SHAPING
+  - name: STR_POWER_SUIT
+    cost: 205
+    points: 20
+    dependencies:
+      - STR_DELTA_RADIATION
+      - STR_ELERIUM_115
+      - STR_PERSONAL_ARMOR
+      - STR_OPTRONICS
+  - name: STR_SYNTHSUIT
+    cost: 120
+    points: 10
+    dependencies:
+      - STR_ALIEN_BIOLOGY
+      - STR_SYNTHETIC_MUSCLES
+  - name: STR_HYBRID
+    cost: 0
+    points: 50
+    needItem: true
+  - name: STR_CEREBREAL
+    cost: 0
+    points: 50
+    needItem: true
+  - name: STR_CHTONITE
+    cost: 0
+    points: 50
+    needItem: true
+  - name: STR_REPTOID
+    cost: 0
+    points: 50
+    needItem: true
+  - name: STR_WASPITE
+    cost: 0
+    points: 50
+    needItem: true
+  - name: STR_GAZER
+    cost: 0
+    points: 50
+    needItem: true
+  - name: STR_ANTHROPOD
+    cost: 0
+    points: 50
+    needItem: true
+  - name: STR_SPITTER
+    cost: 0
+    points: 50
+    needItem: true
+    listOrder: 9922
+  - name: STR_SALAMANDRON_TERRORIST
+    cost: 110
+    points: 50
+    lookup: STR_SALAMANDRON
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+    listOrder: 9912
+  - name: STR_SALAMANDRON
+    cost: 0
+    points: 50
+    needItem: true
+    listOrder: 9913
+  - name: STR_CEREBREAL_LARVA
+    cost: 0
+    points: 50
+    needItem: true
+    listOrder: 9917
+  - name: STR_HOLODRONE
+    cost: 0
+    points: 50
+    needItem: true
+    listOrder: 9908
+  - name: STR_CYBERMITE
+    cost: 0
+    points: 50
+    needItem: true
+    listOrder: 9911
+  - name: STR_CYBERMITE_TERRORIST
+    cost: 110
+    points: 50
+    lookup: STR_CYBERMITE
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+    listOrder: 9910
+  - name: STR_CEREBREAL_LARVA_TERRORIST
+    cost: 110
+    points: 50
+    lookup: STR_CEREBREAL_LARVA
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+    listOrder: 9916
+  - name: STR_HOLODRONE_TERRORIST
+    cost: 170
+    points: 50
+    lookup: STR_HOLODRONE
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+    listOrder: 9909
+  - name: STR_SPITTER_TERRORIST
+    cost: 170
+    points: 50
+    lookup: STR_SPITTER
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+    listOrder: 9918
+  - name: STR_SPITTER_RETRACT_TERRORIST
+    cost: 170
+    points: 50
+    lookup: STR_SPITTER
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+    listOrder: 9919
+  - name: STR_SPITTER_RETRES_TERRORIST
+    cost: 170
+    points: 50
+    lookup: STR_SPITTER
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+    listOrder: 9920
+  - name: STR_SPITTER_NAKED_TERRORIST
+    cost: 170
+    points: 50
+    lookup: STR_SPITTER
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+    listOrder: 9921
+  - name: STR_SPITTER_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_SPITTER_AUTOPSY
+    needItem: true
+    listOrder: 6070
+  - name: STR_SPITTER_RETRACT_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_SPITTER_AUTOPSY
+    needItem: true
+    listOrder: 6071
+  - name: STR_SPITTER_NAKED_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_SPITTER_AUTOPSY
+    needItem: true
+    listOrder: 6072
+  - name: STR_ANTHROPOD_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_ANTHROPOD_AUTOPSY
+    needItem: true
+    listOrder: 5660
+  - name: STR_MUTONCOM_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_MUTON_AUTOPSY
+    needItem: true
+    listOrder: 5901
+  - name: STR_WASPITE_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_WASPITE_AUTOPSY
+    needItem: true
+    listOrder: 5650
+  - name: STR_CYBERMITE_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_CYBERMITE_AUTOPSY
+    needItem: true
+    listOrder: 6250
+  - name: STR_GAZER_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_GAZER_AUTOPSY
+    needItem: true
+    listOrder: 6005
+  - name: STR_HOLODRONE_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_HOLODRONE_AUTOPSY
+    needItem: true
+    listOrder: 6230
+  - name: STR_CEREBREAL_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_CEREBREAL_AUTOPSY
+    needItem: true
+    listOrder: 6030
+  - name: STR_CEREBREAL_LARVA_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_CEREBREAL_LARVA_AUTOPSY
+    needItem: true
+    unlocks:
+      - STR_ALIEN_BIOLOGY
+    listOrder: 6060
+  - name: STR_CHTONITE_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_CHTONITE_AUTOPSY
+    needItem: true
+    listOrder: 6020
+    unlocks:
+      - STR_ALIEN_BIOLOGY
+  - name: STR_REPTOID_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_REPTOID_AUTOPSY
+    needItem: true
+    unlocks:
+      - STR_ALIEN_BIOLOGY
+    listOrder: 6010
+  - name: STR_SALAMANDRON_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_SALAMANDRON_AUTOPSY
+    needItem: true
+    unlocks:
+      - STR_ALIEN_BIOLOGY
+    listOrder: 6040
+  - name: STR_ALIEN_ORIGINS
+    cost: 300
+    points: 60
+    dependencies:
+      - STR_SECTOID_COMMANDER
+      - STR_SECTOID_LEADER
+      - STR_SECTOID_ENGINEER
+      - STR_SECTOID_MEDIC
+      - STR_SECTOID_NAVIGATOR
+      - STR_SECTOID_SOLDIER
+      - STR_SECTOID_GUARDIAN
+      - STR_CYBERDISC_TERRORIST
+      - STR_SNAKEMAN_COMMANDER
+      - STR_SNAKEMAN_LEADER
+      - STR_SNAKEMAN_ENGINEER
+      - STR_SNAKEMAN_NAVIGATOR
+      - STR_SNAKEMAN_SOLDIER
+      - STR_CHRYSSALID_TERRORIST
+      - STR_ETHEREAL_COMMANDER
+      - STR_ETHEREAL_LEADER
+      - STR_ETHEREAL_SOLDIER
+      - STR_SECTOPOD_TERRORIST
+      - STR_MUTON_COMMANDER
+      - STR_MUTON_LEADER
+      - STR_MUTON_ENGINEER
+      - STR_MUTON_NAVIGATOR
+      - STR_MUTON_SOLDIER
+      - STR_SILACOID_TERRORIST
+      - STR_CELATID_TERRORIST
+      - STR_OBLITERATOR_TERRORIST
+      - STR_FLOATER_COMMANDER
+      - STR_FLOATER_LEADER
+      - STR_FLOATER_ENGINEER
+      - STR_FLOATER_MEDIC
+      - STR_FLOATER_NAVIGATOR
+      - STR_FLOATER_SOLDIER
+      - STR_REAPER_TERRORIST
+      - STR_WASPITE_COMMANDER
+      - STR_WASPITE_LEADER
+      - STR_WASPITE_ENGINEER
+      - STR_WASPITE_MEDIC
+      - STR_WASPITE_NAVIGATOR
+      - STR_WASPITE_SOLDIER
+      - STR_CYBERMITE_TERRORIST
+      - STR_REPTOID_COMMANDER
+      - STR_REPTOID_LEADER
+      - STR_REPTOID_ENGINEER
+      - STR_REPTOID_MEDIC
+      - STR_REPTOID_NAVIGATOR
+      - STR_REPTOID_SOLDIER
+      - STR_SALAMANDRON_TERRORIST
+      - STR_GAZER_COMMANDER
+      - STR_GAZER_LEADER
+      - STR_GAZER_ENGINEER
+      - STR_GAZER_MEDIC
+      - STR_GAZER_NAVIGATOR
+      - STR_GAZER_SOLDIER
+      - STR_HOLODRONE_TERRORIST
+      - STR_CHTONITE_COMMANDER
+      - STR_CHTONITE_LEADER
+      - STR_CHTONITE_ENGINEER
+      - STR_CHTONITE_MEDIC
+      - STR_CHTONITE_NAVIGATOR
+      - STR_CHTONITE_SOLDIER
+      - STR_CEREBREAL_COMMANDER
+      - STR_CEREBREAL_LEADER
+      - STR_CEREBREAL_ENGINEER
+      - STR_CEREBREAL_MEDIC
+      - STR_CEREBREAL_NAVIGATOR
+      - STR_CEREBREAL_SOLDIER
+      - STR_CEREBREAL_LARVA_TERRORIST
+  - name: STR_COMMANDER_PLUS
+    unlocks:
+      - STR_CYDONIA_OR_BUST
+    requires:
+      - STR_THE_MARTIAN_SOLUTION
+    dependencies:
+      - STR_SECTOID_COMMANDER
+      - STR_SNAKEMAN_COMMANDER
+      - STR_ETHEREAL_COMMANDER
+      - STR_FLOATER_COMMANDER
+      - STR_WASPITE_COMMANDER
+      - STR_REPTOID_COMMANDER
+      - STR_GAZER_COMMANDER
+      - STR_CHTONITE_COMMANDER
+      - STR_CEREBREAL_COMMANDER
+  - name: STR_LEADER_PLUS
+    cost: 0
+    requires:
+      - STR_ALIEN_ORIGINS
+    dependencies:
+      - STR_SECTOID_COMMANDER
+      - STR_SECTOID_LEADER
+      - STR_SNAKEMAN_COMMANDER
+      - STR_SNAKEMAN_LEADER
+      - STR_ETHEREAL_COMMANDER
+      - STR_ETHEREAL_LEADER
+      - STR_FLOATER_COMMANDER
+      - STR_FLOATER_LEADER
+      - STR_MUTON_COMMANDER
+      - STR_MUTON_LEADER
+      - STR_WASPITE_COMMANDER
+      - STR_WASPITE_LEADER
+      - STR_REPTOID_COMMANDER
+      - STR_REPTOID_LEADER
+      - STR_GAZER_COMMANDER
+      - STR_GAZER_LEADER
+      - STR_CHTONITE_COMMANDER
+      - STR_CHTONITE_LEADER
+      - STR_CEREBREAL_COMMANDER
+      - STR_CEREBREAL_LEADER
+  - name: STR_IMPROVED_SKYRANGER
+    cost: 300
+    points: 20
+    dependencies:
+      - STR_ALIEN_ALLOYS
+    listOrder: 3010
+  - name: STR_IMPROVED_INTERCEPTOR
+    cost: 300
+    points: 20
+    dependencies:
+      - STR_ALIEN_ALLOYS
+    listOrder: 3020
+  - name: STR_SENTINEL_INTERCEPTOR
+    cost: 400
+    points: 25
+    dependencies:
+      - STR_IMPROVED_INTERCEPTOR
+      - STR_UFO_NAVIGATION
+      - STR_UFO_POWER_SOURCE
+      - STR_PRECISE_ALLOY_SHAPING
+    listOrder: 3030
+  - name: STR_HEAVY_TRANSPORTER
+    cost: 300
+    points: 25
+    dependencies:
+      - STR_IMPROVED_INTERCEPTOR
+      - STR_UFO_NAVIGATION
+      - STR_UFO_POWER_SOURCE
+      - STR_PRECISE_ALLOY_SHAPING
+    listOrder: 3035
+  - name: STR_THUNDERSTORM_INTERCEPTOR
+    cost: 400
+    points: 25
+    dependencies:
+      - STR_IMPROVED_INTERCEPTOR
+      - STR_UFO_NAVIGATION
+      - STR_PRECISE_ALLOY_SHAPING
+    listOrder: 3040
+  - name: STR_ULTIMATE_HUNTER_CRAFT
+    cost: 780
+    points: 25
+    dependencies:
+      - STR_THUNDERSTORM_INTERCEPTOR
+      - STR_SENTINEL_INTERCEPTOR
+      - STR_NEW_FIGHTER_CRAFT
+    listOrder: 3050
+  - name: STR_EXCAVATOR
+    cost: 0
+    points: 50
+    needItem: true
+  - name: STR_FIGHTER_SHIP
+    cost: 0
+    points: 50
+    needItem: true
+  - name: STR_SENTRY_SHIP
+    cost: 0
+    points: 50
+    needItem: true
+  - name: STR_LAB_SHIP
+    cost: 0
+    points: 50
+    needItem: true
+  - name: STR_FLOATER_AUTOPSY
+    unlocks:
+      - STR_ALIEN_BIOLOGY
+      - STR_DART_RIFLE_CLIP_B_PREQ1
+  - name: STR_SNAKEMAN_AUTOPSY
+    unlocks:
+      - STR_ALIEN_BIOLOGY
+      - STR_DART_RIFLE_CLIP_B_PREQ2
+  - name: STR_MUTON_AUTOPSY
+    unlocks:
+      - STR_ALIEN_BIOLOGY
+      - STR_DART_RIFLE_CLIP_C_PREQ1
+  - name: STR_SECTOID_AUTOPSY
+    unlocks:
+      - STR_ALIEN_BIOLOGY
+      - STR_DART_RIFLE_CLIP_B_PREQ1
+  - name: STR_ETHEREAL_AUTOPSY
+    unlocks:
+      - STR_ALIEN_BIOLOGY
+      - STR_DART_RIFLE_CLIP_C_PREQ1
+  - name: STR_REAPER_AUTOPSY
+    unlocks:
+      - STR_ALIEN_BIOLOGY
+      - STR_DART_RIFLE_CLIP_B_PREQ3
+  - name: STR_CHRYSSALID_AUTOPSY
+    unlocks:
+      - STR_ALIEN_BIOLOGY
+      - STR_DART_RIFLE_CLIP_B_PREQ3
+  - name: STR_SILACOID_AUTOPSY
+    unlocks:
+      - STR_ALIEN_BIOLOGY
+      - STR_DART_RIFLE_CLIP_C_PREQ3
+  - name: STR_CELATID_AUTOPSY
+    unlocks:
+      - STR_ALIEN_BIOLOGY
+      - STR_DART_RIFLE_CLIP_C_PREQ3
+  - name: STR_WASPITE_AUTOPSY
+    cost: 0
+    points: 50
+    needItem: true
+    unlocks:
+      - STR_ALIEN_BIOLOGY
+      - STR_DART_RIFLE_CLIP_C_PREQ2
+  - name: STR_CEREBREAL_AUTOPSY
+    cost: 0
+    points: 50
+    needItem: true
+    unlocks:
+      - STR_ALIEN_BIOLOGY
+      - STR_DART_RIFLE_CLIP_C_PREQ2
+    listOrder: 12680
+  - name: STR_REPTOID_AUTOPSY
+    cost: 0
+    points: 50
+    needItem: true
+    unlocks:
+      - STR_ALIEN_BIOLOGY
+      - STR_DART_RIFLE_CLIP_B_PREQ2
+    listOrder: 12660
+  - name: STR_CHTONITE_AUTOPSY
+    cost: 0
+    points: 50
+    needItem: true
+    unlocks:
+      - STR_ALIEN_BIOLOGY
+      - STR_DART_RIFLE_CLIP_B_PREQ1
+    listOrder: 12670
+  - name: STR_GAZER_AUTOPSY
+    cost: 0
+    points: 50
+    needItem: true
+    unlocks:
+      - STR_ALIEN_BIOLOGY
+      - STR_DART_RIFLE_CLIP_C_PREQ1
+  - name: STR_ANTHROPOD_AUTOPSY
+    cost: 0
+    points: 50
+    needItem: true
+    unlocks:
+      - STR_ALIEN_BIOLOGY
+      - STR_DART_RIFLE_CLIP_B_PREQ1
+  - name: STR_SPITTER_AUTOPSY
+    points: 50
+    needItem: true
+    unlocks:
+      - STR_ALIEN_BIOLOGY
+      - STR_DART_RIFLE_CLIP_B_PREQ3
+  - name: STR_CEREBREAL_LARVA_AUTOPSY
+    cost: 0
+    points: 50
+    needItem: true
+    unlocks:
+      - STR_ALIEN_BIOLOGY
+    listOrder: 13212
+  - name: STR_SALAMANDRON_AUTOPSY
+    cost: 0
+    points: 50
+    needItem: true
+    unlocks:
+      - STR_ALIEN_BIOLOGY
+      - STR_DART_RIFLE_CLIP_B_PREQ2
+    listOrder: 13210
+  - name: STR_HOLODRONE_AUTOPSY
+    cost: 0
+    points: 50
+    needItem: true
+    unlocks:
+      - STR_ALIEN_BIOLOGY
+  - name: STR_CYBERMITE_AUTOPSY
+    cost: 0
+    points: 50
+    needItem: true
+  - name: STR_SECTOPOD_AUTOPSY
+    cost: 0
+    points: 50
+    needItem: true
+  - name: STR_FLOATER_ENGINEER
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_POWER_SOURCE_MINIATURIZATION_DEP1
+    getOneFree:
+      - STR_SMALL_SCOUT
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_HARVESTER
+      - STR_ABDUCTOR
+      - STR_TERROR_SHIP
+      - STR_BATTLESHIP
+      - STR_SUPPLY_SHIP
+      - STR_SENTRY_SHIP
+      - STR_FIGHTER_SHIP
+      - STR_LAB_SHIP
+      - STR_EXCAVATOR
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_SECTOPOD
+      - STR_CYBERDISC
+      - STR_OBLITERATOR
+      - STR_SECTOPOD_CORPSE
+      - STR_CYBERDISC_CORPSE
+      - STR_OBLITERATOR_CORPSE
+  - name: STR_SECTOID_ENGINEER
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_POWER_SOURCE_MINIATURIZATION_DEP1
+    getOneFree:
+      - STR_SMALL_SCOUT
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_HARVESTER
+      - STR_ABDUCTOR
+      - STR_TERROR_SHIP
+      - STR_BATTLESHIP
+      - STR_SUPPLY_SHIP
+      - STR_SENTRY_SHIP
+      - STR_FIGHTER_SHIP
+      - STR_LAB_SHIP
+      - STR_EXCAVATOR
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_SECTOPOD
+      - STR_CYBERDISC
+      - STR_OBLITERATOR
+      - STR_SECTOPOD_CORPSE
+      - STR_CYBERDISC_CORPSE
+      - STR_OBLITERATOR_CORPSE
+  - name: STR_SNAKEMAN_ENGINEER
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_POWER_SOURCE_MINIATURIZATION_DEP1
+    getOneFree:
+      - STR_SMALL_SCOUT
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_HARVESTER
+      - STR_ABDUCTOR
+      - STR_TERROR_SHIP
+      - STR_BATTLESHIP
+      - STR_SUPPLY_SHIP
+      - STR_SENTRY_SHIP
+      - STR_FIGHTER_SHIP
+      - STR_LAB_SHIP
+      - STR_EXCAVATOR
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_SECTOPOD
+      - STR_CYBERDISC
+      - STR_OBLITERATOR
+      - STR_SECTOPOD_CORPSE
+      - STR_CYBERDISC_CORPSE
+      - STR_OBLITERATOR_CORPSE
+  - name: STR_MUTON_ENGINEER
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_POWER_SOURCE_MINIATURIZATION_DEP1
+    getOneFree:
+      - STR_SMALL_SCOUT
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_HARVESTER
+      - STR_ABDUCTOR
+      - STR_TERROR_SHIP
+      - STR_BATTLESHIP
+      - STR_SUPPLY_SHIP
+      - STR_SENTRY_SHIP
+      - STR_FIGHTER_SHIP
+      - STR_LAB_SHIP
+      - STR_EXCAVATOR
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_SECTOPOD
+      - STR_CYBERDISC
+      - STR_OBLITERATOR
+      - STR_SECTOPOD_CORPSE
+      - STR_CYBERDISC_CORPSE
+      - STR_OBLITERATOR_CORPSE
+  - name: STR_GAZER_ENGINEER
+    cost: 192
+    points: 50
+    lookup: STR_GAZER
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_POWER_SOURCE_MINIATURIZATION_DEP1
+    getOneFree:
+      - STR_SMALL_SCOUT
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_HARVESTER
+      - STR_ABDUCTOR
+      - STR_TERROR_SHIP
+      - STR_BATTLESHIP
+      - STR_SUPPLY_SHIP
+      - STR_SENTRY_SHIP
+      - STR_FIGHTER_SHIP
+      - STR_LAB_SHIP
+      - STR_EXCAVATOR
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_CYBERMITE
+      - STR_SECTOPOD
+      - STR_CYBERDISC
+      - STR_OBLITERATOR
+      - STR_SECTOPOD_CORPSE
+      - STR_CYBERDISC_CORPSE
+      - STR_CYBERMITE_CORPSE
+      - STR_OBLITERATOR_CORPSE
+    listOrder: 8621
+  - name: STR_CHTONITE_ENGINEER
+    cost: 192
+    points: 50
+    lookup: STR_CHTONITE
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_POWER_SOURCE_MINIATURIZATION_DEP1
+    getOneFree:
+      - STR_SMALL_SCOUT
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_HARVESTER
+      - STR_ABDUCTOR
+      - STR_TERROR_SHIP
+      - STR_BATTLESHIP
+      - STR_SUPPLY_SHIP
+      - STR_SENTRY_SHIP
+      - STR_FIGHTER_SHIP
+      - STR_LAB_SHIP
+      - STR_EXCAVATOR
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_CYBERMITE
+      - STR_SECTOPOD
+      - STR_CYBERDISC
+      - STR_OBLITERATOR
+      - STR_SECTOPOD_CORPSE
+      - STR_CYBERDISC_CORPSE
+      - STR_CYBERMITE_CORPSE
+      - STR_OBLITERATOR_CORPSE
+    listOrder: 8684
+  - name: STR_REPTOID_ENGINEER
+    cost: 192
+    points: 50
+    lookup: STR_REPTOID
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_POWER_SOURCE_MINIATURIZATION_DEP1
+    getOneFree:
+      - STR_SMALL_SCOUT
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_HARVESTER
+      - STR_ABDUCTOR
+      - STR_TERROR_SHIP
+      - STR_BATTLESHIP
+      - STR_SUPPLY_SHIP
+      - STR_SENTRY_SHIP
+      - STR_FIGHTER_SHIP
+      - STR_LAB_SHIP
+      - STR_EXCAVATOR
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_CYBERMITE
+      - STR_SECTOPOD
+      - STR_CYBERDISC
+      - STR_OBLITERATOR
+      - STR_SECTOPOD_CORPSE
+      - STR_CYBERDISC_CORPSE
+      - STR_CYBERMITE_CORPSE
+      - STR_OBLITERATOR_CORPSE
+    listOrder: 8674
+  - name: STR_WASPITE_ENGINEER
+    cost: 192
+    points: 50
+    lookup: STR_WASPITE
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_POWER_SOURCE_MINIATURIZATION_DEP1
+    getOneFree:
+      - STR_SMALL_SCOUT
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_HARVESTER
+      - STR_ABDUCTOR
+      - STR_TERROR_SHIP
+      - STR_BATTLESHIP
+      - STR_SUPPLY_SHIP
+      - STR_SENTRY_SHIP
+      - STR_FIGHTER_SHIP
+      - STR_LAB_SHIP
+      - STR_EXCAVATOR
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_CYBERMITE
+      - STR_SECTOPOD
+      - STR_CYBERDISC
+      - STR_OBLITERATOR
+      - STR_SECTOPOD_CORPSE
+      - STR_CYBERDISC_CORPSE
+      - STR_CYBERMITE_CORPSE
+      - STR_OBLITERATOR_CORPSE
+    listOrder: 8611
+  - name: STR_CEREBREAL_ENGINEER
+    cost: 192
+    points: 50
+    lookup: STR_CEREBREAL
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_POWER_SOURCE_MINIATURIZATION_DEP1
+    getOneFree:
+      - STR_SMALL_SCOUT
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_HARVESTER
+      - STR_ABDUCTOR
+      - STR_TERROR_SHIP
+      - STR_BATTLESHIP
+      - STR_SUPPLY_SHIP
+      - STR_SENTRY_SHIP
+      - STR_FIGHTER_SHIP
+      - STR_LAB_SHIP
+      - STR_EXCAVATOR
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_CYBERMITE
+      - STR_SECTOPOD
+      - STR_CYBERDISC
+      - STR_OBLITERATOR
+      - STR_SECTOPOD_CORPSE
+      - STR_CYBERDISC_CORPSE
+      - STR_CYBERMITE_CORPSE
+      - STR_OBLITERATOR_CORPSE
+    listOrder: 8694
+  - name: STR_ANTHROPOD_ENGINEER
+    cost: 192
+    points: 50
+    lookup: STR_ANTHROPOD
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+    listOrder: 7751
+  - name: STR_FLOATER_MEDIC
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_MEDI_KIT_PREREQUISITE1
+    getOneFree:
+      - STR_CEREBREAL
+      - STR_SNAKEMAN
+      - STR_MUTON
+      - STR_ETHEREAL
+      - STR_CHRYSSALID
+      - STR_SILACOID
+      - STR_CELATID
+      - STR_REAPER
+      - STR_REPTOID
+      - STR_GAZER
+      - STR_CHTONITE
+      - STR_WASPITE
+      - STR_HOLODRONE
+      - STR_SALAMANDRON
+      - STR_CEREBREAL_LARVA
+      - STR_SECTOID_CORPSE
+      - STR_SNAKEMAN_CORPSE
+      - STR_MUTON_CORPSE
+      - STR_ETHEREAL_CORPSE
+      - STR_FLOATER_CORPSE
+      - STR_CHRYSSALID_CORPSE
+      - STR_SILACOID_CORPSE
+      - STR_CELATID_CORPSE
+      - STR_REAPER_CORPSE
+      - STR_REPTOID_CORPSE
+      - STR_GAZER_CORPSE
+      - STR_CHTONITE_CORPSE
+      - STR_WASPITE_CORPSE
+      - STR_HOLODRONE_CORPSE
+      - STR_SALAMANDRON_CORPSE
+      - STR_CEREBREAL_CORPSE
+      - STR_CEREBREAL_LARVA_CORPSE
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+  - name: STR_SECTOID_MEDIC
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_MEDI_KIT_PREREQUISITE1
+    getOneFree:
+      - STR_CEREBREAL
+      - STR_SNAKEMAN
+      - STR_MUTON
+      - STR_ETHEREAL
+      - STR_CHRYSSALID
+      - STR_SILACOID
+      - STR_CELATID
+      - STR_REAPER
+      - STR_REPTOID
+      - STR_GAZER
+      - STR_CHTONITE
+      - STR_WASPITE
+      - STR_HOLODRONE
+      - STR_SALAMANDRON
+      - STR_CEREBREAL_LARVA
+      - STR_SECTOID_CORPSE
+      - STR_SNAKEMAN_CORPSE
+      - STR_MUTON_CORPSE
+      - STR_ETHEREAL_CORPSE
+      - STR_FLOATER_CORPSE
+      - STR_CHRYSSALID_CORPSE
+      - STR_SILACOID_CORPSE
+      - STR_CELATID_CORPSE
+      - STR_REAPER_CORPSE
+      - STR_REPTOID_CORPSE
+      - STR_GAZER_CORPSE
+      - STR_CHTONITE_CORPSE
+      - STR_WASPITE_CORPSE
+      - STR_HOLODRONE_CORPSE
+      - STR_SALAMANDRON_CORPSE
+      - STR_CEREBREAL_CORPSE
+      - STR_CEREBREAL_LARVA_CORPSE
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+  - name: STR_CEREBREAL_MEDIC
+    cost: 192
+    points: 50
+    lookup: STR_CEREBREAL
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_MEDI_KIT_PREREQUISITE1
+    getOneFree:
+      - STR_SECTOID
+      - STR_SNAKEMAN
+      - STR_MUTON
+      - STR_ETHEREAL
+      - STR_CHRYSSALID
+      - STR_SILACOID
+      - STR_CELATID
+      - STR_REAPER
+      - STR_REPTOID
+      - STR_GAZER
+      - STR_CHTONITE
+      - STR_WASPITE
+      - STR_HOLODRONE
+      - STR_SALAMANDRON
+      - STR_CEREBREAL_LARVA
+      - STR_SECTOID_CORPSE
+      - STR_SNAKEMAN_CORPSE
+      - STR_MUTON_CORPSE
+      - STR_ETHEREAL_CORPSE
+      - STR_FLOATER_CORPSE
+      - STR_CHRYSSALID_CORPSE
+      - STR_SILACOID_CORPSE
+      - STR_CELATID_CORPSE
+      - STR_REAPER_CORPSE
+      - STR_REPTOID_CORPSE
+      - STR_GAZER_CORPSE
+      - STR_CHTONITE_CORPSE
+      - STR_WASPITE_CORPSE
+      - STR_HOLODRONE_CORPSE
+      - STR_SALAMANDRON_CORPSE
+      - STR_CEREBREAL_CORPSE
+      - STR_CEREBREAL_LARVA_CORPSE
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+    listOrder: 8692
+  - name: STR_CHTONITE_MEDIC
+    cost: 192
+    points: 50
+    lookup: STR_CHTONITE
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_MEDI_KIT_PREREQUISITE1
+    getOneFree:
+      - STR_CEREBREAL
+      - STR_SECTOID
+      - STR_SNAKEMAN
+      - STR_MUTON
+      - STR_ETHEREAL
+      - STR_CHRYSSALID
+      - STR_SILACOID
+      - STR_CELATID
+      - STR_REAPER
+      - STR_REPTOID
+      - STR_GAZER
+      - STR_WASPITE
+      - STR_HOLODRONE
+      - STR_SALAMANDRON
+      - STR_CEREBREAL_LARVA
+      - STR_SECTOID_CORPSE
+      - STR_SNAKEMAN_CORPSE
+      - STR_MUTON_CORPSE
+      - STR_ETHEREAL_CORPSE
+      - STR_FLOATER_CORPSE
+      - STR_CHRYSSALID_CORPSE
+      - STR_SILACOID_CORPSE
+      - STR_CELATID_CORPSE
+      - STR_REAPER_CORPSE
+      - STR_REPTOID_CORPSE
+      - STR_GAZER_CORPSE
+      - STR_CHTONITE_CORPSE
+      - STR_WASPITE_CORPSE
+      - STR_HOLODRONE_CORPSE
+      - STR_SALAMANDRON_CORPSE
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+      - STR_CEREBREAL_CORPSE
+      - STR_CEREBREAL_LARVA_CORPSE
+    listOrder: 8682
+  - name: STR_REPTOID_MEDIC
+    cost: 192
+    points: 50
+    lookup: STR_REPTOID
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_ALIEN_ORIGINS
+      - STR_MEDI_KIT_PREREQUISITE1
+    getOneFree:
+      - STR_SECTOID
+      - STR_SNAKEMAN
+      - STR_MUTON
+      - STR_ETHEREAL
+      - STR_CHRYSSALID
+      - STR_SILACOID
+      - STR_CELATID
+      - STR_REAPER
+      - STR_WASPITE
+      - STR_GAZER
+      - STR_CHTONITE
+      - STR_CEREBREAL
+      - STR_HOLODRONE
+      - STR_SALAMANDRON
+      - STR_CEREBREAL_LARVA
+      - STR_SECTOID_CORPSE
+      - STR_SNAKEMAN_CORPSE
+      - STR_MUTON_CORPSE
+      - STR_ETHEREAL_CORPSE
+      - STR_FLOATER_CORPSE
+      - STR_CHRYSSALID_CORPSE
+      - STR_SILACOID_CORPSE
+      - STR_CELATID_CORPSE
+      - STR_REAPER_CORPSE
+      - STR_REPTOID_CORPSE
+      - STR_GAZER_CORPSE
+      - STR_CHTONITE_CORPSE
+      - STR_WASPITE_CORPSE
+      - STR_HOLODRONE_CORPSE
+      - STR_SALAMANDRON_CORPSE
+      - STR_CEREBREAL_CORPSE
+      - STR_CEREBREAL_LARVA_CORPSE
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+    listOrder: 8672
+  - name: STR_WASPITE_MEDIC
+    cost: 192
+    points: 50
+    lookup: STR_WASPITE
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_MEDI_KIT_PREREQUISITE1
+    getOneFree:
+      - STR_SECTOID
+      - STR_SNAKEMAN
+      - STR_MUTON
+      - STR_ETHEREAL
+      - STR_CHRYSSALID
+      - STR_SILACOID
+      - STR_CELATID
+      - STR_REAPER
+      - STR_REPTOID
+      - STR_GAZER
+      - STR_CHTONITE
+      - STR_CEREBREAL
+      - STR_HOLODRONE
+      - STR_SALAMANDRON
+      - STR_CEREBREAL
+      - STR_CEREBREAL_LARVA
+      - STR_SECTOID_CORPSE
+      - STR_SNAKEMAN_CORPSE
+      - STR_MUTON_CORPSE
+      - STR_ETHEREAL_CORPSE
+      - STR_FLOATER_CORPSE
+      - STR_CHRYSSALID_CORPSE
+      - STR_SILACOID_CORPSE
+      - STR_CELATID_CORPSE
+      - STR_REAPER_CORPSE
+      - STR_REPTOID_CORPSE
+      - STR_GAZER_CORPSE
+      - STR_CHTONITE_CORPSE
+      - STR_WASPITE_CORPSE
+      - STR_HOLODRONE_CORPSE
+      - STR_SALAMANDRON_CORPSE
+      - STR_CEREBREAL_CORPSE
+      - STR_CEREBREAL_LARVA_CORPSE
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+    listOrder: 8612
+  - name: STR_GAZER_MEDIC
+    cost: 192
+    points: 50
+    lookup: STR_GAZER
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_MEDI_KIT_PREREQUISITE1
+    getOneFree:
+      - STR_SECTOID
+      - STR_SNAKEMAN
+      - STR_MUTON
+      - STR_ETHEREAL
+      - STR_CHRYSSALID
+      - STR_SILACOID
+      - STR_CELATID
+      - STR_REAPER
+      - STR_REPTOID
+      - STR_CHTONITE
+      - STR_WASPITE
+      - STR_HOLODRONE
+      - STR_SALAMANDRON
+      - STR_CEREBREAL
+      - STR_CEREBREAL_LARVA
+      - STR_SECTOID_CORPSE
+      - STR_SNAKEMAN_CORPSE
+      - STR_MUTON_CORPSE
+      - STR_ETHEREAL_CORPSE
+      - STR_FLOATER_CORPSE
+      - STR_CHRYSSALID_CORPSE
+      - STR_SILACOID_CORPSE
+      - STR_CELATID_CORPSE
+      - STR_REAPER_CORPSE
+      - STR_REPTOID_CORPSE
+      - STR_GAZER_CORPSE
+      - STR_CHTONITE_CORPSE
+      - STR_WASPITE_CORPSE
+      - STR_HOLODRONE_CORPSE
+      - STR_SALAMANDRON_CORPSE
+      - STR_CEREBREAL_CORPSE
+      - STR_CEREBREAL_LARVA_CORPSE
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+    listOrder: 8622
+  - name: STR_FLOATER_NAVIGATOR
+    unlocks:
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_CODES
+    getOneFree:
+      - STR_ALIEN_RESEARCH
+      - STR_ALIEN_HARVEST
+      - STR_ALIEN_ABDUCTION
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_BASE
+      - STR_ALIEN_TERROR
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+      - STR_ALIEN_FLYBY
+  - name: STR_SNAKEMAN_NAVIGATOR
+    unlocks:
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_CODES
+    getOneFree:
+      - STR_ALIEN_RESEARCH
+      - STR_ALIEN_HARVEST
+      - STR_ALIEN_ABDUCTION
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_BASE
+      - STR_ALIEN_TERROR
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+      - STR_ALIEN_FLYBY
+  - name: STR_MUTON_NAVIGATOR
+    unlocks:
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_CODES
+    getOneFree:
+      - STR_ALIEN_RESEARCH
+      - STR_ALIEN_HARVEST
+      - STR_ALIEN_ABDUCTION
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_BASE
+      - STR_ALIEN_TERROR
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+      - STR_ALIEN_FLYBY
+  - name: STR_SECTOID_NAVIGATOR
+    cost: 192
+    points: 50
+    lookup: STR_SECTOID
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_CODES
+    getOneFree:
+      - STR_ALIEN_RESEARCH
+      - STR_ALIEN_HARVEST
+      - STR_ALIEN_ABDUCTION
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_BASE
+      - STR_ALIEN_TERROR
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+      - STR_ALIEN_FLYBY
+  - name: STR_CEREBREAL_NAVIGATOR
+    cost: 192
+    points: 50
+    lookup: STR_CEREBREAL
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_CODES
+    getOneFree:
+      - STR_ALIEN_RESEARCH
+      - STR_ALIEN_HARVEST
+      - STR_ALIEN_ABDUCTION
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_BASE
+      - STR_ALIEN_TERROR
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+      - STR_ALIEN_FLYBY
+    listOrder: 8691
+  - name: STR_CHTONITE_NAVIGATOR
+    cost: 192
+    points: 50
+    lookup: STR_CHTONITE
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_CODES
+    getOneFree:
+      - STR_ALIEN_RESEARCH
+      - STR_ALIEN_HARVEST
+      - STR_ALIEN_ABDUCTION
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_BASE
+      - STR_ALIEN_TERROR
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+      - STR_ALIEN_FLYBY
+    listOrder: 8681
+  - name: STR_REPTOID_NAVIGATOR
+    cost: 192
+    points: 50
+    lookup: STR_REPTOID
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_CODES
+    getOneFree:
+      - STR_ALIEN_RESEARCH
+      - STR_ALIEN_HARVEST
+      - STR_ALIEN_ABDUCTION
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_BASE
+      - STR_ALIEN_TERROR
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+      - STR_ALIEN_FLYBY
+    listOrder: 8671
+  - name: STR_WASPITE_NAVIGATOR
+    cost: 192
+    points: 50
+    lookup: STR_WASPITE
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_CODES
+    getOneFree:
+      - STR_ALIEN_RESEARCH
+      - STR_ALIEN_HARVEST
+      - STR_ALIEN_ABDUCTION
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_BASE
+      - STR_ALIEN_TERROR
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+      - STR_ALIEN_FLYBY
+    listOrder: 8613
+  - name: STR_GAZER_NAVIGATOR
+    cost: 192
+    points: 50
+    lookup: STR_GAZER
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_CODES
+    getOneFree:
+      - STR_ALIEN_RESEARCH
+      - STR_ALIEN_HARVEST
+      - STR_ALIEN_ABDUCTION
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_BASE
+      - STR_ALIEN_TERROR
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+    listOrder: 8623
+  - name: STR_ANTHROPOD_NAVIGATOR
+    cost: 192
+    points: 50
+    lookup: STR_ANTHROPOD
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_ALIEN_ORIGINS
+    listOrder: 7752
+  - name: STR_GAZER_LEADER
+    cost: 192
+    points: 50
+    needItem: true
+    destroyItem: true
+    lookup: STR_GAZER
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+    getOneFree:
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+      - STR_ALIEN_CODES
+    listOrder: 8624
+  - name: STR_CEREBREAL_LEADER
+    cost: 192
+    points: 50
+    lookup: STR_CEREBREAL
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_PSIONICS_PREREQUISITE1
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+    getOneFree:
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+      - STR_ALIEN_CODES
+    listOrder: 8693
+  - name: STR_CHTONITE_LEADER
+    cost: 192
+    points: 50
+    lookup: STR_CHTONITE
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+    getOneFree:
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+      - STR_ALIEN_CODES
+    listOrder: 8683
+  - name: STR_REPTOID_LEADER
+    cost: 192
+    points: 50
+    lookup: STR_REPTOID
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+    getOneFree:
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+      - STR_ALIEN_CODES
+    listOrder: 8673
+  - name: STR_WASPITE_LEADER
+    cost: 192
+    points: 50
+    lookup: STR_WASPITE
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+    getOneFree:
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+      - STR_ALIEN_CODES
+    listOrder: 8614
+  - name: STR_FLOATER_LEADER
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+    getOneFree:
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+      - STR_ALIEN_CODES
+  - name: STR_ETHEREAL_LEADER
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_PSIONICS_PREREQUISITE1
+      - STR_ALIEN_POWER_SYSTEMS
+    getOneFree:
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+      - STR_ALIEN_CODES
+  - name: STR_MUTON_LEADER
+    cost: 192
+    points: 50
+    lookup: STR_MUTON
+    needItem: true
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+    getOneFree:
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_CODES
+    listOrder: 7701
+  - name: STR_MUTON_MEDIC
+    cost: 192
+    points: 50
+    lookup: STR_MUTON
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+    listOrder: 7703
+  - name: STR_SNAKEMAN_LEADER
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+    getOneFree:
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+      - STR_ALIEN_CODES
+  - name: STR_SECTOID_LEADER
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_PSIONICS_PREREQUISITE1
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+    getOneFree:
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+      - STR_ALIEN_CODES
+  - name: STR_MUTON_COMMANDER
+    cost: 192
+    points: 50
+    lookup: STR_MUTON
+    needItem: true
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+    getOneFree:
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+      - STR_ALIEN_CODES
+    listOrder: 7702
+  - name: STR_FLOATER_COMMANDER
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_COMMANDER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+    getOneFree:
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+      - STR_ALIEN_CODES
+  - name: STR_SNAKEMAN_COMMANDER
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_COMMANDER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+    getOneFree:
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+      - STR_ALIEN_CODES
+  - name: STR_SECTOID_COMMANDER
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_COMMANDER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_PSIONICS_PREREQUISITE1
+      - STR_ALIEN_POWER_SYSTEMS
+    getOneFree:
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+      - STR_ALIEN_CODES
+  - name: STR_ETHEREAL_COMMANDER
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_COMMANDER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_PSIONICS_PREREQUISITE1
+      - STR_ALIEN_POWER_SYSTEMS
+    getOneFree:
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+      - STR_ALIEN_CODES
+      - STR_ETHEREAL_ORDER
+  - name: STR_WASPITE_COMMANDER
+    cost: 192
+    points: 50
+    lookup: STR_WASPITE
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_COMMANDER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+    getOneFree:
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+      - STR_ALIEN_CODES
+    listOrder: 8615
+  - name: STR_GAZER_COMMANDER
+    cost: 192
+    points: 50
+    lookup: STR_GAZER
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_COMMANDER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+    getOneFree:
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+      - STR_ALIEN_CODES
+    listOrder: 8625
+  - name: STR_REPTOID_COMMANDER
+    cost: 192
+    points: 50
+    lookup: STR_REPTOID
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_COMMANDER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+    getOneFree:
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+      - STR_ALIEN_CODES
+    listOrder: 8675
+  - name: STR_CEREBREAL_COMMANDER
+    cost: 192
+    points: 50
+    lookup: STR_CEREBREAL
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_COMMANDER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_PSIONICS_PREREQUISITE1
+      - STR_ALIEN_POWER_SYSTEMS
+    getOneFree:
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+      - STR_ALIEN_CODES
+    listOrder: 8695
+  - name: STR_CHTONITE_COMMANDER
+    cost: 192
+    points: 50
+    lookup: STR_CHTONITE
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_COMMANDER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+    getOneFree:
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_ADVANCED_PLASMA_PHYSICS
+      - STR_ALIEN_ELECTRONICS
+      - STR_DELTA_RADIATION
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_SUBJUGATION
+      - STR_ALIEN_GARDENS
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+      - STR_ALIEN_CODES
+    listOrder: 8685
+  - name: STR_SECTOID_GUARDIAN
+    cost: 192
+    points: 50
+    lookup: STR_SECTOID
+    unlocks:
+      - STR_SECTOID_GUARD
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+    needItem: true
+    listOrder: 8250
+  - name: STR_SECTOID_SOLDIER
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+  - name: STR_FLOATER_SOLDIER
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+  - name: STR_SNAKEMAN_SOLDIER
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+  - name: STR_MUTON_SOLDIER
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+  - name: STR_ETHEREAL_SOLDIER
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_PSIONICS_PREREQUISITE1
+  - name: STR_CEREBREAL_SOLDIER
+    cost: 192
+    points: 50
+    lookup: STR_CEREBREAL
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_PSIONICS_PREREQUISITE1
+    listOrder: 8690
+  - name: STR_CHTONITE_SOLDIER
+    cost: 192
+    points: 50
+    lookup: STR_CHTONITE
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+    listOrder: 8680
+  - name: STR_REPTOID_SOLDIER
+    cost: 192
+    points: 50
+    lookup: STR_REPTOID
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+    listOrder: 8670
+  - name: STR_WASPITE_SOLDIER
+    cost: 192
+    points: 50
+    lookup: STR_WASPITE
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+    listOrder: 8610
+  - name: STR_GAZER_SOLDIER
+    cost: 192
+    points: 50
+    lookup: STR_GAZER
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_ALIEN_ORIGINS
+    listOrder: 8620
+  - name: STR_ANTHROPOD_SOLDIER
+    cost: 192
+    points: 50
+    lookup: STR_ANTHROPOD
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_POWER_SYSTEMS
+      - STR_ALIEN_ORIGINS
+    listOrder: 7750
+  - name: STR_HYPER_WAVE_DECODER
+    cost: 670
+    points: 25
+    dependencies:
+      - STR_ALIEN_CODES
+      - STR_ALIEN_OPTICAL_PROCESSOR
+      - STR_DELTA_RADIATION
+  - name: STR_GRAV_SHIELD
+    cost: 930
+    points: 25
+    dependencies:
+      - STR_TRACTOR_BEAM_GENERATOR
+      - STR_UFO_CONSTRUCTION
+  - name: STR_ALIEN_GRENADE
+    cost: 200
+    points: 20
+    dependencies:
+      - STR_FUSION_EXPLOSIVES
+      - STR_ELERIUM_115
+      - STR_DELTA_RADIATION
+    needItem: true
+  - name: STR_SMALL_LAUNCHER
+    cost: 550
+    points: 30
+    needItem: true
+    dependencies:
+      - STR_ALIEN_GRAVITY_GENERATOR
+  - name: STR_STUN_BOMB
+    cost: 180
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_ALIEN_SUBJUGATION
+  - delete: STR_PLASMA_CANNON_DEP1
+  - delete: STR_PLASMA_CANNON_DEP2
+  - delete: STR_PLASMA_CANNON
+  - name: STR_PLASMA_CANNON
+    cost: 660
+    points: 25
+    dependencies:
+      - STR_PLASMA_WEAPONS
+  - name: STR_PLASMA_DEFENSE
+    cost: 620
+    points: 25
+    points: 25
+    dependencies:
+      - STR_PLASMA_CANNON
+  - name: STR_ALIEN_LASER_RIFLE
+    cost: 250
+    points: 20
+    dependencies:
+      - STR_ALIEN_POWER_SYSTEMS
+    needItem: true
+    listOrder: 3590
+  - name: STR_ALIEN_LASER_RIFLE_CLIP
+    cost: 100
+    points: 20
+    dependencies:
+      - STR_ALIEN_LASER_RIFLE
+    needItem: true
+    listOrder: 3591
+  - name: STR_PLASMA_PISTOL
+    cost: 600
+    points: 20
+    needItem: true
+    dependencies:
+      - STR_PLASMA_WEAPONS_CALIBRATION
+  - name: STR_PLASMA_PISTOL_CLIP
+    cost: 400
+    points: 5
+    needItem: true
+    dependencies:
+      - STR_PLASMA_WEAPONS_CALIBRATION
+  - name: STR_PLASMA_RIFLE
+    cost: 700
+    points: 25
+    needItem: true
+    dependencies:
+      - STR_PLASMA_WEAPONS_CALIBRATION
+  - name: STR_PLASMA_RIFLE_CLIP
+    cost: 400
+    points: 6
+    needItem: true
+    dependencies:
+      - STR_PLASMA_WEAPONS_CALIBRATION
+  - name: STR_HEAVY_PLASMA
+    cost: 800
+    points: 30
+    needItem: true
+    dependencies:
+      - STR_PLASMA_WEAPONS_CALIBRATION
+  - name: STR_HEAVY_PLASMA_CLIP
+    cost: 400
+    points: 7
+    needItem: true
+    dependencies:
+      - STR_PLASMA_WEAPONS_CALIBRATION
+  - name: STR_BLASTER_BOMB
+    cost: 300
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_FUSION_WEAPONS_CALIBRATION
+  - name: STR_BLASTER_LAUNCHER
+    cost: 900
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_FUSION_WEAPONS_CALIBRATION
+      - STR_ALIEN_OPTICAL_PROCESSOR
+      - STR_PSIONICS
+  - name: STR_MEDI_KIT
+    cost: 210
+    points: 20
+    dependencies:
+      - STR_MEDI_KIT_PREREQUISITE1
+      - STR_ALIEN_SURGERY
+      - STR_ALIEN_REPRODUCTION
+  - name: STR_LASER_WEAPONS
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_ELERIUM_115
+      - STR_ALIEN_LASER_RIFLE
+      - STR_ALIEN_LASER_RIFLE_CLIP
+  - name: STR_LASER_CANNON
+    cost: 400
+    points: 15
+    dependencies:
+      - STR_LASER_WEAPONS
+  - name: STR_TANK_LASER_CANNON
+    cost: 70
+    points: 10
+    dependencies:
+      - STR_LASER_CANNON
+      - STR_MOTION_SCANNER
+    listOrder: 510
+  - name: STR_LASER_PISTOL_MIB
+    cost: 100
+    points: 10
+    dependencies:
+      - STR_LASER_CANNON
+      - STR_POWER_SOURCE_MINIATURIZATION
+    listOrder: 200
+  - name: STR_LASER_RIFLE_MIB
+    cost: 300
+    points: 10
+    dependencies:
+      - STR_LASER_CANNON
+      - STR_POWER_SOURCE_MINIATURIZATION
+    listOrder: 300
+  - name: STR_HEAVY_LASER_MIB
+    cost: 460
+    points: 10
+    dependencies:
+      - STR_LASER_CANNON
+      - STR_POWER_SOURCE_MINIATURIZATION
+    listOrder: 400
+  - name: STR_NUCLEAR_LASER_PISTOL
+    cost: 50
+    points: 5
+    dependencies:
+      - STR_LASER_PISTOL_MIB
+      - STR_ADVANCED_LASER_WEAPONS
+    listOrder: 410
+  - name: STR_LASER_SNIPER_RIFLE
+    cost: 200
+    points: 10
+    dependencies:
+      - STR_LASER_RIFLE_MIB
+      - STR_ADVANCED_LASER_WEAPONS
+    listOrder: 425
+  - name: STR_NUCLEAR_LASER_RIFLE
+    cost: 50
+    points: 5
+    dependencies:
+      - STR_LASER_RIFLE_MIB
+      - STR_ADVANCED_LASER_WEAPONS
+    listOrder: 415
+  - name: STR_NUCLEAR_HEAVY_LASER
+    cost: 50
+    points: 5
+    dependencies:
+      - STR_HEAVY_LASER_MIB
+      - STR_ADVANCED_LASER_WEAPONS
+    listOrder: 420
+  - name: STR_LASER_DEFENSE
+    cost: 510
+    points: 15
+    dependencies:
+      - STR_LASER_CANNON
+  - name: STR_MOTION_SCANNER
+    cost: 180
+    points: 20
+  - name: STR_UFO_POWER_SOURCE
+    cost: 450
+    needItem: true
+    dependencies:
+      - STR_ALIEN_POWER_SYSTEMS
+  - name: STR_PSI_AMP
+    cost: 500
+    points: 20
+    dependencies:
+      - STR_MIND_PROBE
+      - STR_PSIONICS
+  - name: STR_PSI_LAB
+    cost: 420
+    points: 25
+    dependencies:
+      - STR_ALIEN_ENTERTAINMENT
+      - STR_PSIONICS
+  - name: STR_MIND_PROBE
+    cost: 600
+    points: 25
+    needItem: true
+    dependencies:
+      - STR_ALIEN_NEUROPSYCHOLOGY
+      - STR_ALIEN_OPTICAL_PROCESSOR
+  - name: STR_UFO_NAVIGATION
+    cost: 450
+    points: 30
+    needItem: true
+    dependencies:
+      - STR_ALIEN_POWER_SYSTEMS
+  - name: STR_ELERIUM_115
+    cost: 450
+    points: 60
+    needItem: true
+    dependencies:
+      - STR_UFO_POWER_SOURCE
+  - name: STR_UFO_CONSTRUCTION
+    cost: 450
+    points: 30
+    dependencies:
+      - STR_PRECISE_ALLOY_SHAPING
+      - STR_ELERIUM_115
+      - STR_UFO_POWER_SOURCE
+      - STR_UFO_NAVIGATION
+      - STR_ALIEN_GRAVITY_GENERATOR
+  - name: STR_DART_RIFLE
+    cost: 225
+    points: 10
+    listOrder: 640
+    dependencies:
+      - STR_ALIEN_BIOLOGY
+  - name: STR_DART_RIFLE_CLIP_B
+    cost: 250
+    points: 10
+    listOrder: 641
+    dependencies:
+      - STR_DART_RIFLE
+      - STR_DART_RIFLE_CLIP_B_PREQ1
+      - STR_DART_RIFLE_CLIP_B_PREQ2
+      - STR_DART_RIFLE_CLIP_B_PREQ3
+  - name: STR_DART_RIFLE_CLIP_C
+    cost: 275
+    points: 10
+    listOrder: 642
+    dependencies:
+      - STR_DART_RIFLE
+      - STR_DART_RIFLE_CLIP_B
+      - STR_DART_RIFLE_CLIP_C_PREQ1
+      - STR_DART_RIFLE_CLIP_C_PREQ2
+      - STR_DART_RIFLE_CLIP_C_PREQ3
+  - name: STR_DART_RIFLE_CLIP_B_PREQ1
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_SECTOID_AUTOPSY
+      - STR_FLOATER_AUTOPSY
+      - STR_ANTHROPOD_AUTOPSY
+      - STR_CHTONITE_AUTOPSY
+  - name: STR_DART_RIFLE_CLIP_B_PREQ2
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_REPTOID_AUTOPSY
+      - STR_SNAKEMAN_AUTOPSY
+      - STR_SALAMANDRON_AUTOPSY
+  - name: STR_DART_RIFLE_CLIP_B_PREQ3
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_SPITTER_AUTOPSY
+      - STR_CHRYSSALID_AUTOPSY
+      - STR_REAPER_AUTOPSY
+  - name: STR_DART_RIFLE_CLIP_C_PREQ1
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_MUTON_AUTOPSY
+      - STR_ETHEREAL_AUTOPSY
+      - STR_GAZER_AUTOPSY
+  - name: STR_DART_RIFLE_CLIP_C_PREQ2
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_WASPITE_AUTOPSY
+      - STR_CEREBREAL_AUTOPSY
+  - name: STR_DART_RIFLE_CLIP_C_PREQ3
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_CELATID_AUTOPSY
+      - STR_SILACOID_AUTOPSY
+  - name: STR_MEDI_KIT_PREREQUISITE1
+    cost: 0
+    points: 20
+    dependencies:
+      - STR_SECTOID_MEDIC
+      - STR_FLOATER_MEDIC
+      - STR_GAZER_MEDIC
+      - STR_REPTOID_MEDIC
+      - STR_CHTONITE_MEDIC
+      - STR_CEREBREAL_MEDIC
+      - STR_WASPITE_MEDIC
+  - name: STR_MEDGAS_GRENADE
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_DART_RIFLE_CLIP_B
+    listOrder: 602
+  - name: STR_ELERIUM_MACE
+    cost: 225
+    points: 20
+    listOrder: 860
+    dependencies:
+      - STR_DELTA_RADIATION
+      - STR_ELERIUM_115
+      - STR_ALIEN_SUBJUGATION
+  - name: STR_PISTOL_AA_CLIP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALLOY_AMMO
+  - name: STR_RIFLE_AA_CLIP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALLOY_AMMO
+  - name: STR_HC_AA_AMMO
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALLOY_AMMO
+      - STR_HEAVY_CANNON
+  - name: STR_AC_AA_AMMO
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALLOY_AMMO
+      - STR_AUTO_CANNON
+  - name: STR_SHOTGUN_AA_SHELLS
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALLOY_AMMO
+  - name: STR_SHOTGUN_AA_SHELLS_AP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALLOY_AMMO
+  - name: STR_HMG_AA_CLIP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALLOY_AMMO
+  - name: STR_SNIPER_RIFLE_AA_CLIP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALLOY_AMMO
+  - name: STR_MAGNUM_AA_DRUM
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALLOY_AMMO
+  - name: STR_SMG_AA_CLIP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALLOY_AMMO
+  - name: STR_LMG_AA_CLIP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALLOY_AMMO
+  - name: STR_LIGHT_MINIGUN_AA_CLIP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALLOY_AMMO
+  - name: STR_MINIGUN_AA_CLIP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALLOY_AMMO
+  - name: STR_STUN_GRENADE
+    cost: 200
+    points: 10
+    dependencies:
+      - STR_STUN_BOMB
+    listOrder: 1220
+  - name: STR_GAUSS_WEAPONS
+    cost: 40
+    points: 10
+    listOrder: 610
+    dependencies:
+      - STR_ELERIUM_115
+  - name: STR_RAILGUNS
+    cost: 40
+    points: 10
+    dependencies:
+      - STR_LASER_WEAPONS
+      - STR_GAUSS_WEAPONS
+      - STR_ANTIMATTER_CONTAINMENT
+    listOrder: 611
+  - name: STR_GAUSS_PISTOL
+    cost: 100
+    points: 10
+    listOrder: 615
+    dependencies:
+      - STR_GAUSS_CANNON
+      - STR_POWER_SOURCE_MINIATURIZATION
+  - name: STR_GAUSS_PISTOL_CLIP
+    cost: 0
+    dependencies:
+      - STR_GAUSS_PISTOL
+  - name: STR_GAUSS_RIFLE
+    cost: 300
+    points: 10
+    listOrder: 620
+    dependencies:
+      - STR_GAUSS_CANNON
+      - STR_POWER_SOURCE_MINIATURIZATION
+  - name: STR_GAUSS_RIFLE_CLIP
+    cost: 0
+    dependencies: 
+      - STR_GAUSS_RIFLE
+  - name: STR_GAUSS_SNIPER_RIFLE
+    cost: 150
+    points: 10
+    listOrder: 625
+    dependencies:
+      - STR_GAUSS_RIFLE
+  - name: STR_GAUSS_SNIPER_RIFLE_CLIP
+    cost: 0
+    dependencies: 
+      - STR_GAUSS_SNIPER_RIFLE
+  - name: STR_HEAVY_GAUSS
+    cost: 510
+    points: 15
+    listOrder: 630
+    dependencies:
+      - STR_GAUSS_CANNON
+      - STR_POWER_SOURCE_MINIATURIZATION
+  - name: STR_HEAVY_GAUSS_CLIP
+    cost: 0
+    dependencies: 
+      - STR_HEAVY_GAUSS
+  - name: STR_GAUSS_CANNON
+    cost: 420
+    points: 15
+    listOrder: 635
+    dependencies:
+      - STR_GAUSS_WEAPONS
+  - name: STR_LASER_SHOTGUN
+    cost: 440
+    points: 10
+    listOrder: 440
+    dependencies:
+      - STR_ADVANCED_LASER_WEAPONS
+  - name: STR_SCATTER_LASER
+    cost: 440
+    points: 10
+    listOrder: 450
+    dependencies:
+      - STR_ADVANCED_LASER_WEAPONS
+  - name: STR_PSIONICS
+    cost: 0
+    points: 25
+    dependencies:
+      - STR_PSIONICS_PREREQUISITE1
+  - name: STR_PSIONICS_PREREQUISITE1
+    cost: 0
+    points: 20
+    dependencies:
+      - STR_ETHEREAL_COMMANDER
+      - STR_ETHEREAL_LEADER
+      - STR_ETHEREAL_SOLDIER
+      - STR_SECTOID_LEADER
+      - STR_SECTOID_COMMANDER
+      - STR_CEREBREAL_COMMANDER
+      - STR_CEREBREAL_ENGINEER
+      - STR_CEREBREAL_LEADER
+      - STR_CEREBREAL_MEDIC
+      - STR_CEREBREAL_NAVIGATOR
+      - STR_CEREBREAL_SOLDIER
+      - STR_MIB_PSI_OPS
+  - name: STR_PLASMA_WEAPONS
+    cost: 500
+    points: 25
+    dependencies:
+      - STR_PLASMA_WEAPONS_CALIBRATION
+      - STR_PARTICLE_MICROACCELERATION
+      - STR_ADVANCED_PLASMA_PHYSICS
+    listOrder: 638
+  - name: STR_FUSION_WEAPONS
+    cost: 500
+    points: 25
+    dependencies:
+      - STR_FUSION_WEAPONS_CALIBRATION
+      - STR_ANTIMATTER_CONTAINMENT
+      - STR_ALIEN_GRAVITY_GENERATOR
+    listOrder: 639
+  - name: STR_FUSION_WEAPONS_CALIBRATION
+    cost: 500
+    points: 25
+    dependencies:
+      - STR_DELTA_RADIATION
+      - STR_FUSION_EXPLOSIVES
+      - STR_ALIEN_ELECTRONICS
+    listOrder: 637
+  - name: STR_PLASMA_WEAPONS_CALIBRATION
+    cost: 500
+    points: 25
+    dependencies:
+      - STR_DELTA_RADIATION
+      - STR_ALIEN_GRAVITY_GENERATOR
+      - STR_ALIEN_ELECTRONICS
+      - STR_ALIEN_POWER_SYSTEMS
+    listOrder: 636
+  - name: STR_POWER_SOURCE_MINIATURIZATION
+    cost: 250
+    points: 15
+    dependencies:
+      - STR_POWER_SOURCE_MINIATURIZATION_DEP1
+      - STR_ELERIUM_115
+    listOrder: 895
+  - name: STR_POWER_SOURCE_MINIATURIZATION_DEP1
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_SECTOID_ENGINEER
+      - STR_SNAKEMAN_ENGINEER
+      - STR_MUTON_ENGINEER
+      - STR_FLOATER_ENGINEER
+      - STR_REPTOID_ENGINEER
+      - STR_CHTONITE_ENGINEER
+      - STR_CEREBREAL_ENGINEER
+      - STR_GAZER_ENGINEER
+      - STR_WASPITE_ENGINEER
+  - name: STR_ALIEN_CONTAINMENT
+    cost: 150
+    points: 20
+    unlocks:
+      - STR_ALIEN_CONTAINMENT
+    dependencies:
+      - STR_ALIEN_BIOLOGY
+    listOrder: 1298
+  - name: STR_ALIEN_OPTICAL_PROCESSOR
+    cost: 150
+    points: 20
+    dependencies:
+      - STR_UFO_NAVIGATION
+      - STR_ALIEN_ELECTRONICS
+    listOrder: 1791
+  - name: STR_ALIEN_CODES
+    cost: 400
+    points: 25
+    dependencies:
+      - STR_FLOATER_NAVIGATOR
+      - STR_SNAKEMAN_NAVIGATOR
+      - STR_MUTON_NAVIGATOR
+      - STR_SECTOID_NAVIGATOR
+      - STR_REPTOID_NAVIGATOR
+      - STR_GAZER_NAVIGATOR
+      - STR_CHTONITE_NAVIGATOR
+      - STR_WASPITE_NAVIGATOR
+      - STR_CEREBREAL_NAVIGATOR
+    listOrder: 1790
+  - name: STR_ALIEN_BIOLOGY
+    cost: 250
+    points: 30
+    dependencies:
+      - STR_FLOATER_AUTOPSY
+      - STR_SNAKEMAN_AUTOPSY
+      - STR_MUTON_AUTOPSY
+      - STR_SECTOID_AUTOPSY
+      - STR_ETHEREAL_AUTOPSY
+      - STR_REAPER_AUTOPSY
+      - STR_CHRYSSALID_AUTOPSY
+      - STR_SILACOID_AUTOPSY
+      - STR_CELATID_AUTOPSY
+      - STR_ANTHROPOD_AUTOPSY
+      - STR_REPTOID_AUTOPSY
+      - STR_CEREBREAL_AUTOPSY
+      - STR_CEREBREAL_LARVA_AUTOPSY
+      - STR_SPITTER_AUTOPSY
+      - STR_SALAMANDRON_AUTOPSY
+      - STR_CHTONITE_AUTOPSY
+      - STR_GAZER_AUTOPSY
+      - STR_HOLODRONE_AUTOPSY
+      - STR_WASPITE_AUTOPSY
+    listOrder: 1299
+  - name: STR_ADVANCED_PLASMA_PHYSICS
+    cost: 100
+    points: 25
+    needItem: true
+  - name: STR_TRACTOR_BEAM_GENERATOR
+    cost: 100
+    points: 25
+    needItem: true
+  - name: STR_ALIEN_GRAVITY_GENERATOR
+    cost: 100
+    points: 25
+    needItem: true
+  - name: STR_FUSION_EXPLOSIVES
+    cost: 100
+    points: 25
+    needItem: true
+  - name: STR_PARTICLE_MICROACCELERATION
+    cost: 100
+    points: 25
+    needItem: true
+  - name: STR_ANTIMATTER_CONTAINMENT
+    cost: 100
+    points: 25
+    needItem: true
+  - name: STR_DELTA_RADIATION
+    cost: 100
+    points: 25
+    needItem: true
+  - name: STR_ALIEN_ELECTRONICS
+    cost: 100
+    points: 25
+    needItem: true
+    dependencies:
+      - STR_TROLLIUM
+  - name: STR_ALIEN_NEUROPSYCHOLOGY
+    cost: 100
+    points: 25
+    needItem: true
+  - name: STR_ALIEN_GARDENS
+    cost: 100
+    points: 25
+    needItem: true
+  - name: STR_ALIEN_SUBJUGATION
+    cost: 100
+    points: 25
+    needItem: true
+  - name: STR_ALIEN_POWER_SYSTEMS
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_SECTOID_COMMANDER
+      - STR_SECTOID_LEADER
+      - STR_SECTOID_ENGINEER
+      - STR_SECTOID_MEDIC
+      - STR_SECTOID_NAVIGATOR
+      - STR_SECTOID_SOLDIER
+      - STR_SECTOID_GUARDIAN
+      - STR_SNAKEMAN_COMMANDER
+      - STR_SNAKEMAN_LEADER
+      - STR_SNAKEMAN_ENGINEER
+      - STR_SNAKEMAN_NAVIGATOR
+      - STR_SNAKEMAN_SOLDIER
+      - STR_ETHEREAL_COMMANDER
+      - STR_ETHEREAL_LEADER
+      - STR_ETHEREAL_SOLDIER
+      - STR_MUTON_COMMANDER
+      - STR_MUTON_LEADER
+      - STR_MUTON_ENGINEER
+      - STR_MUTON_NAVIGATOR
+      - STR_MUTON_SOLDIER
+      - STR_FLOATER_COMMANDER
+      - STR_FLOATER_LEADER
+      - STR_FLOATER_ENGINEER
+      - STR_FLOATER_MEDIC
+      - STR_FLOATER_NAVIGATOR
+      - STR_FLOATER_SOLDIER
+      - STR_ALIEN_DRONE_AUTOPSY
+    listOrder: 890
+  - name: STR_SECTOPOD_CONSTRUCTION
+    cost: 600
+    points: 50
+    dependencies:
+      - STR_SECTOPOD_CORPSE
+      - STR_SECTOPOD_AUTOPSY
+      - STR_ALIEN_ELECTRONICS
+    listOrder: 4750
+  - name: STR_ALLOY_AMMO
+    cost: 600
+    points: 30
+    dependencies:
+      - STR_ALIEN_ALLOYS
+    listOrder: 30
+  - name: STR_ALLOY_CANNON
+    cost: 600
+    points: 30
+    dependencies:
+      - STR_ALIEN_ALLOYS
+    listOrder: 35
+  - name: STR_TOXIGUN
+    cost: 200
+    points: 20
+    needItem: true
+    listOrder: 4450
+  - name: STR_TOXIGUN_FLASK
+    cost: 300
+    points: 15
+    needItem: true
+    listOrder: 4451
+  - name: STR_PLASMA_CASTER
+    cost: 400
+    points: 25
+    needItem: true
+    dependencies:
+      - STR_PLASMA_WEAPONS_CALIBRATION
+    listOrder: 3750
+  - name: STR_PLASMA_CASTER_CLIP
+    cost: 400
+    points: 6
+    needItem: true
+    dependencies:
+      - STR_PLASMA_WEAPONS_CALIBRATION
+    listOrder: 3751
+  - name: STR_PLASMA_SUB
+    cost: 600
+    points: 25
+    needItem: true
+    dependencies:
+      - STR_PLASMA_WEAPONS_CALIBRATION
+    listOrder: 2093
+  - name: STR_PLASMA_SUB_CLIP
+    cost: 400
+    points: 6
+    needItem: true
+    dependencies:
+      - STR_PLASMA_WEAPONS_CALIBRATION
+    listOrder: 2094
+  - name: STR_PLASMA_BLASTER
+    cost: 900
+    points: 25
+    needItem: true
+    dependencies:
+      - STR_PLASMA_WEAPONS_CALIBRATION
+    listOrder: 2750
+  - name: STR_PLASMA_BLASTER_CLIP
+    cost: 400
+    points: 6
+    needItem: true
+    dependencies:
+      - STR_PLASMA_WEAPONS_CALIBRATION
+    listOrder: 2751
+  - name: STR_PLASMA_SNIPER_RIFLE
+    cost: 700
+    points: 25
+    needItem: true
+    dependencies:
+      - STR_PLASMA_WEAPONS_CALIBRATION
+    listOrder: 3950
+  - name: STR_PLASMA_SNIPER_RIFLE_CLIP
+    cost: 400
+    points: 6
+    needItem: true
+    dependencies:
+      - STR_PLASMA_WEAPONS_CALIBRATION
+    listOrder: 3951
+  - name: STR_ULTIMATE_CRAFT
+    cost: 900
+    points: 30
+    dependencies:
+      - STR_NEW_FIGHTER_CRAFT
+      - STR_GRAV_SHIELD
+  - name: STR_HEALING_SPRAY
+    cost: 100
+    points: 10
+    listOrder: 795
+  - name: STR_TROLLIUM
+    cost: 0
+    points: 0
+    needItem: true

@@ -1,0 +1,47 @@
+﻿facilities:
+  - type: STR_ALIEN_CONTAINMENT
+    requires:
+      - STR_ALIEN_CONTAINMENT
+  - type: STR_HANGAR
+    storage: 25
+  - type: STR_LIVING_QUARTERS
+    mapName: XBASS_01
+  - type: STR_GAUSS_DEFENSES
+    requires:
+      - STR_GAUSS_DEFENSES
+    spriteShape: 3
+    spriteFacility: 300
+    buildCost: 360000
+    buildTime: 24
+    monthlyCost: 12000
+    defense: 500
+    hitRatio: 60
+    fireSound: 5
+    hitSound: 10
+    mapName: XBASS_21
+  - type: STR_LIVING_QUARTERS_2
+    spriteShape: 301
+    spriteFacility: 301
+    size: 2
+    buildCost: 2250000
+    buildTime: 24
+    monthlyCost: 60000
+    personnel: 200
+    storage: 50
+    mapName: XBASS_02
+  - type: STR_GENERAL_STORES_2
+    spriteShape: 309
+    spriteFacility: 309
+    size: 2
+    buildCost: 1000000
+    buildTime: 24
+    monthlyCost: 30000
+    storage: 275
+    mapName: XBASS_06
+  - type: STR_CORRIDOR
+    spriteShape: 3
+    spriteFacility: 317
+    buildCost: 75000
+    buildTime: 12
+    monthlyCost: 2000
+    mapName: XBASS_24

@@ -1,0 +1,24 @@
+﻿MCDPatches:
+  - type: U_BASE
+    data:
+      - MCDIndex: 29
+        specialType: 6
+# pathFinding Hacks.
+# bigWall 1 = regular bigwall, no movement allowed.
+# bigWall 2 = can walk by north-east/south-west
+# bigWall 3 = can walk by north-west/south-east
+# bigWall 4 = acts as west wall
+# bigWall 5 = acts as north wall
+# bigWall 6 = acts as east wall
+# bigWall 7 = acts as south wall
+# bigWall 8 = acts as east and south wall
+  - type: UFOL83
+    data:
+      - MCDIndex: 0
+        bigWall: 5
+      - MCDIndex: 1
+        bigWall: 5
+      - MCDIndex: 2
+        bigWall: 5
+      - MCDIndex: 3
+        bigWall: 5
