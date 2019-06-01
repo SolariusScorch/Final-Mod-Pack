@@ -3834,7 +3834,7 @@
     tuSnap: 33
     tuAimed: 80
     autoRange: 25
-  battleType: 1
+    battleType: 1
     twoHanded: true
     invWidth: 2
     invHeight: 3
