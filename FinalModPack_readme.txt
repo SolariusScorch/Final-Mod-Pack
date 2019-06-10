@@ -53,10 +53,10 @@ Also, build radars to cover all continents ASAP. The Men in Black bases are part
 Finally, prepare for a longer war than usual. This can't be finished in three months of game time, and I doubt you'll manage within a year.
 
 WHAT LANGUAGES ARE SUPPORTED?
-Currently, the fully supported languages are British English, US English, Russian and Polish. Spanish, Japanese and German are mostly supported, which means some strings may be missing or outdated, but the mod should be playable in these languages. Other languages are not supported, though some have random strings translated.
+Currently, the fully supported languages are English (British and US), Russian, Polish, Hungarian, German and Japanese. Other languages are not supported, though some have random strings translated.
 
 ANY FUTURE PLANS?
-Yeah, a better readme. :P Certainly more language versions, if they come to us. And of course we will continue with upgrading and expanding the mod, since our community is tremendously talented!
+I will do maintenance on the mod, and might add something new if I feel like it, but no promises - I am working on some other projects (mainly The X-Com Files, which is Final Mod Pack's younger, much bigger sibling).
 
 CHANGELOG:
 2.2e: New Hybrid graphics. New Jungle landing block. Overhauled bigobs to remove negative indexes. Increased Auto Cannon's aim range. Fixed FRNITURE death tiles association. Fixed some fences.
