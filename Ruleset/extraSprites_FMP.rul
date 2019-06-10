@@ -238,6 +238,12 @@
       254: Resources/FinalModPack/AlienArmouryExpanded/bigob_PlasmaSub.png
       255: Resources/FinalModPack/AlienArmouryExpanded/bigob_PlasmaSubClip.png
       256: Resources/FinalModPack/men_in_black/bigob_MIB_PSI_OPS.png
+      257: Resources/FinalModPack/Races_Compilation/HybridRace/bigob_DroneWeapon.png
+      258: Resources/FinalModPack/Races_Compilation/AnthropodRace/bigob_GreenBlob.png
+      259: Resources/FinalModPack/Races_Compilation/FloaterRace/bigob_ReaperAttack.png
+      260: Resources/FinalModPack/Races_Compilation/CerebrealRace/bigob_PsiBlast.png
+      261: Resources/FinalModPack/Races_Compilation/WaspiteRace/bigob_CybermiteBite.png
+      262: Resources/FinalModPack/Tanks_Compilation/bigob_Z_Shells.png
   - type: FLOOROB.PCK
     files:
       41: Resources/FinalModPack/GravArmors/PowerArmor/FloorCorpse.png

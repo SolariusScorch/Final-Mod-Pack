@@ -790,7 +790,7 @@
     listOrder: 6271
   - type: ALIEN_DRONE_WEAPON
     weight: 3
-    bigSprite: -2
+    bigSprite: 257
     floorSprite: 31
     handSprite: 104
     bulletSprite: 2
@@ -803,8 +803,8 @@
     tuAuto: 70
     battleType: 1
     fixedWeapon: true
-    invWidth: 2
-    invHeight: 3
+    invWidth: 1
+    invHeight: 2
     clipSize: -1
     autoShots: 8
     recover: false
@@ -1126,7 +1126,7 @@
     listOrder: 12223
   - type: SPITTER_WEAPON
     weight: 3
-    bigSprite: -2
+    bigSprite: 258
     floorSprite: 31
     handSprite: 104
     bulletSprite: 8
@@ -1151,7 +1151,7 @@
     autoShots: 3
   - type: SPITTER_RETRACT_WEAPON
     weight: 3
-    bigSprite: -2
+    bigSprite: 258
     floorSprite: 31
     handSprite: 104
     bulletSprite: 8
@@ -1173,7 +1173,7 @@
     arcingShot: true
   - type: SPITTER_RETRES_WEAPON
     weight: 3
-    bigSprite: -2
+    bigSprite: 258
     floorSprite: 31
     handSprite: 104
     bulletSprite: 8
@@ -1195,7 +1195,7 @@
     arcingShot: true
   - type: SPITTER_NAKED_WEAPON
     weight: 3
-    bigSprite: -2
+    bigSprite: 258
     floorSprite: 31
     handSprite: 104
     bulletSprite: 8
@@ -1220,7 +1220,7 @@
     autoShots: 3
   - type: REAPER_WEAPON
     weight: 3
-    bigSprite: -3
+    bigSprite: 259
     floorSprite: 31
     handSprite: 104
     meleeAnimation: 12
@@ -1871,7 +1871,7 @@
     listOrder: 7020
   - type: CEREBREAL_WEAPON
     weight: 3
-    bigSprite: -2
+    bigSprite: 260
     floorSprite: 31
     handSprite: 104
     bulletSprite: 8
@@ -1887,12 +1887,12 @@
     battleType: 1
     fixedWeapon: true
     invWidth: 2
-    invHeight: 3
+    invHeight: 2
     clipSize: -1
     recover: false
   - type: CEREBREAL_LARVA_WEAPON
     weight: 3
-    bigSprite: -2
+    bigSprite: 260
     floorSprite: 31
     handSprite: 104
     bulletSprite: 8
@@ -1910,7 +1910,7 @@
     battleType: 1
     fixedWeapon: true
     invWidth: 2
-    invHeight: 3
+    invHeight: 2
     clipSize: -1
     recover: false
   - type: STR_CEREBREAL_SOLDIER
@@ -2135,7 +2135,7 @@
     listOrder: 7010
   - type: HOLODRONE_WEAPON
     weight: 3
-    bigSprite: -3
+    bigSprite: 211
     floorSprite: 31
     handSprite: 104
     bulletSprite: 6
@@ -2286,7 +2286,7 @@
     listOrder: 7020
   - type: CYBERMITE_WEAPON
     weight: 3
-    bigSprite: -3
+    bigSprite: 261
     floorSprite: 31
     handSprite: 104
     hitSound: 54
@@ -2298,7 +2298,7 @@
     battleType: 3
     fixedWeapon: true
     invWidth: 2
-    invHeight: 3
+    invHeight: 2
     recover: false
     listOrder: 11510
   - type: STR_WASPITE_SOLDIER
@@ -2368,7 +2368,7 @@
     costSell: 50
     transferTime: 48
     weight: 3
-    bigSprite: -1
+    bigSprite: 90
     floorSprite: 12
     power: 60
     clipSize: 6
@@ -2413,7 +2413,7 @@
     costSell: 100
     transferTime: 48
     weight: 1
-    bigSprite: -1 # It must be -1 to avoid putting it to the base-defense battlescape. Original value: 12
+    bigSprite: 262
     floorSprite: 12
     hitSound: 81
     hitAnimation: 0
@@ -2423,6 +2423,7 @@
     battleType: 2
     invWidth: 2
     invHeight: 1
+    ignoreInBaseDefense: true
   - type: STR_TANK_ROCKET_LAUNCHER
     size: 6
     costBuy: 480000
@@ -2454,7 +2455,7 @@
     costSell: 2250
     transferTime: 48
     weight: 1
-    bigSprite: -1 # It must be -1 to avoid putting it to the base-defense battlescape. Original value: 16
+    bigSprite: 262
     floorSprite: 16
     hitSound: 0
     hitAnimation: 0
@@ -2464,6 +2465,7 @@
     battleType: 2
     invWidth: 1
     invHeight: 3
+    ignoreInBaseDefense: true
   - type: STR_TANK_MINIGUN
     size: 6
     costBuy: 630000
@@ -2494,7 +2496,7 @@
     costSell: 300
     transferTime: 48
     weight: 10
-    bigSprite: -1
+    bigSprite: 262
     floorSprite: 12
     hitSound: 22
     hitAnimation: 26
@@ -2506,6 +2508,7 @@
     invHeight: 1
     listOrder: 1211
     bulletSpeed: 32
+    ignoreInBaseDefense: true
   - type: STR_TANK_LASER_CANNON
     size: 6
     costSell: 594000
@@ -2656,7 +2659,7 @@
     costSell: 31500
     transferTime: 48
     weight: 1
-    bigSprite: -1 # It must be -1 to avoid putting it to the base-defense battlescape. Original value: 36
+    bigSprite: 262
     floorSprite: 35
     hitSound: 0
     hitAnimation: 0
@@ -2667,6 +2670,7 @@
     invWidth: 1
     invHeight: 1
     blastRadius: 11
+    ignoreInBaseDefense: true
   - type: STR_SECTOPOD_LASER
     size: 4
     costSell: 594000
@@ -2772,7 +2776,7 @@
     costSell: 2500
     transferTime: 48
     weight: 1
-    bigSprite: -1
+    bigSprite: 262
     floorSprite: 12
     hitSound: 66
     hitAnimation: 26
@@ -2782,6 +2786,7 @@
     battleType: 2
     invWidth: 2
     invHeight: 1
+    ignoreInBaseDefense: true
     listOrder: 1511
   - type: STR_TANK_RAILGUN
     size: 6
@@ -2834,7 +2839,7 @@
     costSell: 5900
     transferTime: 48
     weight: 1
-    bigSprite: -1
+    bigSprite: 262
     floorSprite: 12
     hitSound: 66
     hitAnimation: 96
@@ -2844,6 +2849,7 @@
     battleType: 2
     invWidth: 2
     invHeight: 1
+    ignoreInBaseDefense: true
     listOrder: 1516
   - type: STR_RAIL_CANNON_ROUNDS_X60
     size: 0.1
@@ -2866,7 +2872,7 @@
     bulletSprite: 21
   - type: MIB_SECTOPOD_WEAPON
     weight: 3
-    bigSprite: -2
+    bigSprite: 211
     floorSprite: 31
     handSprite: 104
     fireSound: 84
@@ -3816,7 +3822,7 @@
     tuSnap: 33
     tuAimed: 80
     autoRange: 25
-  battleType: 1
+    battleType: 1
     twoHanded: true
     invWidth: 2
     invHeight: 3

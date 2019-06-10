@@ -1,4 +1,4 @@
-THE FINAL MOD PACK 2.2b
+THE FINAL MOD PACK 2.2e
 
 by Open X-Com community
 Collected by: Human Ktulu and Solarius Scorch
@@ -59,7 +59,7 @@ ANY FUTURE PLANS?
 Yeah, a better readme. :P Certainly more language versions, if they come to us. And of course we will continue with upgrading and expanding the mod, since our community is tremendously talented!
 
 CHANGELOG:
-: New Hybrid graphics. New Jungle landing block. Increased Auto Cannon's aim range. Fixed FRNITURE death tiles association. Fixed some fences.
+2.2e: New Hybrid graphics. New Jungle landing block. Overhauled bigobs to remove negative indexes. Increased Auto Cannon's aim range. Fixed FRNITURE death tiles association. Fixed some fences.
 2.2d: Fixed some research related microbugs.
 2.2c: Fixed incorrect terrain texture coordinates.
 2.2b: Fixed a missing trajectory. Fixed a missing terrain.
