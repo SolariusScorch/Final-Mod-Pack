@@ -3658,7 +3658,7 @@
     battleType: 1
     invWidth: 1
     invHeight: 2
-    attraction: 10
+    attraction: 8
   - type: STR_PISTOL_CLIP
     handSprite: 624
     hitSound: 77

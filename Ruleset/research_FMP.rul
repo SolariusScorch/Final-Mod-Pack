@@ -677,8 +677,8 @@
     dependencies:
       - STR_GRAV_MODULE
   - name: STR_GRAV_MODULE
-    cost: 10
-    points: 10
+    cost: 100
+    points: 100
     dependencies:
       - STR_FLOATER_AUTOPSY
     listOrder: 2910
