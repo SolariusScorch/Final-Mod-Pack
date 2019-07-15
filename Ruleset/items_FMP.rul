@@ -1573,7 +1573,7 @@
     listOrder: 10498
   - type: STR_ALLOY_VEST
     size: 0.8
-    costSell: 60000
+    costSell: 40000
     listOrder: 10499
   - type: STR_STORMTROOPER_ARMOR_CORPSE
     name: STR_CORPSE
