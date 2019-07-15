@@ -2997,7 +2997,7 @@
       - STR_TOXIGUN
     size: 0.2
     costSell: 91000
-    weight: 3
+    weight: 6
     bigSprite: 123
     floorSprite: 109
     handSprite: 312
