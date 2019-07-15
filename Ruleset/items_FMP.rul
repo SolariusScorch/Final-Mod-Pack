@@ -3821,6 +3821,7 @@
     tuAuto: 40
     tuSnap: 33
     tuAimed: 80
+    snapRange: 25
     autoRange: 25
     battleType: 1
     twoHanded: true
