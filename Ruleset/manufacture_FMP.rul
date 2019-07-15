@@ -1792,6 +1792,6 @@
     requires:
       - STR_HEALING_SPRAY
     space: 3
-    time: 600
+    time: 90
     cost: 800
     listOrder: 1295
