@@ -59,6 +59,7 @@ ANY FUTURE PLANS?
 I will do maintenance on the mod, and might add something new if I feel like it, but no promises - I am working on some other projects (mainly The X-Com Files, which is Final Mod Pack's younger, much bigger sibling).
 
 CHANGELOG:
+2.3: New race: Chaser. New unit: Muton Shader. New Obliterator sprite. Some rebalances and fixes.
 2.2e: New Hybrid graphics. New Jungle landing block. Overhauled bigobs to remove negative indexes. Increased Auto Cannon's aim range. Fixed FRNITURE death tiles association. Fixed some fences.
 2.2d: Fixed some research related microbugs.
 2.2c: Fixed incorrect terrain texture coordinates.

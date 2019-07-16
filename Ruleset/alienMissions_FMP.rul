@@ -13,24 +13,28 @@
       0:
           STR_SECTOID: 60
           STR_FLOATER: 20
+          STR_CHASER: 10
           STR_ANTHROPOD: 20
       1:
           STR_SECTOID: 55
           STR_SNAKEMAN: 3
           STR_SNAKEMAN_SALAMANDRON: 2
           STR_FLOATER: 20
+          STR_CHASER: 20
           STR_ANTHROPOD: 20
       2:
           STR_SECTOID: 60
           STR_SNAKEMAN: 5
           STR_SNAKEMAN_SALAMANDRON: 5
           STR_FLOATER: 20
+          STR_CHASER: 20
           STR_ANTHROPOD: 10
       3:
           STR_SECTOID: 50
           STR_SNAKEMAN: 5
           STR_SNAKEMAN_SALAMANDRON: 5
           STR_FLOATER: 20
+          STR_CHASER: 20
           STR_ANTHROPOD: 20
       4:
           STR_SECTOID: 60
@@ -43,6 +47,7 @@
           STR_SNAKEMAN: 5
           STR_SNAKEMAN_SALAMANDRON: 5
           STR_FLOATER: 20
+          STR_CHASER: 20
           STR_ANTHROPOD: 20
       7:
           STR_GAZER: 10
@@ -51,6 +56,7 @@
           STR_SNAKEMAN_SALAMANDRON: 5
           STR_MUTON: 10
           STR_FLOATER: 20
+          STR_CHASER: 20
           STR_ANTHROPOD: 15
       8:
           STR_GAZER: 10
@@ -67,6 +73,7 @@
           STR_SNAKEMAN_SALAMANDRON: 5
           STR_MUTON: 10
           STR_FLOATER: 20
+          STR_CHASER: 15
           STR_GAZER: 15
           STR_REPTOID: 10
           STR_WASPITE: 5
@@ -78,6 +85,7 @@
           STR_SNAKEMAN_SALAMANDRON: 5
           STR_MUTON: 10
           STR_FLOATER: 15
+          STR_CHASER: 10
           STR_GAZER: 10
           STR_REPTOID: 10
           STR_CEREBREAL: 10
@@ -90,6 +98,7 @@
           STR_SNAKEMAN_SALAMANDRON: 5
           STR_MUTON: 10
           STR_FLOATER: 10
+          STR_CHASER: 10
           STR_GAZER: 10
           STR_CEREBREAL: 10
           STR_REPTOID: 5
@@ -102,6 +111,7 @@
           STR_SNAKEMAN_SALAMANDRON: 2
           STR_MUTON: 15
           STR_FLOATER: 10
+          STR_CHASER: 10
           STR_GAZER: 15
           STR_REPTOID: 5
           STR_CEREBREAL: 10
@@ -114,6 +124,7 @@
           STR_SNAKEMAN_SALAMANDRON: 5
           STR_MUTON: 15
           STR_FLOATER: 15
+          STR_CHASER: 15
           STR_GAZER: 10
           STR_REPTOID: 5
           STR_CEREBREAL: 5
@@ -147,16 +158,19 @@
           STR_SECTOID: 30
           STR_FLOATER: 30
           STR_CHTONITE: 20
+          STR_CHASER: 20
           STR_ANTHROPOD: 20
       1:
           STR_SECTOID: 30
           STR_FLOATER: 30
           STR_CHTONITE: 20
+          STR_CHASER: 20
           STR_ANTHROPOD: 20
       3:
           STR_SECTOID: 20
           STR_FLOATER: 30
           STR_CHTONITE: 20
+          STR_CHASER: 20
           STR_SNAKEMAN: 10
           STR_SNAKEMAN_SALAMANDRON: 10
           STR_ANTHROPOD: 10
@@ -165,6 +179,7 @@
           STR_SNAKEMAN: 10
           STR_SNAKEMAN_SALAMANDRON: 10
           STR_FLOATER: 30
+          STR_CHASER: 20
           STR_CHTONITE: 10
           STR_ANTHROPOD: 10
       5:
@@ -172,6 +187,7 @@
           STR_SNAKEMAN: 5
           STR_SNAKEMAN_SALAMANDRON: 5
           STR_FLOATER: 25
+          STR_CHASER: 20
           STR_CHTONITE: 20
           STR_ANTHROPOD: 15
       7:
@@ -180,6 +196,7 @@
           STR_SNAKEMAN_SALAMANDRON: 5
           STR_MUTON: 5
           STR_FLOATER: 30
+          STR_CHASER: 20
           STR_CHTONITE: 20
           STR_ANTHROPOD: 15
       9:
@@ -188,6 +205,7 @@
           STR_SNAKEMAN_SALAMANDRON: 5
           STR_MUTON: 10
           STR_FLOATER: 30
+          STR_CHASER: 25
           STR_CHTONITE: 20
           STR_ANTHROPOD: 20
       10:
@@ -196,6 +214,7 @@
           STR_SNAKEMAN_SALAMANDRON: 5
           STR_MUTON: 10
           STR_FLOATER: 35
+          STR_CHASER: 20
           STR_CHTONITE: 15
           STR_CEREBREAL: 10
           STR_ANTHROPOD: 10
@@ -205,6 +224,7 @@
           STR_SNAKEMAN_SALAMANDRON: 5
           STR_MUTON: 10
           STR_FLOATER: 20
+          STR_CHASER: 20
           STR_CHTONITE: 15
           STR_CEREBREAL: 10
           STR_ANTHROPOD: 10
@@ -214,6 +234,7 @@
           STR_SNAKEMAN_SALAMANDRON: 5
           STR_MUTON: 20
           STR_FLOATER: 25
+          STR_CHASER: 20
           STR_CHTONITE: 10
           STR_CEREBREAL: 5
           STR_ANTHROPOD: 10
@@ -223,6 +244,7 @@
           STR_SNAKEMAN_SALAMANDRON: 5
           STR_MUTON: 15
           STR_FLOATER: 20
+          STR_CHASER: 20
           STR_CHTONITE: 10
           STR_CEREBREAL: 5
           STR_ANTHROPOD: 10
@@ -265,46 +287,54 @@
       0:
           STR_SECTOID: 40
           STR_FLOATER: 30
+          STR_CHASER: 20
           STR_CHTONITE: 20
           STR_ANTHROPOD: 10
       2:
           STR_SECTOID: 30
           STR_FLOATER: 20
+          STR_CHASER: 20
           STR_CHTONITE: 30
           STR_ANTHROPOD: 20
       4:
           STR_SECTOID: 30
           STR_FLOATER: 30
+          STR_CHASER: 30
           STR_REPTOID: 10
           STR_CHTONITE: 20
           STR_ANTHROPOD: 10
       5:
           STR_SECTOID: 30
           STR_FLOATER: 20
+          STR_CHASER: 20
           STR_REPTOID: 10
           STR_CHTONITE: 20
           STR_ANTHROPOD: 20
       7:
           STR_SECTOID: 30
           STR_FLOATER: 30
+          STR_CHASER: 25
           STR_REPTOID: 10
           STR_CHTONITE: 20
           STR_ANTHROPOD: 10
       8:
           STR_SECTOID: 40
           STR_FLOATER: 30
+          STR_CHASER: 30
           STR_CHTONITE: 10
           STR_REPTOID: 10
           STR_ANTHROPOD: 10
       9:
           STR_SECTOID: 30
           STR_FLOATER: 30
+          STR_CHASER: 30
           STR_CHTONITE: 10
           STR_REPTOID: 15
           STR_ANTHROPOD: 15
       10:
           STR_SECTOID: 30
           STR_FLOATER: 30
+          STR_CHASER: 30
           STR_CHTONITE: 10
           STR_REPTOID: 10
           STR_CEREBREAL: 10
@@ -312,6 +342,7 @@
       11:
           STR_SECTOID: 30
           STR_FLOATER: 30
+          STR_CHASER: 30
           STR_CHTONITE: 10
           STR_REPTOID: 10
           STR_CEREBREAL: 10
@@ -319,6 +350,7 @@
       12:
           STR_SECTOID: 30
           STR_FLOATER: 30
+          STR_CHASER: 30
           STR_REPTOID: 10
           STR_CHTONITE: 10
           STR_CEREBREAL: 10
@@ -353,6 +385,7 @@
       0:
           STR_SECTOID: 50
           STR_FLOATER: 30
+          STR_CHASER: 30
           STR_ANTHROPOD: 20
           STR_RAIDERS_EARLY: 5
       1:
@@ -360,6 +393,7 @@
           STR_SNAKEMAN: 5
           STR_SNAKEMAN_SALAMANDRON: 5
           STR_FLOATER: 25
+          STR_CHASER: 25
           STR_ANTHROPOD: 25
           STR_RAIDERS_EARLY: 5
       2:
@@ -367,6 +401,7 @@
           STR_SNAKEMAN: 10
           STR_SNAKEMAN_SALAMANDRON: 10
           STR_FLOATER: 30
+          STR_CHASER: 30
           STR_ANTHROPOD: 10
           STR_RAIDERS_EARLY: 3
           STR_RAIDERS_MIDEARLY: 2
@@ -375,6 +410,7 @@
           STR_SNAKEMAN: 10
           STR_SNAKEMAN_SALAMANDRON: 10
           STR_FLOATER: 20
+          STR_CHASER: 20
           STR_ANTHROPOD: 10
           STR_RAIDERS_EARLY: 1
           STR_RAIDERS_MIDEARLY: 4
@@ -383,6 +419,7 @@
           STR_SNAKEMAN: 10
           STR_SNAKEMAN_SALAMANDRON: 10
           STR_FLOATER: 30
+          STR_CHASER: 30
           STR_ANTHROPOD: 10
           STR_RAIDERS_EARLY: 1
           STR_RAIDERS_MIDEARLY: 3
@@ -392,6 +429,7 @@
           STR_SNAKEMAN: 10
           STR_SNAKEMAN_SALAMANDRON: 10
           STR_FLOATER: 20
+          STR_CHASER: 20
           STR_REPTOID: 20
           STR_ANTHROPOD: 20
           STR_RAIDERS_EARLY: 1
@@ -403,6 +441,7 @@
           STR_SNAKEMAN_SALAMANDRON: 10
           STR_MUTON: 5
           STR_FLOATER: 10
+          STR_CHASER: 10
           STR_GAZER: 10
           STR_REPTOID: 20
           STR_ANTHROPOD: 15
@@ -417,6 +456,7 @@
           STR_ETHEREAL: 10
           STR_MUTON: 10
           STR_FLOATER: 10
+          STR_CHASER: 10
           STR_REPTOID: 10
           STR_WASPITE: 20
           STR_GAZER: 10
@@ -433,6 +473,7 @@
           STR_ETHEREAL: 20
           STR_MUTON: 10
           STR_FLOATER: 10
+          STR_CHASER: 10
           STR_REPTOID: 10
           STR_GAZER: 10
           STR_WASPITE: 10
@@ -484,12 +525,14 @@
       0:
           STR_SECTOID: 40
           STR_FLOATER: 30
+          STR_CHASER: 20
           STR_CHTONITE: 30
           STR_RAIDERS_EARLY: 5
       2:
           STR_SECTOID: 30
           STR_FLOATER: 30
           STR_CHTONITE: 30
+          STR_CHASER: 20
           STR_SNAKEMAN: 5
           STR_SNAKEMAN_SALAMANDRON: 5
           STR_RAIDERS_EARLY: 5
@@ -499,6 +542,7 @@
           STR_SNAKEMAN: 10
           STR_SNAKEMAN_SALAMANDRON: 10
           STR_FLOATER: 20
+          STR_CHASER: 20
           STR_CHTONITE: 20
           STR_RAIDERS_EARLY: 2
           STR_RAIDERS_MIDEARLY: 3
@@ -508,6 +552,7 @@
           STR_SNAKEMAN: 10
           STR_SNAKEMAN_SALAMANDRON: 10
           STR_FLOATER: 20
+          STR_CHASER: 20
           STR_CHTONITE: 20
           STR_ANTHROPODB: 10
           STR_RAIDERS_EARLY: 1
@@ -519,6 +564,7 @@
           STR_SNAKEMAN_SALAMANDRON: 10
           STR_MUTON: 10
           STR_FLOATER: 15
+          STR_CHASER: 15
           STR_GAZER: 10
           STR_REPTOID: 10
           STR_CHTONITE: 15
@@ -535,6 +581,7 @@
           STR_ETHEREAL: 2
           STR_MUTON: 10
           STR_FLOATER: 15
+          STR_CHASER: 15
           STR_GAZER: 10
           STR_REPTOID: 10
           STR_WASPITE: 10
@@ -552,6 +599,7 @@
           STR_ETHEREAL: 10
           STR_MUTON: 15
           STR_FLOATER: 10
+          STR_CHASER: 10
           STR_GAZER: 10
           STR_REPTOID: 5
           STR_WASPITE: 10
@@ -571,6 +619,7 @@
           STR_ETHEREAL: 10
           STR_MUTON: 10
           STR_FLOATER: 5
+          STR_CHASER: 5
           STR_GAZER: 10
           STR_REPTOID: 5
           STR_WASPITE: 10
@@ -589,6 +638,7 @@
           STR_ETHEREAL: 10
           STR_MUTON: 15
           STR_FLOATER: 10
+          STR_CHASER: 10
           STR_GAZER: 5
           STR_WASPITE: 10
           STR_CHTONITE: 5
@@ -636,12 +686,14 @@
       0:
           STR_SECTOID: 30
           STR_FLOATER: 30
+          STR_CHASER: 30
           STR_CHTONITE: 30
           STR_ANTHROPODT: 10
           STR_RAIDERS_EARLY: 5
       2:
           STR_SECTOID: 30
           STR_FLOATER: 30
+          STR_CHASER: 30
           STR_CHTONITE: 20
           STR_ANTHROPODT: 20
           STR_RAIDERS_EARLY: 4
@@ -650,6 +702,7 @@
           STR_SECTOID: 15
           STR_FLOATER: 30
           STR_CHTONITE: 30
+          STR_CHASER: 30
           STR_ANTHROPODT: 20
           STR_REPTOID: 5
           STR_RAIDERS_EARLY: 2
@@ -659,6 +712,7 @@
           STR_SNAKEMAN_SALAMANDRON: 5
           STR_FLOATER: 30
           STR_CHTONITE: 25
+          STR_CHASER: 25
           STR_ANTHROPODT: 10
           STR_REPTOID: 10
           STR_RAIDERS_EARLY: 1
@@ -668,6 +722,7 @@
           STR_SECTOID: 20
           STR_SNAKEMAN_SALAMANDRON: 10
           STR_FLOATER: 20
+          STR_CHASER: 20
           STR_CHTONITE: 20
           STR_ANTHROPODT: 20
           STR_GAZER: 10
@@ -679,6 +734,7 @@
           STR_SNAKEMAN: 10
           STR_SNAKEMAN_SALAMANDRON: 10
           STR_FLOATER: 15
+          STR_CHASER: 15
           STR_GAZER: 10
           STR_REPTOID: 10
           STR_CHTONITE: 15
@@ -692,6 +748,7 @@
           STR_SNAKEMAN: 15
           STR_SNAKEMAN_SALAMANDRON: 5
           STR_FLOATER: 20
+          STR_CHASER: 20
           STR_GAZER: 15
           STR_CHTONITE: 10
           STR_REPTOID: 10
@@ -709,6 +766,7 @@
           STR_ETHEREAL: 5
           STR_MUTON: 15
           STR_FLOATER: 10
+          STR_CHASER: 10
           STR_GAZER: 10
           STR_WASPITE: 5
           STR_CHTONITE: 5
@@ -727,6 +785,7 @@
           STR_ETHEREAL: 5
           STR_MUTON: 15
           STR_FLOATER: 10
+          STR_CHASER: 10
           STR_GAZER: 5
           STR_WASPITE: 10
           STR_CHTONITE: 5
@@ -746,6 +805,7 @@
           STR_ETHEREAL: 7
           STR_MUTON: 10
           STR_FLOATER: 5
+          STR_CHASER: 5
           STR_REPTOID: 5
           STR_GAZER: 10
           STR_WASPITE: 15
@@ -765,6 +825,7 @@
           STR_ETHEREAL: 10
           STR_MUTON: 10
           STR_FLOATER: 10
+          STR_CHASER: 10
           STR_GAZER: 10
           STR_WASPITE: 10
           STR_REPTOID: 5
@@ -804,20 +865,21 @@
     spawnUfo: STR_BATTLESHIP #Spawned for the final retaliation run
     raceWeights: # In the case of a shootdown, race comes from the UFO that triggered the mission.
       0:
-        STR_GAZER: 5
-        STR_WASPITE: 5
-        STR_REPTOID: 5
-        STR_SECTOID: 13
-        STR_SECTOID_SECTOPOD: 2
-        STR_SNAKEMAN: 10
-        STR_SNAKEMAN_SALAMANDRON: 10
-        STR_ETHEREAL: 5
-        STR_ETHEREAL_CYBERDISC: 5
-        STR_MUTON: 10
-        STR_CHTONITE: 10
-        STR_CEREBREAL: 5
-        STR_ANTHROPODB: 5
-        STR_FLOATER: 10
+          STR_GAZER: 5
+          STR_WASPITE: 5
+          STR_REPTOID: 5
+          STR_SECTOID: 13
+          STR_SECTOID_SECTOPOD: 2
+          STR_SNAKEMAN: 10
+          STR_SNAKEMAN_SALAMANDRON: 10
+          STR_ETHEREAL: 5
+          STR_ETHEREAL_CYBERDISC: 5
+          STR_MUTON: 10
+          STR_CHTONITE: 10
+          STR_CEREBREAL: 5
+          STR_ANTHROPODB: 5
+          STR_FLOATER: 10
+          STR_CHASER: 30
     waves:
       - ufo: STR_SMALL_SCOUT
         count: 1
@@ -974,14 +1036,17 @@
       0:
           STR_SECTOID: 30
           STR_FLOATER: 70
+          STR_CHASER: 20
       1:
           STR_SECTOID: 60
           STR_FLOATER: 40
+          STR_CHASER: 30
       3:
           STR_SECTOID: 20
           STR_SNAKEMAN: 40
           STR_SNAKEMAN_SALAMANDRON: 20
           STR_FLOATER: 20
+          STR_CHASER: 10
       5:
           STR_SECTOID: 10
           STR_SNAKEMAN: 5
@@ -992,6 +1057,7 @@
           STR_MUTON: 10
           STR_GAZER: 30
           STR_FLOATER: 10
+          STR_CHASER: 10
       7:
           STR_SECTOID: 7
           STR_SECTOID_SECTOPOD: 3
@@ -1003,6 +1069,7 @@
           STR_MUTON: 20
           STR_GAZER: 20
           STR_FLOATER: 10
+          STR_CHASER: 10
     waves:
       - ufo: STR_SMALL_SCOUT
         count: 1
