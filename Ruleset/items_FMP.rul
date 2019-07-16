@@ -5104,6 +5104,7 @@
     invWidth: 2
     invHeight: 3
     autoShots: 20
+    autoRange: 20
     bulletSpeed: 50
     explosionSpeed: 5
     attraction: 8
