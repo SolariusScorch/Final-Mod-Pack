@@ -554,7 +554,7 @@
     subX: 32
     subY: 40
     width: 256
-    height: 2320
+    height: 320
     files:
       0: Resources/FinalModPack/Races_Compilation/MutonRace/OBLITERATOR.png
   - type: UFOPEDIA_IMG_OBLITERATOR_AUTOPSY
@@ -569,6 +569,10 @@
     height: 200
     files:
       0: Resources/FinalModPack/Races_Compilation/MutonRace/ufopedia_OBLITERATOR.png
+  - type: inventory_OBLITERATOR
+    singleImage: true
+    files:
+      0: Resources/FinalModPack/Races_Compilation/MutonRace/inventory_OBLITERATOR.png
   - type: XCOM_CYBERDISC.PCK
     subX: 32
     subY: 40

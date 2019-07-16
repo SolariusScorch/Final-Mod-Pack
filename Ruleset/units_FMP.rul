@@ -811,6 +811,29 @@
     intelligence: 3
     aggression: 3
     energyRecovery: 40
+    builtInWeaponSets:
+      - - STR_PLASMA_SWORD
+        - STR_ALIEN_GRENADE
+      - - STR_PLASMA_BLADE
+        - STR_PLASMA_PISTOL
+        - STR_PLASMA_PISTOL_CLIP
+        - STR_PLASMA_PISTOL_CLIP
+        - STR_ALIEN_GRENADE
+      - - STR_PLASMA_SWORD
+        - STR_PLASMA_PISTOL
+        - STR_PLASMA_PISTOL_CLIP
+        - STR_PLASMA_PISTOL_CLIP
+        - STR_ALIEN_GRENADE
+      - - STR_PLASMA_SNIPER_RIFLE
+        - STR_PLASMA_SNIPER_RIFLE_CLIP
+        - STR_PLASMA_SNIPER_RIFLE_CLIP
+        - STR_PLASMA_SNIPER_RIFLE_CLIP
+        - STR_ALIEN_GRENADE
+        - STR_ALIEN_GRENADE
+      - - STR_HEAVY_PLASMA
+        - STR_HEAVY_PLASMA_CLIP
+        - STR_HEAVY_PLASMA_CLIP
+        - STR_ALIEN_GRENADE
   - type: STR_CEREBREAL_SOLDIER
     race: STR_CEREBREAL
     rank: STR_LIVE_SOLDIER

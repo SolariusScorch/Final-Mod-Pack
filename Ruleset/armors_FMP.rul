@@ -1,6 +1,7 @@
 ﻿armors:
   - type: OBLITERATOR_ARMOR
     spriteSheet: OBLITERATOR.PCK
+    spriteInv: inventory_OBLITERATOR
     allowInv: false
     corpseGeo: STR_OBLITERATOR_CORPSE
     corpseBattle:
@@ -13,6 +14,7 @@
     rearArmor: 100
     underArmor: 100
     movementType: 1
+    drawingRoutine: 3
     size: 2
     damageModifier:
       - 1.0
@@ -26,7 +28,6 @@
       - 1.2
       - 0.0
     loftempsSet: [ 92, 89, 90, 91 ]
-    drawingRoutine: 11
     constantAnimation: true
   - type: ETHEREAL_ARMOR_WHITE
     spriteInv: inventory_ETHEREAL_WHITE
