@@ -246,6 +246,7 @@
       262: Resources/FinalModPack/Tanks_Compilation/bigob_Z_Shells.png
       263: Resources/FinalModPack/Races_Compilation/MutonRace/bigob_MUTON_SHADER.png
       264: Resources/FinalModPack/Races_Compilation/ChaserRace/bigob_CHASER.png
+      265: Resources/FinalModPack/AlienArmouryExpanded/bigob_DeathDisc.png
   - type: FLOOROB.PCK
     files:
       41: Resources/FinalModPack/GravArmors/PowerArmor/FloorCorpse.png
@@ -410,6 +411,7 @@
       233: Resources/FinalModPack/men_in_black/floorob_MIB_PSI_OPS.png
       234: Resources/FinalModPack/Races_Compilation/MutonRace/floorob_MUTON_SHADER.png
       235: Resources/FinalModPack/Races_Compilation/ChaserRace/floorob_CHASER.png
+      236: Resources/FinalModPack/AlienArmouryExpanded/floorob_DeathDisc.png
   - type: HANDOB.PCK
     height: 40
     width: 256
