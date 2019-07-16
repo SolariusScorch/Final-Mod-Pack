@@ -172,7 +172,7 @@
       185: Resources/FinalModPack/Weapons_Compilation/ClassicWeapons/bigobs_MACHETE.png
       188: Resources/FinalModPack/Alt_aliens/Sectoid_Guardian/bigob_SECTOID_GUARDIAN.png
       189: Resources/FinalModPack/Alt_aliens/Muton_Engineer/bigob_MUTON_ENGINEER.png
-      190: Resources/FinalModPack/Alt_aliens/Muton_Leader/bigob_MUTON_LEADER.png
+      190: Resources/FinalModPack/Races_Compilation/MutonRace/bigob_MUTON_LEADER.png
       191: Resources/FinalModPack/Alt_aliens/Muton_Medic/bigob_MUTON_MEDIC.png
       192: Resources/FinalModPack/Armors_Compilation/Stormtrooper_Suit/bigob_Stormtrooper.png
       193: Resources/FinalModPack/Weapons_Compilation/HeavySniperRifle/bigob_TacticalSniperRifle.png
@@ -244,6 +244,7 @@
       260: Resources/FinalModPack/Races_Compilation/CerebrealRace/bigob_PsiBlast.png
       261: Resources/FinalModPack/Races_Compilation/WaspiteRace/bigob_CybermiteBite.png
       262: Resources/FinalModPack/Tanks_Compilation/bigob_Z_Shells.png
+      263: Resources/FinalModPack/Races_Compilation/MutonRace/bigob_MUTON_SHADER.png
   - type: FLOOROB.PCK
     files:
       41: Resources/FinalModPack/GravArmors/PowerArmor/FloorCorpse.png
@@ -344,7 +345,7 @@
       168: Resources/FinalModPack/Weapons_Compilation/ClassicWeapons/floorob_MACHETE.png
       169: Resources/FinalModPack/Alt_aliens/Sectoid_Guardian/floorob_SECTOID_GUARDIAN.png
       170: Resources/FinalModPack/Alt_aliens/Muton_Engineer/floorob_MUTON_ENGINEER.png
-      171: Resources/FinalModPack/Alt_aliens/Muton_Leader/floorob_MUTON_LEADER.png
+      171: Resources/FinalModPack/Races_Compilation/MutonRace/floorob_MUTON_LEADER.png
       172: Resources/FinalModPack/Alt_aliens/Muton_Medic/floorob_MUTON_MEDIC.png
       173: Resources/FinalModPack/Armors_Compilation/Stormtrooper_Suit/floorob_Stormtrooper.png
       174: Resources/FinalModPack/Weapons_Compilation/HeavySniperRifle/floorob_TacticalSniperRifle.png
@@ -406,6 +407,7 @@
       231: Resources/FinalModPack/Races_Compilation/MutonRace/floorob_obliterator_4.png
       232: Resources/FinalModPack/AlienArmouryExpanded/floorob_PlasmaSub.png
       233: Resources/FinalModPack/men_in_black/floorob_MIB_PSI_OPS.png
+      234: Resources/FinalModPack/Races_Compilation/MutonRace/floorob_MUTON_SHADER.png
   - type: HANDOB.PCK
     height: 40
     width: 256
@@ -616,13 +618,32 @@
     height: 560
     files:
       0: Resources/FinalModPack/Alt_aliens/Snakeman_Engineer/SnakemanEngineer.png
+  - type: MUTON_SHADER.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 680
+    files:
+      0: Resources/FinalModPack/Races_Compilation/MutonRace/MUTON_SHADER.png
+  - type: inventory_MUTON_SHADER
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/FinalModPack/Races_Compilation/MutonRace/inventory_MUTON_SHADER.png
+  - type: UFOPEDIA_IMG_MUTON_SHADER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/FinalModPack/Races_Compilation/MutonRace/ufopedia_MUTON_SHADER.png
   - type: MUTLEADER.PCK
     subX: 32
     subY: 40
     width: 256
     height: 1440
     files:
-      0: Resources/FinalModPack/Alt_aliens/Muton_Leader/MutLeader.png
+      0: Resources/FinalModPack/Races_Compilation/MutonRace/MUTON_LEADER.png
   - type: MUTMED.PCK
     subX: 32
     subY: 40
