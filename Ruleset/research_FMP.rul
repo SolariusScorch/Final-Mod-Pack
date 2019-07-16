@@ -945,6 +945,7 @@
       - STR_MUTON_ENGINEER
       - STR_MUTON_NAVIGATOR
       - STR_MUTON_SOLDIER
+      - STR_MUTON_SHADER
       - STR_SILACOID_TERRORIST
       - STR_CELATID_TERRORIST
       - STR_OBLITERATOR_TERRORIST
@@ -2567,6 +2568,17 @@
       - STR_ALIEN_SURGERY
       - STR_ALIEN_CODES
     listOrder: 8685
+  - name: STR_MUTON_SHADER
+    cost: 192
+    points: 50
+    needItem: true
+    destroyItem: true
+    dependencies:
+      - STR_MUTON
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_POWER_SYSTEMS
+    listOrder: ???
   - name: STR_SECTOID_GUARDIAN
     cost: 192
     points: 50
@@ -3340,6 +3352,7 @@
       - STR_FLOATER_MEDIC
       - STR_FLOATER_NAVIGATOR
       - STR_FLOATER_SOLDIER
+      - STR_MUTON_SHADER
       - STR_ALIEN_DRONE_AUTOPSY
     listOrder: 890
   - name: STR_SECTOPOD_CONSTRUCTION

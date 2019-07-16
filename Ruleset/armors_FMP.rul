@@ -525,6 +525,29 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
+  - type: STR_MUTON_SHADER_ARMOR
+    spriteSheet: MUTON_SHADER.PCK
+    spriteInv: inventory_MUTON_SHADER
+    corpseBattle:
+      - STR_MUTON_SHADER_CORPSE
+    corpseGeo: STR_MUTON_CORPSE
+    frontArmor: 28
+    sideArmor: 28
+    rearArmor: 28
+    underArmor: 28
+    drawingRoutine: 10
+    damageModifier:
+      - 1.0
+      - 0.6
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
   - type: SECTOID_ARMOR0
     spriteInv: sectoidInventoryImage
     spriteSheet: SECTOID.PCK

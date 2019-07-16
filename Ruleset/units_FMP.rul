@@ -788,6 +788,29 @@
     intelligence: 4
     aggression: 2
     energyRecovery: 40
+  - type: STR_MUTON_SHADER
+    race: STR_MUTON
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 65
+      stamina: 100
+      health: 120
+      bravery: 90
+      reactions: 66
+      firing: 72
+      throwing: 56
+      strength: 73
+      psiStrength: 25
+      psiSkill: 0
+      melee: 76
+    armor: STR_MUTON_SHADER_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 30
+    deathSound: 107
+    intelligence: 3
+    aggression: 3
+    energyRecovery: 40
   - type: STR_CEREBREAL_SOLDIER
     race: STR_CEREBREAL
     rank: STR_LIVE_SOLDIER
