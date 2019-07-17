@@ -950,7 +950,7 @@
     aggression: 3
     energyRecovery: 40
     builtInWeaponSets:
-      - - STR_PLASMA_SWORD
+      - - STR_DEATH_DISC
         - STR_ALIEN_GRENADE
       - - STR_PLASMA_BLADE
         - STR_PLASMA_PISTOL
