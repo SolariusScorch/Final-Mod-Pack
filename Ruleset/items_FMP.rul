@@ -3,6 +3,34 @@
   - delete: STR_LASER_PISTOL
   - delete: STR_LASER_RIFLE
   - delete: STR_HEAVY_LASER
+  - type: STR_DEATH_DISC
+    requires:
+      - STR_DEATH_DISC
+    size: 0.1
+    costSell: 85000
+    weight: 12
+    bigSprite: 265
+    floorSprite: 236
+    bulletSprite: 10
+    fireSound: 53
+    hitSound: 106
+    hitAnimation: 26
+    power: 80
+    damageType: 7
+    accuracyAimed: 180
+    tuAimed: 25
+    flatRate: true
+    clipSize: -1
+    battleType: 1
+    invWidth: 2
+    invHeight: 2
+    maxRange: 15
+    waypoints: 3
+    bulletSpeed: -2
+    kneelBonus: 100
+    recoveryPoints: 3
+    attraction: 15
+    listOrder: ???
   - type: STR_CHASER_CORPSE
     size: 0.4
     costSell: 20000
