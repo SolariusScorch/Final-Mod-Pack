@@ -1,6 +1,6 @@
 en-US:
   STR_DEATH_DISC: "Death Disc"
-  STR_DEATH_DISC_UFOPEDIA: "This throwing weapon is assisted with a micrograv engine, which keeps it spinning in the air. After the disc strikes its target, it automatically returns to the user. Its monomolecular edge make it a terrifying weapon, able to penetrate even advanced armor."
+  STR_DEATH_DISC_UFOPEDIA: "This throwing weapon is assisted with a micrograv engine, which keeps it spinning in the air. After the disc strikes its target, it automatically returns to the user. Its monomolecular edge makes it a terrifying weapon, able to penetrate even advanced armor."
   STR_SMALL_GROUND_CONVOY_HYBRID: "Small Hybrid Convoy"
   STR_SMALL_GROUND_CONVOY_TEMPERATE_HYBRID: "Small Hybrid Convoy"
   STR_SMALL_GROUND_CONVOY_JUNGLE_HYBRID: "Small Hybrid Convoy"
@@ -1271,4 +1271,4 @@ en-US:
   STR_SNIPER_RIFLES: "Sniper Rifles"
   STR_INCENDIARIES: "Incendiaries"
   STR_DRAGONFLY_DARK: "Dragonfly"
-  STR_OPENXCOM: "Open X-Com: Final Mod Pack v2.3"
+  STR_OPENXCOM: "Open X-Com: Final Mod Pack v2.4"

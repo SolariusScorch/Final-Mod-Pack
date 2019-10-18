@@ -1578,7 +1578,7 @@
       psiStrength: 60
       psiSkill: 0
       melee: 45
-    armor: GAZER_ARMOR1
+    armor: GAZER_ARMOR2
     standHeight: 19
     kneelHeight: 15
     value: 30
@@ -1588,6 +1588,7 @@
     energyRecovery: 40
   - type: STR_HOLODRONE_TERRORIST
     race: STR_HOLODRONE
+    rank: STR_LIVE_TERRORIST
     stats:
       tu: 60
       stamina: 105
@@ -1756,6 +1757,7 @@
     aggression: 0
   - type: STR_CYBERMITE_TERRORIST
     race: STR_CYBERMITE
+    rank: STR_LIVE_TERRORIST
     stats:
       tu: 62
       stamina: 92

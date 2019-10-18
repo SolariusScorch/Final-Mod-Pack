@@ -2,7 +2,6 @@
   - delete: STR_LASER_PISTOL
   - delete: STR_LASER_RIFLE
   - delete: STR_HEAVY_LASER
-  - name: STR_OBLITERATOR
   - name: STR_DEATH_DISC
     cost: 150
     points: 75
@@ -11,10 +10,7 @@
     dependencies:
       - STR_GRAV_MODULE
       - STR_ALIEN_OPTICAL_PROCESSOR
-    listOrder: ???
-    cost: 0
-    points: 50
-    needItem: true
+    listOrder: 1898
   - name: STR_OBLITERATOR_AUTOPSY
     cost: 0
     points: 50
@@ -32,6 +28,10 @@
     lookup: STR_OBLITERATOR_AUTOPSY
     needItem: true
     listOrder: 5780
+  - name: STR_OBLITERATOR
+    cost: 0
+    points: 50
+    needItem: true
   - name: STR_PLASMA_BLADE
     cost: 100
     points: 10
@@ -920,7 +920,7 @@
     points: 50
     lookup: STR_CHASER_AUTOPSY
     needItem: true
-    listOrder: ???
+    listOrder: 6716
     unlocks:
       - STR_ALIEN_BIOLOGY
   - name: STR_REPTOID_CORPSE
@@ -1196,7 +1196,7 @@
     unlocks:
       - STR_ALIEN_BIOLOGY
       - STR_DART_RIFLE_CLIP_B_PREQ1
-    listOrder: ???
+    listOrder: 12671
   - name: STR_GAZER_AUTOPSY
     cost: 0
     points: 50
@@ -2153,7 +2153,7 @@
       - STR_ALIEN_RETALIATION
       - STR_ALIEN_SUPPLY
       - STR_ALIEN_FLYBY
-    listOrder: ???
+    listOrder: 14412
   - name: STR_REPTOID_NAVIGATOR
     cost: 192
     points: 50
@@ -2334,7 +2334,7 @@
       - STR_ALIEN_REPRODUCTION
       - STR_ALIEN_SURGERY
       - STR_ALIEN_CODES
-    listOrder: ???
+    listOrder: 14415
   - name: STR_REPTOID_LEADER
     cost: 192
     points: 50
@@ -2784,7 +2784,7 @@
       - STR_ALIEN_REPRODUCTION
       - STR_ALIEN_SURGERY
       - STR_ALIEN_CODES
-    listOrder: ???
+    listOrder: 14416
   - name: STR_MUTON_SHADER
     cost: 192
     points: 50
@@ -2795,7 +2795,7 @@
     unlocks:
       - STR_ALIEN_ORIGINS
       - STR_ALIEN_POWER_SYSTEMS
-    listOrder: ???
+    listOrder: 13812
   - name: STR_SECTOID_GUARDIAN
     cost: 192
     points: 50
@@ -2857,7 +2857,7 @@
     unlocks:
       - STR_ALIEN_ORIGINS
       - STR_ALIEN_POWER_SYSTEMS
-    listOrder: ???
+    listOrder: 14411
   - name: STR_REPTOID_SOLDIER
     cost: 192
     points: 50
@@ -2941,7 +2941,6 @@
       - STR_PLASMA_WEAPONS
   - name: STR_PLASMA_DEFENSE
     cost: 620
-    points: 25
     points: 25
     dependencies:
       - STR_PLASMA_CANNON

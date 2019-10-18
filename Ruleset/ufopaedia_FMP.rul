@@ -1168,7 +1168,7 @@
     text_width: 158
     requires:
       - STR_MUTON_SHADER
-    listOrder: ???
+    listOrder: 13812
   - id: STR_CHTONITE
     type_id: 7
     section: STR_ALIEN_LIFE_FORMS
@@ -1195,7 +1195,7 @@
     image_id: UFOPEDIA_IMG_CHASER
     text: STR_CHASER_UFOPEDIA
     text_width: 158
-    listOrder: ???
+    listOrder: 12670
   - id: STR_CHASER_AUTOPSY
     type_id: 7
     section: STR_ALIEN_LIFE_FORMS
@@ -1204,7 +1204,7 @@
     image_id: UFOPEDIA_IMG_CHASER_AUTOPSY
     text: STR_CHASER_AUTOPSY_UFOPEDIA
     text_width: 158
-    listOrder: ???
+    listOrder: 12671
   - id: STR_REPTOID
     type_id: 7
     section: STR_ALIEN_LIFE_FORMS
@@ -2276,7 +2276,7 @@
     requires:
       - STR_DEATH_DISC
     text: STR_DEATH_DISC_UFOPEDIA
-    listOrder: ???
+    listOrder: 1898
   - id: STR_OBLITERATOR
     type_id: 7
     section: STR_ALIEN_LIFE_FORMS

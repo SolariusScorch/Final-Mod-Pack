@@ -30,7 +30,7 @@
     kneelBonus: 100
     recoveryPoints: 3
     attraction: 15
-    listOrder: ???
+    listOrder: 1898
   - type: STR_CHASER_CORPSE
     size: 0.4
     costSell: 20000
@@ -42,43 +42,43 @@
     recoveryPoints: 5
     battleType: 11
     armor: 26
-    listOrder: ???
+    listOrder: 6716
   - type: STR_CHASER_SOLDIER
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 40000
-    listOrder: ???
+    listOrder: 14411
   - type: STR_CHASER_ENGINEER
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 60000
-    listOrder: ???
+    listOrder: 14412
   - type: STR_CHASER_MEDIC
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 60000
-    listOrder: ???
+    listOrder: 14413
   - type: STR_CHASER_NAVIGATOR
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 60000
-    listOrder: ???
+    listOrder: 14414
   - type: STR_CHASER_LEADER
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 60000
-    listOrder: ???
+    listOrder: 14415
   - type: STR_CHASER_COMMANDER
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 60000
-    listOrder: ???
+    listOrder: 14416
   - type: OBLITERATOR_WEAPON
     weight: 1
     bigSprite: 18
@@ -131,7 +131,7 @@
     recover: true
     liveAlien: true
     costSell: 450000
-    listOrder: ???
+    listOrder: 10380
   - type: STR_ALIEN_HABITAT
     size: 0.1
     costSell: 280000
@@ -1937,7 +1937,7 @@
     recover: true
     liveAlien: true
     costSell: 40000
-    listOrder: ???
+    listOrder: 13812
   - type: STR_CEREBREAL_CORPSE
     size: 0.4
     costSell: 20000
