@@ -1,4 +1,4 @@
-THE FINAL MOD PACK 2.4b
+THE FINAL MOD PACK 2.4
 
 by Open X-Com community
 Collected by: Human Ktulu and Solarius Scorch
@@ -59,8 +59,8 @@ ANY FUTURE PLANS?
 I will do maintenance on the mod, and might add something new if I feel like it, but no promises - I am working on some other projects (mainly The X-Com Files, which is Final Mod Pack's younger, much bigger sibling).
 
 CHANGELOG:
-2.4b: Fixed some terrain tiles (0 armor). Updated translations.
-2.4: Added missing ranks to Cybermite and Holodrone units. Improved the armour of Gazer Commander. Added Globetrotter medal graphics (by Carfax). Added autopsy picture for Chaser (by Voidavatar). Minor fixes.
+: Fixed DESERT14 map.
+2.4: Added missing ranks to Cybermite and Holodrone units. Improved the armour of Gazer Commander. Added Globetrotter medal graphics (by Carfax). Added autopsy picture for Chaser (by Voidavatar). Fixed some terrain tiles (0 armour). Updated translations. Minor fixes.
 2.3b: Fixed Obliterator research. Fixed Chaser commendation. Fixed XCOMBITS references.
 2.3: New race: Chaser (sprites by Voidavatar and Finnik). New unit: Muton Shader (sprites mostly by Dioxine). New weapon: Death Disc. New Obliterator sprite. Some rebalances and fixes.
 2.2e: New Hybrid graphics. New Jungle landing block. Overhauled bigobs to remove negative indexes. Increased Auto Cannon's aim range. Fixed FRNITURE death tiles association. Fixed some fences.
