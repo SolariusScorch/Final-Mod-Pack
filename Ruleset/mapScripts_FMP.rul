@@ -50,6 +50,26 @@
     - type: fillArea
       blocks: [4, 11, 12, 13, 25, 26, 27, 28, 29]
       freqs: [1, 1, 1, 1, 1, 1, 2, 1, 1]
+  - type: RURAL
+    commands:
+    - type: addLine
+      label: 1
+      direction: horizontal
+      executionChances: 33
+    - type: addLine
+      label: 2
+      direction: vertical
+      conditionals: -1
+      executionChances: 50
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+    - type: addCraft
+    - type: addUFO
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
   - type: COMRCURBAN
     commands:
     - type: addCraft
@@ -186,25 +206,26 @@
     - type: fillArea
       blocks: [3, 4, 10, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 36, 37, 38, 39, 40]
       freqs: [2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-  - type: NATIVEURBAN
-    commands:
-    - type: addCraft
-    - type: addBlock
-      size: 2
-      executions: 4
-    - type: fillArea
-      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 32, 33, 34, 35, 36, 46]
-      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-  - type: NATIVEUFO
+  - type: URBANJUNK
     commands:
     - type: addUFO
     - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 20
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 33
+      direction: horizontal
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
     - type: addBlock
       size: 2
       executions: 4
     - type: fillArea
-      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 32, 33, 34, 35, 36, 46]
-      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
   - type: PORTTFTD
     commands:
     - type: addCraft

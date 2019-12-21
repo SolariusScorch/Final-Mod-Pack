@@ -980,15 +980,10 @@
     civilians: 12
     terrains:
       - URBAN
-      - DAWNURBANA
-      - DAWNURBANB
+      - MADURBAN_DAWN
       - PORTURBAN
       - INDUSTRIALURBAN
-      - RAILYARDURBAN
-      - NATIVEURBAN
-      - COMRCURBAN
       - PORTTFTD
-      - SLUMURBAN
     data:
       - alienRank: 5
         lowQty: 4
@@ -2326,31 +2321,12 @@
     script: SMALL_GROUND_CONVOY
     terrains:
       - MOUNT
-      - TUNDRAMOUNT
-      - TUNDRADESERT
       - FOREST
       - FOREST
       - FOREST
-      - FORESTMOUNT
-      - FORESTPOLAR
-      - FORESTPOLAR
-      - STEPPEDESERT
-      - STEPPEDESERTMOUNT
-      - STEPPEFOREST
-      - STEPPEFORESTMOUNT
-      - TAIGADESERT
-      - TAIGADESERTMOUNT
-      - TAIGAFOREST
-      - TAIGAFORESTMOUNT
+      - FORESTSWAMP
+      - FORESTSWAMP
       - CULTA
-      - SAVANNADESERT
-      - SAVANNADESERTMOUNT
-      - SAVANNAFOREST
-      - SAVANNAFORESTMOUNT
-      - GRASSLANDDESERT
-      - GRASSLANDDESERTMOUNT
-      - GRASSLANDFOREST
-      - GRASSLANDFORESTMOUNT
     data:
       - alienRank: 5
         lowQty: 2
@@ -2430,19 +2406,6 @@
       - JUNGLE
       - JUNGLE
       - JUNGLE
-      - JUNGLEMOUNT
-      - JUNGLEMOUNT
-      - JUNGLEMOUNT
-      - JUNGLEPOLAR
-      - JUNGLEPOLAR
-      - JUNGLEPOLAR
-      - JUNGLEPOLAR
-      - JUNGLETEMPLE
-      - NATIVEUFO
-      - SAVANNADESERT
-      - SAVANNADESERTMOUNT
-      - SAVANNAFOREST
-      - SAVANNAFORESTMOUNT
     data:
       - alienRank: 5
         lowQty: 2
@@ -2523,9 +2486,6 @@
       - POLAR
       - MOUNT
       - MOUNT
-      - TUNDRAMOUNT
-      - TUNDRADESERT
-      - TUNDRADESERTMOUNT
     data:
       - alienRank: 5
         lowQty: 2
@@ -2600,14 +2560,6 @@
     script: SMALL_GROUND_CONVOY
     terrains:
       - DESERT
-      - DESERT
-      - DESERT
-      - DESERT
-      - DESERT
-      - DESERTMOUNT
-      - DESERTMOUNT
-      - DESERTMOUNT
-      - DESERTTEMPLE
     data:
       - alienRank: 5
         lowQty: 2
@@ -2682,31 +2634,12 @@
     script: MEDIUM_GROUND_CONVOY
     terrains:
       - MOUNT
-      - TUNDRAMOUNT
-      - TUNDRADESERT
       - FOREST
       - FOREST
       - FOREST
-      - FORESTMOUNT
-      - FORESTPOLAR
-      - FORESTPOLAR
-      - STEPPEDESERT
-      - STEPPEDESERTMOUNT
-      - STEPPEFOREST
-      - STEPPEFORESTMOUNT
-      - TAIGADESERT
-      - TAIGADESERTMOUNT
-      - TAIGAFOREST
-      - TAIGAFORESTMOUNT
+      - FORESTSWAMP
+      - FORESTSWAMP
       - CULTA
-      - SAVANNADESERT
-      - SAVANNADESERTMOUNT
-      - SAVANNAFOREST
-      - SAVANNAFORESTMOUNT
-      - GRASSLANDDESERT
-      - GRASSLANDDESERTMOUNT
-      - GRASSLANDFOREST
-      - GRASSLANDFORESTMOUNT
     data:
       - alienRank: 5
         lowQty: 3
@@ -2846,19 +2779,6 @@
       - JUNGLE
       - JUNGLE
       - JUNGLE
-      - JUNGLEMOUNT
-      - JUNGLEMOUNT
-      - JUNGLEMOUNT
-      - JUNGLEPOLAR
-      - JUNGLEPOLAR
-      - JUNGLEPOLAR
-      - JUNGLEPOLAR
-      - JUNGLETEMPLE
-      - NATIVEUFO
-      - SAVANNADESERT
-      - SAVANNADESERTMOUNT
-      - SAVANNAFOREST
-      - SAVANNAFORESTMOUNT
     data:
       - alienRank: 5
         lowQty: 3
@@ -2999,9 +2919,6 @@
       - POLAR
       - MOUNT
       - MOUNT
-      - TUNDRAMOUNT
-      - TUNDRADESERT
-      - TUNDRADESERTMOUNT
     data:
       - alienRank: 5
         lowQty: 3
@@ -3136,14 +3053,6 @@
     script: MEDIUM_GROUND_CONVOY
     terrains:
       - DESERT
-      - DESERT
-      - DESERT
-      - DESERT
-      - DESERT
-      - DESERTMOUNT
-      - DESERTMOUNT
-      - DESERTMOUNT
-      - DESERTTEMPLE
     data:
       - alienRank: 5
         lowQty: 3
