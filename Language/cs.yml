@@ -861,6 +861,7 @@ cs:
   STR_MAGNUM_DRUM: "Bubínek Magnum .44"
   STR_MINIGUN: "Minigan"
   STR_MINIGUN_CLIP: "Bedna miniganové munice"
+  STR_LMG: "Lehký kulomet"
   STR_GRENADE_LAUNCHER: "Granátomet"
   STR_LAUNCHER_FRAG: "46mm granát (výbušný)"
   STR_LAUNCHER_INC: "46mm granát (zápalný)"
@@ -891,4 +892,4 @@ cs:
   STR_SNIPER_RIFLES: "Odstřelovací pušky"
   STR_INCENDIARIES: "Zápalné zbraně"
   STR_DRAGONFLY_DARK: "Vážka"
-  STR_OPENXCOM: "Open X-Com: Final Mod Pack v2.4"
+  STR_OPENXCOM: "Open X-Com: Final Mod Pack v2.5"

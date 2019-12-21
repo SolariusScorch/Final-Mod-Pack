@@ -1,9 +1,10 @@
 es-419:
+  STR_SMALL_GROUND_CONVOY_HYBRID: "Convoy Híbrido Pequeño"
   STR_SMALL_GROUND_CONVOY_TEMPERATE_HYBRID: "Convoy Pequeño de Híbridos"
   STR_SMALL_GROUND_CONVOY_JUNGLE_HYBRID: "Convoy Pequeño de Híbridos"
   STR_SMALL_GROUND_CONVOY_COLD_HYBRID: "Convoy Pequeño de Híbridos"
   STR_SMALL_GROUND_CONVOY_DESERT_HYBRID: "Convoy Pequeño de Híbridos"
-  STR_MEDIUM_GROUND_CONVOY_HYBRID: "Convoy Mediano de Híbridos"
+  STR_MEDIUM_GROUND_CONVOY_HYBRID: "Convoy Híbrido Mediano"
   STR_MEDIUM_GROUND_CONVOY_TEMPERATE_HYBRID: "Convoy Pequeño de Híbridos"
   STR_MEDIUM_GROUND_CONVOY_JUNGLE_HYBRID: "Convoy Pequeño de Híbridos"
   STR_MEDIUM_GROUND_CONVOY_COLD_HYBRID: "Convoy Híbrido Mediano"

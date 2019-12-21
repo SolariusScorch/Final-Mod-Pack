@@ -1,4 +1,4 @@
-THE FINAL MOD PACK 2.4
+THE FINAL MOD PACK 2.5
 
 by Open X-Com community
 Collected by: Human Ktulu and Solarius Scorch
@@ -59,7 +59,7 @@ ANY FUTURE PLANS?
 I will do maintenance on the mod, and might add something new if I feel like it, but no promises - I am working on some other projects (mainly The X-Com Files, which is Final Mod Pack's younger, much bigger sibling).
 
 CHANGELOG:
-: Fixed DESERT14 map.
+2.5: Removed all terrains made by Hobbes. Fixed DESERT14 map.
 2.4: Added missing ranks to Cybermite and Holodrone units. Improved the armour of Gazer Commander. Added Globetrotter medal graphics (by Carfax). Added autopsy picture for Chaser (by Voidavatar). Fixed some terrain tiles (0 armour). Updated translations. Minor fixes.
 2.3b: Fixed Obliterator research. Fixed Chaser commendation. Fixed XCOMBITS references.
 2.3: New race: Chaser (sprites by Voidavatar and Finnik). New unit: Muton Shader (sprites mostly by Dioxine). New weapon: Death Disc. New Obliterator sprite. Some rebalances and fixes.
@@ -273,10 +273,6 @@ Adds Muton Commanders and Muton Leaders (as in the game intro).
 * Recycled Alien Collection, by Solarius Scorch and Civilian
 http://www.openxcom.com/mod/recycled-alien-collection
 Adds new aliens, using recoloured sprites from X-Com: Terror from the Deep.
-
-* Terrain Pack, by Hobbes
-http://www.openxcom.com/mod/terrain-missions-pack
-Adds new terrains to fight on, as well as new alien missions.
 
 * Stun Grenade, by Murmur
 http://www.openxcom.com/mod/stun-grenade
