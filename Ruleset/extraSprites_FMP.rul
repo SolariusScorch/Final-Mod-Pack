@@ -1,9 +1,4 @@
 ﻿extraSprites:
-  - type: TEXTURE.DAT
-    files:
-      11: Resources/FinalModPack/TerrainPack/Geoscape/TEXTURE15.png
-      24: Resources/FinalModPack/TerrainPack/Geoscape/TEXTURE36.png
-      37: Resources/FinalModPack/TerrainPack/Geoscape/TEXTURE57.png
   - type: Projectiles
     height: 3
     width: 65
