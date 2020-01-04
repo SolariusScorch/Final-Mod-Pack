@@ -1,7 +1,7 @@
 # Final-Mod-Pack
 Final Mod Pack for OpenXCom
 
-THE FINAL MOD PACK 2.2b
+THE FINAL MOD PACK 2.5
 
 by Open X-Com community
 Collected by: Human Ktulu and Solarius Scorch
