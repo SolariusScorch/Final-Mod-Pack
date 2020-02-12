@@ -1,4 +1,4 @@
-THE FINAL MOD PACK 2.5
+THE FINAL MOD PACK 2.6
 
 by Open X-Com community
 Collected by: Human Ktulu and Solarius Scorch
@@ -59,7 +59,7 @@ ANY FUTURE PLANS?
 I will do maintenance on the mod, and might add something new if I feel like it, but no promises - I am working on some other projects (mainly The X-Com Files, which is Final Mod Pack's younger, much bigger sibling).
 
 CHANGELOG:
-New Urban blocks from Amuys and Sanya Skill Pro.
+2.6: New Urban blocks from Amuys and Sanya Skill Pro. Fixed a rare crash on when starting a mission on the southern hemisphere.
 2.5: Removed all terrains made by Hobbes. Fixed DESERT14 map.
 2.4: Added missing ranks to Cybermite and Holodrone units. Improved the armour of Gazer Commander. Added Globetrotter medal graphics (by Carfax). Added autopsy picture for Chaser (by Voidavatar). Fixed some terrain tiles (0 armour). Updated translations. Minor fixes.
 2.3b: Fixed Obliterator research. Fixed Chaser commendation. Fixed XCOMBITS references.

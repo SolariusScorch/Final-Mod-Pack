@@ -31,7 +31,7 @@
     - id: 3
       terrain:
         - name: CULTA
-          weight: 45
+          weight: 30
           area: [0, 360, -90, 0]
         - name: FOREST
           weight: 10
@@ -39,6 +39,10 @@
         - name: RURAL
           weight: 20
           area: [13, 180, -90, 0]
+        - name: CULTA
+          weight: 5
+        - name: FOREST
+          weight: 5
     - id: 4
       terrain:
         - name: CULTA
