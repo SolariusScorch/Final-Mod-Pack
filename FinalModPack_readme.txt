@@ -1,4 +1,4 @@
-THE FINAL MOD PACK 2.6
+THE FINAL MOD PACK 2.7
 
 by Open X-Com community
 Collected by: Human Ktulu and Solarius Scorch
@@ -59,6 +59,7 @@ ANY FUTURE PLANS?
 I will do maintenance on the mod, and might add something new if I feel like it, but no promises - I am working on some other projects (mainly The X-Com Files, which is Final Mod Pack's younger, much bigger sibling).
 
 CHANGELOG:
+2.7: New terrains: Postindustrial (by Dioxine), Commercial, Forest Marsh, Native Urban. Fixed and improved  Port (by Dioxine), Forest (many blocks by Finnik), Desert and Farm terrains. Enabled City terrain for UFO landings. Fixed some walking units floating a little over the ground. Removed an unneeded variant of Anthropod race.
 2.6: New Urban blocks from Amuys and Sanya Skill Pro. Fixed a rare crash on when starting a mission on the southern hemisphere.
 2.5: Removed all terrains made by Hobbes. Fixed DESERT14 map.
 2.4: Added missing ranks to Cybermite and Holodrone units. Improved the armour of Gazer Commander. Added Globetrotter medal graphics (by Carfax). Added autopsy picture for Chaser (by Voidavatar). Fixed some terrain tiles (0 armour). Updated translations. Minor fixes.

@@ -554,7 +554,7 @@
           STR_FLOATER: 20
           STR_CHASER: 20
           STR_CHTONITE: 20
-          STR_ANTHROPODB: 10
+          STR_ANTHROPOD: 10
           STR_RAIDERS_EARLY: 1
           STR_RAIDERS_MIDEARLY: 3
           STR_RAIDERS_MID: 2
@@ -568,7 +568,7 @@
           STR_GAZER: 10
           STR_REPTOID: 10
           STR_CHTONITE: 15
-          STR_ANTHROPODB: 10
+          STR_ANTHROPOD: 10
           STR_RAIDERS_EARLY: 1
           STR_RAIDERS_MIDEARLY: 1
           STR_RAIDERS_MID: 3
@@ -586,7 +586,7 @@
           STR_REPTOID: 10
           STR_WASPITE: 10
           STR_CHTONITE: 10
-          STR_ANTHROPODB: 15
+          STR_ANTHROPOD: 15
           STR_RAIDERS_EARLY: 1
           STR_RAIDERS_MIDEARLY: 1
           STR_RAIDERS_MID: 1
@@ -605,7 +605,7 @@
           STR_WASPITE: 10
           STR_CHTONITE: 5
           STR_CEREBREAL: 10
-          STR_ANTHROPODB: 10
+          STR_ANTHROPOD: 10
           STR_RAIDERS_EARLY: 1
           STR_RAIDERS_MIDEARLY: 1
           STR_RAIDERS_MID: 1
@@ -625,7 +625,7 @@
           STR_WASPITE: 10
           STR_CHTONITE: 10
           STR_CEREBREAL: 5
-          STR_ANTHROPODB: 10
+          STR_ANTHROPOD: 10
           STR_RAIDERS_MIDEARLY: 1
           STR_RAIDERS_MID: 1
           STR_RAIDERS_LATE: 2
@@ -644,7 +644,7 @@
           STR_CHTONITE: 5
           STR_REPTOID: 5
           STR_CEREBREAL: 5
-          STR_ANTHROPODB: 10
+          STR_ANTHROPOD: 10
           STR_RAIDERS_MIDEARLY: 1
           STR_RAIDERS_MID: 1
           STR_RAIDERS_LATE: 1
@@ -877,7 +877,7 @@
           STR_MUTON: 10
           STR_CHTONITE: 10
           STR_CEREBREAL: 5
-          STR_ANTHROPODB: 5
+          STR_ANTHROPOD: 5
           STR_FLOATER: 10
           STR_CHASER: 30
     waves:

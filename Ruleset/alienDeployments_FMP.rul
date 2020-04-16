@@ -980,9 +980,9 @@
     civilians: 12
     terrains:
       - URBAN
-      - MADURBAN_DAWN
-      - PORTURBAN
-      - INDUSTRIALURBAN
+      - URBAN_DAWN
+      - COMRCURBAN
+      - INDUSTRIALSLUM
       - PORTTFTD
     data:
       - alienRank: 5

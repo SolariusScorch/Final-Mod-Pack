@@ -5,6 +5,9 @@
         - name: FOREST
           weight: 10
           area: [0, 360, -90, 0]
+        - name: FORESTSWAMP
+          weight: 10
+          area: [0, 360, -90, 0]
         - name: JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
@@ -14,20 +17,43 @@
     - id: 1
       terrain:
         - name: CULTA
-          weight: 45
+          weight: 20
         - name: FOREST
-          weight: 10
+          weight: 15
+          area: [0, 360, -90, 0]
+        - name: FORESTSWAMP
+          weight: 15
           area: [0, 360, -90, 0]
         - name: RURAL
           weight: 20
           area: [13, 180, -90, 0]
+        - name: URBAN
+          weight: 3
+        - name: URBAN_DAWN
+          weight: 3
+        - name: COMRCURBAN
+          weight: 3
+          area: [0, 360, -30, 0]
+        - name: COMRCURBAN
+          weight: 3
+          area: [0, 360, 0, 30]
     - id: 2
       terrain:
         - name: CULTA
-          weight: 45
+          weight: 55
         - name: RURAL
-          weight: 20
+          weight: 25
           area: [13, 180, -90, 0]
+        - name: URBAN
+          weight: 5
+        - name: URBAN_DAWN
+          weight: 5
+        - name: COMRCURBAN
+          weight: 5
+          area: [0, 360, -30, 0]
+        - name: COMRCURBAN
+          weight: 5
+          area: [0, 360, 0, 30]
     - id: 3
       terrain:
         - name: CULTA
@@ -36,6 +62,9 @@
         - name: FOREST
           weight: 10
           area: [0, 360, -90, 0]
+        - name: FORESTSWAMP
+          weight: 10
+          area: [0, 360, -90, 0]
         - name: RURAL
           weight: 20
           area: [13, 180, -90, 0]
@@ -43,6 +72,10 @@
           weight: 5
         - name: FOREST
           weight: 5
+        - name: URBAN
+          weight: 3
+        - name: URBAN_DAWN
+          weight: 3
     - id: 4
       terrain:
         - name: CULTA
@@ -54,8 +87,18 @@
         - name: URBANJUNK
           weight: 10
           area: [0, 360, 0, 90]
+        - name: URBANNATIVE
+          weight: 5
+          area: [0, 360, -30, 0]
+        - name: URBANNATIVE
+          weight: 8
+          area: [0, 360, 0, 30]
         - name: RURAL
           weight: 20
+        - name: URBAN
+          weight: 4
+        - name: URBAN_DAWN
+          weight: 4
     - id: 5
       terrain:
         - name: MOUNT
@@ -65,9 +108,16 @@
         - name: FOREST
           weight: 10
           area: [0, 360, -90, 0]
+        - name: FORESTSWAMP
+          weight: 10
+          area: [0, 360, -90, 0]
         - name: JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
+        - name: URBAN
+          weight: 4
+        - name: URBAN_DAWN
+          weight: 2
     - id: 7
       terrain:
         - name: DESERT
@@ -94,6 +144,10 @@
         - name: XOPSDESERT_NOCACTI
           weight: 30
           area: [310, 360, 0, 90]
+        - name: COMRCURBAN
+          weight: 5
+        - name: URBANJUNK
+          weight: 7
     - id: 8
       terrain:
         - name: DESERT
@@ -105,10 +159,13 @@
     - id: 10
       terrain:
         - name: JUNGLE
-          weight: 10
+          weight: 20
         - name: URBANJUNK
           weight: 5
           area: [0, 360, 0, 90]
+        - name: URBANNATIVE
+          weight: 5
+          area: [0, 360, -30, 0]
     - id: 11
       terrain:
         - name: FOREST

@@ -386,7 +386,6 @@
     armor: HYBRID_ARMOR0
     standHeight: 21
     kneelHeight: 16
-    floatHeight: 2
     value: 12
     deathSound: 8
     intelligence: 5
@@ -409,7 +408,6 @@
     armor: HYBRID_ARMOR0
     standHeight: 21
     kneelHeight: 16
-    floatHeight: 2
     value: 18
     deathSound: 8
     intelligence: 8
@@ -432,7 +430,6 @@
     armor: HYBRID_ARMOR0
     standHeight: 21
     kneelHeight: 16
-    floatHeight: 2
     value: 14
     deathSound: 8
     intelligence: 6
@@ -455,7 +452,6 @@
     armor: HYBRID_ARMOR0
     standHeight: 21
     kneelHeight: 16
-    floatHeight: 2
     value: 16
     deathSound: 8
     intelligence: 7
@@ -1165,7 +1161,6 @@
     armor: CHTONITE_ARMOR0
     standHeight: 21
     kneelHeight: 16
-    floatHeight: 2
     value: 12
     deathSound: 103
     intelligence: 5
@@ -1188,7 +1183,6 @@
     armor: CHTONITE_ARMOR0
     standHeight: 21
     kneelHeight: 16
-    floatHeight: 2
     value: 18
     deathSound: 103
     intelligence: 8
@@ -1211,7 +1205,6 @@
     armor: CHTONITE_ARMOR0
     standHeight: 21
     kneelHeight: 16
-    floatHeight: 2
     value: 14
     deathSound: 103
     intelligence: 6
@@ -1234,7 +1227,6 @@
     armor: CHTONITE_ARMOR0
     standHeight: 21
     kneelHeight: 16
-    floatHeight: 2
     value: 16
     deathSound: 103
     intelligence: 7
@@ -1257,7 +1249,6 @@
     armor: CHTONITE_ARMOR1
     standHeight: 21
     kneelHeight: 16
-    floatHeight: 2
     value: 25
     deathSound: 103
     intelligence: 8
@@ -1280,7 +1271,6 @@
     armor: CHTONITE_ARMOR2
     standHeight: 21
     kneelHeight: 16
-    floatHeight: 2
     value: 35
     deathSound: 103
     intelligence: 8
@@ -1303,7 +1293,6 @@
     armor: REPTOID_ARMOR0
     standHeight: 21
     kneelHeight: 16
-    floatHeight: 2
     value: 12
     deathSound: 8
     intelligence: 5
@@ -1326,7 +1315,6 @@
     armor: REPTOID_ARMOR0
     standHeight: 21
     kneelHeight: 16
-    floatHeight: 2
     value: 18
     deathSound: 8
     intelligence: 8
@@ -1349,7 +1337,6 @@
     armor: REPTOID_ARMOR0
     standHeight: 21
     kneelHeight: 16
-    floatHeight: 2
     value: 14
     deathSound: 8
     intelligence: 6
@@ -1372,7 +1359,6 @@
     armor: REPTOID_ARMOR0
     standHeight: 21
     kneelHeight: 16
-    floatHeight: 2
     value: 16
     deathSound: 8
     intelligence: 7
@@ -1395,7 +1381,6 @@
     armor: REPTOID_ARMOR1
     standHeight: 21
     kneelHeight: 16
-    floatHeight: 2
     value: 25
     deathSound: 8
     intelligence: 8
@@ -1418,7 +1403,6 @@
     armor: REPTOID_ARMOR2
     standHeight: 21
     kneelHeight: 16
-    floatHeight: 2
     value: 35
     deathSound: 8
     intelligence: 8

@@ -415,7 +415,6 @@ fr:
   STR_VOSTOKSTATION: "Vostok"
   STR_MCMURDOSTATION: "McMurdo"
   STR_AMUNDSENSCOTTSTATION: "Amundsen-Scott"
-  MAP_NATIVEURBAN: "Indigène"
   STR_MUTLEADER_CORPSE: "Corps Muton"
   STR_MUTMED_CORPSE: "Corps Muton"
   STR_MUTENG_CORPSE: "Corps Muton"
@@ -759,4 +758,3 @@ fr:
   STR_HMG_CLIP: "Batt. de Mitrailleuse Lourde"
   STR_HMG_AA_CLIP: "Batt. de Mitrailleuse Lourde Alliage"
   STR_HMG_UFOPEDIA: "La Mitrailleuse Lourde déverse une pluie de projectiles, remplissant à merveille son rôle de support tactique.  Malheureusement son poids imposant nécessite des capacités athlétiques très supérieures à la moyenne."
-  STR_OPENXCOM: "Open X-Com: Final Mod Pack v2.6"

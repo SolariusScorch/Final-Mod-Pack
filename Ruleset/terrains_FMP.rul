@@ -204,7 +204,7 @@
       - name: URBANAMUYS00 # bar by Amuys
         width: 20
         length: 20
-  - name: MADURBAN_DAWN
+  - name: URBAN_DAWN
     mapDataSets:
       - BLANKS
       - ROADS
@@ -214,196 +214,162 @@
       - MADDECOR
     script: URBAN
     mapBlocks: *AnchorVanillaUrban
-  - name: URBANUFO
-    mapDataSets:
-      - BLANKS
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
-      - MADDECOR
-    script: URBANUFO
-    mapBlocks: *AnchorVanillaUrban
-  - name: PORTURBAN
+  - name: INDUSTRIALSLUM
     mapDataSets:
       - BLANKS
       - PORTROADS
-      - PORTURBITS
-    civilianTypes:
-      - MALE_CIVILIAN
-      - MALE_CIVILIAN2
-      - MALE_CIVILIAN5
-      - FEMALE_CIVILIAN
-      - MALE_CIVILIAN7
-    script: PORTURBAN
-    mapBlocks:
-      - name: PORTURBAN00
-        width: 10
-        length: 10
-        groups: 2
-      - name: PORTURBAN01
-        width: 10
-        length: 10
-        groups: 2
-      - name: PORTURBAN02
-        width: 10
-        length: 10
-        groups: 2
-      - name: PORTURBAN03
-        width: 10
-        length: 10
-        groups: 2
-      - name: PORTURBAN04
-        width: 10
-        length: 10
-        groups: 4
-      - name: PORTURBAN05
-        width: 20
-        length: 20
-      - name: PORTURBAN06
-        width: 20
-        length: 20
-      - name: PORTURBAN07
-        width: 20
-        length: 20
-      - name: PORTURBAN08
-        width: 20
-        length: 20
-      - name: PORTURBAN09
-        width: 20
-        length: 20
-      - name: PORTURBAN10
-        width: 10
-        length: 10
-        groups: 1
-      - name: PORTURBAN11
-        width: 10
-        length: 10
-        groups: 1
-      - name: PORTURBAN12
-        width: 10
-        length: 10
-        groups: 1
-      - name: PORTURBAN13
-        width: 10
-        length: 10
-        groups: 1
-      - name: PORTURBAN14
-        width: 10
-        length: 10
-      - name: PORTURBAN15
-        width: 10
-        length: 10
-      - name: PORTURBAN16
-        width: 10
-        length: 10
-      - name: PORTURBAN17
-        width: 10
-        length: 10
-      - name: PORTURBAN18
-        width: 10
-        length: 10
-      - name: PORTURBAN19
-        width: 10
-        length: 10
-        groups: 3
-      - name: PORTURBAN20
-        width: 10
-        length: 10
-        groups: 3
-      - name: PORTURBAN21
-        width: 10
-        length: 10
-        groups: 3
-      - name: PORTURBAN22
-        width: 10
-        length: 10
-        groups: 3
-  - name: INDUSTRIALURBAN
-    mapDataSets:
-      - BLANKS
-      - PORTROADS
-      - PORTURBITS
+      - INDUSLUM
       - ROADS
-      - URBITS
+      - URBITS_INDUSLUM
+      - SLUM_FURNITURE
     civilianTypes:
       - MALE_CIVILIAN
       - MALE_CIVILIAN2
       - MALE_CIVILIAN4
       - FEMALE_CIVILIAN
-    script: INDUSTRIALURBAN
-    mapBlocks: &AnchorIndustrialUrban
-      - name: INDUSTRIALURBAN00
+    script: INDUSTRIALSLUM
+    mapBlocks: &AnchorIndustrialSlum
+      - name: INDUSTRIALSLUM00
         width: 20
         length: 20
-      - name: INDUSTRIALURBAN01
+      - name: INDUSTRIALSLUM01
         width: 20
         length: 20
-      - name: INDUSTRIALURBAN02
+      - name: INDUSTRIALSLUM02
         width: 20
         length: 20
-      - name: INDUSTRIALURBAN03
+      - name: INDUSTRIALSLUM03
         width: 10
         length: 10
-      - name: INDUSTRIALURBAN04
+      - name: INDUSTRIALSLUM04
         width: 10
         length: 10
-      - name: INDUSTRIALURBAN05
+      - name: INDUSTRIALSLUM05
         width: 10
         length: 10
-      - name: INDUSTRIALURBAN06
+      - name: INDUSTRIALSLUM06
         width: 10
         length: 10
-      - name: INDUSTRIALURBAN07
+      - name: INDUSTRIALSLUM07
         width: 10
         length: 10
-      - name: INDUSTRIALURBAN08
+      - name: INDUSTRIALSLUM08
         width: 10
         length: 10
-      - name: INDUSTRIALURBAN09
+      - name: INDUSTRIALSLUM09
         width: 10
         length: 10
-      - name: INDUSTRIALURBAN10
+      - name: INDUSTRIALSLUM10
         width: 10
         length: 10
-      - name: INDUSTRIALURBAN11
+      - name: INDUSTRIALSLUM11
         width: 10
         length: 10
-      - name: INDUSTRIALURBAN12
+      - name: INDUSTRIALSLUM12
         width: 10
         length: 10
-      - name: INDUSTRIALURBAN13
+      - name: INDUSTRIALSLUM13
         width: 10
         length: 10
-      - name: INDUSTRIALURBAN14
+      - name: INDUSTRIALSLUM14
         width: 10
         length: 10
-      - name: INDUSTRIALURBAN15
+      - name: INDUSTRIALSLUM15
         width: 10
         length: 10
-      - name: INDUSTRIALURBAN16
+      - name: INDUSTRIALSLUM16
         width: 10
         length: 10
-        groups: 1
-      - name: INDUSTRIALURBAN17
+        groups: [1]
+      - name: INDUSTRIALSLUM17
         width: 10
         length: 10
-        groups: 1
-  - name: INDUSTRIALUFO
+        groups: [1]
+      - name: INDUSTRIALSLUM18
+        width: 10
+        length: 10
+        groups: [1]
+      - name: INDUSTRIALSLUM19
+        width: 20
+        length: 20
+      - name: INDUSTRIALSLUM30
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM31
+        width: 20
+        length: 20
+      - name: INDUSTRIALSLUM32
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM33
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM34
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUM35
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO14
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO15
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO16
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO17
+        width: 20
+        length: 20
+      - name: INDUSTRIALSLUMDIO18
+        width: 10
+        length: 10
+        groups: [1]
+      - name: INDUSTRIALSLUMDIO19
+        width: 10
+        length: 10
+        groups: [1]
+      - name: INDUSTRIALSLUMDIO20
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO21
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO22
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMDIO23
+        width: 10
+        length: 10
+      - name: INDUSTRIALSLUMROADWE2
+        width: 10
+        length: 10
+        groups: 2
+      - name: INDUSTRIALSLUMROADNS2
+        width: 10
+        length: 10
+        groups: 3
+      - name: INDUSTRIALSLUMROADCROSS2
+        width: 10
+        length: 10
+        groups: 4
+      - name: INDUSTRIALSLUMROADRAILNS
+        width: 10
+        length: 10
+        groups: 7
+      - name: INDUSTRIALSLUMROADRAILCROSS
+        width: 10
+        length: 10
+        groups: 8
+  - name: PORTTFTD
     mapDataSets:
       - BLANKS
       - PORTROADS
       - PORTURBITS
       - ROADS
       - URBITS
-    script: INDUSTRIALUFO
-    mapBlocks: &AnchorIndustrialUrban
-  - name: PORTTFTD
-    mapDataSets:
-      - BLANKS
       - SEAURBAN
-      - PORTROADS
-      - PORTURBITS
       - SEABITS
     civilianTypes:
       - MALE_CIVILIAN
@@ -415,7 +381,7 @@
       - FEMALE_CIVILIAN3
       - MALE_CIVILIAN7
     script: PORTTFTD
-    mapBlocks:
+    mapBlocks: &AnchorPortTFTD
       - name: PORTUFO00
         width: 10
         length: 10
@@ -427,35 +393,35 @@
       - name: PORTUFO02
         width: 10
         length: 10
-        groups: 3
+        groups: 5
       - name: PORTUFO03
         width: 10
         length: 10
-        groups: 3
+        groups: 5
       - name: PORTUFO04
         width: 10
         length: 10
-        groups: 3
+        groups: 5
       - name: PORTUFO05
         width: 10
         length: 10
-        groups: 3
+        groups: 5
       - name: PORTUFO06
         width: 10
         length: 10
-        groups: 3
+        groups: 5
       - name: PORTUFO07
         width: 10
         length: 10
-        groups: 3
+        groups: 5
       - name: PORTUFO08
         width: 10
         length: 10
-        groups: 3
+        groups: 5
       - name: PORTUFO09
         width: 10
         length: 10
-        groups: 3
+        groups: 5
       - name: PORTUFO10
         width: 10
         length: 10
@@ -489,7 +455,217 @@
       - name: PORTUFO20
         width: 20
         length: 20
-        groups: 5
+      - name: PORTUFO22
+        width: 20
+        length: 20
+      - name: PORTUFO27
+        width: 10
+        length: 10
+        groups: [3, 4]
+      - name: PORTUFO28
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO29
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO30
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO31
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTROAD_WE
+        width: 10
+        length: 10
+        groups: 2
+  - name: COMRCURBAN
+    mapDataSets:
+      - BLANKS
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN2
+      - COMDECOR
+    script: COMRCURBAN
+    mapBlocks:
+      - name: COMRCURBAN00
+        width: 10
+        length: 10
+        groups: [0, 5]
+      - name: COMRCURBAN01
+        width: 10
+        length: 10
+        groups: [0, 5]
+      - name: COMRCURBAN02
+        width: 10
+        length: 10
+        groups: [0, 5]
+      - name: COMRCURBAN03
+        width: 10
+        length: 10
+        groups: [0, 4, 5]
+      - name: COMRCURBAN04
+        width: 10
+        length: 10
+        groups: [0, 5]
+      - name: COMRCURBAN05
+        width: 20
+        length: 20
+      - name: COMRCURBAN06
+        width: 20
+        length: 20
+      - name: COMRCURBAN07
+        width: 20
+        length: 20
+      - name: COMRCURBAN08
+        width: 20
+        length: 20
+      - name: COMRCURBAN09
+        width: 20
+        length: 20
+      - name: COMRCURBAN10
+        width: 20
+        length: 20
+      - name: COMRCURBAN11
+        width: 20
+        length: 20
+      - name: COMRCURBAN12
+        width: 20
+        length: 20
+      - name: COMRCURBAN13
+        width: 10
+        length: 10
+        groups: [0, 5]
+      - name: COMRCURBAN14
+        width: 10
+        length: 10
+      - name: COMRCURBAN15
+        width: 10
+        length: 10
+      - name: COMRCURBAN16
+        width: 10
+        length: 10
+      - name: COMRCURBAN17
+        width: 10
+        length: 10
+      - name: COMRCURBAN18
+        width: 10
+        length: 10
+      - name: COMRCURBAN19
+        width: 10
+        length: 10
+        groups: [1, 4]
+      - name: COMRCURBAN20
+        width: 10
+        length: 10
+        groups: [0, 5]
+      - name: COMRCURBAN21
+        width: 10
+        length: 10
+        groups: [0, 5]
+      - name: COMRCURBAN22
+        width: 10
+        length: 10
+      - name: COMRCURBAN23
+        width: 10
+        length: 10
+      - name: COMRCURBAN24
+        width: 20
+        length: 20
+      - name: COMRCURBAN25
+        width: 10
+        length: 10
+      - name: COMRCURBAN26
+        width: 20
+        length: 20
+        groups: [0, 6]
+      - name: COMRCURBAN27
+        width: 20
+        length: 20
+        groups: [0, 7]
+      - name: COMRCURBAN28
+        width: 10
+        length: 10
+        groups: [2]
+      - name: COMRCURBAN29
+        width: 10
+        length: 10
+        groups: [2]
+      - name: COMRCURBAN30
+        width: 10
+        length: 10
+        groups: [3]
+      - name: COMRCURBAN31
+        width: 10
+        length: 10
+        groups: [3]
+      - name: COMRCURBAN32
+        width: 10
+        length: 10
+        groups: [2]
+      - name: COMRCURBAN33
+        width: 10
+        length: 10
+        groups: [3]
+      - name: COMRCURBAN34
+        width: 10
+        length: 10
+        groups: [2]
+      - name: COMRCURBAN35
+        width: 10
+        length: 10
+        groups: [3]
+      - name: COMRCURBAN36
+        width: 10
+        length: 10
+        groups: [2]
+      - name: COMRCURBAN37
+        width: 10
+        length: 10
+        groups: [3]
+      - name: COMRCURBAN38
+        width: 10
+        length: 10
+        groups: [2]
+      - name: COMRCURBAN39
+        width: 10
+        length: 10
+        groups: [3]
+      - name: COMRCURBAN40
+        width: 10
+        length: 10
+      - name: COMRCURBAN41
+        width: 10
+        length: 10
+      - name: COMRCURBAN42
+        width: 20
+        length: 20
+      - name: COMRCURBAN43
+        width: 20
+        length: 20
+      - name: COMRCURBAN44
+        width: 10
+        length: 10
+        groups: [4]
+      - name: COMRCURBAN45
+        width: 10
+        length: 10
+      - name: COMRCURBAN46
+        width: 10
+        length: 10
+      - name: COMRCURBAN47
+        width: 10
+        length: 10
+      - name: COMRCURBAN50
+        width: 10
+        length: 10
+      - name: COMRCURBAN51
+        width: 10
+        length: 10
   - name: RURAL
     mapDataSets:
       - BLANKS
@@ -683,7 +859,7 @@
       - STR_MALE_DOCTOR
       - STR_FEMALE_DOCTOR
       - STR_DOGE
-    mapBlocks: &AnchorJunkUrban
+    mapBlocks: &AnchorUrbanJunk
       - name: URBANJUNK00
         width: 10
         length: 10
@@ -865,12 +1041,42 @@
         width: 10
         length: 10
         groups: 4
+  - name: URBANNATIVE
+    mapDataSets:
+      - BLANKS
+      - JUNGLE
+      - BARN
+      - FRNITURE
+      - URBITS
+      - CULTIVAT
+    script: URBANJUNK
+    civilianTypes:
+      - STR_MALE_CIVILIAN_HUNTER
+      - STR_FEMALE_CIVILIAN_HUNTER
+      - MALE_CIVILIAN
+      - STR_MALE_GREASER
+      - STR_MALE_ENGINEER
+      - STR_FEMALE_CASUAL
+      - STR_HOSTESS
+      - STR_BIKINI_BABE
+      - STR_POLICEMAN
+      - STR_POLICEWOMAN
+      - STR_MALE_CIVILIAN_BLACK
+      - STR_MALE_CIVILIAN_BLACK
+      - STR_MALE_CIVILIAN_BLACK
+      - STR_PRIEST
+      - STR_MALE_DOCTOR
+      - STR_FEMALE_DOCTOR
+      - STR_DOGE
+    mapBlocks: *AnchorUrbanJunk
   - name: CULTA
     script: FARM
     mapDataSets:
       - BLANKS
       - CULTIVAT
       - BARN
+      - ROADS
+      - CULTMACHINES
     mapBlocks:
       - name: CULTA00
         width: 10
@@ -1064,6 +1270,12 @@
       - name: CULTASOL00
         width: 20
         length: 20
+      - name: CULTASOL01
+        width: 10
+        length: 10
+      - name: CULTASOL02
+        width: 20
+        length: 20
       - name: CULTABIG01
         width: 20
         length: 20
@@ -1088,6 +1300,30 @@
       - name: CULTABIG08
         width: 20
         length: 20
+      - name: CULT_FINNIK00
+        width: 10
+        length: 10
+      - name: CULTACIV00
+        width: 10
+        length: 10
+      - name: CULTACIV01
+        width: 10
+        length: 10
+      - name: CULTACIV02
+        width: 10
+        length: 10
+      - name: CULTA_ROAD_WE00 # W-E
+        width: 10
+        length: 10
+        groups: 2
+      - name: CULTA_ROAD_SN00 # N-S
+        width: 10
+        length: 10
+        groups: 3
+      - name: CULTA_ROAD_XX00 # Crossroads
+        width: 10
+        length: 10
+        groups: 4
   - name: POLAR
     mapDataSets:
       - BLANKS
@@ -1229,6 +1465,9 @@
     mapDataSets:
       - BLANKS
       - FOREST
+      - FORESTBITS
+      - ROADS
+    script: FOREST
     mapBlocks:
       - name: FOREST00
         width: 10
@@ -1319,41 +1558,168 @@
       - name: CIVFOREST03
         width: 20
         length: 20
+      - name: FOREST_ROAD_WE00 # W-E
+        width: 10
+        length: 10
+        groups: 2
+      - name: FOREST_ROAD_WE01 # W-E
+        width: 10
+        length: 10
+        groups: 2
+      - name: FOREST_ROAD_WE02 # W-E
+        width: 10
+        length: 10
+        groups: 2
+      - name: FOREST_ROAD_SN00 # N-S
+        width: 10
+        length: 10
+        groups: 3
+      - name: FOREST_ROAD_SN01 # N-S
+        width: 10
+        length: 10
+        groups: 3
+      - name: FOREST_ROAD_SN02 # N-S
+        width: 10
+        length: 10
+        groups: 3
+      - name: FOREST_ROAD_XX00 # Crossroads
+        width: 10
+        length: 10
+        groups: 4
   - name: FORESTSWAMP
     enviroEffects: STR_FOREST_GEAR
     mapDataSets:
       - BLANKS
       - FOREST
+      - FORESTSWAMPBITS
+      - ROADS
       - FORESTSWAMP
-    script: POLAR
+    script: FOREST
     mapBlocks: &AnchorForestSwamp
-      - name: FORESTSWAMP00
+      - name: FOREST00
         width: 10
         length: 10
         groups: 1
-      - name: FORESTSWAMP01
+      - name: FOREST01
         width: 10
         length: 10
         groups: 1
-      - name: FORESTSWAMP02
+      - name: FOREST02
         width: 10
         length: 10
+      - name: FOREST03
+        width: 10
+        length: 10
+      - name: FOREST04
+        width: 10
+        length: 10
+      - name: FOREST05
+        width: 10
+        length: 10
+      - name: FOREST06
+        width: 10
+        length: 10
+      - name: FOREST07
+        width: 10
+        length: 10
+      - name: FOREST08
+        width: 10
+        length: 10
+      - name: FOREST09
+        width: 10
+        length: 10
+      - name: FOREST10
+        width: 20
+        length: 20
+      - name: FOREST11
+        width: 20
+        length: 20
+      - name: SOLFOREST12
+        width: 10
+        length: 10
+      - name: SOLFOREST13
+        width: 10
+        length: 10
+      - name: SOLFOREST14
+        width: 10
+        length: 10
+      - name: SOLFOREST15
+        width: 10
+        length: 10
+      - name: SOLFOREST16
+        width: 10
+        length: 10
+      - name: SOLFOREST17
+        width: 20
+        length: 20
+      - name: FINNIKFOREST00
+        width: 10
+        length: 10
+      - name: FINNIKFOREST01
+        width: 10
+        length: 10
+      - name: FINNIKFOREST02
+        width: 10
+        length: 10
+      - name: FINNIKFOREST03
+        width: 10
+        length: 10
+      - name: FINNIKFOREST04
+        width: 10
+        length: 10
+      - name: FINNIKFOREST05
+        width: 10
+        length: 10
+      - name: FINNIKFOREST06
+        width: 10
+        length: 10
+      - name: CIVFOREST00
+        width: 20
+        length: 20
+      - name: CIVFOREST01
+        width: 10
+        length: 10
+      - name: CIVFOREST02
+        width: 10
+        length: 10
+      - name: CIVFOREST03
+        width: 20
+        length: 20
+      - name: FOREST_ROAD_WE00 # W-E
+        width: 10
+        length: 10
+        groups: 2
+      - name: FOREST_ROAD_WE01 # W-E
+        width: 10
+        length: 10
+        groups: 2
+      - name: FOREST_ROAD_WE02 # W-E
+        width: 10
+        length: 10
+        groups: 2
+      - name: FOREST_ROAD_SN00 # N-S
+        width: 10
+        length: 10
+        groups: 3
+      - name: FOREST_ROAD_SN01 # N-S
+        width: 10
+        length: 10
+        groups: 3
+      - name: FOREST_ROAD_SN02 # N-S
+        width: 10
+        length: 10
+        groups: 3
+      - name: FOREST_ROAD_XX00 # Crossroads
+        width: 10
+        length: 10
+        groups: 4
       - name: FORESTSWAMP03
-        width: 10
-        length: 10
-      - name: FORESTSWAMP04
         width: 10
         length: 10
       - name: FORESTSWAMP05
         width: 10
         length: 10
       - name: FORESTSWAMP06
-        width: 10
-        length: 10
-      - name: FORESTSWAMP07
-        width: 10
-        length: 10
-      - name: FORESTSWAMP08
         width: 10
         length: 10
       - name: FORESTSWAMP09
@@ -1365,9 +1731,6 @@
       - name: FORESTSWAMP11
         width: 20
         length: 20
-      - name: FORESTSWAMP12
-        width: 10
-        length: 10
       - name: FORESTSWAMP13
         width: 10
         length: 10
@@ -1378,15 +1741,6 @@
         width: 10
         length: 10
       - name: FORESTSWAMP16
-        width: 10
-        length: 10
-      - name: FORESTSWAMP17
-        width: 20
-        length: 20
-      - name: FORESTSWAMP18
-        width: 10
-        length: 10
-      - name: FORESTSWAMP19
         width: 10
         length: 10
       - name: FORESTSWAMP20
