@@ -4,60 +4,59 @@
       terrain:
         - name: FOREST
           weight: 10
-          area: [0, 360, -90, 0]
         - name: FORESTSWAMP
           weight: 10
-          area: [0, 360, -90, 0]
-        - name: JUNGLE
-          weight: 10
-          area: [0, 360, 0, 90]
-        - name: URBANJUNK
-          weight: 4
-          area: [0, 360, 0, 90]
+        - name: RURAL
+          weight: 5
     - id: 1
       terrain:
-        - name: CULTA
-          weight: 20
-        - name: FOREST
-          weight: 15
-          area: [0, 360, -90, 0]
-        - name: FORESTSWAMP
-          weight: 15
-          area: [0, 360, -90, 0]
         - name: RURAL
           weight: 20
           area: [13, 180, -90, 0]
+        - name: CULTA
+          weight: 20
+        - name: FOREST
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: FORESTSWAMP
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: INDUSTRIALSLUM
+          weight: 20
         - name: URBAN
-          weight: 3
-        - name: URBAN_DAWN
-          weight: 3
+          weight: 30
         - name: COMRCURBAN
-          weight: 3
+          weight: 10
           area: [0, 360, -30, 0]
         - name: COMRCURBAN
-          weight: 3
+          weight: 10
           area: [0, 360, 0, 30]
     - id: 2
       terrain:
-        - name: CULTA
-          weight: 55
         - name: RURAL
-          weight: 25
+          weight: 20
           area: [13, 180, -90, 0]
+        - name: CULTA
+          weight: 20
         - name: URBAN
-          weight: 5
+          weight: 10
         - name: URBAN_DAWN
           weight: 5
+        - name: INDUSTRIALSLUM
+          weight: 10
         - name: COMRCURBAN
-          weight: 5
+          weight: 10
           area: [0, 360, -30, 0]
         - name: COMRCURBAN
-          weight: 5
+          weight: 10
           area: [0, 360, 0, 30]
     - id: 3
       terrain:
+        - name: RURAL
+          weight: 20
+          area: [13, 180, -90, 0]
         - name: CULTA
-          weight: 30
+          weight: 40
           area: [0, 360, -90, 0]
         - name: FOREST
           weight: 10
@@ -65,40 +64,35 @@
         - name: FORESTSWAMP
           weight: 10
           area: [0, 360, -90, 0]
-        - name: RURAL
-          weight: 20
-          area: [13, 180, -90, 0]
-        - name: CULTA
-          weight: 5
-        - name: FOREST
-          weight: 5
         - name: URBAN
-          weight: 3
-        - name: URBAN_DAWN
-          weight: 3
+          weight: 15
+        - name: URBANJUNK
+          weight: 7
+        - name: INDUSTRIALSLUM
+          weight: 7
     - id: 4
       terrain:
+        - name: RURAL
+          weight: 20
         - name: CULTA
-          weight: 30
+          weight: 40
           area: [0, 360, -90, 0]
         - name: JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
         - name: URBANJUNK
-          weight: 10
+          weight: 7
           area: [0, 360, 0, 90]
+        - name: INDUSTRIALSLUM
+          weight: 7
+        - name: URBAN
+          weight: 14
         - name: URBANNATIVE
-          weight: 5
+          weight: 7
           area: [0, 360, -30, 0]
         - name: URBANNATIVE
-          weight: 8
+          weight: 10
           area: [0, 360, 0, 30]
-        - name: RURAL
-          weight: 20
-        - name: URBAN
-          weight: 4
-        - name: URBAN_DAWN
-          weight: 4
     - id: 5
       terrain:
         - name: MOUNT
@@ -114,36 +108,30 @@
         - name: JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
+        - name: INDUSTRIALSLUM
+          weight: 10
         - name: URBAN
-          weight: 4
-        - name: URBAN_DAWN
-          weight: 2
+          weight: 10
     - id: 7
       terrain:
         - name: DESERT
           weight: 80
-          area: [230, 290, -90, 0]
+          area: [0, 230, -90, 0] # Eurasia and North Africa east of Greenwich
         - name: DESERT
-          weight: 80
-          area: [280, 310, 0, 90]
-        - name: XOPSDESERT_NOCACTI
           weight: 50
-          area: [230, 290, -90, 0]
-        - name: XOPSDESERT_NOCACTI
-          weight: 50
-          area: [0, 280, 0, 90]
-        - name: XOPSDESERT_NOCACTI
-          weight: 50
-          area: [310, 360, 0, 90]
+          area: [290, 360, -90, 0] # Eurasia and North Africa west of Greenwich
         - name: XOPSDESERT_NOCACTI
           weight: 20
-          area: [0, 230, -90, 0]
+          area: [230, 290, -90, 0] # North America
+        - name: XOPSDESERT_NOCACTI
+          weight: 80
+          area: [280, 310, 0, 90] # South America
         - name: XOPSDESERT_NOCACTI
           weight: 50
-          area: [290, 360, -90, 0]
+          area: [0, 280, 0, 90] # South Africa and Australia
         - name: XOPSDESERT_NOCACTI
-          weight: 30
-          area: [310, 360, 0, 90]
+          weight: 50
+          area: [310, 360, 0, 90] # goddamn South Atlantic
         - name: COMRCURBAN
           weight: 5
         - name: URBANJUNK
@@ -152,6 +140,8 @@
       terrain:
         - name: DESERT
           weight: 15
+        - name: URBANJUNK
+          weight: 5
     - id: 9
       terrain:
         - name: POLAR
@@ -159,20 +149,30 @@
     - id: 10
       terrain:
         - name: JUNGLE
-          weight: 20
-        - name: URBANJUNK
-          weight: 5
-          area: [0, 360, 0, 90]
+          weight: 10
         - name: URBANNATIVE
           weight: 5
           area: [0, 360, -30, 0]
+        - name: URBANNATIVE
+          weight: 5
+          area: [0, 360, 0, 30]
     - id: 11
       terrain:
-        - name: FOREST
+        - name: FOREST_SNOW
+          weight: 15
+        - name: FORESTSWAMP_SNOW
+          weight: 15
+        - name: POLAR
+          weight: 10
+        - name: MOUNT
           weight: 10
     - id: 12
       terrain:
         - name: POLAR
+    - id: 13 # cold desert
+      terrain:
+        - name: DESERT
+          weight: 10
     - id: -1
       deployments:
         STR_TERROR_MISSION: 100

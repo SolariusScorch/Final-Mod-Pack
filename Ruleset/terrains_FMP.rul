@@ -1468,7 +1468,7 @@
       - FORESTBITS
       - ROADS
     script: FOREST
-    mapBlocks:
+    mapBlocks: &AnchorVanillaForest
       - name: FOREST00
         width: 10
         length: 10
@@ -1746,6 +1746,23 @@
       - name: FORESTSWAMP20
         width: 20
         length: 20
+  - name: FOREST_SNOW
+    mapDataSets:
+      - BLANKS
+      - FOREST_SNOW
+      - FORESTBITS_SNOW
+      - ROADS_SNOW
+    script: FOREST
+    mapBlocks: *AnchorVanillaForest
+  - name: FORESTSWAMP_SNOW
+    mapDataSets:
+      - BLANKS
+      - FOREST_SNOW
+      - FORESTBITS_SNOW
+      - ROADS_SNOW
+      - FORESTSWAMP_SNOW
+    script: FOREST
+    mapBlocks: *AnchorForestSwamp
   - name: JUNGLE
     mapDataSets:
       - BLANKS
