@@ -2461,7 +2461,6 @@
     costSell: 50
     transferTime: 48
     weight: 3
-    bigSprite: 90
     floorSprite: 12
     power: 60
     clipSize: 6
@@ -2506,7 +2505,6 @@
     costSell: 100
     transferTime: 48
     weight: 1
-    bigSprite: 262
     floorSprite: 12
     hitSound: 81
     hitAnimation: 0
@@ -2548,7 +2546,6 @@
     costSell: 2250
     transferTime: 48
     weight: 1
-    bigSprite: 262
     floorSprite: 16
     hitSound: 0
     hitAnimation: 0
@@ -2558,7 +2555,6 @@
     battleType: 2
     invWidth: 1
     invHeight: 3
-    ignoreInBaseDefense: true
   - type: STR_TANK_MINIGUN
     size: 6
     costBuy: 630000
@@ -2589,7 +2585,6 @@
     costSell: 300
     transferTime: 48
     weight: 10
-    bigSprite: 262
     floorSprite: 12
     hitSound: 22
     hitAnimation: 26
@@ -2601,7 +2596,6 @@
     invHeight: 1
     listOrder: 1211
     bulletSpeed: 32
-    ignoreInBaseDefense: true
   - type: STR_TANK_LASER_CANNON
     size: 6
     costSell: 594000
@@ -2752,7 +2746,6 @@
     costSell: 31500
     transferTime: 48
     weight: 1
-    bigSprite: 262
     floorSprite: 35
     hitSound: 0
     hitAnimation: 0
@@ -2763,7 +2756,6 @@
     invWidth: 1
     invHeight: 1
     blastRadius: 11
-    ignoreInBaseDefense: true
   - type: STR_SECTOPOD_LASER
     size: 4
     costSell: 594000
@@ -2869,7 +2861,6 @@
     costSell: 2500
     transferTime: 48
     weight: 1
-    bigSprite: 262
     floorSprite: 12
     hitSound: 66
     hitAnimation: 26
@@ -2879,7 +2870,6 @@
     battleType: 2
     invWidth: 2
     invHeight: 1
-    ignoreInBaseDefense: true
     listOrder: 1511
   - type: STR_TANK_RAILGUN
     size: 6
@@ -2932,7 +2922,6 @@
     costSell: 5900
     transferTime: 48
     weight: 1
-    bigSprite: 262
     floorSprite: 12
     hitSound: 66
     hitAnimation: 96
@@ -2942,7 +2931,6 @@
     battleType: 2
     invWidth: 2
     invHeight: 1
-    ignoreInBaseDefense: true
     listOrder: 1516
   - type: STR_RAIL_CANNON_ROUNDS_X60
     size: 0.1
