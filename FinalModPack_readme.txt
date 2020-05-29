@@ -25,7 +25,6 @@ If you have any issues, see the excellent installation video tutorial by Ivan Do
 Also, if you want to enjoy an alternative set of custom sounds, get Daedalus' very nice High Quality Sounds mod for this pack at http://www.openxcom.com/mod/high-quality-sounds.
 
 WHAT OPENXCOM OPTIONS SHOULD I USE?
-- Make sure you use the "item is destroyed on research" option, or else you will be able to research the Alien Data Slate over and over, which would be a cheat.
 - Please note that all weapons were balanced for "UFO Extender Accuracy" option turned on, since it makes combat more interesting and varied. You don't have to do it, but it's recommended.
 
 HOW DO I PROVIDE FEEDBACK?
