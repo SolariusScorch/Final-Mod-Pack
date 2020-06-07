@@ -841,24 +841,6 @@
       - URBITS_JUNK
       - CULTIVAT
     script: URBANJUNK
-    civilianTypes:
-      - STR_MALE_CIVILIAN_HUNTER
-      - STR_FEMALE_CIVILIAN_HUNTER
-      - MALE_CIVILIAN
-      - STR_MALE_GREASER
-      - STR_MALE_ENGINEER
-      - STR_FEMALE_CASUAL
-      - STR_HOSTESS
-      - STR_BIKINI_BABE
-      - STR_POLICEMAN
-      - STR_POLICEWOMAN
-      - STR_MALE_CIVILIAN_BLACK
-      - STR_MALE_CIVILIAN_BLACK
-      - STR_MALE_CIVILIAN_BLACK
-      - STR_PRIEST
-      - STR_MALE_DOCTOR
-      - STR_FEMALE_DOCTOR
-      - STR_DOGE
     mapBlocks: &AnchorUrbanJunk
       - name: URBANJUNK00
         width: 10
