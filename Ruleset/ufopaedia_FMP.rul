@@ -924,6 +924,8 @@
   - id: STR_LASER_PISTOL_MIB_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
+    requires:
+      - STR_LASER_PISTOL_MIB
   - id: STR_LASER_RIFLE_MIB
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -934,6 +936,8 @@
   - id: STR_LASER_RIFLE_MIB_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
+    requires:
+      - STR_LASER_RIFLE_MIB
   - id: STR_HEAVY_LASER_MIB
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -944,6 +948,8 @@
   - id: STR_HEAVY_LASER_MIB_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
+    requires:
+      - STR_HEAVY_LASER_MIB
   - id: STR_XCOM_CYBERDISC_LASER
     type_id: 3
     section: STR_HEAVY_WEAPONS_PLATFORMS
@@ -1801,6 +1807,8 @@
   - id: STR_DART_RIFLE_CLIP_A
     type_id: 4
     section: STR_NOT_AVAILABLE
+    requires:
+      - STR_DART_RIFLE
   - id: STR_DART_RIFLE_CLIP_B
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -1866,6 +1874,8 @@
   - id: STR_GAUSS_PISTOL_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
+    requires:
+      - STR_GAUSS_PISTOL
   - id: STR_GAUSS_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1876,6 +1886,8 @@
   - id: STR_GAUSS_RIFLE_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
+    requires:
+      - STR_GAUSS_RIFLE
   - id: STR_GAUSS_SNIPER_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1886,6 +1898,8 @@
   - id: STR_GAUSS_SNIPER_RIFLE_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
+    requires:
+      - STR_GAUSS_SNIPER_RIFLE
   - id: STR_HEAVY_GAUSS
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1896,6 +1910,8 @@
   - id: STR_HEAVY_GAUSS_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
+    requires:
+      - STR_HEAVY_GAUSS
   - id: STR_RAIL_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1907,6 +1923,9 @@
   - id: STR_RAIL_PISTOL_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
+    requires:
+      - STR_GAUSS_PISTOL
+      - STR_RAILGUNS
   - id: STR_RAIL_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1918,6 +1937,9 @@
   - id: STR_RAIL_RIFLE_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
+    requires:
+      - STR_GAUSS_RIFLE
+      - STR_RAILGUNS
   - id: STR_RAIL_SNIPER_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1929,6 +1951,9 @@
   - id: STR_RAIL_SNIPER_RIFLE_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
+    requires:
+      - STR_GAUSS_SNIPER_RIFLE
+      - STR_RAILGUNS
   - id: STR_HEAVY_RAILGUN
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1940,6 +1965,9 @@
   - id: STR_HEAVY_RAILGUN_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
+    requires:
+      - STR_HEAVY_GAUSS
+      - STR_RAILGUNS
   - id: STR_GAUSS_CANNON_UC
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
