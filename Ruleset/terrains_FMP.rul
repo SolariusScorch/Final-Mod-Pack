@@ -1695,7 +1695,19 @@
         width: 10
         length: 10
         groups: 4
+      - name: FORESTSWAMP00
+        width: 10
+        length: 10
+      - name: FORESTSWAMP01
+        width: 20
+        length: 20
+      - name: FORESTSWAMP02
+        width: 20
+        length: 20
       - name: FORESTSWAMP03
+        width: 10
+        length: 10
+      - name: FORESTSWAMP04
         width: 10
         length: 10
       - name: FORESTSWAMP05
@@ -1704,6 +1716,12 @@
       - name: FORESTSWAMP06
         width: 10
         length: 10
+      - name: FORESTSWAMP07
+        width: 20
+        length: 20
+      - name: FORESTSWAMP08
+        width: 20
+        length: 20
       - name: FORESTSWAMP09
         width: 10
         length: 10
@@ -1711,6 +1729,9 @@
         width: 20
         length: 20
       - name: FORESTSWAMP11
+        width: 20
+        length: 20
+      - name: FORESTSWAMP12
         width: 20
         length: 20
       - name: FORESTSWAMP13
@@ -1723,6 +1744,15 @@
         width: 10
         length: 10
       - name: FORESTSWAMP16
+        width: 10
+        length: 10
+      - name: FORESTSWAMP17
+        width: 20
+        length: 20
+      - name: FORESTSWAMP18
+        width: 20
+        length: 20
+      - name: FORESTSWAMP19
         width: 10
         length: 10
       - name: FORESTSWAMP20

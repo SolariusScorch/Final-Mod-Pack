@@ -605,6 +605,8 @@ en-US:
   MAP_CULTAFARMB: "Expanded Farm B"
   MAP_FORESTMOUNT: "Forest Mountain"
   MAP_FORESTSWAMP: "Forest Marsh"
+  MAP_FOREST_SNOW: "Winter Forest"
+  MAP_FORESTSWAMP_SNOW: "Winter Forest Marsh"
   MAP_GRASSLANDDESERT: "Grassland Desert"
   MAP_GRASSLANDDESERTMOUNT: "Grassland Desert Mountain"
   MAP_GRASSLANDFOREST: "Grassland Forest"

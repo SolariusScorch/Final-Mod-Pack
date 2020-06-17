@@ -171,7 +171,7 @@
         - name: POLAR
     - id: 13 # cold desert
       terrain:
-        - name: DESERT
+        - name: XOPSDESERT_NOCACTI
           weight: 10
     - id: -1
       deployments:
