@@ -1,4 +1,4 @@
-THE FINAL MOD PACK 2.7
+THE FINAL MOD PACK 2.8
 
 by Open X-Com community
 Collected by: Human Ktulu and Solarius Scorch
@@ -58,7 +58,7 @@ ANY FUTURE PLANS?
 I will do maintenance on the mod, and might add something new if I feel like it, but no promises - I am working on some other projects (mainly The X-Com Files, which is Final Mod Pack's younger, much bigger sibling).
 
 CHANGELOG:
-: Fixed some minor forest issues.
+2.8: New terrains: Muddy Rocks, Arboreal Rocks, Chilly Rocks, Sandy Rocks, Sandy Rocks Alternative, Snowy Rocks, Tropical Rocks, Mountainous Rocks, Tundra Plains, Arboreal Plains, Muddy Plains, Chilly Plains, Sandy Plains, Sandy Plains Alternative, Tropical Plains, Wasteland (by Bullet Designer), Rice Farm (by the C.M.P. Team: Luke83, b__0 & Efrenespartano). Fixed some minor forest and swamp issues.
 2.7c: Updated some Marsh maps. Corrected battlescape palette.
 2.7b: Removed non-existing civilians from the Junkfarm terrain. Blocked checking unresearched clip values (by R1dO).
 2.7a: Updated Forest Swamp. Fixed generation of Port with Pier (by removing the pier - not supported by vanilla OXC).

@@ -832,6 +832,70 @@
       - name: VILBAN57
         width: 10
         length: 10
+  - name: RICE_FARM
+    script: RICE_FARM
+    mapDataSets:
+      - BLANKS
+      - IDT_FARM
+      - IDT_ASIA
+      - IDT_FARM_WATER
+      - IDT_BARNFLOOR
+      - IDT_HUMAN
+      - URBAN_GOODS
+    mapBlocks:
+      - name: ALT_BARN_1
+        width: 10
+        length: 10
+      - name: ALT_BARN_2
+        width: 10
+        length: 10
+      - name: ALT_BARN_3
+        width: 10
+        length: 10
+      - name: ALT_BARN_4
+        width: 10
+        length: 20
+      - name: ALT_BARN_5
+        width: 20
+        length: 10
+      - name: ALT_BARN_6
+        width: 10
+        length: 10
+        groups: [0, 1]  # LANDING ZONE
+      - name: ALT_BARN_7
+        width: 10
+        length: 10
+        groups: [0, 1]  # LANDING ZONE
+      - name: ALT_BARN_8
+        width: 20
+        length: 10
+      - name: ALT_BARN_9
+        width: 10
+        length: 20
+      - name: ALT_BARN_10
+        width: 20
+        length: 20
+      - name: ALT_BARN_11
+        width: 20
+        length: 10
+      - name: ALT_BARN_12
+        width: 20
+        length: 10
+      - name: ALT_BARN_13
+        width: 20
+        length: 20
+      - name: ALT_BARN_14
+        width: 20
+        length: 20
+      - name: ALT_BARN_15
+        width: 10
+        length: 10
+      - name: ALT_BARN_16
+        width: 10
+        length: 10
+      - name: ALT_BARN_17
+        width: 10
+        length: 10
   - name: URBANJUNK
     mapDataSets:
       - BLANKS
@@ -1877,6 +1941,186 @@
       - name: MOUNT12
         width: 20
         length: 20
+  - name: MOUNTBD_DEAD
+    mapDataSets:
+      - BLANKS
+      - MOUNTWASTE
+    script: MOUNTAIN
+    mapBlocks: &AnchorBDMount
+      - name: MOUNTBD00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNTBD01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNTBD02
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNTBD03
+        width: 10
+        length: 10
+      - name: MOUNTBD04
+        width: 10
+        length: 10
+      - name: MOUNTBD05
+        width: 10
+        length: 10
+      - name: MOUNTBD06
+        width: 10
+        length: 10
+      - name: MOUNTBD07
+        width: 10
+        length: 10
+      - name: MOUNTBD08
+        width: 10
+        length: 10
+      - name: MOUNTBD09
+        width: 10
+        length: 10
+      - name: MOUNTBD10
+        width: 10
+        length: 10
+      - name: MOUNTBD11
+        width: 20
+        length: 20
+      - name: MOUNTBD12
+        width: 20
+        length: 20
+  - name: MOUNTBD_SNOW
+    mapDataSets:
+      - BLANKS
+      - MOUNTSNOW
+    script: MOUNTAIN
+    mapBlocks: *AnchorBDMount
+  - name: MOUNTBD_ERODED
+    mapDataSets:
+      - BLANKS
+      - MOUNTROCK
+    script: MOUNTAIN
+    mapBlocks: *AnchorBDMount
+  - name: MOUNTBD_ARBOREAL
+    mapDataSets:
+      - BLANKS
+      - MOUNTGRASS
+    script: MOUNTAIN
+    mapBlocks: *AnchorBDMount
+  - name: MOUNTBD_SANDY
+    mapDataSets:
+      - BLANKS
+      - MOUNTSAND
+    script: MOUNTAIN
+    mapBlocks: *AnchorBDMount
+  - name: MOUNTBD_SANDY_NOCACTI
+    mapDataSets:
+      - BLANKS
+      - MOUNTSAND_NOCACTI
+    script: MOUNTAIN
+    mapBlocks: *AnchorBDMount
+  - name: MOUNTBD_MUD
+    mapDataSets:
+      - BLANKS
+      - MOUNTMUD
+    script: MOUNTAIN
+    mapBlocks: *AnchorBDMount
+  - name: MOUNTBD_TROPICAL
+    mapDataSets:
+      - BLANKS
+      - MOUNTTROP
+    script: MOUNTAIN
+    mapBlocks: *AnchorBDMount
+  - name: PLAINS_TUNDRA
+    mapDataSets:
+      - BLANKS
+      - MOUNTSNOW
+    script: MOUNTAIN
+    mapBlocks: &AnchorBDPlains
+      - name: PLAINS00
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS01
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS02
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS03
+        width: 10
+        length: 10
+      - name: PLAINS04
+        width: 10
+        length: 10
+      - name: PLAINS05
+        width: 10
+        length: 10
+      - name: PLAINS06
+        width: 10
+        length: 10
+      - name: PLAINS07
+        width: 10
+        length: 10
+      - name: PLAINS08
+        width: 10
+        length: 10
+      - name: PLAINS09
+        width: 10
+        length: 10
+      - name: PLAINS10
+        width: 10
+        length: 10
+      - name: PLAINS11
+        width: 20
+        length: 20
+      - name: PLAINS12
+        width: 20
+        length: 20
+  - name: PLAINS_DEAD
+    mapDataSets:
+      - BLANKS
+      - MOUNTWASTE
+    script: MOUNTAIN
+    mapBlocks: *AnchorBDPlains
+  - name: PLAINS_MUD
+    mapDataSets:
+      - BLANKS
+      - MOUNTMUD
+    script: MOUNTAIN
+    mapBlocks: *AnchorBDPlains
+  - name: PLAINS_ARBOREAL
+    mapDataSets:
+      - BLANKS
+      - MOUNTGRASS
+    script: MOUNTAIN
+    mapBlocks: *AnchorBDPlains
+  - name: PLAINS_SANDY
+    mapDataSets:
+      - BLANKS
+      - MOUNTSAND
+    script: MOUNTAIN
+    mapBlocks: *AnchorBDPlains
+  - name: PLAINS_SANDY_NOCACTI
+    mapDataSets:
+      - BLANKS
+      - MOUNTSAND_NOCACTI
+    script: MOUNTAIN
+    mapBlocks: *AnchorBDPlains
+  - name: PLAINS_ERODED
+    mapDataSets:
+      - BLANKS
+      - MOUNTROCK
+    script: MOUNTAIN
+    mapBlocks: *AnchorBDPlains
+  - name: PLAINS_TROPICAL
+    mapDataSets:
+      - BLANKS
+      - MOUNTTROP
+    script: MOUNTAIN
+    mapBlocks: *AnchorBDPlains
   - name: XBASE
     mapDataSets:
       - BLANKS
