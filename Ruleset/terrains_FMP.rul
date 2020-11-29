@@ -2234,18 +2234,69 @@
       - U_PODS
       - BRAIN
       - U_BASE2
+      - U_FRN
+      - U_EXT02
+      - U_BITS
+      - U_FLOOR
     mapBlocks: &AnchorAlienBase
       - name: UBASE_00
         width: 20
         length: 20
+        groups: 3
         items:
           STR_ALIEN_DATA_SLATE:
             - [6, 6, 1]
+      - name: UBASE_00b
+        width: 20
+        length: 20
         groups: 3
+        items:
+          STR_ALIEN_DATA_SLATE:
+            - [6, 6, 1]
+      - name: UBASE_00c
+        width: 20
+        length: 20
+        groups: 3
+        items:
+          STR_ALIEN_DATA_SLATE:
+            - [6, 6, 1]
+      - name: UBASE_00d
+        width: 20
+        length: 20
+        groups: 3
+        items:
+          STR_ALIEN_DATA_SLATE:
+            - [6, 6, 1]
+      - name: UBASE_00e
+        width: 20
+        length: 20
+        groups: 3
+        items:
+          STR_ALIEN_DATA_SLATE:
+            - [6, 6, 1]
+      - name: UBASE_CIV_00
+        width: 20
+        length: 20
+        groups: 3
+        items:
+          STR_ALIEN_DATA_SLATE:
+            - [6, 6, 1]
       - name: UBASE_01
         width: 20
         length: 20
+      - name: UBASE_01b
+        width: 20
+        length: 20
+      - name: UBASE_01c
+        width: 20
+        length: 20
       - name: UBASE_02
+        width: 20
+        length: 20
+      - name: UBASE_02b
+        width: 20
+        length: 20
+      - name: UBASE_02c
         width: 20
         length: 20
       - name: UBASE_03
@@ -2254,12 +2305,58 @@
         items:
           STR_ELERIUM_115:
             - [2, 14, 1]
+            - [2, 16, 1]
+      - name: UBASE_03b
+        width: 20
+        length: 20
+        items:
+          STR_ELERIUM_115:
+            - [2, 13, 1]
+            - [2, 14, 1]
+            - [2, 15, 1]
+            - [2, 16, 1]
+            - [2, 17, 1]
       - name: UBASE_04
         width: 10
         length: 10
         groups: 2
         revealedFloors: 1
-      - name: SUBASE_04
+      - name: UBASE_04b
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: 1
+      - name: UBASE_04c
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: 1
+      - name: UBASE_04d
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: 1
+      - name: UBASE_04e
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: 1
+      - name: UBASE_04f
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: 1
+      - name: UBASE_04g
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: 1
+      - name: UBASE_04h
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: 1
+      - name: UBASE_04i
         width: 10
         length: 10
         groups: 2
@@ -2267,17 +2364,46 @@
       - name: UBASE_05
         width: 10
         length: 10
+      - name: UBASE_05b
+        width: 10
+        length: 10
       - name: UBASE_06
+        width: 10
+        length: 10
+      - name: UBASE_06b
+        width: 10
+        length: 10
+      - name: UBASE_06c
+        width: 10
+        length: 10
+      - name: UBASE_06d
         width: 10
         length: 10
       - name: UBASE_07
         width: 10
         length: 10
         groups: 1
+      - name: UBASE_07b
+        width: 10
+        length: 10
+        groups: 1
+      - name: UBASE_07c
+        width: 10
+        length: 10
+        groups: 1
       - name: UBASE_08
         width: 10
         length: 10
+      - name: UBASE_08b
+        width: 10
+        length: 10
       - name: UBASE_09
+        width: 10
+        length: 10
+      - name: UBASE_09b
+        width: 10
+        length: 10
+      - name: UBASE_09c
         width: 10
         length: 10
       - name: UBASE_10
@@ -2286,36 +2412,73 @@
       - name: UBASE_11
         width: 10
         length: 10
+      - name: UBASE_11b
+        width: 10
+        length: 10
       - name: UBASE_12
         width: 10
         length: 10
-        groups: 5
+        items:
+          STR_ELERIUM_115:
+            - [4, 4, 0]
+      - name: UBASE_12b
+        width: 10
+        length: 10
+        items:
+          STR_ELERIUM_115:
+            - [4, 4, 0]
+      - name: UBASE_12c
+        width: 10
+        length: 10
+        items:
+          STR_ELERIUM_115:
+            - [4, 4, 0]
       - name: UBASE_13
         width: 10
         length: 10
       - name: UBASE_14
         width: 10
         length: 10
-      - name: UBASE_15
+      - name: UBASE_14b
+        width: 10
+        length: 10
+      - name: UBASE_16
+        width: 10
+        length: 10
+      - name: UBASE_16b
         width: 20
         length: 20
-        groups: 4
+        groups: 3
+        items:
+          STR_ALIEN_DATA_SLATE:
+            - [6, 6, 1]
+      - name: UBASE_17
+        width: 10
+        length: 10
+      - name: UBASE_17b
+        width: 10
+        length: 10
+      - name: UBASE_18
+        width: 20
+        length: 20
+        groups: 3
+        items:
+          STR_ALIEN_DATA_SLATE:
+            - [6, 6, 1]
       - name: UBASE_19
         width: 20
         length: 20
-        type: 7
         groups: 3
         items:
           STR_ALIEN_DATA_SLATE:
-            - [5, 13, 1]
+            - [6, 6, 1]
       - name: UBASE_20
         width: 20
         length: 20
-        type: 7
         groups: 3
         items:
           STR_ALIEN_DATA_SLATE:
-            - [12, 12, 1]
+            - [6, 6, 1]
       - name: UBASE_21
         width: 20
         length: 20
@@ -2328,9 +2491,7 @@
       - name: UBASE_24
         width: 10
         length: 10
-        type: 6
         groups: 2
-        revealedFloors: 1
       - name: UBASE_25
         width: 10
         length: 10
@@ -2349,9 +2510,19 @@
       - name: UBASE_30
         width: 10
         length: 10
-      - name: UBASE_12
+      - name: UBASE_31
         width: 10
         length: 10
+      - name: UBASE_32
+        width: 20
+        length: 20
+        items:
+          STR_ELERIUM_115:
+            - [2, 13, 1]
+            - [2, 14, 1]
+            - [2, 15, 1]
+            - [2, 16, 1]
+            - [2, 17, 1]
       - name: UBASE_33
         width: 10
         length: 10
@@ -2370,179 +2541,10 @@
       - name: UBASE_38
         width: 10
         length: 10
-      - name: UBASE_NEW_00
-        width: 20
-        length: 20
-        type: 7
-        groups: 3
-        items:
-          STR_ALIEN_DATA_SLATE:
-            - [6, 6, 1]
-      - name: UBASE_NEW_01
-        width: 20
-        length: 20
-      - name: UBASE_NEW_02
-        width: 20
-        length: 20
-      - name: UBASE_NEW_03
-        width: 20
-        length: 20
-      - name: UBASE_NEW_04
+      - name: UBASE_39
         width: 10
         length: 10
-        type: 6
-        groups: 2
-        revealedFloors: 1
-      - name: UBASE_NEW_05
-        width: 10
-        length: 10
-      - name: UBASE_NEW_06
-        width: 10
-        length: 10
-      - name: UBASE_NEW_07
-        width: 10
-        length: 10
-        groups: 4
-      - name: UBASE_NEW_08
-        width: 10
-        length: 10
-      - name: UBASE_NEW_09
-        width: 10
-        length: 10
-      - name: UBASE_NEW_10
-        width: 10
-        length: 10
-      - name: UBASE_NEW_11
-        width: 10
-        length: 10
-      - name: TUBASE_04
-        width: 10
-        length: 10
-        type: 6
-        groups: 6
-      - name: UBASE_NEW_12
-        width: 10
-        length: 10
-      - name: UBASE_NEW_13
-        width: 10
-        length: 10
-      - name: UBASE_NEW_14
-        width: 10
-        length: 10
-      - name: TUBASE_15
-        width: 20
-        length: 20
-        type: 7
-        groups: 3
-        items:
-          STR_ALIEN_DATA_SLATE:
-            - [10, 17, 1]
-      - name: TUBASE_03
-        width: 20
-        length: 20
-        type: 7
-        groups: 3
-        items:
-          STR_ALIEN_DATA_SLATE:
-            - [12, 6, 1]
-      - name: VUBASE_04
-        width: 10
-        length: 10
-        type: 6
-        groups: 2
-        revealedFloors: 1
-      - name: 2UBASE_04
-        width: 10
-        length: 10
-        type: 6
-        groups: 2
-        revealedFloors: 1
-      - name: 3UBASE_04
-        width: 10
-        length: 10
-        type: 6
-        groups: 2
-        revealedFloors: 1
-      - name: XUBASE_04
-        width: 10
-        length: 10
-        type: 6
-        groups: 2
-      - name: YYUBASE_04
-        width: 10
-        length: 10
-        type: 6
-        groups: 2
-        revealedFloors: 1
-      - name: PUBASE_06
-        width: 10
-        length: 10
-      - name: PUBASE_10
-        width: 10
-        length: 10
-      - name: UBASE_00b
-        width: 20
-        length: 20
-        items:
-          STR_ALIEN_DATA_SLATE:
-            - [6, 6, 1]
-        groups: 3
-      - name: UBASE_02b
-        width: 20
-        length: 20
-      - name: UBASE_04b
-        width: 10
-        length: 10
-        groups: 2
-        revealedFloors: 1
-      - name: UBASE_05b
-        width: 10
-        length: 10
-      - name: UBASE_06b
-        width: 10
-        length: 10
-      - name: UBASE_06c
-        width: 10
-        length: 10
-      - name: UBASE_07b
-        width: 10
-        length: 10
-        groups: 1
-      - name: UBASE_08b
-        width: 10
-        length: 10
-      - name: UBASE_09b
-        width: 10
-        length: 10
-      - name: UBASE_09c
-        width: 10
-        length: 10
-      - name: UBASE_09d
-        width: 10
-        length: 10
-      - name: UBASE_12b
-        width: 10
-        length: 10
-        items:
-          STR_ELERIUM_115:
-            - [4, 4, 0]
-      - name: UBASE_16
-        width: 10
-        length: 10
-      - name: UBASE_17
-        width: 10
-        length: 10
-      - name: UBASE_17b
-        width: 10
-        length: 10
-      - name: UBASE_00
-        width: 20
-        length: 20
-        items:
-          STR_ALIEN_DATA_SLATE:
-            - [6, 6, 1]
-        groups: 3
-      - name: UBASE_01b
+      - name: UBASE_40
         width: 20
         length: 20
       - name: UBASE_41
@@ -2551,8 +2553,119 @@
         items:
           STR_ELERIUM_115:
             - [15, 9, 1]
-          STR_ELERIUM_115:
             - [3, 9, 1]
+          STR_ALIEN_DATA_SLATE:
+            - [6, 6, 1]
+      - name: UBASE_42
+        width: 10
+        length: 10
+      - name: UBASE_43
+        width: 10
+        length: 10
+      - name: UBASE_44
+        width: 10
+        length: 10
+      - name: UBASE_45
+        width: 10
+        length: 10
+      - name: UBASE_46
+        width: 10
+        length: 10
+        items:
+          STR_ELERIUM_115:
+            - [2, 2, 0]
+            - [6, 2, 0]
+            - [2, 6, 0]
+            - [6, 6, 0]
+      - name: UBASE_47
+        width: 10
+        length: 10
+      - name: UBASE_CIV_01
+        width: 10
+        length: 10
+      - name: UBASE_CIV_02
+        width: 20
+        length: 20
+      - name: UBASE_CIV_03
+        width: 10
+        length: 10
+      - name: UBASE_CIV_05
+        width: 10
+        length: 10
+      - name: UBASE_CIV_06
+        width: 10
+        length: 10
+      - name: UBASE_CIV_07
+        width: 10
+        length: 10
+      - name: UBASE_CIV_10
+        width: 10
+        length: 10
+      - name: UBASE_CIV_50
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: 1
+      - name: UBASE_CIV_51
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: 1
+      - name: UBASE_CIV_52
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: 1
+      - name: UBASE_CIV_53
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: 1
+      - name: UBASE_CIV_100
+        width: 20
+        length: 20
+      - name: UBASE_SOL_00
+        width: 10
+        length: 10
+      - name: UBASE_SOL_01
+        width: 10
+        length: 10
+      - name: UBASE_SOL_02
+        width: 20
+        length: 20
+      - name: UBASE_SOL_03
+        width: 20
+        length: 20
+        groups: 10 #hangar bots
+      - name: UBASE_SOL_04
+        width: 20
+        length: 20
+        groups: 10 #hangar bots
+        items:
+          STR_ELERIUM_115:
+            - [9, 10, 0]
+      - name: UBASE_SOL_05
+        width: 20
+        length: 20
+        groups: 10 #hangar bots
+        items:
+          STR_ELERIUM_115:
+            - [9, 9, 0]
+      - name: UBASE_SOL_06 # holostation
+        width: 10
+        length: 10
+      - name: UBASE_SOL_07 # small control room
+        width: 10
+        length: 10
+      - name: UBASE_SOL_08 # small engineering room
+        width: 10
+        length: 10
+      - name: UBASE_SOL_09 # mess hall?
+        width: 20
+        length: 20
+      - name: UBASE_SOL_10 # brain node room
+        width: 20
+        length: 20
   - name: GOLDBASE
     mapDataSets:
       - BLANKS
@@ -2561,4 +2674,8 @@
       - U_PODSGOLD
       - BRAIN
       - U_BASE2GOLD
+      - U_FRNGOLD
+      - U_EXT02GOLD
+      - U_BITSGOLD
+      - U_FLOORGOLD
     mapBlocks: *AnchorAlienBase
