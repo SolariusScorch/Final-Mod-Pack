@@ -58,7 +58,8 @@ ANY FUTURE PLANS?
 I will do maintenance on the mod, and might add something new if I feel like it, but no promises - I am working on some other projects (mainly The X-Com Files, which is Final Mod Pack's younger, much bigger sibling).
 
 CHANGELOG:
-2.8c: Improved Laser Rifle bigob (by Brain_322). Water pools slow you down. Minor terrain fixes.
+2.8d: Fixed map sizes to prevent crashes on tall buildings.
+2.8c: Improved Laser Rifle bigob (by Brain_322). Water pools slow you down. Fixed a random terrain crash on Desert Mountain Alternative. Minor terrain fixes.
 2.8b: New terrains: Muddy Rocks, Arboreal Rocks, Chilly Rocks, Sandy Rocks, Sandy Rocks Alternative, Snowy Rocks, Tropical Rocks, Mountainous Rocks, Tundra Plains, Arboreal Plains, Muddy Plains, Chilly Plains, Sandy Plains, Sandy Plains Alternative, Tropical Plains, Wasteland (by Bullet Designer), Rice Farm (by the C.M.P. Team: Luke83, b__0 & Efrenespartano). Overhauled and expanded Alien Base. New Forest map (by Brain_322). Obliterator Autopsy picture (by Brain_322). Fixed some minor forest and swamp issues.
 2.7c: Updated some Marsh maps. Corrected battlescape palette.
 2.7b: Removed non-existing civilians from the Junkfarm terrain. Blocked checking unresearched clip values (by R1dO).
