@@ -176,7 +176,6 @@
     handSprite: 720
     meleeSound: 105
     skillApplied: true
-    damageType: 7
     accuracyMelee: 140
     tuMelee: 20
     battleType: 3
@@ -3153,7 +3152,6 @@
     clipSize: 8
     battleType: 2
     recoveryPoints: 1
-    attraction: 1
     shotgunPellets: 5
     attraction: 10
     listOrder: 5551
