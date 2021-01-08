@@ -186,7 +186,6 @@
     armor: 30
     flatRate: true
     clipSize: -1
-    damageType: 7
     attraction: 7
     listOrder: 1897
   - type: STR_ETHEREAL_WHITE_CORPSE
@@ -3153,7 +3152,6 @@
     clipSize: 8
     battleType: 2
     recoveryPoints: 1
-    attraction: 1
     shotgunPellets: 5
     attraction: 10
     listOrder: 5551
