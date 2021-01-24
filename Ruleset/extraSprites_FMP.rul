@@ -705,6 +705,13 @@
     height: 1440
     files:
       0: Resources/Alt_aliens/Sectoid_Guardian/Mechtoid.png
+  - type: FLOATER.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 280
+    files:
+      0: Resources/Alt_aliens/Floater_Soldier/FloaterSoldier.png
   - type: FLOATER_WHITE.PCK
     subX: 32
     subY: 40
@@ -739,7 +746,7 @@
     width: 512
     height: 280
     files:
-      0: Resources/Alt_aliens/Floater_Leader/floaterLeader.png
+      0: Resources/Alt_aliens/Floater_Leader/FloaterLeader.png
   - type: ETHEREAL_WHITE.PCK
     subX: 32
     subY: 40
