@@ -58,6 +58,7 @@ ANY FUTURE PLANS?
 I will do maintenance on the mod, and might add something new if I feel like it, but no promises - I am working on some other projects (mainly The X-Com Files, which is Final Mod Pack's younger, much bigger sibling).
 
 CHANGELOG:
+: Fixed Junkfarm terrain movement costs.
 2.8e: Fixed brain spawn on Cydonia. Fixed Floater's grav device color (thanks The Martian). Fixed Mogadishu location (thanks R1dO). Minor fixes.
 2.8d: Fixed map sizes to prevent crashes on tall buildings.
 2.8c: Improved Laser Rifle bigob (by Brain_322). Water pools slow you down. Fixed a random terrain crash on Desert Mountain Alternative. Minor terrain fixes.
