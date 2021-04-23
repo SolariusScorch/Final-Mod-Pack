@@ -690,6 +690,7 @@
     points: 100
     dependencies:
       - STR_FLOATER_AUTOPSY
+      - STR_WASPITE_AUTOPSY
     listOrder: 2910
   - name: STR_PERSONAL_ARMOR
     cost: 100
@@ -1124,6 +1125,7 @@
     needItem: true
   - name: STR_FLOATER_AUTOPSY
     unlocks:
+      - STR_GRAV_MODULE
       - STR_ALIEN_BIOLOGY
       - STR_DART_RIFLE_CLIP_B_PREQ1
   - name: STR_SNAKEMAN_AUTOPSY
@@ -1163,6 +1165,7 @@
     points: 50
     needItem: true
     unlocks:
+      - STR_GRAV_MODULE
       - STR_ALIEN_BIOLOGY
       - STR_DART_RIFLE_CLIP_C_PREQ2
   - name: STR_CEREBREAL_AUTOPSY

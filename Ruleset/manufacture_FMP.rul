@@ -987,7 +987,19 @@
     requiredItems:
       STR_ELERIUM_115: 5
     listOrder: 2609
-  - name: STR_GRAV_MODULE_EXTRACTION
+  - name: STR_GRAV_MODULE_EXTRACTION_WASPITE
+    category: STR_BASIC_COMPONENTS
+    requires:
+      - STR_WASPITE_AUTOPSY
+    space: 4
+    time: 200
+    cost: 100
+    requiredItems:
+      STR_WASPITE_CORPSE: 1
+    producedItems:
+      STR_GRAV_MODULE: 1
+    listOrder: 2949
+  - name: STR_GRAV_MODULE_EXTRACTION_FLOATER
     category: STR_BASIC_COMPONENTS
     requires:
       - STR_FLOATER_AUTOPSY
