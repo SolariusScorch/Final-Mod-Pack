@@ -130,8 +130,7 @@
     spriteSheet: MALE_CIVILIAN2.PCK
     corpseBattle:
       - MALE_CIVILIAN2_CORPSE
-    corpseGeo:
-      - STR_CIVM_CORPSE
+    corpseGeo: STR_CIVM_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -153,8 +152,7 @@
     spriteSheet: MALE_CIVILIAN3.PCK
     corpseBattle:
       - MALE_CIVILIAN3_CORPSE
-    corpseGeo:
-      - STR_CIVM_CORPSE
+    corpseGeo: STR_CIVM_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -176,8 +174,7 @@
     spriteSheet: MALE_CIVILIAN4.PCK
     corpseBattle:
       - MALE_CIVILIAN4_CORPSE
-    corpseGeo:
-      - STR_CIVM_CORPSE
+    corpseGeo: STR_CIVM_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -199,8 +196,7 @@
     spriteSheet: MALE_CIVILIAN5.PCK
     corpseBattle:
       - MALE_CIVILIAN5_CORPSE
-    corpseGeo:
-      - STR_CIVM_CORPSE
+    corpseGeo: STR_CIVM_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -222,8 +218,7 @@
     spriteSheet: MALE_CIVILIAN6.PCK
     corpseBattle:
       - MALE_CIVILIAN6_CORPSE
-    corpseGeo:
-      - STR_CIVM_CORPSE
+    corpseGeo: STR_CIVM_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -245,8 +240,7 @@
     spriteSheet: MALE_CIVILIAN7.PCK
     corpseBattle:
       - MALE_CIVILIAN7_CORPSE
-    corpseGeo:
-      - STR_CIVM_CORPSE
+    corpseGeo: STR_CIVM_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -269,8 +263,7 @@
     spriteSheet: FEMALE_CIVILIAN2.PCK
     corpseBattle:
       - FEMALE_CIVILIAN2_CORPSE
-    corpseGeo:
-      - STR_CIVF_CORPSE
+    corpseGeo: STR_CIVF_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -292,8 +285,7 @@
     spriteSheet: FEMALE_CIVILIAN3.PCK
     corpseBattle:
       - FEMALE_CIVILIAN3_CORPSE
-    corpseGeo:
-      - STR_CIVF_CORPSE
+    corpseGeo: STR_CIVF_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
