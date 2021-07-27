@@ -115,16 +115,19 @@
     floorSprite: 229
     invWidth: 0
     invHeight: 0
+    battleType: 11
     recover: false
   - type: OBLITERATOR_CORPSE_3
     floorSprite: 230
     invWidth: 0
     invHeight: 0
+    battleType: 11
     recover: false
   - type: OBLITERATOR_CORPSE_4
     floorSprite: 231
     invWidth: 0
     invHeight: 0
+    battleType: 11
     recover: false
   - type: STR_OBLITERATOR_TERRORIST
     size: 0.0
@@ -378,6 +381,7 @@
     invWidth: 2
     invHeight: 3
     armor: 12
+    battleType: 11
     recover: false
   - type: MALE_CIVILIAN3_CORPSE
     name: STR_CORPSE
@@ -387,6 +391,7 @@
     invWidth: 2
     invHeight: 3
     armor: 12
+    battleType: 11
     recover: false
   - type: MALE_CIVILIAN4_CORPSE
     name: STR_CORPSE
@@ -396,6 +401,7 @@
     invWidth: 2
     invHeight: 3
     armor: 12
+    battleType: 11
     recover: false
   - type: MALE_CIVILIAN5_CORPSE
     name: STR_CORPSE
@@ -405,6 +411,7 @@
     invWidth: 2
     invHeight: 3
     armor: 12
+    battleType: 11
     recover: false
   - type: MALE_CIVILIAN6_CORPSE
     name: STR_CORPSE
@@ -414,6 +421,7 @@
     invWidth: 2
     invHeight: 3
     armor: 12
+    battleType: 11
     recover: false
   - type: MALE_CIVILIAN7_CORPSE
     name: STR_CORPSE
@@ -423,6 +431,7 @@
     invWidth: 2
     invHeight: 3
     armor: 12
+    battleType: 11
     recover: false
   - type: FEMALE_CIVILIAN2_CORPSE
     name: STR_CORPSE
@@ -432,6 +441,7 @@
     invWidth: 2
     invHeight: 3
     armor: 12
+    battleType: 11
     recover: false
   - type: FEMALE_CIVILIAN3_CORPSE
     name: STR_CORPSE
@@ -441,6 +451,7 @@
     invWidth: 2
     invHeight: 3
     armor: 12
+    battleType: 11
     recover: false
   - type: STR_STUN_ROD
     size: 0.1
@@ -1586,21 +1597,25 @@
     floorSprite: 141
     invWidth: 0
     invHeight: 0
+    battleType: 11
     recover: false
   - type: MIBTANK_CORPSE_2
     floorSprite: 142
     invWidth: 0
     invHeight: 0
+    battleType: 11
     recover: false
   - type: MIBTANK_CORPSE_3
     floorSprite: 143
     invWidth: 0
     invHeight: 0
+    battleType: 11
     recover: false
   - type: MIBTANK_CORPSE_4
     floorSprite: 144
     invWidth: 0
     invHeight: 0
+    battleType: 11
     recover: false
   - type: STR_CORPSE
     weight: 32
@@ -1671,6 +1686,7 @@
     invWidth: 2
     invHeight: 3
     armor: 40
+    battleType: 11
     recover: false
   - type: STR_ALLOY_VEST_CORPSE
     name: STR_CORPSE
@@ -1680,6 +1696,7 @@
     invWidth: 2
     invHeight: 3
     armor: 40
+    battleType: 11
     recover: false
   - type: STR_HAZMAT_ARMOR
     size: 0.8
@@ -1695,6 +1712,7 @@
     invWidth: 2
     invHeight: 3
     armor: 30
+    battleType: 11
     recover: false
     listOrder: 10550
   - type: STR_TOXI_SUIT
@@ -1709,6 +1727,7 @@
     invWidth: 2
     invHeight: 3
     armor: 30
+    battleType: 11
     recover: false
     listOrder: 10551
   - type: STR_SYNTHSUIT
@@ -1723,6 +1742,7 @@
     floorSprite: 199
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 30
     recover: false
   - type: STR_JUGGERNAUT_SUIT
@@ -2475,6 +2495,7 @@
     twoHanded: true
     invWidth: 2
     invHeight: 3
+    battleType: 11
     recover: false
   - type: STR_TANK_CANNON
     size: 6
