@@ -2491,7 +2491,6 @@
     weight: 44
     bigSprite: 176
     floorSprite: 118
-    battleType: 10
     twoHanded: true
     invWidth: 2
     invHeight: 3
