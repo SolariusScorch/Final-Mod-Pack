@@ -749,7 +749,7 @@
       - 1.0
     loftempsSet: [ 3 ]
   - type: SNAKEMAN_ARMOR0
-    spriteInv: snakemanInventoryImage
+    spriteInv: inventory_SNAKEMAN
     spriteSheet: SNAKEMAN.PCK
     corpseBattle:
       - STR_SNAKEMAN_CORPSE
@@ -771,10 +771,11 @@
       - 0.0
     loftempsSet: [ 3 ]
   - type: SNAKEMAN_ARMOR_GREEN
-    spriteInv: snakemanInventoryImage
+    spriteInv: inventory_SNAKEMAN_ENGINEER
     spriteSheet: SNAKEMANENG.PCK
     corpseBattle:
-      - STR_SNAKEMAN_CORPSE
+      - STR_SNAKEMAN_ENGINEER_CORPSE
+    corpseGeo: STR_SNAKEMAN_CORPSE
     frontArmor: 20
     sideArmor: 18
     rearArmor: 16
@@ -793,10 +794,11 @@
       - 0.0
     loftempsSet: [ 3 ]
   - type: SNAKEMAN_ARMOR_BLUE
-    spriteInv: snakemanInventoryImage
+    spriteInv: inventory_SNAKEMAN_NAVIGATOR
     spriteSheet: SNAKEMANNAV.PCK
     corpseBattle:
-      - STR_SNAKEMAN_CORPSE
+      - STR_SNAKEMAN_NAVIGATOR_CORPSE
+    corpseGeo: STR_SNAKEMAN_CORPSE
     frontArmor: 20
     sideArmor: 18
     rearArmor: 16
@@ -815,10 +817,11 @@
       - 0.0
     loftempsSet: [ 3 ]
   - type: SNAKEMAN_ARMOR1
-    spriteInv: snakemanInventoryImage
+    spriteInv: inventory_SNAKEMAN_LEADER
     spriteSheet: SNAKEMANLEA.PCK
     corpseBattle:
-      - STR_SNAKEMAN_CORPSE
+      - STR_SNAKEMAN_LEADER_CORPSE
+    corpseGeo: STR_SNAKEMAN_CORPSE
     frontArmor: 20
     sideArmor: 24
     rearArmor: 22
@@ -837,10 +840,11 @@
       - 0.0
     loftempsSet: [ 3 ]
   - type: SNAKEMAN_ARMOR2
-    spriteInv: snakemanInventoryImage
+    spriteInv: inventory_SNAKEMAN_COMMANDER
     spriteSheet: SNAKEMANCOM.PCK
     corpseBattle:
-      - STR_SNAKEMAN_CORPSE
+      - STR_SNAKEMAN_COMMANDER_CORPSE
+    corpseGeo: STR_SNAKEMAN_CORPSE
     frontArmor: 26
     sideArmor: 26
     rearArmor: 22

@@ -249,6 +249,10 @@
       263: Resources/Races_Compilation/MutonRace/bigob_MUTON_SHADER.png
       264: Resources/Races_Compilation/ChaserRace/bigob_CHASER.png
       265: Resources/AlienArmouryExpanded/bigob_DeathDisc.png
+      266: Resources/Races_Compilation/SnakemanRace/bigob_SNAKEMAN_NAVIGATOR.png
+      267: Resources/Races_Compilation/SnakemanRace/bigob_SNAKEMAN_ENGINEER.png
+      268: Resources/Races_Compilation/SnakemanRace/bigob_SNAKEMAN_LEADER.png
+      269: Resources/Races_Compilation/SnakemanRace/bigob_SNAKEMAN_COMMANDER.png
   - type: FLOOROB.PCK
     files:
       41: Resources/GravArmors/PowerArmor/FloorCorpse.png
@@ -414,6 +418,10 @@
       234: Resources/Races_Compilation/MutonRace/floorob_MUTON_SHADER.png
       235: Resources/Races_Compilation/ChaserRace/floorob_CHASER.png
       236: Resources/AlienArmouryExpanded/floorob_DeathDisc.png
+      237: Resources/Races_Compilation/SnakemanRace/floorob_SNAKEMAN_NAVIGATOR.png
+      238: Resources/Races_Compilation/SnakemanRace/floorob_SNAKEMAN_ENGINEER.png
+      239: Resources/Races_Compilation/SnakemanRace/floorob_SNAKEMAN_LEADER.png
+      240: Resources/Races_Compilation/SnakemanRace/floorob_SNAKEMAN_COMMANDER.png
   - type: HANDOB.PCK
     height: 40
     width: 256
@@ -629,28 +637,28 @@
     width: 320
     height: 560
     files:
-      0: Resources/Alt_aliens/Snakeman_Commander/SnakemanCommander.png
+      0: Resources/Races_Compilation/SnakemanRace/SnakemanCommander.png
   - type: SNAKEMANNAV.PCK
     subX: 32
     subY: 40
     width: 320
     height: 560
     files:
-      0: Resources/Alt_aliens/Snakeman_Navigator/SnakemanNavigator.png
+      0: Resources/Races_Compilation/SnakemanRace/SnakemanNavigator.png
   - type: SNAKEMANLEA.PCK
     subX: 32
     subY: 40
     width: 320
     height: 560
     files:
-      0: Resources/Alt_aliens/Snakeman_Leader/SnakemanLeader.png
+      0: Resources/Races_Compilation/SnakemanRace/SnakemanLeader.png
   - type: SNAKEMANENG.PCK
     subX: 32
     subY: 40
     width: 320
     height: 560
     files:
-      0: Resources/Alt_aliens/Snakeman_Engineer/SnakemanEngineer.png
+      0: Resources/Races_Compilation/SnakemanRace/SnakemanEngineer.png
   - type: MUTON_SHADER.PCK
     subX: 32
     subY: 40
@@ -903,12 +911,36 @@
     singleImage: true
     files:
       0: Resources/AlienInventory/muton.png
-  - type: snakemanInventoryImage
+  - type: inventory_SNAKEMAN
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/AlienInventory/snakeman.png
+      0: Resources/Races_Compilation/SnakemanRace/inventory_SNAKEMAN.png
+  - type: inventory_SNAKEMAN_NAVIGATOR
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races_Compilation/SnakemanRace/inventory_SNAKEMAN_NAVIGATOR.png
+  - type: inventory_SNAKEMAN_ENGINEER
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races_Compilation/SnakemanRace/inventory_SNAKEMAN_ENGINEER.png
+  - type: inventory_SNAKEMAN_LEADER
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races_Compilation/SnakemanRace/inventory_SNAKEMAN_LEADER.png
+  - type: inventory_SNAKEMAN_COMMANDER
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races_Compilation/SnakemanRace/inventory_SNAKEMAN_COMMANDER.png
   - type: etherealInventoryImage
     width: 320
     height: 200

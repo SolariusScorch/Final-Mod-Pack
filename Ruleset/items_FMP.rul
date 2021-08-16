@@ -31,6 +31,54 @@
     recoveryPoints: 3
     attraction: 15
     listOrder: 1898
+  - type: STR_SNAKEMAN_NAVIGATOR_CORPSE
+    name: STR_SNAKEMAN_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 40
+    bigSprite: 266
+    floorSprite: 237
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_SNAKEMAN_ENGINEER_CORPSE
+    name: STR_SNAKEMAN_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 40
+    bigSprite: 267
+    floorSprite: 238
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_SNAKEMAN_LEADER_CORPSE
+    name: STR_SNAKEMAN_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 40
+    bigSprite: 268
+    floorSprite: 239
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_SNAKEMAN_COMMANDER_CORPSE
+    name: STR_SNAKEMAN_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 40
+    bigSprite: 269
+    floorSprite: 240
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
   - type: STR_CHASER_CORPSE
     size: 0.4
     costSell: 20000
