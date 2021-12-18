@@ -58,7 +58,7 @@ ANY FUTURE PLANS?
 I will do maintenance on the mod, and might add something new if I feel like it, but no promises - I am working on some other projects (mainly The X-Com Files, which is Final Mod Pack's younger, much bigger sibling).
 
 CHANGELOG:
-2.8h: New soldier nationalities: Armenian, Belarussian, Croatian, Cuban, Estonian, Faroese, Icelandic, Indonesian, Iranian, Kazakh, Kyrgyz, Latvian, Mexican, Mongolian, Saudi Arabian, Senegalese, South African, Swiss, Tajik, Thai, Ugandan, Uzbek, Vietnamese. Some name files expanded. 4 new Jungle maps (collab with Dioxine). 1 new Postindustrial map (by Dioxine). Battleship walls are less transparent. Improved graphics for some ranked aliens (by The Martian).
+2.9: New soldier nationalities: Armenian, Belarussian, Croatian, Cuban, Estonian, Faroese, Icelandic, Indonesian, Iranian, Kazakh, Kyrgyz, Latvian, Mexican, Mongolian, Saudi Arabian, Senegalese, South African, Swiss, Tajik, Thai, Ugandan, Uzbek, Vietnamese. Some name files expanded. 4 new Jungle maps (collab with Dioxine). 1 new Postindustrial map (by Dioxine). Battleship walls are less transparent. Improved graphics for some ranked aliens (by The Martian).
 2.8g: Updated the mod to fit the latest OXCE. URBANJUNK41 fixed.
 2.8f: Less MiB missions. Grav module can be recovered from Waspites. Better Dart Rifle graphics (by Brain_322). URBITS tile 22 is destructible. Fixed Waspite research (thanks R1dO). Fixed Junkfarm terrain movement costs. Fixed Jump Armor sprite (thanks The Martian). Fixed position of HC and AC AA clips (by Brain_322). Fixed civilian corpses recovery.
 2.8e: Fixed brain spawn on Cydonia. Fixed Floater's grav device color (thanks The Martian). Fixed Mogadishu location (thanks R1dO). Minor fixes.
