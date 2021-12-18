@@ -17,6 +17,7 @@ maleFirst:
   - Andreas
   - Anker
   - Anton
+  - Arendt
   - Arne
   - Arnold
   - Aron
@@ -40,7 +41,6 @@ maleFirst:
   - Birger
   - Bjarke
   - Bjarne
-  - Bjork
   - Bjorn
   - Bo
   - Boje
@@ -347,7 +347,6 @@ femaleFirst:
   - Annelise
   - Annemette
   - Annina
-  - Aren
   - Arisje
   - Arvada
   - Asa
@@ -360,6 +359,7 @@ femaleFirst:
   - Birgita
   - Birgitte
   - Birte
+  - Bjork
   - Britta
   - Brunhilde
   - Caia
@@ -378,7 +378,7 @@ femaleFirst:
   - Federikke
   - Freja
   - Freya
-  - Fritz
+  - Fritze
   - Gelsomina
   - Gerdi
   - Gitte
@@ -722,7 +722,6 @@ maleLast:
   - Ronholt
   - Ronne
   - Rosenkrantz
-  - Rriis
   - Rude
   - Sand
   - Sandstrod

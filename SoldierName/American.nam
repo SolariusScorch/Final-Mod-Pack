@@ -7,8 +7,10 @@ maleFirst:
   - Aaron
   - Adam
   - Adrian
+  - Alexander
   - Alfredo
   - Austin
+  - Ben
   - Brandon
   - Brian
   - Calvin
@@ -41,9 +43,11 @@ maleFirst:
   - Joshua
   - Keith
   - Kevin
+  - Kurt
   - Lester
   - Liam
   - Mark
+  - Miles
   - Omar
   - Oscar
   - Owen
@@ -51,6 +55,7 @@ maleFirst:
   - Pete
   - Rick
   - Robert
+  - Ryan
   - Samuel
   - Santiago
   - Saul
@@ -83,6 +88,7 @@ femaleFirst:
   - Chloe
   - Cora
   - Denise
+  - Elaine
   - Esperanza
   - Esther
   - Evelyn
@@ -127,8 +133,10 @@ femaleFirst:
 maleLast:
   - Becker
   - Benedict
+  - Bohannon
   - Bowers
   - Bradley
+  - Brasher
   - Brewster
   - Bryant
   - Burroughs
@@ -143,7 +151,9 @@ maleLast:
   - Daley
   - Davies
   - Dodge
+  - Epstein
   - Evans
+  - Fath
   - Gallagher
   - Gates
   - Goddard
@@ -156,6 +166,7 @@ maleLast:
   - Horton
   - Hudson
   - Hunt
+  - Irving
   - Johnson
   - Kay
   - Kellogg
@@ -165,6 +176,7 @@ maleLast:
   - Kirk
   - Lawson
   - Machado
+  - Majka
   - McNeil
   - Meador
   - Miller
@@ -187,6 +199,7 @@ maleLast:
   - Salomon
   - Scroggins
   - Shelley
+  - Sherris
   - Smiley
   - Sorensen
   - Stein
@@ -195,6 +208,9 @@ maleLast:
   - Thompson
   - Tirado
   - Underwood
+  - Valentino
+  - Vega
+  - Vercetti
   - Wade
   - Wagner
   - Webb

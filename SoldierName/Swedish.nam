@@ -1,4 +1,4 @@
-lookWeight:
+lookWeights:
   - 60
   - 40
   - 0
@@ -73,7 +73,6 @@ maleLast:
   - Larsson
   - Lindgren
   - Lind
-  - Eklund
   - Holm
   - Claesson
   - Viklund
@@ -85,12 +84,10 @@ maleLast:
   - Sundqvist
   - Sjoborg
   - Ivarsson
-  - Hedlund
   - Holmgren
   - Hedlund
   - Nordin
   - Berggren
   - Svensson
-  - Lindgren
   - Eklund
   - Axelsson

@@ -1,4 +1,4 @@
-lookWeights:
+﻿lookWeights:
   - 25
   - 35
   - 35
@@ -93,11 +93,14 @@ maleLast:
   - Borisov
   - Fedorov
   - Egorov
+  - Ermolaev
   - Grigoryev
+  - Grin
   - Gromov
   - Ivanov
   - Komarov
   - Korolyov
+  - Kozin
   - Kozlov
   - Kuzmin
   - Kuznetsov
@@ -132,11 +135,14 @@ femaleLast:
   - Borisova
   - Fedorova
   - Egorova
+  - Ermolaeva
   - Grigoryeva
+  - Grinova
   - Gromova
   - Ivanova
   - Komarova
   - Korolyova
+  - Kozina
   - Kozlova
   - Kuzmina
   - Kuznetsova
