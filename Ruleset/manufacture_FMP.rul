@@ -270,16 +270,16 @@
     producedItems:
       STR_ELERIUM_115: 3
     listOrder: 3815
-  - name: STR_BREAKDOWN_STR_PLASMA_BLASTER_CLIP
+  - name: STR_BREAKDOWN_STR_PLASMA_DESTROYER_CLIP
     category: STR_BASIC_COMPONENTS
     requires:
-      - STR_PLASMA_BLASTER_CLIP
+      - STR_PLASMA_DESTROYER_CLIP
       - STR_ELERIUM_115
     space: 2
     time: 410
     cost: 1900
     requiredItems:
-      STR_PLASMA_BLASTER_CLIP: 1
+      STR_PLASMA_DESTROYER_CLIP: 1
     producedItems:
       STR_ELERIUM_115: 4
     listOrder: 3820
@@ -1308,24 +1308,24 @@
     cost: 2600
     requiredItems:
       STR_ELERIUM_115: 1
-  - name: STR_PLASMA_BLASTER
+  - name: STR_PLASMA_DESTROYER
     category: STR_WEAPON
     listOrder: 1450
     requires:
       - STR_PLASMA_WEAPONS
-      - STR_PLASMA_BLASTER
-      - STR_PLASMA_BLASTER_CLIP
+      - STR_PLASMA_DESTROYER
+      - STR_PLASMA_DESTROYER_CLIP
     space: 6
     time: 1180
     cost: 152000
     requiredItems:
       STR_ALIEN_ALLOYS: 2
-  - name: STR_PLASMA_BLASTER_CLIP
+  - name: STR_PLASMA_DESTROYER_CLIP
     category: STR_BATTERIES
     listOrder: 1451
     requires:
       - STR_PLASMA_WEAPONS
-      - STR_PLASMA_BLASTER_CLIP
+      - STR_PLASMA_DESTROYER_CLIP
     space: 4
     time: 80
     cost: 6500

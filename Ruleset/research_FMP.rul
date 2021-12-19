@@ -3646,14 +3646,14 @@
     dependencies:
       - STR_PLASMA_WEAPONS_CALIBRATION
     listOrder: 2094
-  - name: STR_PLASMA_BLASTER
+  - name: STR_PLASMA_DESTROYER
     cost: 900
     points: 25
     needItem: true
     dependencies:
       - STR_PLASMA_WEAPONS_CALIBRATION
     listOrder: 2750
-  - name: STR_PLASMA_BLASTER_CLIP
+  - name: STR_PLASMA_DESTROYER_CLIP
     cost: 400
     points: 6
     needItem: true

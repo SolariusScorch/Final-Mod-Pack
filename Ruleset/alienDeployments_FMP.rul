@@ -566,9 +566,9 @@
             - STR_HEAVY_PLASMA_CLIP
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_BLASTER
-            - STR_PLASMA_BLASTER_CLIP
-            - STR_PLASMA_BLASTER_CLIP
+            - STR_PLASMA_DESTROYER
+            - STR_PLASMA_DESTROYER_CLIP
+            - STR_PLASMA_DESTROYER_CLIP
       - alienRank: 1
         lowQty: 1
         highQty: 1
@@ -737,9 +737,9 @@
             - STR_HEAVY_PLASMA_CLIP
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_BLASTER
-            - STR_PLASMA_BLASTER_CLIP
-            - STR_PLASMA_BLASTER_CLIP
+            - STR_PLASMA_DESTROYER
+            - STR_PLASMA_DESTROYER_CLIP
+            - STR_PLASMA_DESTROYER_CLIP
           -
             - STR_BLASTER_LAUNCHER
             - STR_BLASTER_BOMB
@@ -766,9 +766,9 @@
             - STR_HEAVY_PLASMA_CLIP
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_BLASTER
-            - STR_PLASMA_BLASTER_CLIP
-            - STR_PLASMA_BLASTER_CLIP
+            - STR_PLASMA_DESTROYER
+            - STR_PLASMA_DESTROYER_CLIP
+            - STR_PLASMA_DESTROYER_CLIP
           -
             - STR_BLASTER_LAUNCHER
             - STR_BLASTER_BOMB
@@ -792,9 +792,9 @@
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_BLASTER
-            - STR_PLASMA_BLASTER_CLIP
-            - STR_PLASMA_BLASTER_CLIP
+            - STR_PLASMA_DESTROYER
+            - STR_PLASMA_DESTROYER_CLIP
+            - STR_PLASMA_DESTROYER_CLIP
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
@@ -1105,9 +1105,9 @@
             - STR_ALIEN_GRENADE
             - STR_HEAVY_PLASMA_CLIP
           -
-            - STR_PLASMA_BLASTER
-            - STR_PLASMA_BLASTER_CLIP
-            - STR_PLASMA_BLASTER_CLIP
+            - STR_PLASMA_DESTROYER
+            - STR_PLASMA_DESTROYER_CLIP
+            - STR_PLASMA_DESTROYER_CLIP
       - alienRank: 1
         lowQty: 1
         highQty: 1
@@ -1228,9 +1228,9 @@
             - STR_HEAVY_PLASMA_CLIP
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_BLASTER
-            - STR_PLASMA_BLASTER_CLIP
-            - STR_PLASMA_BLASTER_CLIP
+            - STR_PLASMA_DESTROYER
+            - STR_PLASMA_DESTROYER_CLIP
+            - STR_PLASMA_DESTROYER_CLIP
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -1307,9 +1307,9 @@
             - STR_HEAVY_PLASMA_CLIP
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_BLASTER
-            - STR_PLASMA_BLASTER_CLIP
-            - STR_PLASMA_BLASTER_CLIP
+            - STR_PLASMA_DESTROYER
+            - STR_PLASMA_DESTROYER_CLIP
+            - STR_PLASMA_DESTROYER_CLIP
           -
             - STR_BLASTER_LAUNCHER
             - STR_BLASTER_BOMB
@@ -1335,9 +1335,9 @@
             - STR_HEAVY_PLASMA_CLIP
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_BLASTER
-            - STR_PLASMA_BLASTER_CLIP
-            - STR_PLASMA_BLASTER_CLIP
+            - STR_PLASMA_DESTROYER
+            - STR_PLASMA_DESTROYER_CLIP
+            - STR_PLASMA_DESTROYER_CLIP
             - STR_ALIEN_GRENADE
           -
             - STR_BLASTER_LAUNCHER
@@ -1372,9 +1372,9 @@
             - STR_ALIEN_GRENADE
             - STR_ALIEN_DATA_SLATE
           -
-            - STR_PLASMA_BLASTER
-            - STR_PLASMA_BLASTER_CLIP
-            - STR_PLASMA_BLASTER_CLIP
+            - STR_PLASMA_DESTROYER
+            - STR_PLASMA_DESTROYER_CLIP
+            - STR_PLASMA_DESTROYER_CLIP
             - STR_ALIEN_GRENADE
     width: 60
     length: 60
@@ -1484,9 +1484,9 @@
             - STR_HEAVY_PLASMA_CLIP
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_BLASTER
-            - STR_PLASMA_BLASTER_CLIP
-            - STR_PLASMA_BLASTER_CLIP
+            - STR_PLASMA_DESTROYER
+            - STR_PLASMA_DESTROYER_CLIP
+            - STR_PLASMA_DESTROYER_CLIP
           -
             - STR_BLASTER_LAUNCHER
             - STR_BLASTER_BOMB
@@ -1509,14 +1509,14 @@
             - STR_HEAVY_PLASMA_CLIP
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_BLASTER
-            - STR_PLASMA_BLASTER_CLIP
-            - STR_PLASMA_BLASTER_CLIP
+            - STR_PLASMA_DESTROYER
+            - STR_PLASMA_DESTROYER_CLIP
+            - STR_PLASMA_DESTROYER_CLIP
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_BLASTER
-            - STR_PLASMA_BLASTER_CLIP
-            - STR_PLASMA_BLASTER_CLIP
+            - STR_PLASMA_DESTROYER
+            - STR_PLASMA_DESTROYER_CLIP
+            - STR_PLASMA_DESTROYER_CLIP
             - STR_ALIEN_GRENADE
           -
             - STR_BLASTER_LAUNCHER
@@ -1542,9 +1542,9 @@
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_BLASTER
-            - STR_PLASMA_BLASTER_CLIP
-            - STR_PLASMA_BLASTER_CLIP
+            - STR_PLASMA_DESTROYER
+            - STR_PLASMA_DESTROYER_CLIP
+            - STR_PLASMA_DESTROYER_CLIP
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
@@ -1794,9 +1794,9 @@
             - STR_ALIEN_GRENADE
             - STR_HEAVY_PLASMA_CLIP
           -
-            - STR_PLASMA_BLASTER
-            - STR_PLASMA_BLASTER_CLIP
-            - STR_PLASMA_BLASTER_CLIP
+            - STR_PLASMA_DESTROYER
+            - STR_PLASMA_DESTROYER_CLIP
+            - STR_PLASMA_DESTROYER_CLIP
             - STR_ALIEN_GRENADE
       - alienRank: 4
         lowQty: 3
@@ -1820,9 +1820,9 @@
             - STR_FIRE_LAUNCHER
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_BLASTER
-            - STR_PLASMA_BLASTER_CLIP
-            - STR_PLASMA_BLASTER_CLIP
+            - STR_PLASMA_DESTROYER
+            - STR_PLASMA_DESTROYER_CLIP
+            - STR_PLASMA_DESTROYER_CLIP
             - STR_ALIEN_GRENADE
       - alienRank: 5
         lowQty: 3
@@ -2180,9 +2180,9 @@
             - STR_HEAVY_PLASMA_CLIP
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_BLASTER
-            - STR_PLASMA_BLASTER_CLIP
-            - STR_PLASMA_BLASTER_CLIP
+            - STR_PLASMA_DESTROYER
+            - STR_PLASMA_DESTROYER_CLIP
+            - STR_PLASMA_DESTROYER_CLIP
       - alienRank: 1
         lowQty: 1
         highQty: 2
@@ -2237,9 +2237,9 @@
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_BLASTER
-            - STR_PLASMA_BLASTER_CLIP
-            - STR_PLASMA_BLASTER_CLIP
+            - STR_PLASMA_DESTROYER
+            - STR_PLASMA_DESTROYER_CLIP
+            - STR_PLASMA_DESTROYER_CLIP
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_DATA_SLATE

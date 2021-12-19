@@ -3268,9 +3268,9 @@
     recoveryPoints: 1
     attraction: 10
     listOrder: 5151
-  - type: STR_PLASMA_BLASTER
+  - type: STR_PLASMA_DESTROYER
     requires:
-      - STR_PLASMA_BLASTER
+      - STR_PLASMA_DESTROYER
     size: 0.2
     costSell: 241600
     weight: 12
@@ -3280,7 +3280,7 @@
     bulletSprite: 8
     fireSound: 18
     compatibleAmmo:
-      - STR_PLASMA_BLASTER_CLIP
+      - STR_PLASMA_DESTROYER_CLIP
     accuracySnap: 55
     accuracyAimed: 95
     aimRange: 25
@@ -3294,9 +3294,9 @@
     armor: 50
     attraction: 10
     listOrder: 4980
-  - type: STR_PLASMA_BLASTER_CLIP
+  - type: STR_PLASMA_DESTROYER_CLIP
     requires:
-      - STR_PLASMA_BLASTER_CLIP
+      - STR_PLASMA_DESTROYER_CLIP
     size: 0.4
     costSell: 12520
     weight: 4
