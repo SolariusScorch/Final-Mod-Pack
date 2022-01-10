@@ -885,18 +885,22 @@
         count: 1
         trajectory: P8
         timer: 3000
+        interruptPercentage: 5
       - ufo: STR_FIGHTER_SHIP
         count: 2
         trajectory: P8
         timer: 3000
+        interruptPercentage: 10
       - ufo: STR_SENTRY_SHIP
         count: 3
         trajectory: P8
         timer: 3000
+        interruptPercentage: 10
       - ufo: STR_BATTLESHIP
         count: 2
         trajectory: P8
         timer: 3000
+        interruptPercentage: 90
   - type: STR_ALIEN_SUPPLY
     points: 0
     objective: 5
