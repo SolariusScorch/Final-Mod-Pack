@@ -1,11 +1,36 @@
 ﻿mapScripts:
-  - type: DEFAULT # mountain
+  - type: DEFAULT
     commands:
     - type: addUFO
     - type: addCraft
     - type: addBlock
       size: 2
       executions: 2
+    - type: fillArea
+  - type: MOUNTAIN
+    commands:
+    - type: addUFO
+    - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 8
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 10
+      direction: horizontal
+    - type: addLine
+      conditionals: [-1, -2]
+      executionChances: 15
+      direction: both
+    - type: addBlock
+      size: 3
+      groups: 0
+      executionChances: 75
+    - type: addBlock
+      size: 2
+      executions: 5
     - type: fillArea
   - type: FOREST
     commands:
@@ -14,26 +39,57 @@
     - type: addLine
       label: 1
       direction: vertical
-      executionChances: 15
+      executionChances: 12
     - type: addLine
       label: 2
       conditionals: -1
-      executionChances: 12
+      executionChances: 10
       direction: horizontal
     - type: addLine
       conditionals: [-1, -2]
-      executionChances: 20
+      executionChances: 15
       direction: both
     - type: addBlock
       size: 3
+      groups: 0
+      executionChances: 75
+    - type: addBlock
+      size: 2
+      executions: 4
     - type: fillArea
-  - type: MOUNTAIN
+  - type: JUNGLE
+    commands:
+    - type: addUFO
+    - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 8
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 10
+      direction: horizontal
+    - type: addLine
+      conditionals: [-1, -2]
+      executionChances: 15
+      direction: both
+    - type: addBlock
+      size: 3
+      executionChances: 25
+    - type: addBlock
+      size: 2
+      executionChances: 50
+    - type: fillArea
+  - type: POLAR
     commands:
     - type: addUFO
     - type: addCraft
     - type: addBlock
+      size: 3
+      executionChances: 50
+    - type: addBlock
       size: 2
-      executions: 5
     - type: fillArea
   - type: FARM
     commands:
@@ -53,12 +109,18 @@
       executionChances: 25
       direction: both
     - type: addBlock
+      size: 3
+      groups: 0
+      executionChances: 75
+    - type: addBlock
       size: 2
       executions: 2
       groups: 0
     - type: fillArea
   - type: RURAL
     commands:
+    - type: addCraft
+    - type: addUFO
     - type: addLine
       label: 1
       direction: horizontal
@@ -71,11 +133,13 @@
     - type: addLine
       conditionals: [-1, -2]
       direction: both
-    - type: addCraft
-    - type: addUFO
+    - type: addBlock
+      size: 3
+      groups: 0
+      executionChances: 75
     - type: addBlock
       size: 2
-      executions: 4
+      executions: 6
     - type: fillArea
   - type: RICE_FARM
     commands:
@@ -318,6 +382,10 @@
     commands:
     - type: addUFO
     - type: addCraft
+    - type: addBlock
+      size: 3
+      groups: 0
+      executionChances: 75
     - type: addBlock
       size: 2
       executions: 3

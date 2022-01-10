@@ -835,6 +835,9 @@
       - name: VILBAN57
         width: 10
         length: 10
+      - name: VILBANHUGE60
+        width: 30
+        length: 30
   - name: RICE_FARM
     script: RICE_FARM
     mapDataSets:
@@ -1341,6 +1344,15 @@
       - name: CULTASOL02
         width: 20
         length: 20
+      - name: CULTASOLHUGE00
+        width: 30
+        length: 30
+      - name: CULTASOLHUGE01
+        width: 30
+        length: 30
+      - name: CULTASOLHUGE02
+        width: 30
+        length: 30
       - name: CULTABIG01
         width: 20
         length: 20
@@ -1452,6 +1464,9 @@
       - name: POLAR17
         width: 20
         length: 20
+      - name: POLARHUGE00
+        width: 30
+        length: 30
   - name: DESERT
     mapDataSets:
       - BLANKS
@@ -1518,6 +1533,40 @@
       - name: DESERT17
         width: 10
         length: 10
+      - name: DESERTHUGE00
+        width: 30
+        length: 30
+      - name: DESERTHUGE01
+        width: 30
+        length: 30
+      - name: DESERT_ROAD_WE00
+        width: 10
+        length: 10
+        groups: 2
+      - name: DESERT_ROAD_WE01
+        width: 10
+        length: 10
+        groups: 2
+      - name: DESERT_ROAD_WE02
+        width: 10
+        length: 10
+        groups: 2
+      - name: DESERT_ROAD_SN00
+        width: 10
+        length: 10
+        groups: 3
+      - name: DESERT_ROAD_SN01
+        width: 10
+        length: 10
+        groups: 3
+      - name: DESERT_ROAD_SN02
+        width: 10
+        length: 10
+        groups: 3
+      - name: DESERT_ROAD_XX00
+        width: 10
+        length: 10
+        groups: 4
   - name: XOPSDESERT_NOCACTI
     startingCondition: STR_DESERT_GEAR
     mapDataSets:
@@ -1590,6 +1639,12 @@
       - name: SOLFOREST17
         width: 20
         length: 20
+      - name: SOLFORESTHUGE00
+        width: 30
+        length: 30
+      - name: SOLFORESTHUGE01
+        width: 30
+        length: 30
       - name: FINNIKFOREST00
         width: 10
         length: 10
@@ -1929,10 +1984,17 @@
       - name: JUNGLESOL02
         width: 10
         length: 10
+      - name: JUNGLESOL03
+        width: 20
+        length: 20
+      - name: JUNGLESOLHUGE00
+        width: 30
+        length: 30
   - name: MOUNT
     mapDataSets:
       - BLANKS
       - MOUNT
+    script: MOUNTAIN
     mapBlocks:
       - name: MOUNT00
         width: 10
@@ -1976,6 +2038,9 @@
       - name: MOUNT12
         width: 20
         length: 20
+      - name: MOUNTHUGE00
+        width: 30
+        length: 30
   - name: MOUNTBD_DEAD
     mapDataSets:
       - BLANKS
@@ -2024,6 +2089,9 @@
       - name: MOUNTBD12
         width: 20
         length: 20
+      - name: MOUNTBDSOLHUGE00
+        width: 30
+        length: 30
   - name: MOUNTBD_SNOW
     mapDataSets:
       - BLANKS
@@ -2114,6 +2182,12 @@
       - name: PLAINS12
         width: 20
         length: 20
+      - name: PLAINSSOL13
+        width: 10
+        length: 10
+      - name: PLAINSSOLHUGE00
+        width: 30
+        length: 30
   - name: PLAINS_DEAD
     mapDataSets:
       - BLANKS
