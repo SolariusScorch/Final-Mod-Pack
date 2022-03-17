@@ -1338,6 +1338,9 @@
       - name: CULTASOL00
         width: 20
         length: 20
+      - name: CULT_DIO01
+        width: 10
+        length: 10
       - name: CULTASOL01
         width: 10
         length: 10
