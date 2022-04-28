@@ -2889,6 +2889,7 @@
     handSprite: 0
     bulletSprite: 19
     fireSound: 65
+    clipSize: 60
     compatibleAmmo:
       - STR_HWP_GAUSS_AMMO
     accuracySnap: 70
@@ -2911,6 +2912,7 @@
     handSprite: 0
     bulletSprite: 19
     fireSound: 86
+    clipSize: 60
     compatibleAmmo:
       - STR_HWP_GAUSS_AMMO
     accuracySnap: 50
@@ -2948,6 +2950,7 @@
     handSprite: 0
     bulletSprite: 18
     fireSound: 96
+    clipSize: 60
     compatibleAmmo:
       - STR_HWP_RAILGUN_AMMO
     accuracyAuto: 35
@@ -2972,6 +2975,7 @@
     handSprite: 0
     bulletSprite: 18
     fireSound: 96
+    clipSize: 60
     compatibleAmmo:
       - STR_HWP_RAILGUN_AMMO
     accuracySnap: 50
