@@ -1923,6 +1923,8 @@
     mapDataSets:
       - BLANKS
       - JUNGLE
+      - JUNGLYROAD
+      - JUNGLEVINES
     script: JUNGLE
     mapBlocks:
       - name: JUNGLE00
@@ -1981,6 +1983,15 @@
       - name: JUNGLEDIO02
         width: 10
         length: 10
+      - name: JUNGLEDIO03
+        width: 10
+        length: 10
+      - name: JUNGLEDIO04
+        width: 10
+        length: 10
+      - name: JUNGLEDIO05
+        width: 10
+        length: 10
       - name: JUNGLESOL01
         width: 10
         length: 10
@@ -1993,6 +2004,34 @@
       - name: JUNGLESOLHUGE00
         width: 30
         length: 30
+      - name: JUNGLE_ROAD_WE00 # W-E
+        width: 10
+        length: 10
+        groups: 2
+      - name: JUNGLE_ROAD_WE01 # W-E
+        width: 10
+        length: 10
+        groups: 2
+      - name: JUNGLE_ROAD_WE02 # W-E
+        width: 10
+        length: 10
+        groups: 2
+      - name: JUNGLE_ROAD_SN00 # N-S
+        width: 10
+        length: 10
+        groups: 3
+      - name: JUNGLE_ROAD_SN01 # N-S
+        width: 10
+        length: 10
+        groups: 3
+      - name: JUNGLE_ROAD_SN02 # N-S
+        width: 10
+        length: 10
+        groups: 3
+      - name: JUNGLE_ROAD_XX00 # Crossroads
+        width: 10
+        length: 10
+        groups: 4
   - name: MOUNT
     mapDataSets:
       - BLANKS
