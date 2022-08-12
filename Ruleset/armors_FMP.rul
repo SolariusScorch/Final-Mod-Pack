@@ -925,8 +925,8 @@
     stats:
        tu: 20
        stamina: 30
-       strength: 5
-       melee: 10
+       strength: 20
+       melee: 20
     frontArmor: 40
     sideArmor: 35
     rearArmor: 30
