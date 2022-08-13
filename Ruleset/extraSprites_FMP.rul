@@ -1722,38 +1722,6 @@
     singleImage: true
     files:
       0: Resources/Armors_Compilation/Synthsuit/Inventory/man_13m3.png
-  - type: MAN_14F0.SPK
-    singleImage: true
-    files:
-      0: Resources/Armors_Compilation/Juggernaut_Suit/Inventory/man_14f0.png
-  - type: MAN_14F1.SPK
-    singleImage: true
-    files:
-      0: Resources/Armors_Compilation/Juggernaut_Suit/Inventory/man_14f1.png
-  - type: MAN_14F2.SPK
-    singleImage: true
-    files:
-      0: Resources/Armors_Compilation/Juggernaut_Suit/Inventory/man_14f2.png
-  - type: MAN_14F3.SPK
-    singleImage: true
-    files:
-      0: Resources/Armors_Compilation/Juggernaut_Suit/Inventory/man_14f3.png
-  - type: MAN_14M0.SPK
-    singleImage: true
-    files:
-      0: Resources/Armors_Compilation/Juggernaut_Suit/Inventory/man_14m0.png
-  - type: MAN_14M1.SPK
-    singleImage: true
-    files:
-      0: Resources/Armors_Compilation/Juggernaut_Suit/Inventory/man_14m1.png
-  - type: MAN_14M2.SPK
-    singleImage: true
-    files:
-      0: Resources/Armors_Compilation/Juggernaut_Suit/Inventory/man_14m2.png
-  - type: MAN_14M3.SPK
-    singleImage: true
-    files:
-      0: Resources/Armors_Compilation/Juggernaut_Suit/Inventory/man_14m3.png
   - type: XCOM_2.PCK
     width: 1024
     height: 360
@@ -1817,6 +1785,10 @@
     subY: 40
     files:
       0: Resources/Armors_Compilation/Juggernaut_Suit/Juggernaut.png
+  - type: MAN_14.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors_Compilation/Juggernaut_Suit/Inventory/inventory_HeavyJuggernautSuit.png
   - type: MIB_0.PCK
     width: 512
     height: 720
