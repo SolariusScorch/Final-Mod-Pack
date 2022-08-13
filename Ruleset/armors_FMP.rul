@@ -394,6 +394,7 @@
     loftempsSet: [ 92, 89, 90, 91 ]
   - type: STR_CYBERDISC_ARMOR
     spriteSheet: CYBER.PCK
+    spriteInv: inventory_CYBERDISC
     allowInv: false
     corpseBattle:
       - CYBERDISC_CORPSE_1
@@ -1119,6 +1120,7 @@
     loftempsSet: [ 3 ]
   - type: STR_SPITTER_ARMOR
     spriteSheet: SPITTER.PCK
+    spriteInv: inventory_SPITTER
     allowInv: false
     corpseBattle:
       - STR_SPITTER_CORPSE
@@ -1141,6 +1143,7 @@
     loftempsSet: [ 3 ]
   - type: STR_SPITTER_RETRACT_ARMOR
     spriteSheet: SPITTER_RETRACT.PCK
+    spriteInv: inventory_SPITTER
     allowInv: false
     corpseBattle:
       - STR_SPITTER_RETRACT_CORPSE
@@ -1164,6 +1167,7 @@
     loftempsSet: [ 3 ]
   - type: STR_SPITTER_RETRES_ARMOR
     spriteSheet: SPITTER_RETRES.PCK
+    spriteInv: inventory_SPITTER
     allowInv: false
     corpseBattle:
       - STR_SPITTER_RETRES_CORPSE
@@ -1188,6 +1192,7 @@
     deathFrames: 18
   - type: STR_SPITTER_NAKED_ARMOR
     spriteSheet: SPITTER_NAKED.PCK
+    spriteInv: inventory_SPITTER
     allowInv: false
     corpseBattle:
       - STR_SPITTER_NAKED_CORPSE
@@ -1211,6 +1216,7 @@
     loftempsSet: [ 3 ]
   - type: STR_MIBTANK_ARMOR
     spriteSheet: MIBTANKS.PCK
+    spriteInv: inventory_TANK_CANNON
     allowInv: false
     corpseBattle:
       - MIBTANK_CORPSE_1
@@ -1237,6 +1243,7 @@
     loftempsSet: [ 92, 89, 90, 91 ]
   - type: STR_XCOM_CYBERDISC_ARMOR
     spriteSheet: XCOM_CYBERDISC.PCK
+    spriteInv: inventory_CYBERDISC
     allowInv: false
     corpseBattle:
       - STR_XCOM_CYBERDISC_CORPSE_1
@@ -1266,6 +1273,7 @@
     loftempsSet: [ 92, 89, 90, 91 ]
   - type: STR_XCOM_CYBERDISC_ARMOR_ORANGE
     spriteSheet: XCOM_CYBERDISC_ORANGE.PCK
+    spriteInv: inventory_CYBERDISC
     allowInv: false
     corpseBattle:
       - STR_XCOM_CYBERDISC_CORPSE_1

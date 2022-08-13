@@ -625,6 +625,10 @@
     height: 160
     files:
       0: Resources/XComCyberdisc/cyborange.png
+  - type: inventory_CYBERDISC
+    singleImage: true
+    files:
+      0: Resources/Races_Compilation/SectoidRace/inventory_CYBERDISC.png
   - type: MUTCOM.PCK
     subX: 32
     subY: 40
@@ -855,6 +859,10 @@
     height: 200
     files:
       0: Resources/Races_Compilation/AnthropodRace/SPITTER_RETRACT.png
+  - type: inventory_SPITTER
+    singleImage: true
+    files:
+      0: Resources/Races_Compilation/AnthropodRace/inventory_SPITTER.png
   - type: HOLODRONE.PCK
     subX: 32
     subY: 40
@@ -1948,6 +1956,10 @@
     subY: 40
     files:
       0: Resources/men_in_black/MIBTANKS.png
+  - type: inventory_TANK_CANNON
+    singleImage: true
+    files:
+      0: Resources/men_in_black/inventory_TANK_CANNON.png
   - type: MIBSECT.PCK
     width: 256
     height: 840
