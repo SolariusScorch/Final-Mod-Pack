@@ -679,11 +679,18 @@
     height: 200
     files:
       0: Resources/Races_Compilation/MutonRace/ufopedia_MUTON_SHADER.png
+  - type: MUTON.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 680
+    files:
+      0: Resources/Races_Compilation/MutonRace/MUTON.png
   - type: MUTLEADER.PCK
     subX: 32
     subY: 40
-    width: 256
-    height: 1440
+    width: 512
+    height: 680
     files:
       0: Resources/Races_Compilation/MutonRace/MUTON_LEADER.png
   - type: MUTMED.PCK
