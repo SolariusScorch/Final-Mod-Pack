@@ -240,7 +240,7 @@
       254: Resources/AlienArmouryExpanded/bigob_PlasmaSub.png
       255: Resources/AlienArmouryExpanded/bigob_PlasmaSubClip.png
       256: Resources/men_in_black/bigob_MIB_PSI_OPS.png
-      257: Resources/Races_Compilation/HybridRace/bigob_DroneWeapon.png
+# unused      257: Resources/Races_Compilation/HybridRace/bigob_DroneWeapon.png
       258: Resources/Races_Compilation/AnthropodRace/bigob_GreenBlob.png
       259: Resources/Races_Compilation/FloaterRace/bigob_ReaperAttack.png
       260: Resources/Races_Compilation/CerebrealRace/bigob_PsiBlast.png
@@ -253,6 +253,7 @@
       267: Resources/Races_Compilation/SnakemanRace/bigob_SNAKEMAN_ENGINEER.png
       268: Resources/Races_Compilation/SnakemanRace/bigob_SNAKEMAN_LEADER.png
       269: Resources/Races_Compilation/SnakemanRace/bigob_SNAKEMAN_COMMANDER.png
+      270: Resources/Races_Compilation/HybridRace/bigob_DroneWeapon.png
   - type: FLOOROB.PCK
     files:
       41: Resources/GravArmors/PowerArmor/FloorCorpse.png
@@ -1021,6 +1022,10 @@
     height: 200
     files:
       0: Resources/Races_Compilation/HybridRace/DRONE.png
+  - type: inventory_ALIEN_DRONE
+    singleImage: true
+    files:
+      0: Resources/Races_Compilation/HybridRace/inventory_DRONE.png
   - type: SALAMANDRON.PCK
     subX: 32
     subY: 40
@@ -1910,7 +1915,7 @@
       0: Resources/CiviliansPack/MALE_CIVILIAN6.png
   - type: MALE_CIVILIAN7.PCK
     width: 512
-    height: 200
+    height: 720
     subX: 32
     subY: 40
     files:

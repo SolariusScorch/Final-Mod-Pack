@@ -152,7 +152,7 @@
       psiStrength: 100
       psiSkill: 0
       melee: 0
-    armor: OBLITERATOR_ARMOR
+    armor: STR_OBLITERATOR_ARMOR
     standHeight: 16
     kneelHeight: 16
     floatHeight: 6
@@ -177,7 +177,7 @@
       psiStrength: 60
       psiSkill: 45
       melee: 75
-    armor: ETHEREAL_ARMOR_WHITE
+    armor: STR_ETHEREAL_ARMOR_WHITE
     standHeight: 20
     kneelHeight: 15
     value: 40
@@ -200,7 +200,7 @@
       psiStrength: 60
       psiSkill: 55
       melee: 85
-    armor: ETHEREAL_ARMOR_WHITE2
+    armor: STR_ETHEREAL_ARMOR_WHITE2
     standHeight: 20
     kneelHeight: 15
     value: 40
@@ -223,7 +223,7 @@
       psiStrength: 65
       psiSkill: 50
       melee: 90
-    armor: ETHEREAL_ARMOR_WHITE3
+    armor: STR_ETHEREAL_ARMOR_WHITE3
     standHeight: 20
     kneelHeight: 15
     value: 40
@@ -246,7 +246,7 @@
       psiStrength: 75
       psiSkill: 80
       melee: 95
-    armor: ETHEREAL_ARMOR_WHITE4
+    armor: STR_ETHEREAL_ARMOR_WHITE4
     standHeight: 20
     kneelHeight: 15
     value: 40
@@ -269,7 +269,7 @@
       psiStrength: 35
       psiSkill: 0
       melee: 25
-    armor: MIB_ARMOR4
+    armor: STR_MIB_ARMOR4
     standHeight: 22
     kneelHeight: 14
     value: 20
@@ -291,7 +291,7 @@
       psiStrength: 45
       psiSkill: 0
       melee: 40
-    armor: MIB_ARMOR5
+    armor: STR_MIB_ARMOR5
     standHeight: 22
     kneelHeight: 14
     value: 20
@@ -313,7 +313,7 @@
       psiStrength: 55
       psiSkill: 50
       melee: 45
-    armor: MIB_PSI_OPS_ARMOR
+    armor: STR_MIB_PSI_OPS_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 80
@@ -335,7 +335,7 @@
       psiStrength: 100
       psiSkill: 0
       melee: 80
-    armor: MIB_SECTOPOD_ARMOR
+    armor: STR_MIB_SECTOPOD_ARMOR
     standHeight: 23
     kneelHeight: 16
     value: 30
@@ -358,7 +358,7 @@
       psiStrength: 40
       psiSkill: 0
       melee: 100
-    armor: DOGE_ARMOR
+    armor: STR_DOGE_ARMOR
     standHeight: 12
     kneelHeight: 12
     value: 6
@@ -383,7 +383,7 @@
       psiStrength: 45
       psiSkill: 0
       melee: 25
-    armor: HYBRID_ARMOR0
+    armor: STR_HYBRID_ARMOR
     standHeight: 21
     kneelHeight: 16
     value: 12
@@ -405,7 +405,7 @@
       psiStrength: 45
       psiSkill: 0
       melee: 25
-    armor: HYBRID_ARMOR0
+    armor: STR_HYBRID_ARMOR
     standHeight: 21
     kneelHeight: 16
     value: 18
@@ -427,7 +427,7 @@
       psiStrength: 45
       psiSkill: 0
       melee: 25
-    armor: HYBRID_ARMOR0
+    armor: STR_HYBRID_ARMOR
     standHeight: 21
     kneelHeight: 16
     value: 14
@@ -449,7 +449,7 @@
       psiStrength: 45
       psiSkill: 0
       melee: 25
-    armor: HYBRID_ARMOR0
+    armor: STR_HYBRID_ARMOR
     standHeight: 21
     kneelHeight: 16
     value: 16
@@ -471,7 +471,7 @@
       psiStrength: 45
       psiSkill: 0
       melee: 40
-    armor: DRONE_ARMOR
+    armor: STR_ALIEN_DRONE_ARMOR
     moveSound: 40
     standHeight: 11
     kneelHeight: 16
@@ -496,7 +496,7 @@
       psiStrength: 30
       psiSkill: 0
       melee: 45
-    armor: ANTHROPOD_ARMOR0
+    armor: STR_ANTHROPOD_ARMOR0
     standHeight: 21
     kneelHeight: 16
     value: 15
@@ -519,7 +519,7 @@
       psiStrength: 30
       psiSkill: 0
       melee: 48
-    armor: ANTHROPOD_ARMOR1
+    armor: STR_ANTHROPOD_ARMOR1
     standHeight: 21
     kneelHeight: 16
     value: 17
@@ -542,7 +542,7 @@
       psiStrength: 35
       psiSkill: 0
       melee: 44
-    armor: ANTHROPOD_ARMOR2
+    armor: STR_ANTHROPOD_ARMOR2
     standHeight: 21
     kneelHeight: 16
     value: 19
@@ -565,7 +565,7 @@
       psiStrength: 40
       psiSkill: 0
       melee: 15
-    armor: SPITTER_ARMOR
+    armor: STR_SPITTER_ARMOR
     standHeight: 18
     kneelHeight: 18
     value: 15
@@ -590,7 +590,7 @@
       psiStrength: 40
       psiSkill: 0
       melee: 15
-    armor: SPITTER_RETRACT_ARMOR
+    armor: STR_SPITTER_RETRACT_ARMOR
     standHeight: 10
     kneelHeight: 10
     value: 15
@@ -615,7 +615,7 @@
       psiStrength: 40
       psiSkill: 0
       melee: 15
-    armor: SPITTER_RETRES_ARMOR
+    armor: STR_SPITTER_RETRES_ARMOR
     standHeight: 10
     kneelHeight: 10
     value: 15
@@ -641,7 +641,7 @@
       psiStrength: 40
       psiSkill: 0
       melee: 15
-    armor: SPITTER_NAKED_ARMOR
+    armor: STR_SPITTER_NAKED_ARMOR
     standHeight: 18
     kneelHeight: 18
     value: 15
@@ -651,6 +651,35 @@
     aggression: 2
     energyRecovery: 30
     livingWeapon: true
+  - type: STR_CYBERDISC_TERRORIST
+    race: STR_CYBERDISC
+    rank: STR_LIVE_TERRORIST
+    liveAlien: ""
+    stats:
+      tu: 62
+      stamina: 90
+      health: 120
+      bravery: 110
+      reactions: 64
+      firing: 60
+      throwing: 0
+      strength: 90
+      psiStrength: 100
+      psiSkill: 0
+      melee: 0
+    armor: STR_CYBERDISC_ARMOR
+    standHeight: 15
+    kneelHeight: 15
+    floatHeight: 2
+    value: 20
+    deathSound: 23
+    moveSound: 40
+    intelligence: 5
+    aggression: 1
+    energyRecovery: 50
+    specab: 1
+    livingWeapon: true
+    capturable: false
   - type: STR_XCOM_CYBERDISC_LASER
     race: STR_XCOM_CYBERDISC_LASER
     stats:
@@ -665,7 +694,7 @@
       psiStrength: 100
       psiSkill: 0
       melee: 0
-    armor: XCOM_CYBERDISC_ARMOR_ORANGE
+    armor: STR_XCOM_CYBERDISC_ARMOR_ORANGE
     standHeight: 15
     kneelHeight: 15
     floatHeight: 2
@@ -688,7 +717,7 @@
       psiStrength: 100
       psiSkill: 0
       melee: 0
-    armor: XCOM_CYBERDISC_ARMOR
+    armor: STR_XCOM_CYBERDISC_ARMOR
     standHeight: 15
     kneelHeight: 15
     floatHeight: 2
@@ -712,7 +741,7 @@
       psiStrength: 35
       psiSkill: 0
       melee: 25
-    armor: MIB_ARMOR0
+    armor: STR_MIB_ARMOR0
     standHeight: 22
     kneelHeight: 14
     value: 20
@@ -734,7 +763,7 @@
       psiStrength: 35
       psiSkill: 0
       melee: 35
-    armor: MIB_ARMOR1
+    armor: STR_MIB_ARMOR1
     standHeight: 22
     kneelHeight: 14
     value: 22
@@ -756,7 +785,7 @@
       psiStrength: 40
       psiSkill: 0
       melee: 30
-    armor: MIB_ARMOR2
+    armor: STR_MIB_ARMOR2
     standHeight: 22
     kneelHeight: 14
     value: 23
@@ -778,7 +807,7 @@
       psiStrength: 45
       psiSkill: 0
       melee: 40
-    armor: MIB_ARMOR1
+    armor: STR_MIB_ARMOR1
     standHeight: 22
     kneelHeight: 14
     value: 25
@@ -800,7 +829,7 @@
       psiStrength: 45
       psiSkill: 0
       melee: 45
-    armor: MIB_ARMOR3
+    armor: STR_MIB_ARMOR3
     standHeight: 22
     kneelHeight: 14
     value: 28
@@ -822,7 +851,7 @@
       psiStrength: 50
       psiSkill: 0
       melee: 50
-    armor: MIB_ARMOR3
+    armor: STR_MIB_ARMOR3
     standHeight: 22
     kneelHeight: 14
     value: 36
@@ -844,7 +873,7 @@
       psiStrength: 100
       psiSkill: 0
       melee: 70
-    armor: MIBTANK_ARMOR
+    armor: STR_MIBTANK_ARMOR
     standHeight: 16
     kneelHeight: 16
     value: 25
@@ -853,6 +882,10 @@
     intelligence: 5
     aggression: 2
     livingWeapon: true
+  - type: STR_MUTON_SOLDIER
+    armor: STR_MUTON_ARMOR0
+  - type: STR_MUTON_NAVIGATOR
+    armor: STR_MUTON_ARMOR1
   - type: STR_MUTON_MEDIC
     race: STR_MUTON
     rank: STR_LIVE_MEDIC
@@ -868,10 +901,33 @@
       psiStrength: 24
       psiSkill: 0
       melee: 76
-    armor: MUTON_ARMOR_MEDIC
+    armor: STR_MUTON_ARMOR_MEDIC
     standHeight: 21
     kneelHeight: 16
     value: 28
+    deathSound: 6
+    intelligence: 4
+    aggression: 2
+    energyRecovery: 40
+  - type: STR_MUTON_ENGINEER
+    race: STR_MUTON
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 125
+      bravery: 80
+      reactions: 60
+      firing: 54
+      throwing: 62
+      strength: 70
+      psiStrength: 25
+      psiSkill: 0
+      melee: 76
+    armor: STR_MUTON_ARMOR2
+    standHeight: 21
+    kneelHeight: 16
+    value: 19
     deathSound: 6
     intelligence: 4
     aggression: 2
@@ -891,7 +947,7 @@
       psiStrength: 25
       psiSkill: 0
       melee: 78
-    armor: MUTON_ARMOR_LEADER
+    armor: STR_MUTON_ARMOR_LEADER
     standHeight: 21
     kneelHeight: 16
     value: 28
@@ -914,7 +970,7 @@
       psiStrength: 50
       psiSkill: 0
       melee: 82
-    armor: MUTON_ARMOR_COM
+    armor: STR_MUTON_ARMOR_COM
     standHeight: 21
     kneelHeight: 16
     value: 36
@@ -983,7 +1039,7 @@
       psiStrength: 50
       psiSkill: 40
       melee: 10
-    armor: CEREBREAL_ARMOR0
+    armor: STR_CEREBREAL_ARMOR0
     moveSound: 40
     standHeight: 21
     kneelHeight: 16
@@ -1008,7 +1064,7 @@
       psiStrength: 50
       psiSkill: 40
       melee: 10
-    armor: CEREBREAL_ARMOR0
+    armor: STR_CEREBREAL_ARMOR0
     moveSound: 40
     standHeight: 21
     kneelHeight: 16
@@ -1033,7 +1089,7 @@
       psiStrength: 50
       psiSkill: 40
       melee: 10
-    armor: CEREBREAL_ARMOR0
+    armor: STR_CEREBREAL_ARMOR0
     moveSound: 40
     standHeight: 21
     kneelHeight: 16
@@ -1058,7 +1114,7 @@
       psiStrength: 50
       psiSkill: 40
       melee: 10
-    armor: CEREBREAL_ARMOR0
+    armor: STR_CEREBREAL_ARMOR0
     moveSound: 40
     standHeight: 21
     kneelHeight: 16
@@ -1083,7 +1139,7 @@
       psiStrength: 50
       psiSkill: 45
       melee: 10
-    armor: CEREBREAL_ARMOR1
+    armor: STR_CEREBREAL_ARMOR1
     moveSound: 40
     standHeight: 21
     kneelHeight: 16
@@ -1108,7 +1164,7 @@
       psiStrength: 50
       psiSkill: 50
       melee: 10
-    armor: CEREBREAL_ARMOR2
+    armor: STR_CEREBREAL_ARMOR2
     moveSound: 40
     standHeight: 21
     kneelHeight: 16
@@ -1133,7 +1189,7 @@
       psiStrength: 45
       psiSkill: 0
       melee: 40
-    armor: CEREBREAL_LARVA_ARMOR
+    armor: STR_CEREBREAL_LARVA_ARMOR
     moveSound: 40
     standHeight: 11
     kneelHeight: 16
@@ -1158,7 +1214,7 @@
       psiStrength: 45
       psiSkill: 0
       melee: 25
-    armor: CHTONITE_ARMOR0
+    armor: STR_CHTONITE_ARMOR0
     standHeight: 21
     kneelHeight: 16
     value: 12
@@ -1180,7 +1236,7 @@
       psiStrength: 45
       psiSkill: 0
       melee: 25
-    armor: CHTONITE_ARMOR0
+    armor: STR_CHTONITE_ARMOR0
     standHeight: 21
     kneelHeight: 16
     value: 18
@@ -1202,7 +1258,7 @@
       psiStrength: 45
       psiSkill: 0
       melee: 25
-    armor: CHTONITE_ARMOR0
+    armor: STR_CHTONITE_ARMOR0
     standHeight: 21
     kneelHeight: 16
     value: 14
@@ -1224,7 +1280,7 @@
       psiStrength: 45
       psiSkill: 0
       melee: 25
-    armor: CHTONITE_ARMOR0
+    armor: STR_CHTONITE_ARMOR0
     standHeight: 21
     kneelHeight: 16
     value: 16
@@ -1246,7 +1302,7 @@
       psiStrength: 50
       psiSkill: 0
       melee: 35
-    armor: CHTONITE_ARMOR1
+    armor: STR_CHTONITE_ARMOR1
     standHeight: 21
     kneelHeight: 16
     value: 25
@@ -1268,7 +1324,7 @@
       psiStrength: 50
       psiSkill: 0
       melee: 45
-    armor: CHTONITE_ARMOR2
+    armor: STR_CHTONITE_ARMOR2
     standHeight: 21
     kneelHeight: 16
     value: 35
@@ -1290,7 +1346,7 @@
       psiStrength: 50
       psiSkill: 0
       melee: 50
-    armor: REPTOID_ARMOR0
+    armor: STR_REPTOID_ARMOR0
     standHeight: 21
     kneelHeight: 16
     value: 12
@@ -1312,7 +1368,7 @@
       psiStrength: 50
       psiSkill: 0
       melee: 50
-    armor: REPTOID_ARMOR0
+    armor: STR_REPTOID_ARMOR0
     standHeight: 21
     kneelHeight: 16
     value: 18
@@ -1334,7 +1390,7 @@
       psiStrength: 50
       psiSkill: 0
       melee: 50
-    armor: REPTOID_ARMOR0
+    armor: STR_REPTOID_ARMOR0
     standHeight: 21
     kneelHeight: 16
     value: 14
@@ -1356,7 +1412,7 @@
       psiStrength: 50
       psiSkill: 0
       melee: 50
-    armor: REPTOID_ARMOR0
+    armor: STR_REPTOID_ARMOR0
     standHeight: 21
     kneelHeight: 16
     value: 16
@@ -1378,7 +1434,7 @@
       psiStrength: 55
       psiSkill: 0
       melee: 60
-    armor: REPTOID_ARMOR1
+    armor: STR_REPTOID_ARMOR1
     standHeight: 21
     kneelHeight: 16
     value: 25
@@ -1400,7 +1456,7 @@
       psiStrength: 60
       psiSkill: 0
       melee: 82
-    armor: REPTOID_ARMOR2
+    armor: STR_REPTOID_ARMOR2
     standHeight: 21
     kneelHeight: 16
     value: 35
@@ -1447,7 +1503,7 @@
       psiStrength: 50
       psiSkill: 0
       melee: 34
-    armor: GAZER_ARMOR0
+    armor: STR_GAZER_ARMOR0
     standHeight: 19
     kneelHeight: 15
     value: 16
@@ -1470,7 +1526,7 @@
       psiStrength: 50
       psiSkill: 0
       melee: 34
-    armor: GAZER_ARMOR0
+    armor: STR_GAZER_ARMOR0
     standHeight: 19
     kneelHeight: 15
     value: 18
@@ -1493,7 +1549,7 @@
       psiStrength: 50
       psiSkill: 0
       melee: 34
-    armor: GAZER_ARMOR0
+    armor: STR_GAZER_ARMOR0
     standHeight: 19
     kneelHeight: 15
     value: 20
@@ -1516,7 +1572,7 @@
       psiStrength: 50
       psiSkill: 0
       melee: 34
-    armor: GAZER_ARMOR0
+    armor: STR_GAZER_ARMOR0
     standHeight: 19
     kneelHeight: 15
     value: 22
@@ -1539,7 +1595,7 @@
       psiStrength: 55
       psiSkill: 0
       melee: 40
-    armor: GAZER_ARMOR1
+    armor: STR_GAZER_ARMOR1
     standHeight: 19
     kneelHeight: 15
     value: 26
@@ -1562,7 +1618,7 @@
       psiStrength: 60
       psiSkill: 0
       melee: 45
-    armor: GAZER_ARMOR2
+    armor: STR_GAZER_ARMOR2
     standHeight: 19
     kneelHeight: 15
     value: 30
@@ -1585,7 +1641,7 @@
       psiStrength: 100
       psiSkill: 0
       melee: 60
-    armor: HOLODRONE_ARMOR
+    armor: STR_HOLODRONE_ARMOR
     standHeight: 16
     kneelHeight: 16
     floatHeight: 8
@@ -1610,7 +1666,7 @@
       psiStrength: 55
       psiSkill: 0
       melee: 65
-    armor: WASPITE_ARMOR0
+    armor: STR_WASPITE_ARMOR0
     standHeight: 21
     kneelHeight: 16
     floatHeight: 2
@@ -1634,7 +1690,7 @@
       psiStrength: 55
       psiSkill: 0
       melee: 65
-    armor: WASPITE_ARMOR0
+    armor: STR_WASPITE_ARMOR0
     standHeight: 21
     kneelHeight: 16
     floatHeight: 2
@@ -1658,7 +1714,7 @@
       psiStrength: 50
       psiSkill: 0
       melee: 65
-    armor: WASPITE_ARMOR_BROWN
+    armor: STR_WASPITE_ARMOR_BROWN
     standHeight: 21
     kneelHeight: 16
     floatHeight: 2
@@ -1682,7 +1738,7 @@
       psiStrength: 50
       psiSkill: 0
       melee: 65
-    armor: WASPITE_ARMOR_WHITE
+    armor: STR_WASPITE_ARMOR_WHITE
     standHeight: 21
     kneelHeight: 16
     floatHeight: 2
@@ -1706,7 +1762,7 @@
       psiStrength: 55
       psiSkill: 0
       melee: 70
-    armor: WASPITE_ARMOR1
+    armor: STR_WASPITE_ARMOR1
     standHeight: 21
     kneelHeight: 16
     floatHeight: 2
@@ -1730,7 +1786,7 @@
       psiStrength: 60
       psiSkill: 0
       melee: 76
-    armor: WASPITE_ARMOR2
+    armor: STR_WASPITE_ARMOR2
     standHeight: 21
     kneelHeight: 16
     floatHeight: 2
@@ -1754,7 +1810,7 @@
       psiStrength: 100
       psiSkill: 0
       melee: 80
-    armor: CYBERMITE_ARMOR
+    armor: STR_CYBERMITE_ARMOR
     standHeight: 6
     kneelHeight: 5
     value: 25
@@ -1780,7 +1836,7 @@
       psiStrength: 5
       psiSkill: 0
       melee: 15
-    armor: MALE_CIVILIAN2_ARMOR
+    armor: STR_MALE_CIVILIAN2_ARMOR
     standHeight: 21
     kneelHeight: 14
     value: 30
@@ -1800,7 +1856,7 @@
       psiStrength: 5
       psiSkill: 0
       melee: 15
-    armor: MALE_CIVILIAN3_ARMOR
+    armor: STR_MALE_CIVILIAN3_ARMOR
     standHeight: 21
     kneelHeight: 14
     value: 30
@@ -1820,7 +1876,7 @@
       psiStrength: 5
       psiSkill: 0
       melee: 15
-    armor: MALE_CIVILIAN4_ARMOR
+    armor: STR_MALE_CIVILIAN4_ARMOR
     standHeight: 21
     kneelHeight: 14
     value: 30
@@ -1840,7 +1896,7 @@
       psiStrength: 5
       psiSkill: 0
       melee: 15
-    armor: MALE_CIVILIAN5_ARMOR
+    armor: STR_MALE_CIVILIAN5_ARMOR
     standHeight: 21
     kneelHeight: 14
     value: 30
@@ -1860,7 +1916,7 @@
       psiStrength: 5
       psiSkill: 0
       melee: 15
-    armor: MALE_CIVILIAN6_ARMOR
+    armor: STR_MALE_CIVILIAN6_ARMOR
     standHeight: 21
     kneelHeight: 14
     value: 30
@@ -1880,7 +1936,7 @@
       psiStrength: 5
       psiSkill: 0
       melee: 15
-    armor: MALE_CIVILIAN7_ARMOR
+    armor: STR_MALE_CIVILIAN7_ARMOR
     standHeight: 21
     kneelHeight: 14
     value: 30
@@ -1900,7 +1956,7 @@
       psiStrength: 5
       psiSkill: 0
       melee: 15
-    armor: FEMALE_CIVILIAN2_ARMOR
+    armor: STR_FEMALE_CIVILIAN2_ARMOR
     deathSound: 45
     standHeight: 21
     kneelHeight: 14
@@ -1921,7 +1977,7 @@
       psiStrength: 5
       psiSkill: 0
       melee: 15
-    armor: FEMALE_CIVILIAN3_ARMOR
+    armor: STR_FEMALE_CIVILIAN3_ARMOR
     deathSound: 45
     standHeight: 21
     kneelHeight: 14
@@ -1934,18 +1990,23 @@
   - type: STR_SECTOID_SOLDIER
     stats:
       melee: 12
+    armor: STR_SECTOID_ARMOR0
   - type: STR_SECTOID_ENGINEER
     stats:
       melee: 12
+    armor: STR_SECTOID_ARMOR0
   - type: STR_SECTOID_MEDIC
     stats:
       melee: 12
+    armor: STR_SECTOID_ARMOR0
   - type: STR_SECTOID_NAVIGATOR
     stats:
       melee: 12
+    armor: STR_SECTOID_ARMOR0
   - type: STR_SECTOID_LEADER
     stats:
       melee: 18
+    armor: STR_SECTOID_ARMOR0
   - type: STR_SECTOID_COMMANDER
     race: STR_SECTOID
     rank: STR_LIVE_COMMANDER
@@ -1961,7 +2022,7 @@
       psiStrength: 40
       psiSkill: 60
       melee: 28
-    armor: SECTOID_ARMOR2
+    armor: STR_SECTOID_ARMOR2
     standHeight: 16
     kneelHeight: 12
     value: 25
@@ -1983,7 +2044,7 @@
       psiStrength: 40
       psiSkill: 55
       melee: 30
-    armor: SECTOID_ARMOR_HEAVY
+    armor: STR_SECTOID_ARMOR_HEAVY
     standHeight: 16
     kneelHeight: 12
     value: 20
@@ -1993,6 +2054,7 @@
   - type: STR_FLOATER_SOLDIER
     stats:
       melee: 38
+    armor: STR_FLOATER_ARMOR0
   - type: STR_FLOATER_ENGINEER
     race: STR_FLOATER
     rank: STR_LIVE_ENGINEER
@@ -2008,7 +2070,7 @@
       psiStrength: 35
       psiSkill: 0
       melee: 38
-    armor: FLOATER_ARMOR_GREEN
+    armor: STR_FLOATER_ARMOR_GREEN
     standHeight: 21
     kneelHeight: 16
     floatHeight: 2
@@ -2032,7 +2094,7 @@
       psiStrength: 35
       psiSkill: 0
       melee: 38
-    armor: FLOATER_ARMOR_WHITE
+    armor: STR_FLOATER_ARMOR_WHITE
     standHeight: 21
     kneelHeight: 16
     floatHeight: 2
@@ -2056,7 +2118,7 @@
       psiStrength: 35
       psiSkill: 0
       melee: 38
-    armor: FLOATER_ARMOR_BLUE
+    armor: STR_FLOATER_ARMOR_BLUE
     standHeight: 21
     kneelHeight: 16
     floatHeight: 2
@@ -2068,12 +2130,15 @@
   - type: STR_FLOATER_LEADER
     stats:
       melee: 45
+    armor: STR_FLOATER_ARMOR1
   - type: STR_FLOATER_COMMANDER
     stats:
       melee: 55
+    armor: STR_FLOATER_ARMOR2
   - type: STR_SNAKEMAN_SOLDIER
     stats:
       melee: 48
+    armor: STR_SNAKEMAN_ARMOR0
   - type: STR_SNAKEMAN_ENGINEER
     race: STR_SNAKEMAN
     rank: STR_LIVE_ENGINEER
@@ -2089,7 +2154,7 @@
       psiStrength: 40
       psiSkill: 0
       melee: 48
-    armor: SNAKEMAN_ARMOR_GREEN
+    armor: STR_SNAKEMAN_ARMOR_GREEN
     standHeight: 18
     kneelHeight: 18
     value: 20
@@ -2112,7 +2177,7 @@
       psiStrength: 40
       psiSkill: 0
       melee: 48
-    armor: SNAKEMAN_ARMOR_BLUE
+    armor: STR_SNAKEMAN_ARMOR_BLUE
     standHeight: 18
     kneelHeight: 18
     value: 17
@@ -2123,6 +2188,7 @@
   - type: STR_SNAKEMAN_LEADER
     stats:
       melee: 55
+    armor: STR_SNAKEMAN_ARMOR1
   - type: STR_SNAKEMAN_COMMANDER
     race: STR_SNAKEMAN
     rank: STR_LIVE_COMMANDER
@@ -2138,7 +2204,7 @@
       psiStrength: 50
       psiSkill: 0
       melee: 65
-    armor: SNAKEMAN_ARMOR2
+    armor: STR_SNAKEMAN_ARMOR2
     standHeight: 18
     kneelHeight: 18
     value: 36
@@ -2150,18 +2216,22 @@
   - type: STR_SILACOID_TERRORIST
     stats:
       melee: 65
+    armor: STR_SILACOID_ARMOR
   - type: STR_CELATID_TERRORIST
     stats:
       melee: 35
+    armor: STR_CELATID_ARMOR
   - type: STR_ETHEREAL_SOLDIER
     stats:
       melee: 56
   - type: STR_ETHEREAL_LEADER
     stats:
       melee: 66
+    armor: STR_ETHEREAL_ARMOR1
   - type: STR_ETHEREAL_COMMANDER
     stats:
       melee: 78
+    armor: STR_ETHEREAL_ARMOR2
   - type: STR_SECTOPOD_TERRORIST
     stats:
       melee: 30
@@ -2180,7 +2250,7 @@
       psiStrength: 110
       psiSkill: 0
       melee: 0
-    armor: SMALL_TANK_ARMOR
+    armor: STR_SMALL_TANK_ARMOR
     standHeight: 10
     kneelHeight: 10
     value: 8
@@ -2200,7 +2270,7 @@
       psiStrength: 100
       psiSkill: 0
       melee: 70
-    armor: TANK_ARMOR
+    armor: STR_TANK_ARMOR
     standHeight: 16
     kneelHeight: 16
     value: 20
@@ -2220,7 +2290,7 @@
       psiStrength: 100
       psiSkill: 0
       melee: 70
-    armor: TANK_ARMOR
+    armor: STR_TANK_ARMOR
     standHeight: 16
     kneelHeight: 16
     value: 20
@@ -2240,7 +2310,7 @@
       psiStrength: 100
       psiSkill: 0
       melee: 70
-    armor: TANK_ARMOR
+    armor: STR_TANK_ARMOR
     standHeight: 16
     kneelHeight: 16
     value: 20
@@ -2260,7 +2330,7 @@
       psiStrength: 100
       psiSkill: 0
       melee: 7
-    armor: TANK_ARMOR
+    armor: STR_TANK_ARMOR
     standHeight: 16
     kneelHeight: 16
     value: 20
@@ -2281,7 +2351,7 @@
       psiStrength: 100
       psiSkill: 0
       melee: 7
-    armor: TANK_ARMOR
+    armor: STR_TANK_ARMOR
     standHeight: 16
     kneelHeight: 16
     value: 20
@@ -2301,7 +2371,7 @@
       psiStrength: 100
       psiSkill: 0
       melee: 70
-    armor: HOVERTANK_ARMOR
+    armor: STR_HOVERTANK_ARMOR
     standHeight: 12
     kneelHeight: 12
     floatHeight: 6
@@ -2322,7 +2392,7 @@
       psiStrength: 100
       psiSkill: 0
       melee: 70
-    armor: HOVERTANK_ARMOR
+    armor: STR_HOVERTANK_ARMOR
     standHeight: 12
     kneelHeight: 12
     floatHeight: 6
@@ -2343,7 +2413,7 @@
       psiStrength: 100
       psiSkill: 0
       melee: 60
-    armor: HOVERTANK_ARMOR
+    armor: STR_HOVERTANK_ARMOR
     standHeight: 12
     kneelHeight: 12
     floatHeight: 6
@@ -2364,7 +2434,7 @@
       psiStrength: 100
       psiSkill: 0
       melee: 60
-    armor: HOVERTANK_ARMOR
+    armor: STR_HOVERTANK_ARMOR
     standHeight: 12
     kneelHeight: 12
     floatHeight: 6
@@ -2385,7 +2455,7 @@
       psiStrength: 100
       psiSkill: 0
       melee: 0
-    armor: SECTOPOD_ARMOR2
+    armor: STR_SECTOPOD_ARMOR2
     standHeight: 15
     kneelHeight: 15
     value: 20
@@ -2405,7 +2475,7 @@
       psiStrength: 100
       psiSkill: 0
       melee: 0
-    armor: SECTOPOD_ARMOR3
+    armor: STR_SECTOPOD_ARMOR3
     standHeight: 15
     kneelHeight: 15
     value: 20
@@ -2425,7 +2495,7 @@
       psiStrength: 100
       psiSkill: 0
       melee: 70
-    armor: TANK_ARMOR
+    armor: STR_TANK_ARMOR
     standHeight: 16
     kneelHeight: 16
     value: 20
@@ -2446,7 +2516,7 @@
       psiStrength: 100
       psiSkill: 0
       melee: 0
-    armor: HOVERTANK_ARMOR
+    armor: STR_HOVERTANK_ARMOR
     standHeight: 15
     kneelHeight: 15
     value: 20
@@ -2466,7 +2536,7 @@
       psiStrength: 100
       psiSkill: 0
       melee: 70
-    armor: TANK_ARMOR
+    armor: STR_TANK_ARMOR
     standHeight: 16
     kneelHeight: 16
     value: 20
@@ -2487,7 +2557,7 @@
       psiStrength: 100
       psiSkill: 0
       melee: 0
-    armor: HOVERTANK_ARMOR
+    armor: STR_HOVERTANK_ARMOR
     standHeight: 15
     kneelHeight: 15
     value: 20

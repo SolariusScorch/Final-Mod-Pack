@@ -924,7 +924,7 @@
     listOrder: 6271
   - type: ALIEN_DRONE_WEAPON
     weight: 3
-    bigSprite: 257
+    bigSprite: 270
     floorSprite: 31
     handSprite: 104
     bulletSprite: 2

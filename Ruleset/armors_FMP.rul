@@ -1,5 +1,5 @@
 ﻿armors:
-  - type: OBLITERATOR_ARMOR
+  - type: STR_OBLITERATOR_ARMOR
     spriteSheet: OBLITERATOR.PCK
     spriteInv: inventory_OBLITERATOR
     allowInv: false
@@ -29,7 +29,7 @@
       - 0.0
     loftempsSet: [ 92, 89, 90, 91 ]
     constantAnimation: true
-  - type: ETHEREAL_ARMOR_WHITE
+  - type: STR_ETHEREAL_ARMOR_WHITE
     spriteInv: inventory_ETHEREAL_WHITE
     spriteSheet: ETHEREAL_WHITE.PCK
     corpseBattle:
@@ -53,7 +53,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: ETHEREAL_ARMOR_WHITE2
+  - type: STR_ETHEREAL_ARMOR_WHITE2
     spriteSheet: ETHEREAL_WHITE.PCK
     spriteInv: inventory_ETHEREAL_WHITE
     corpseBattle:
@@ -77,7 +77,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: ETHEREAL_ARMOR_WHITE3
+  - type: STR_ETHEREAL_ARMOR_WHITE3
     spriteSheet: ETHEREAL_WHITE.PCK
     spriteInv: inventory_ETHEREAL_WHITE
     corpseBattle:
@@ -101,7 +101,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: ETHEREAL_ARMOR_WHITE4
+  - type: STR_ETHEREAL_ARMOR_WHITE4
     spriteSheet: ETHEREAL_WHITE.PCK
     spriteInv: inventory_ETHEREAL_WHITE
     corpseBattle:
@@ -125,7 +125,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: MALE_CIVILIAN2_ARMOR
+  - type: STR_MALE_CIVILIAN2_ARMOR
     spriteInv: CIVM.PCK
     spriteSheet: MALE_CIVILIAN2.PCK
     corpseBattle:
@@ -147,7 +147,7 @@
       - 1.6
       - 1.0
     loftempsSet: [ 3 ]
-  - type: MALE_CIVILIAN3_ARMOR
+  - type: STR_MALE_CIVILIAN3_ARMOR
     spriteInv: CIVM.PCK
     spriteSheet: MALE_CIVILIAN3.PCK
     corpseBattle:
@@ -169,7 +169,7 @@
       - 1.6
       - 1.0
     loftempsSet: [ 3 ]
-  - type: MALE_CIVILIAN4_ARMOR
+  - type: STR_MALE_CIVILIAN4_ARMOR
     spriteInv: CIVM.PCK
     spriteSheet: MALE_CIVILIAN4.PCK
     corpseBattle:
@@ -191,7 +191,7 @@
       - 1.6
       - 1.0
     loftempsSet: [ 3 ]
-  - type: MALE_CIVILIAN5_ARMOR
+  - type: STR_MALE_CIVILIAN5_ARMOR
     spriteInv: CIVM.PCK
     spriteSheet: MALE_CIVILIAN5.PCK
     corpseBattle:
@@ -213,7 +213,7 @@
       - 1.6
       - 1.0
     loftempsSet: [ 3 ]
-  - type: MALE_CIVILIAN6_ARMOR
+  - type: STR_MALE_CIVILIAN6_ARMOR
     spriteInv: CIVM.PCK
     spriteSheet: MALE_CIVILIAN6.PCK
     corpseBattle:
@@ -235,7 +235,7 @@
       - 1.6
       - 1.0
     loftempsSet: [ 3 ]
-  - type: MALE_CIVILIAN7_ARMOR
+  - type: STR_MALE_CIVILIAN7_ARMOR
     spriteInv: CIVM.PCK
     spriteSheet: MALE_CIVILIAN7.PCK
     corpseBattle:
@@ -245,7 +245,6 @@
     sideArmor: 8
     rearArmor: 5
     underArmor: 2
-    drawingRoutine: 4
     damageModifier:
       - 1.0
       - 1.0
@@ -258,7 +257,7 @@
       - 1.6
       - 1.0
     loftempsSet: [ 3 ]
-  - type: FEMALE_CIVILIAN2_ARMOR
+  - type: STR_FEMALE_CIVILIAN2_ARMOR
     spriteInv: CIVF.PCK
     spriteSheet: FEMALE_CIVILIAN2.PCK
     corpseBattle:
@@ -280,7 +279,7 @@
       - 1.6
       - 1.0
     loftempsSet: [ 3 ]
-  - type: FEMALE_CIVILIAN3_ARMOR
+  - type: STR_FEMALE_CIVILIAN3_ARMOR
     spriteInv: CIVF.PCK
     spriteSheet: FEMALE_CIVILIAN3.PCK
     corpseBattle:
@@ -302,7 +301,7 @@
       - 1.6
       - 1.0
     loftempsSet: [ 3 ]
-  - type: MIB_ARMOR4
+  - type: STR_MIB_ARMOR4
     spriteSheet: MIB_4.PCK
     spriteInv: inventory_MIB4
     corpseBattle:
@@ -323,7 +322,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: MIB_ARMOR5
+  - type: STR_MIB_ARMOR5
     spriteSheet: MIB_5.PCK
     spriteInv: inventory_MIB4
     movementType: 1
@@ -345,7 +344,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: MIB_PSI_OPS_ARMOR
+  - type: STR_MIB_PSI_OPS_ARMOR
     spriteSheet: MIB_PSI_OPS.PCK
     spriteInv: inventory_MIB_PSI_OPS
     corpseBattle:
@@ -366,7 +365,7 @@
       - 1.0
       - 1.0
     loftempsSet: [ 3 ]
-  - type: MIB_SECTOPOD_ARMOR
+  - type: STR_MIB_SECTOPOD_ARMOR
     spriteSheet: MIBSECT.PCK
     allowInv: false
     corpseBattle:
@@ -393,7 +392,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 92, 89, 90, 91 ]
-  - type: CYBERDISC_ARMOR
+  - type: STR_CYBERDISC_ARMOR
     spriteSheet: CYBER.PCK
     allowInv: false
     corpseBattle:
@@ -449,7 +448,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: MUTON_ARMOR_LEADER
+  - type: STR_MUTON_ARMOR_LEADER
     spriteInv: mutonleaderInventoryImage
     spriteSheet: MUTLEADER.PCK
     corpseBattle:
@@ -472,7 +471,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: MUTON_ARMOR2
+  - type: STR_MUTON_ARMOR2
     spriteInv: mutonengineerInventoryImage
     spriteSheet: MUTENG.PCK
     corpseBattle:
@@ -495,7 +494,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: MUTON_ARMOR_MEDIC
+  - type: STR_MUTON_ARMOR_MEDIC
     spriteInv: mutonmedicInventoryImage
     spriteSheet: MUTMED.PCK
     corpseBattle:
@@ -541,7 +540,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: SECTOID_ARMOR0
+  - type: STR_SECTOID_ARMOR0
     spriteInv: sectoidInventoryImage
     spriteSheet: SECTOID.PCK
     corpseBattle:
@@ -562,7 +561,7 @@
       - 1.6
       - 0.0
     loftempsSet: [ 2 ]
-  - type: SECTOID_ARMOR2
+  - type: STR_SECTOID_ARMOR2
     spriteInv: sectoidcommanderInventoryImage
     spriteSheet: SECTCOM.PCK
     corpseBattle:
@@ -584,7 +583,7 @@
       - 1.6
       - 0.0
     loftempsSet: [ 2 ]
-  - type: SECTOID_ARMOR_HEAVY
+  - type: STR_SECTOID_ARMOR_HEAVY
     spriteInv: sectoidguardianInventoryImage
     spriteSheet: SECTARM.PCK
     corpseBattle:
@@ -605,7 +604,7 @@
       - 1.6
       - 0.0
     loftempsSet: [ 2 ]
-  - type: FLOATER_ARMOR0
+  - type: STR_FLOATER_ARMOR0
     spriteInv: floaterInventoryImage
     spriteSheet: FLOATER.PCK
     corpseBattle:
@@ -628,7 +627,7 @@
       - 1.6
       - 0.0
     loftempsSet: [ 3 ]
-  - type: FLOATER_ARMOR_GREEN
+  - type: STR_FLOATER_ARMOR_GREEN
     spriteInv: floaterInventoryImage
     spriteSheet: FLOATER_GREEN.PCK
     corpseBattle:
@@ -652,7 +651,7 @@
       - 1.6
       - 0.0
     loftempsSet: [ 3 ]
-  - type: FLOATER_ARMOR_BLUE
+  - type: STR_FLOATER_ARMOR_BLUE
     spriteInv: floaterInventoryImage
     spriteSheet: FLOATER_BLUE.PCK
     corpseBattle:
@@ -676,7 +675,7 @@
       - 1.6
       - 0.0
     loftempsSet: [ 3 ]
-  - type: FLOATER_ARMOR_WHITE
+  - type: STR_FLOATER_ARMOR_WHITE
     spriteInv: floaterInventoryImage
     spriteSheet: FLOATER_WHITE.PCK
     corpseBattle:
@@ -700,7 +699,7 @@
       - 1.6
       - 0.0
     loftempsSet: [ 3 ]
-  - type: FLOATER_ARMOR1
+  - type: STR_FLOATER_ARMOR1
     spriteInv: floatercommanderInventoryImage
     spriteSheet: FLOATLEA.PCK
     corpseBattle:
@@ -724,7 +723,7 @@
       - 1.6
       - 1.0
     loftempsSet: [ 3 ]
-  - type: FLOATER_ARMOR2
+  - type: STR_FLOATER_ARMOR2
     spriteInv: floatercommanderInventoryImage
     spriteSheet: FLOATCOM.PCK
     corpseBattle:
@@ -748,7 +747,7 @@
       - 1.6
       - 1.0
     loftempsSet: [ 3 ]
-  - type: SNAKEMAN_ARMOR0
+  - type: STR_SNAKEMAN_ARMOR0
     spriteInv: inventory_SNAKEMAN
     spriteSheet: SNAKEMAN.PCK
     corpseBattle:
@@ -770,7 +769,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: SNAKEMAN_ARMOR_GREEN
+  - type: STR_SNAKEMAN_ARMOR_GREEN
     spriteInv: inventory_SNAKEMAN_ENGINEER
     spriteSheet: SNAKEMANENG.PCK
     corpseBattle:
@@ -793,7 +792,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: SNAKEMAN_ARMOR_BLUE
+  - type: STR_SNAKEMAN_ARMOR_BLUE
     spriteInv: inventory_SNAKEMAN_NAVIGATOR
     spriteSheet: SNAKEMANNAV.PCK
     corpseBattle:
@@ -816,7 +815,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: SNAKEMAN_ARMOR1
+  - type: STR_SNAKEMAN_ARMOR1
     spriteInv: inventory_SNAKEMAN_LEADER
     spriteSheet: SNAKEMANLEA.PCK
     corpseBattle:
@@ -839,7 +838,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: SNAKEMAN_ARMOR2
+  - type: STR_SNAKEMAN_ARMOR2
     spriteInv: inventory_SNAKEMAN_COMMANDER
     spriteSheet: SNAKEMANCOM.PCK
     corpseBattle:
@@ -969,7 +968,23 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: DOGE_ARMOR
+  - type: STR_FLYING_SUIT_UC
+    spriteSheet: XCOM_8.PCK
+    corpseItem: STR_CORPSE_FLYING_SUIT
+    corpseBattle:
+      - STR_CORPSE_FLYING_SUIT
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.2
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.0
+  - type: STR_DOGE_ARMOR
     spriteSheet: DOGE.PCK
     corpseBattle:
       - STR_DOGE_CORPSE
@@ -991,7 +1006,7 @@
       - 1.0
       - 1.0
     loftempsSet: [ 2 ]
-  - type: HYBRID_ARMOR0
+  - type: STR_HYBRID_ARMOR
     spriteSheet: HYBRID.PCK
     spriteInv: inventory_HYBRID
     corpseBattle:
@@ -1013,8 +1028,9 @@
       - 1.4
       - 0.0
     loftempsSet: [ 3 ]
-  - type: DRONE_ARMOR
+  - type: STR_ALIEN_DRONE_ARMOR
     spriteSheet: DRONE.PCK
+    spriteInv: inventory_ALIEN_DRONE
     corpseBattle:
       - STR_ALIEN_DRONE_CORPSE
     frontArmor: 34
@@ -1022,7 +1038,7 @@
     rearArmor: 34
     underArmor: 28
     drawingRoutine: 4
-    movementType: 2
+    movementType: 1
     damageModifier:
       - 1.0
       - 0.8
@@ -1035,7 +1051,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: ANTHROPOD_ARMOR0
+  - type: STR_ANTHROPOD_ARMOR0
     spriteSheet: ANTHROPOD.PCK
     spriteInv: inventory_ANTHROPOD
     corpseBattle:
@@ -1057,7 +1073,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: ANTHROPOD_ARMOR1
+  - type: STR_ANTHROPOD_ARMOR1
     spriteSheet: ANTHROPOD.PCK
     spriteInv: inventory_ANTHROPOD
     corpseBattle:
@@ -1079,7 +1095,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: ANTHROPOD_ARMOR2
+  - type: STR_ANTHROPOD_ARMOR2
     spriteSheet: ANTHROPOD.PCK
     spriteInv: inventory_ANTHROPOD
     corpseBattle:
@@ -1101,7 +1117,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: SPITTER_ARMOR
+  - type: STR_SPITTER_ARMOR
     spriteSheet: SPITTER.PCK
     allowInv: false
     corpseBattle:
@@ -1123,7 +1139,7 @@
       - 0.1
       - 1.0
     loftempsSet: [ 3 ]
-  - type: SPITTER_RETRACT_ARMOR
+  - type: STR_SPITTER_RETRACT_ARMOR
     spriteSheet: SPITTER_RETRACT.PCK
     allowInv: false
     corpseBattle:
@@ -1146,7 +1162,7 @@
       - 0.1
       - 1.0
     loftempsSet: [ 3 ]
-  - type: SPITTER_RETRES_ARMOR
+  - type: STR_SPITTER_RETRES_ARMOR
     spriteSheet: SPITTER_RETRES.PCK
     allowInv: false
     corpseBattle:
@@ -1170,7 +1186,7 @@
       - 1.0
     loftempsSet: [ 3 ]
     deathFrames: 18
-  - type: SPITTER_NAKED_ARMOR
+  - type: STR_SPITTER_NAKED_ARMOR
     spriteSheet: SPITTER_NAKED.PCK
     allowInv: false
     corpseBattle:
@@ -1193,7 +1209,7 @@
       - 0.1
       - 1.0
     loftempsSet: [ 3 ]
-  - type: MIBTANK_ARMOR
+  - type: STR_MIBTANK_ARMOR
     spriteSheet: MIBTANKS.PCK
     allowInv: false
     corpseBattle:
@@ -1219,7 +1235,7 @@
       - 0.4
       - 0.0
     loftempsSet: [ 92, 89, 90, 91 ]
-  - type: XCOM_CYBERDISC_ARMOR
+  - type: STR_XCOM_CYBERDISC_ARMOR
     spriteSheet: XCOM_CYBERDISC.PCK
     allowInv: false
     corpseBattle:
@@ -1248,7 +1264,7 @@
       - 0.7
       - 0.0
     loftempsSet: [ 92, 89, 90, 91 ]
-  - type: XCOM_CYBERDISC_ARMOR_ORANGE
+  - type: STR_XCOM_CYBERDISC_ARMOR_ORANGE
     spriteSheet: XCOM_CYBERDISC_ORANGE.PCK
     allowInv: false
     corpseBattle:
@@ -1277,7 +1293,7 @@
       - 0.7
       - 0.0
     loftempsSet: [ 92, 89, 90, 91 ]
-  - type: MIB_ARMOR0
+  - type: STR_MIB_ARMOR0
     spriteSheet: MIB_0.PCK
     spriteInv: inventory_MIB0
     corpseBattle:
@@ -1298,7 +1314,7 @@
       - 1.6
       - 1.0
     loftempsSet: [ 3 ]
-  - type: MIB_ARMOR1
+  - type: STR_MIB_ARMOR1
     spriteSheet: MIB_1.PCK
     spriteInv: inventory_MIB1
     corpseBattle:
@@ -1319,7 +1335,7 @@
       - 1.1
       - 0.0
     loftempsSet: [ 3 ]
-  - type: MIB_ARMOR2
+  - type: STR_MIB_ARMOR2
     spriteSheet: MIB_2.PCK
     spriteInv: inventory_MIB2
     corpseBattle:
@@ -1340,7 +1356,7 @@
       - 1.1
       - 0.0
     loftempsSet: [ 3 ]
-  - type: MIB_ARMOR3
+  - type: STR_MIB_ARMOR3
     spriteSheet: MIB_3.PCK
     spriteInv: inventory_MIB3
     corpseBattle:
@@ -1555,35 +1571,122 @@
       - 1.1
       - 1.0
     loftempsSet: [ 3 ]
-  - type: STR_FLYING_SUIT_UC
-    spriteSheet: XCOM_8.PCK
-    corpseItem: STR_CORPSE_FLYING_SUIT
+  - type: CIVM_ARMOR
+    spriteInv: MAN_6
+  - type: STR_MUTON_ARMOR0
+    spriteSheet: MUTON.PCK
+    spriteInv: mutonInventoryImage
     corpseBattle:
-      - STR_CORPSE_FLYING_SUIT
+      - STR_MUTON_CORPSE
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 10
+    drawingRoutine: 10
     damageModifier:
+      - 1.0
+      - 0.6
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
       - 1.0
       - 1.0
       - 0.0
+    loftempsSet: [ 3 ]
+  - type: STR_MUTON_ARMOR1
+    spriteSheet: MUTON.PCK
+    spriteInv: mutonInventoryImage
+    corpseBattle:
+      - STR_MUTON_CORPSE
+    frontArmor: 24
+    sideArmor: 24
+    rearArmor: 24
+    underArmor: 15
+    drawingRoutine: 10
+    damageModifier:
       - 1.0
-      - 1.2
+      - 0.6
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+  - type: STR_ETHEREAL_ARMOR0
+    spriteSheet: ETHEREAL.PCK
+    spriteInv: etherealInventoryImage
+    corpseBattle:
+      - STR_ETHEREAL_CORPSE
+    frontArmor: 35
+    sideArmor: 35
+    rearArmor: 35
+    underArmor: 35
+    movementType: 1
+    drawingRoutine: 4
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.7
+      - 1.0
+      - 1.0
       - 1.0
       - 0.8
       - 1.0
       - 1.0
       - 0.0
-  - type: CIVM_ARMOR
-    spriteInv: MAN_6
-  - type: MUTON_ARMOR0
-    spriteInv: mutonInventoryImage
-  - type: MUTON_ARMOR1
-    spriteInv: mutonInventoryImage
-  - type: ETHEREAL_ARMOR0
+    loftempsSet: [ 3 ]
+  - type: STR_ETHEREAL_ARMOR1
+    spriteSheet: ETHEREAL.PCK
     spriteInv: etherealInventoryImage
-  - type: ETHEREAL_ARMOR1
+    corpseBattle:
+      - STR_ETHEREAL_CORPSE
+    frontArmor: 40
+    sideArmor: 40
+    rearArmor: 40
+    underArmor: 40
+    movementType: 1
+    drawingRoutine: 4
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.7
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+  - type: STR_ETHEREAL_ARMOR2
+    spriteSheet: ETHEREAL.PCK
     spriteInv: etherealInventoryImage
-  - type: ETHEREAL_ARMOR2
-    spriteInv: etherealInventoryImage
-  - type: MUTON_ARMOR_COM
+    corpseBattle:
+      - STR_ETHEREAL_CORPSE
+    frontArmor: 45
+    sideArmor: 45
+    rearArmor: 45
+    underArmor: 45
+    movementType: 1
+    drawingRoutine: 4
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.7
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+  - type: STR_MUTON_ARMOR_COM
     spriteInv: mutoncommanderInventoryImage
     spriteSheet: MUTCOM.PCK
     corpseBattle:
@@ -1605,7 +1708,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: CEREBREAL_ARMOR0
+  - type: STR_CEREBREAL_ARMOR0
     spriteSheet: CEREBREAL.PCK
     allowInv: false
     corpseBattle:
@@ -1628,7 +1731,7 @@
       - 1.4
       - 0.0
     loftempsSet: [ 3 ]
-  - type: CEREBREAL_ARMOR1
+  - type: STR_CEREBREAL_ARMOR1
     spriteSheet: CEREBREAL.PCK
     allowInv: false
     corpseBattle:
@@ -1651,7 +1754,7 @@
       - 1.4
       - 0.0
     loftempsSet: [ 3 ]
-  - type: CEREBREAL_ARMOR2
+  - type: STR_CEREBREAL_ARMOR2
     spriteSheet: CEREBREAL.PCK
     allowInv: false
     corpseBattle:
@@ -1674,7 +1777,7 @@
       - 1.4
       - 0.0
     loftempsSet: [ 3 ]
-  - type: CEREBREAL_LARVA_ARMOR
+  - type: STR_CEREBREAL_LARVA_ARMOR
     spriteSheet: CEREBREAL_LARVA.PCK
     allowInv: false
     corpseBattle:
@@ -1720,7 +1823,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: CHTONITE_ARMOR0
+  - type: STR_CHTONITE_ARMOR0
     spriteSheet: CHTONITE.PCK
     spriteInv: inventory_CHTONITE
     corpseBattle:
@@ -1743,7 +1846,7 @@
       - 0.8
       - 0.0
     loftempsSet: [ 3 ]
-  - type: CHTONITE_ARMOR1
+  - type: STR_CHTONITE_ARMOR1
     spriteSheet: CHTONITE.PCK
     spriteInv: inventory_CHTONITE
     corpseBattle:
@@ -1766,7 +1869,7 @@
       - 0.8
       - 0.0
     loftempsSet: [ 3 ]
-  - type: CHTONITE_ARMOR2
+  - type: STR_CHTONITE_ARMOR2
     spriteSheet: CHTONITE.PCK
     spriteInv: inventory_CHTONITE
     corpseBattle:
@@ -1789,7 +1892,7 @@
       - 0.8
       - 0.0
     loftempsSet: [ 3 ]
-  - type: REPTOID_ARMOR0
+  - type: STR_REPTOID_ARMOR0
     spriteSheet: REPTOID.PCK
     spriteInv: inventory_REPTOID
     corpseBattle:
@@ -1812,7 +1915,7 @@
       - 1.4
       - 0.0
     loftempsSet: [ 3 ]
-  - type: REPTOID_ARMOR1
+  - type: STR_REPTOID_ARMOR1
     spriteSheet: REPTOID.PCK
     spriteInv: inventory_REPTOID
     corpseBattle:
@@ -1835,7 +1938,7 @@
       - 1.4
       - 0.0
     loftempsSet: [ 3 ]
-  - type: REPTOID_ARMOR2
+  - type: STR_REPTOID_ARMOR2
     spriteSheet: REPTOID.PCK
     spriteInv: inventory_REPTOID
     corpseBattle:
@@ -1885,7 +1988,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 92, 89, 90, 91 ]
-  - type: GAZER_ARMOR0
+  - type: STR_GAZER_ARMOR0
     spriteSheet: GAZER.PCK
     spriteInv: inventory_GAZER
     corpseBattle:
@@ -1907,7 +2010,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: GAZER_ARMOR1
+  - type: STR_GAZER_ARMOR1
     spriteSheet: GAZER.PCK
     spriteInv: inventory_GAZER
     corpseBattle:
@@ -1929,7 +2032,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: GAZER_ARMOR2
+  - type: STR_GAZER_ARMOR2
     spriteSheet: GAZER.PCK
     spriteInv: inventory_GAZER
     corpseBattle:
@@ -1951,7 +2054,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: HOLODRONE_ARMOR
+  - type: STR_HOLODRONE_ARMOR
     spriteSheet: HOLODRONE.PCK
     allowInv: false
     corpseBattle:
@@ -1975,7 +2078,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 4 ]
-  - type: WASPITE_ARMOR0
+  - type: STR_WASPITE_ARMOR0
     spriteSheet: WASPITE.PCK
     spriteInv: inventory_WASPITE
     corpseBattle:
@@ -1998,7 +2101,7 @@
       - 1.6
       - 1.0
     loftempsSet: [ 3 ]
-  - type: WASPITE_ARMOR_BROWN
+  - type: STR_WASPITE_ARMOR_BROWN
     spriteInv: inventory_WASPITE_BROWN
     spriteSheet: WASPITE_BROWN.PCK
     corpseBattle:
@@ -2022,7 +2125,7 @@
       - 1.6
       - 1.0
     loftempsSet: [ 3 ]
-  - type: WASPITE_ARMOR_WHITE
+  - type: STR_WASPITE_ARMOR_WHITE
     spriteInv: inventory_WASPITE_WHITE
     spriteSheet: WASPITE_WHITE.PCK
     corpseBattle:
@@ -2046,7 +2149,7 @@
       - 1.6
       - 1.0
     loftempsSet: [ 3 ]
-  - type: WASPITE_ARMOR1
+  - type: STR_WASPITE_ARMOR1
     spriteInv: inventory_WASPITE_PURPLE
     spriteSheet: WASPITE_PURPLE.PCK
     corpseBattle:
@@ -2070,7 +2173,7 @@
       - 1.6
       - 1.0
     loftempsSet: [ 3 ]
-  - type: WASPITE_ARMOR2
+  - type: STR_WASPITE_ARMOR2
     spriteInv: inventory_WASPITE_RED
     spriteSheet: WASPITE_RED.PCK
     corpseBattle:
@@ -2094,7 +2197,7 @@
       - 1.6
       - 1.0
     loftempsSet: [ 3 ]
-  - type: CYBERMITE_ARMOR
+  - type: STR_CYBERMITE_ARMOR
     spriteSheet: CYBERMITE.PCK
     allowInv: false
     corpseBattle:
@@ -2116,7 +2219,54 @@
       - 1.0
       - 0.0
     loftempsSet: [ 2 ]
-  - type: SMALL_TANK_ARMOR
+  - type: STR_SILACOID_ARMOR
+    spriteSheet: SILACOID.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_SILACOID_CORPSE
+    frontArmor: 50
+    sideArmor: 50
+    rearArmor: 50
+    underArmor: 10
+    drawingRoutine: 8
+    constantAnimation: true
+    movementType: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.3
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 5 ]
+  - type: STR_CELATID_ARMOR
+    spriteSheet: CELATID.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_CELATID_CORPSE
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 20
+    drawingRoutine: 9
+    constantAnimation: true
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 0.0
+    loftempsSet: [ 3 ]
+  - type: STR_SMALL_TANK_ARMOR
     spriteSheet: SCOUT.PCK
     allowInv: false
     corpseBattle:
@@ -2139,7 +2289,7 @@
       - 1.4
       - 0.0
     loftempsSet: [ 5 ]
-  - type: TANK_ARMOR
+  - type: STR_TANK_ARMOR
     spriteSheet: NEWTANKS.PCK
     allowInv: false
     corpseBattle:
@@ -2165,7 +2315,7 @@
       - 0.4
       - 0.0
     loftempsSet: [ 92, 89, 90, 91 ]
-  - type: HOVERTANK_ARMOR
+  - type: STR_HOVERTANK_ARMOR
     spriteSheet: NEWTANKS.PCK
     allowInv: false
     corpseBattle:
@@ -2178,6 +2328,7 @@
     rearArmor: 130
     underArmor: 100
     drawingRoutine: 2
+    constantAnimation: true
     movementType: 1
     size: 2
     damageModifier:
@@ -2192,7 +2343,7 @@
       - 0.4
       - 0.0
     loftempsSet: [ 92, 89, 90, 91 ]
-  - type: SECTOPOD_ARMOR2
+  - type: STR_SECTOPOD_ARMOR2
     spriteSheet: TANK2.PCK
     allowInv: false
     corpseBattle:
@@ -2219,7 +2370,7 @@
       - 0.5
       - 0.0
     loftempsSet: [ 92, 89, 90, 91 ]
-  - type: SECTOPOD_ARMOR3
+  - type: STR_SECTOPOD_ARMOR3
     spriteSheet: TANK3.PCK
     allowInv: false
     corpseBattle:
