@@ -741,7 +741,7 @@
       psiStrength: 35
       psiSkill: 0
       melee: 25
-    armor: STR_MIB_ARMOR0
+    armor: STR_MIB_AGENT_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 20
@@ -763,7 +763,7 @@
       psiStrength: 35
       psiSkill: 0
       melee: 35
-    armor: STR_MIB_ARMOR1
+    armor: STR_MIB_ENFORCER_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 22
@@ -785,7 +785,7 @@
       psiStrength: 40
       psiSkill: 0
       melee: 30
-    armor: STR_MIB_ARMOR2
+    armor: STR_MIB_COMBAT_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 23
@@ -807,7 +807,7 @@
       psiStrength: 45
       psiSkill: 0
       melee: 40
-    armor: STR_MIB_ARMOR1
+    armor: STR_MIB_ENFORCER_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 25
@@ -851,11 +851,11 @@
       psiStrength: 50
       psiSkill: 0
       melee: 50
-    armor: STR_MIB_ARMOR3
+    armor: STR_MIB_COMMANDER_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 36
-    deathSound: 43
+    deathSound: 45
     intelligence: 6
     aggression: 0
   - type: STR_MIBTANK_TERRORIST

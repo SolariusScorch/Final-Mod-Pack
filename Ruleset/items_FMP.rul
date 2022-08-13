@@ -1641,6 +1641,19 @@
     armor: 30
     recover: true
     listOrder: 6783
+  - type: STR_MIB_COMMANDER_CORPSE
+    size: 0.4
+    costSell: 1000
+    weight: 39
+    bigSprite: 257
+    floorSprite: 257
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 1
+    battleType: 11
+    armor: 30
+    recover: true
+    listOrder: 6786
   - type: MIBTANK_CORPSE_1
     floorSprite: 141
     invWidth: 0
