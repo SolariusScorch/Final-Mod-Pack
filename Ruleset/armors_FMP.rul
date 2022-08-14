@@ -1561,6 +1561,9 @@
     sideArmor: 8
     rearArmor: 5
     underArmor: 2
+    stats:
+      stamina: 5
+      melee: 5
     movementType: 1
     damageModifier:
       - 1.0
