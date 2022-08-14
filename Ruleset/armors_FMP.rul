@@ -1505,10 +1505,10 @@
        stamina: -20
        reactions: -20
        firing: -10
-    frontArmor: 2
-    sideArmor: 2
-    rearArmor: 2
-    underArmor: 2
+    frontArmor: 9
+    sideArmor: 9
+    rearArmor: 9
+    underArmor: 9
     damageModifier:
       - 1.0
       - 1.0
