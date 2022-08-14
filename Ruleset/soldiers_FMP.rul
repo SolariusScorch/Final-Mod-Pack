@@ -44,4 +44,4 @@ soldiers:
     femaleFrequency: 25
     soldierNames:
       - delete
-      - SoldierName/
+      - AgentName/
