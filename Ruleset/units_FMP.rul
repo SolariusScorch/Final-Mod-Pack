@@ -829,7 +829,7 @@
       psiStrength: 45
       psiSkill: 0
       melee: 45
-    armor: STR_MIB_ARMOR3
+    armor: STR_MIB_COORDINATOR_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 28

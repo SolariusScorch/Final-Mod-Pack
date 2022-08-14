@@ -1365,7 +1365,7 @@
       - 0.0
     loftempsSet: [ 3 ]
     loftempsSet: [ 3 ]
-  - type: STR_MIB_ARMOR3
+  - type: STR_MIB_COORDINATOR_ARMOR
     spriteSheet: MIB_3.PCK
     spriteInv: inventory_MIB3
     corpseBattle:
