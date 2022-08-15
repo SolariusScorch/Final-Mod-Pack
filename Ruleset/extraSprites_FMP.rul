@@ -1144,6 +1144,10 @@
     height: 40
     files:
       0: Resources/Races_Compilation/CerebrealRace/CEREBREAL_LARVA.png
+  - type: inventory_CEREBREAL_LARVA
+    singleImage: true
+    files:
+      0: Resources/Races_Compilation/CerebrealRace/inventory_CEREBREAL_LARVA.png
   - type: UFOPEDIA_IMG_CEREBREAL_LARVA
     singleImage: true
     width: 320
