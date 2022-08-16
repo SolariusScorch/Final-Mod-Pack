@@ -4620,7 +4620,7 @@
     invWidth: 2
     invHeight: 3
     armor: 50
-    autoShots: 8
+    autoShots: 10
     attraction: 9
     listOrder: 3020
   - type: STR_HMG_CLIP
