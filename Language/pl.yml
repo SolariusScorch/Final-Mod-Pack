@@ -249,7 +249,7 @@ pl:
   STR_DARKSTAR_UFOPEDIA: "DZIĘKI OBCEJ TECHNOLOGII NAPĘDU I ULTRALEKKIM STOPOM, SAMOLOT TEN OSIĄGA DOTĄD NIESPOTYKANY CZAS LOTU. RADAR ZOSTAŁ SKONFIGUROWANY DLA MAKSYMALNEJ SKUTECZNOŚCI WYKRYCIA UFO."
   STR_CYBERDISC_CORPSE: "Wrak cyberdysku"
   STR_SECTOPOD_CORPSE: "Wrak sektopoda"
-  STR_STUN_ROD_UFOPEDIA: "To urządzenie może być użyte tylko w bezpośrednim kontakcie. Zamiast zabijać, ogłusza ono żywy organizm za pomocą wstrząsu elektrycznego.{NEWLINE}>Zawsze trafia"
+  STR_STUN_ROD_UFOPEDIA: "To urządzenie może być użyte tylko w bezpośrednim kontakcie. Zamiast zabijać, ogłusza ono żywy organizm za pomocą wstrząsu elektrycznego."
   STR_FLOATMED_CORPSE: "Zwłoki lewitona"
   STR_FLOATLEA_CORPSE: "Zwłoki lewitona"
   STR_FLOATENG_CORPSE: "Zwłoki lewitona"
@@ -1277,3 +1277,4 @@ pl:
   STR_SNIPER_RIFLES: "Karabiny snajperskie"
   STR_INCENDIARIES: "Środki zapalające"
   STR_DRAGONFLY_DARK: "Ważka"
+  STR_OPENXCOM: "Open X-Com: Final Mod Pack wersja 3.1"

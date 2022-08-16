@@ -517,12 +517,11 @@
     meleeAnimation: 4
     damageType: 6
     accuracyMelee: 100
-    tuMelee: 30
+    tuMelee: 14
     battleType: 3
     twoHanded: true
     invWidth: 1
     invHeight: 3
-    skillApplied: false
     clipSize: -1
     attraction: 7
   - type: STR_PISTOL_LT
