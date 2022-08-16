@@ -3488,10 +3488,12 @@
     handSprite: 272
     hitSound: 70
     hitAnimation: 0
+    meleeHitSound: 279
     power: 90
     damageType: 6
     accuracyMelee: 80
-    tuMelee: 30
+    tuMelee: 17
+    flatRate: true
     battleType: 3
     twoHanded: true
     clipSize: -1
