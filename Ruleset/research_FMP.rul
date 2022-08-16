@@ -3217,7 +3217,7 @@
       - STR_CHASER_MEDIC
       - STR_CEREBREAL_MEDIC
       - STR_WASPITE_MEDIC
-  - name: STR_MEDGAS_GRENADE
+  - name: STR_KNOCKOUT_GRENADE
     cost: 50
     points: 10
     dependencies:

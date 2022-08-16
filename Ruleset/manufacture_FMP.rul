@@ -1450,10 +1450,10 @@
     time: 500
     cost: 3200
     listOrder: 1193
-  - name: STR_MEDGAS_GRENADE
+  - name: STR_KNOCKOUT_GRENADE
     category: STR_WEAPON
     requires:
-      - STR_MEDGAS_GRENADE
+      - STR_KNOCKOUT_GRENADE
     space: 2
     time: 1
     cost: 75

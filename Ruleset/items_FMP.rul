@@ -3440,7 +3440,7 @@
     blastRadius: 0
     attraction: 8
     listOrder: 3793
-  - type: STR_MEDGAS_GRENADE
+  - type: STR_KNOCKOUT_GRENADE
     size: 0.1
     costSell: 150
     weight: 3
