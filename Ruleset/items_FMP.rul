@@ -281,6 +281,8 @@
     bigSprite: 239
     floorSprite: 217
     handSprite: 696
+    meleeHitSound: 279
+    meleeAnimation: 32
     power: 140
     strengthApplied: false
     damageType: 4

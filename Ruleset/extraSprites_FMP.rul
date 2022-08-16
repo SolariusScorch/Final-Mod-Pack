@@ -33,6 +33,7 @@
       12: Resources/Weapons_Compilation/MeleeAnimations/Claws.png
       16: Resources/Weapons_Compilation/MeleeAnimations/Hit_PlasmaBlade.png
       20: Resources/Weapons_Compilation/MeleeAnimations/Hit_PlasmaSword.png
+      32: Resources/Weapons_Compilation/MeleeAnimations/Hit_EnergySword.png
   - type: SMOKE.PCK
     height: 80
     width: 160
