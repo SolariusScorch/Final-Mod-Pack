@@ -3769,7 +3769,7 @@
     floorSprite: 145
     handSprite: 440
     hitSound: 0
-    hitAnimation: 0
+    hitAnimation: 112
     power: 80
     damageType: 3
     clipSize: 1
