@@ -5132,9 +5132,9 @@
     compatibleAmmo:
       - STR_LIGHT_MINIGUN_CLIP
       - STR_LIGHT_MINIGUN_AA_CLIP
-    accuracyAuto: 25
-    tuAuto: 55
-    dropoff: 1
+    accuracyAuto: 27
+    tuAuto: 36
+    dropoff: 2
     autoRange: 14
     battleType: 1
     twoHanded: true
@@ -5142,7 +5142,7 @@
     invHeight: 3
     armor: 30
     bulletSpeed: 40
-    autoShots: 10
+    autoShots: 12
     attraction: 8
     listOrder: 3050
   - type: STR_LIGHT_MINIGUN_CLIP
@@ -5197,16 +5197,16 @@
     compatibleAmmo:
       - STR_MINIGUN_CLIP
       - STR_MINIGUN_AA_CLIP
-    accuracyAuto: 30
-    tuAuto: 85
-    dropoff: 1
+    accuracyAuto: 22
+    tuAuto: 45
+    dropoff: 2
     battleType: 1
     twoHanded: true
     invWidth: 2
     invHeight: 3
     armor: 30
-    autoRange: 30
-    autoShots: 20
+    autoRange: 20
+    autoShots: 15
     bulletSpeed: 50
     attraction: 8
     listOrder: 3053
@@ -5265,14 +5265,15 @@
     power: 50
     damageType: 4
     accuracyAuto: 35
-    tuAuto: 70
+    tuAuto: 42
     clipSize: -1
     battleType: 1
     twoHanded: true
     invWidth: 2
     invHeight: 3
-    autoShots: 20
+    autoShots: 15
     autoRange: 20
+    dropoff: 2
     bulletSpeed: 50
     explosionSpeed: 5
     attraction: 8
@@ -5287,6 +5288,7 @@
     weight: 3
     bigSprite: 250
     floorSprite: 221
+    hitSound: 116
     battleType: 6
     heal: 1
     woundRecovery: 1
@@ -5301,19 +5303,21 @@
     weight: 3
     bigSprite: 251
     floorSprite: 222
+    hitSound: 116
     battleType: 6
     painKiller: 1
     tuUse: 10
     invWidth: 1
     invHeight: 1
     listOrder: 4280
-  - type: STR_STIMULANT
+  - type: STR_STIMS
     size: 0.1
     costBuy: 500
     costSell: 400
     weight: 3
     bigSprite: 252
     floorSprite: 223
+    hitSound: 116
     battleType: 6
     stimulant: 1
     stunRecovery: 3

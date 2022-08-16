@@ -1974,10 +1974,10 @@
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PAINKILLER_UFOPEDIA
     listOrder: 4380
-  - id: STR_STIMULANT
+  - id: STR_STIMS
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_STIMULANT_UFOPEDIA
+    text: STR_STIMS_UFOPEDIA
     listOrder: 4375
   - id: STR_FLAMETHROWER
     type_id: 4
