@@ -4468,8 +4468,8 @@
     bigSprite: 115
     floorSprite: 73
     handSprite: 216
-    hitSound: 39
-    hitAnimation: 0
+    meleeHitSound: 108
+    meleeAnimation: 8
     power: 40
     damageType: 7
     accuracyMelee: 100
@@ -4489,8 +4489,8 @@
     bigSprite: 180
     floorSprite: 164
     handSprite: 216
-    hitSound: 39
-    hitAnimation: 0
+    meleeHitSound: 108
+    meleeAnimation: 8
     power: 50
     damageType: 7
     accuracyMelee: 100

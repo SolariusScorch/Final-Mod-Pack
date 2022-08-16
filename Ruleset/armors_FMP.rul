@@ -406,7 +406,7 @@
     sideArmor: 130
     rearArmor: 100
     underArmor: 90
-    moveSound: 108
+    moveSound: 109
     drawingRoutine: 5
     size: 2
     damageModifier: *SectopodResists
@@ -2402,7 +2402,7 @@
     sideArmor: 130
     rearArmor: 100
     underArmor: 90
-    moveSound: 108
+    moveSound: 109
     drawingRoutine: 5
     size: 2
     damageModifier:
@@ -2431,7 +2431,7 @@
     sideArmor: 130
     rearArmor: 100
     underArmor: 90
-    moveSound: 108
+    moveSound: 109
     drawingRoutine: 5
     size: 2
     damageModifier:

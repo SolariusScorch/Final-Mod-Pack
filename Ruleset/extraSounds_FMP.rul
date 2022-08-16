@@ -54,6 +54,7 @@
       105: Resources/Weapons_Compilation/PlasmaBlades/Sounds/plasmasword_slice.wav
       106: Resources/Weapons_Compilation/PlasmaBlades/Sounds/plasm_hit.wav
       107: Resources/Races_Compilation/MutonRace/MutonShaderDeath.wav
-      108: Resources/Races_Compilation/SectopodRace/SECTOPOD_MOVE.ogg
+      108: Resources/Weapons_Compilation/WeaponSounds/StabHit.wav
+      109: Resources/Races_Compilation/SectopodRace/SECTOPOD_MOVE.ogg
       113: Resources/Weapons_Compilation/WeaponSounds/Ex_Fire.wav
       279: Resources/Weapons_Compilation/WeaponSounds/ElectroHit.wav
