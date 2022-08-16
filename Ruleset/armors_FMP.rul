@@ -301,7 +301,7 @@
       - 1.6
       - 1.0
     loftempsSet: [ 3 ]
-  - type: STR_MIB_ARMOR4
+  - type: STR_MIB_POWER_SUIT
     spriteSheet: MIB_4.PCK
     spriteInv: inventory_MIB4
     corpseBattle:
@@ -322,7 +322,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: STR_MIB_ARMOR5
+  - type: STR_MIB_STORMTROOPER_ARMOR
     spriteSheet: MIB_5.PCK
     spriteInv: inventory_MIB4
     movementType: 1
@@ -560,7 +560,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: STR_SECTOID_ARMOR0
+  - type: STR_SECTOID_STANDARD_ARMOR
     spriteInv: sectoidInventoryImage
     spriteSheet: SECTOID.PCK
     corpseBattle:
@@ -581,7 +581,7 @@
       - 1.6
       - 0.0
     loftempsSet: [ 2 ]
-  - type: STR_SECTOID_ARMOR2
+  - type: STR_SECTOID_COMMANDER_ARMOR
     spriteInv: sectoidcommanderInventoryImage
     spriteSheet: SECTCOM.PCK
     corpseBattle:
@@ -624,7 +624,7 @@
       - 1.6
       - 0.0
     loftempsSet: [ 2 ]
-  - type: STR_FLOATER_ARMOR0
+  - type: STR_FLOATER_SOLDIER_ARMOR
     spriteInv: floaterInventoryImage
     spriteSheet: FLOATER.PCK
     corpseBattle:
@@ -767,7 +767,7 @@
       - 1.6
       - 1.0
     loftempsSet: [ 3 ]
-  - type: STR_SNAKEMAN_ARMOR0
+  - type: STR_SNAKEMAN_SOLDIER_ARMOR
     spriteInv: inventory_SNAKEMAN
     spriteSheet: SNAKEMAN.PCK
     corpseBattle:
@@ -835,7 +835,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: STR_SNAKEMAN_ARMOR1
+  - type: STR_SNAKEMAN_LEADER_ARMOR
     spriteInv: inventory_SNAKEMAN_LEADER
     spriteSheet: SNAKEMANLEA.PCK
     corpseBattle:
@@ -858,7 +858,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: STR_SNAKEMAN_ARMOR2
+  - type: STR_SNAKEMAN_COMMANDER_ARMOR
     spriteInv: inventory_SNAKEMAN_COMMANDER
     spriteSheet: SNAKEMANCOM.PCK
     corpseBattle:
@@ -1071,7 +1071,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: STR_ANTHROPOD_ARMOR0
+  - type: STR_ANTHROPOD_SOLDIER_ARMOR
     spriteSheet: ANTHROPOD.PCK
     spriteInv: inventory_ANTHROPOD
     corpseBattle:
@@ -1093,7 +1093,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: STR_ANTHROPOD_ARMOR1
+  - type: STR_ANTHROPOD_NAVIGATOR_ARMOR
     spriteSheet: ANTHROPOD.PCK
     spriteInv: inventory_ANTHROPOD
     corpseBattle:
@@ -1115,7 +1115,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: STR_ANTHROPOD_ARMOR2
+  - type: STR_ANTHROPOD_ENGINEER_ARMOR
     spriteSheet: ANTHROPOD.PCK
     spriteInv: inventory_ANTHROPOD
     corpseBattle:
@@ -1669,7 +1669,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: STR_ETHEREAL_ARMOR0
+  - type: STR_ETHEREAL_SOLDIER_ARMOR
     spriteSheet: ETHEREAL.PCK
     spriteInv: etherealInventoryImage
     corpseBattle:
@@ -1692,7 +1692,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: STR_ETHEREAL_ARMOR1
+  - type: STR_ETHEREAL_LEADER_ARMOR
     spriteSheet: ETHEREAL.PCK
     spriteInv: etherealInventoryImage
     corpseBattle:
@@ -1715,7 +1715,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: STR_ETHEREAL_ARMOR2
+  - type: STR_ETHEREAL_COMMANDER_ARMOR
     spriteSheet: ETHEREAL.PCK
     spriteInv: etherealInventoryImage
     corpseBattle:

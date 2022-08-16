@@ -269,7 +269,7 @@
       psiStrength: 35
       psiSkill: 0
       melee: 25
-    armor: STR_MIB_ARMOR4
+    armor: STR_MIB_POWER_SUIT
     standHeight: 22
     kneelHeight: 14
     value: 20
@@ -291,7 +291,7 @@
       psiStrength: 45
       psiSkill: 0
       melee: 40
-    armor: STR_MIB_ARMOR5
+    armor: STR_MIB_STORMTROOPER_ARMOR
     standHeight: 22
     kneelHeight: 14
     value: 20
@@ -496,7 +496,7 @@
       psiStrength: 30
       psiSkill: 0
       melee: 45
-    armor: STR_ANTHROPOD_ARMOR0
+    armor: STR_ANTHROPOD_SOLDIER_ARMOR
     standHeight: 21
     kneelHeight: 16
     value: 15
@@ -519,7 +519,7 @@
       psiStrength: 30
       psiSkill: 0
       melee: 48
-    armor: STR_ANTHROPOD_ARMOR1
+    armor: STR_ANTHROPOD_NAVIGATOR_ARMOR
     standHeight: 21
     kneelHeight: 16
     value: 17
@@ -542,7 +542,7 @@
       psiStrength: 35
       psiSkill: 0
       melee: 44
-    armor: STR_ANTHROPOD_ARMOR2
+    armor: STR_ANTHROPOD_ENGINEER_ARMOR
     standHeight: 21
     kneelHeight: 16
     value: 19
@@ -1990,23 +1990,23 @@
   - type: STR_SECTOID_SOLDIER
     stats:
       melee: 12
-    armor: STR_SECTOID_ARMOR0
+    armor: STR_SECTOID_STANDARD_ARMOR
   - type: STR_SECTOID_ENGINEER
     stats:
       melee: 12
-    armor: STR_SECTOID_ARMOR0
+    armor: STR_SECTOID_STANDARD_ARMOR
   - type: STR_SECTOID_MEDIC
     stats:
       melee: 12
-    armor: STR_SECTOID_ARMOR0
+    armor: STR_SECTOID_STANDARD_ARMOR
   - type: STR_SECTOID_NAVIGATOR
     stats:
       melee: 12
-    armor: STR_SECTOID_ARMOR0
+    armor: STR_SECTOID_STANDARD_ARMOR
   - type: STR_SECTOID_LEADER
     stats:
       melee: 18
-    armor: STR_SECTOID_ARMOR0
+    armor: STR_SECTOID_STANDARD_ARMOR
   - type: STR_SECTOID_COMMANDER
     race: STR_SECTOID
     rank: STR_LIVE_COMMANDER
@@ -2022,7 +2022,7 @@
       psiStrength: 40
       psiSkill: 60
       melee: 28
-    armor: STR_SECTOID_ARMOR2
+    armor: STR_SECTOID_COMMANDER_ARMOR
     standHeight: 16
     kneelHeight: 12
     value: 25
@@ -2054,7 +2054,7 @@
   - type: STR_FLOATER_SOLDIER
     stats:
       melee: 38
-    armor: STR_FLOATER_ARMOR0
+    armor: STR_FLOATER_SOLDIER_ARMOR
   - type: STR_FLOATER_ENGINEER
     race: STR_FLOATER
     rank: STR_LIVE_ENGINEER
@@ -2138,7 +2138,7 @@
   - type: STR_SNAKEMAN_SOLDIER
     stats:
       melee: 48
-    armor: STR_SNAKEMAN_ARMOR0
+    armor: STR_SNAKEMAN_SOLDIER_ARMOR
   - type: STR_SNAKEMAN_ENGINEER
     race: STR_SNAKEMAN
     rank: STR_LIVE_ENGINEER
@@ -2188,7 +2188,7 @@
   - type: STR_SNAKEMAN_LEADER
     stats:
       melee: 55
-    armor: STR_SNAKEMAN_ARMOR1
+    armor: STR_SNAKEMAN_LEADER_ARMOR
   - type: STR_SNAKEMAN_COMMANDER
     race: STR_SNAKEMAN
     rank: STR_LIVE_COMMANDER
@@ -2204,7 +2204,7 @@
       psiStrength: 50
       psiSkill: 0
       melee: 65
-    armor: STR_SNAKEMAN_ARMOR2
+    armor: STR_SNAKEMAN_COMMANDER_ARMOR
     standHeight: 18
     kneelHeight: 18
     value: 36
@@ -2224,14 +2224,15 @@
   - type: STR_ETHEREAL_SOLDIER
     stats:
       melee: 56
+    armor: STR_ETHEREAL_SOLDIER_ARMOR
   - type: STR_ETHEREAL_LEADER
     stats:
       melee: 66
-    armor: STR_ETHEREAL_ARMOR1
+    armor: STR_ETHEREAL_LEADER_ARMOR
   - type: STR_ETHEREAL_COMMANDER
     stats:
       melee: 78
-    armor: STR_ETHEREAL_ARMOR2
+    armor: STR_ETHEREAL_COMMANDER_ARMOR
   - type: STR_SECTOPOD_TERRORIST
     stats:
       melee: 30
