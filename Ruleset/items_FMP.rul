@@ -4473,7 +4473,7 @@
     power: 40
     damageType: 7
     accuracyMelee: 100
-    tuMelee: 8
+    tuMelee: 7
     flatRate: true
     clipSize: -1
     battleType: 3
@@ -4494,7 +4494,7 @@
     power: 50
     damageType: 7
     accuracyMelee: 100
-    tuMelee: 8
+    tuMelee: 7
     flatRate: true
     clipSize: -1
     battleType: 3
