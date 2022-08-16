@@ -4422,6 +4422,7 @@
     invHeight: 3
     armor: 30
     autoShots: 8
+    bulletSpeed: 80
     attraction: 7
     listOrder: 3450
   - type: STR_FLAMETHROWER_CLIP
@@ -4431,8 +4432,8 @@
     weight: 5
     bigSprite: 141
     floorSprite: 79
-    hitSound: 12
-    hitAnimation: 0
+    explosionHitSound: 113
+    hitAnimation: 120
     power: 40
     damageType: 2
     blastRadius: 2

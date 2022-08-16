@@ -42,6 +42,7 @@
     subY: 64
     files:
       112: Resources/Weapons_Compilation/ExplosionAnimations/Green_Skull_exp.png
+      120: Resources/Weapons_Compilation/ExplosionAnimations/Flames_exp.png
   - type: SMOKE.PCK
     height: 80
     width: 160
