@@ -4674,7 +4674,7 @@
     accuracySnap: 80
     accuracyAimed: 150
     tuSnap: 45
-    tuAimed: 75
+    tuAimed: 80
     minRange: 15
     battleType: 1
     twoHanded: true
