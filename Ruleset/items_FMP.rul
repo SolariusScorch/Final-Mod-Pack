@@ -197,6 +197,7 @@
     weight: 6
     bigSprite: 248
     floorSprite: 219
+    meleeSound: 104
     meleeHitSound: 106
     meleeAnimation: 16
     handSprite: 712
@@ -210,7 +211,7 @@
     armor: 30
     flatRate: true
     clipSize: -1
-    damageType: 7
+    damageType: 5
     attraction: 7
     listOrder: 1895
   - type: STR_PLASMA_SWORD
@@ -222,12 +223,13 @@
     weight: 9
     bigSprite: 249
     floorSprite: 220
+    meleeSound: 104
     meleeHitSound: 106
     meleeAnimation: 20
     handSprite: 720
     meleeSound: 105
     skillApplied: true
-    damageType: 7
+    damageType: 5
     accuracyMelee: 140
     tuMelee: 20
     battleType: 3
