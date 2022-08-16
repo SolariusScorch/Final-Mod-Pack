@@ -17,6 +17,7 @@
       455: Resources/Weapons_Compilation/Taser/Taser_bullet.png
       490: Resources/Weapons_Compilation/SniperRifle/BulletSprite.png
       525: Resources/AlienArmouryExpanded/Bullets/Toxic_bullet.png
+      560: Resources/Weapons_Compilation/Projectiles/PsiBeam_bullet.png
       595: Resources/Weapons_Compilation/Submachinegun/BulletSprite.png
       630: Resources/GaussWeaponry/MassDriver_bullet.png
       665: Resources/GaussWeaponry/Gauss_bullet.png
@@ -1070,6 +1071,12 @@
     singleImage: true
     files:
       0: Resources/Races_Compilation/HybridRace/inventory_DRONE.png
+  - type: inventory_REAPER
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races_Compilation/FloaterRace/inventory_REAPER.png
   - type: SALAMANDRON.PCK
     subX: 32
     subY: 40

@@ -1212,7 +1212,7 @@
     bigSprite: 164
     floorSprite: 152
     handSprite: 728
-    power: 80
+    power: 81
     damageType: 3
     battleType: 4
     blastRadius: 5

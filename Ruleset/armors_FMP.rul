@@ -1971,6 +1971,34 @@
       - 1.4
       - 0.0
     loftempsSet: [ 3 ]
+  - type: STR_REAPER_ARMOR
+    spriteSheet: X_REAP.PCK
+    spriteInv: inventory_REAPER
+    allowInv: false
+    corpseBattle:
+      - REAPER_CORPSE_1
+      - REAPER_CORPSE_2
+      - REAPER_CORPSE_3
+      - REAPER_CORPSE_4
+    corpseGeo: STR_REAPER_CORPSE
+    frontArmor: 28
+    sideArmor: 28
+    rearArmor: 28
+    underArmor: 4
+    drawingRoutine: 5
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.7
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
   - type: STR_SALAMANDRON_ARMOR
     spriteSheet: SALAMANDRON.PCK
     spriteInv: inventory_SALAMANDRON

@@ -1987,6 +1987,8 @@
   - type: FEMALE_CIVILIAN
     stats:
       melee: 15
+  - type: STR_REAPER_TERRORIST
+    armor: STR_REAPER_ARMOR
   - type: STR_SECTOID_SOLDIER
     stats:
       melee: 12
@@ -2246,7 +2248,7 @@
       health: 40
       bravery: 110
       reactions: 90
-      firing: 0
+      firing: 60
       throwing: 0
       strength: 30
       psiStrength: 110
