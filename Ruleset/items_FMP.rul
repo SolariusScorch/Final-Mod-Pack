@@ -673,6 +673,7 @@
     attraction: 6
   - type: STR_ALIEN_GRENADE
     handSprite: 488
+    hitAnimation: 112
     attraction: 6
   - type: STR_MEDI_KIT
     size: 0.1

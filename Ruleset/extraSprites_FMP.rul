@@ -34,6 +34,13 @@
       16: Resources/Weapons_Compilation/MeleeAnimations/Hit_PlasmaBlade.png
       20: Resources/Weapons_Compilation/MeleeAnimations/Hit_PlasmaSword.png
       32: Resources/Weapons_Compilation/MeleeAnimations/Hit_EnergySword.png
+  - type: X1.PCK
+    width: 1024
+    height: 64
+    subX: 128
+    subY: 64
+    files:
+      112: Resources/Weapons_Compilation/ExplosionAnimations/Green_Skull_exp.png
   - type: SMOKE.PCK
     height: 80
     width: 160
