@@ -1,4 +1,27 @@
 ﻿armors:
+  - type: STR_CHRYSSALID_ARMOR
+    spriteSheet: CHRYS.PCK
+    spriteInv: inventory_CHRYSSALID
+    allowInv: false
+    corpseBattle:
+      - STR_CHRYSSALID_CORPSE
+    frontArmor: 34
+    sideArmor: 34
+    rearArmor: 34
+    underArmor: 34
+    drawingRoutine: 7
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
   - type: STR_OBLITERATOR_ARMOR
     spriteSheet: OBLITERATOR.PCK
     spriteInv: inventory_OBLITERATOR
@@ -469,8 +492,8 @@
       - 0.0
     loftempsSet: [ 3 ]
   - type: STR_MUTON_LEADER_ARMOR
-    spriteInv: mutonleaderInventoryImage
     spriteSheet: MUTLEADER.PCK
+    spriteInv: mutonleaderInventoryImage
     corpseBattle:
       - STR_MUTLEADER_CORPSE
     corpseGeo: STR_MUTON_CORPSE
@@ -491,7 +514,7 @@
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-  - type: STR_MUTON_ARMOR2
+  - type: STR_MUTON_ENGINEER_ARMOR
     spriteInv: mutonengineerInventoryImage
     spriteSheet: MUTENG.PCK
     corpseBattle:
@@ -603,7 +626,7 @@
       - 1.6
       - 0.0
     loftempsSet: [ 2 ]
-  - type: STR_SECTOID_ARMOR_HEAVY
+  - type: STR_SECTOID_GUARDIAN_ARMOR
     spriteInv: sectoidguardianInventoryImage
     spriteSheet: SECTARM.PCK
     corpseBattle:
@@ -719,9 +742,9 @@
       - 1.6
       - 0.0
     loftempsSet: [ 3 ]
-  - type: STR_FLOATER_ARMOR1
-    spriteInv: floatercommanderInventoryImage
+  - type: STR_FLOATER_LEADER_ARMOR
     spriteSheet: FLOATLEA.PCK
+    spriteInv: floatercommanderInventoryImage
     corpseBattle:
       - STR_FLOATLEA_CORPSE
     corpseGeo: STR_FLOATER_CORPSE
@@ -743,9 +766,9 @@
       - 1.6
       - 1.0
     loftempsSet: [ 3 ]
-  - type: STR_FLOATER_ARMOR2
-    spriteInv: floatercommanderInventoryImage
+  - type: STR_FLOATER_COMMANDER_ARMOR
     spriteSheet: FLOATCOM.PCK
+    spriteInv: floatercommanderInventoryImage
     corpseBattle:
       - STR_FLOATCOM_CORPSE
     corpseGeo: STR_FLOATER_CORPSE

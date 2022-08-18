@@ -508,7 +508,7 @@
     requires:
       - STR_SECTOID_GUARD
     text: STR_SECTOID_GUARD_UFOPEDIA
-    listOrder: 14999
+    listOrder: 14998
   - id: STR_ETHEREAL_ORDER
     type_id: 8
     section: STR_ALIEN_RESEARCH_UC
@@ -813,7 +813,7 @@
     image_id: UFOPEDIA_IMG_DRONE
     text: STR_ALIEN_DRONE_UFOPEDIA
     text_width: 158
-    listOrder: 7752
+    listOrder: 7753
   - id: STR_ALIEN_DRONE_AUTOPSY
     type_id: 7
     section: STR_ALIEN_LIFE_FORMS
@@ -822,7 +822,7 @@
     image_id: UFOPEDIA_IMG_DRONE_AUTOPSY
     text: STR_ALIEN_DRONE_AUTOPSY_UFOPEDIA
     text_width: 158
-    listOrder: 7753
+    listOrder: 7754
   - id: STR_ANTHROPOD
     type_id: 7
     section: STR_ALIEN_LIFE_FORMS
@@ -1168,7 +1168,7 @@
     text_width: 158
     requires:
       - STR_MUTON_SHADER
-    listOrder: 13812
+    listOrder: 8405
   - id: STR_CHTONITE
     type_id: 7
     section: STR_ALIEN_LIFE_FORMS
@@ -2295,6 +2295,12 @@
     text: STR_OBLITERATOR_AUTOPSY_UFOPEDIA
     text_width: 150
     listOrder: 9581
+  - id: STR_OBLITERATOR_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_OBLITERATOR_ARMOR
+    listOrder: 9582
   - id: STR_CORRIDOR
     type_id: 6
     section: STR_BASE_FACILITIES
@@ -2370,3 +2376,160 @@
     text: STR_INCENDIARIES_UFOPEDIA
     text_width: 150
     listOrder: 21559
+  - id: STR_SECTOPOD_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SECTOPOD_ARMOR
+    listOrder: 9701
+  - id: STR_CYBERDISC_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_CYBERDISC_ARMOR
+    listOrder: 9901
+  - id: STR_SECTOID_STANDARD_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SECTOID_STANDARD_ARMOR
+    listOrder: 7901
+  - id: STR_SECTOID_GUARDIAN_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SECTOID_GUARDIAN_ARMOR
+    listOrder: 7905
+  - id: STR_FLOATER_SOLDIER_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_FLOATER_SOLDIER_ARMOR
+    listOrder: 8701
+  - id: STR_SNAKEMAN_SOLDIER_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SNAKEMAN_SOLDIER_ARMOR
+    listOrder: 8101
+  - id: STR_HYBRID_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_HYBRID_ARMOR
+    listOrder: 7752
+  - id: STR_ALIEN_DRONE_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_ALIEN_DRONE
+    listOrder: 7755
+  - id: STR_ANTHROPOD_SOLDIER_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_ANTHROPOD_SOLDIER_ARMOR
+    listOrder: 7912
+  - id: STR_SPITTER_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SPITTER_ARMOR
+    listOrder: 8792
+  - id: STR_MUTON_SOLDIER_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_MUTON_SOLDIER_ARMOR
+    listOrder: 8501
+  - id: STR_ETHEREAL_SOLDIER_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_ETHEREAL_SOLDIER_ARMOR
+    listOrder: 8301
+  - id: STR_CEREBREAL_STANDARD_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    text: STR_CEREBREAL_STANDARD_ARMOR_UFOPEDIA
+    requires:
+      - STR_CEREBREAL_STANDARD_ARMOR
+    listOrder: 8772
+  - id: STR_CEREBREAL_LARVA_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_CEREBREAL_LARVA_ARMOR
+    listOrder: 9972
+  - id: STR_CHASER_STANDARD_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_CHASER_STANDARD_ARMOR
+    listOrder: 12672
+  - id: STR_CHTONITE_STANDARD_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_CHTONITE_STANDARD_ARMOR
+    listOrder: 8712
+  - id: STR_REPTOID_STANDARD_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_REPTOID_STANDARD_ARMOR
+    listOrder: 8757
+  - id: STR_REAPER_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_REAPER_ARMOR
+    listOrder: 9501
+  - id: STR_SALAMANDRON_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SALAMANDRON
+    listOrder: 9357
+  - id: STR_GAZER_STANDARD_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_GAZER_STANDARD_ARMOR
+    listOrder: 8762
+  - id: STR_HOLODRONE_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_HOLODRONE_ARMOR
+    listOrder: 9512
+  - id: STR_WASPITE_STANDARD_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_WASPITE_STANDARD_ARMOR
+    listOrder: 8752
+  - id: STR_CYBERMITE_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_CYBERMITE_ARMOR
+    listOrder: 9352
+  - id: STR_SILACOID_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SILACOID_ARMOR
+    listOrder: 9101
+  - id: STR_CELATID_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_CELATID_ARMOR
+    listOrder: 8901
+  - id: STR_CHRYSSALID_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_CHRYSSALID_ARMOR
+    listOrder: 9301

@@ -917,6 +917,10 @@
     singleImage: true
     files:
       0: Resources/Races_Compilation/CelatidRace/inventory_CELATID.png
+  - type: inventory_CHRYSSALID
+    singleImage: true
+    files:
+      0: Resources/Races_Compilation/SnakemanRace/inventory_CHRYSSALID.png
   - type: inventory_SCOUT_DRONE
     singleImage: true
     files:

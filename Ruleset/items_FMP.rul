@@ -1434,31 +1434,31 @@
     battleType: 11
     armor: 26
     listOrder: 6323
-  - type: STR_MIB_SOLDIER
+  - type: STR_MIB_AGENT
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 10000
     listOrder: 14600
-  - type: STR_MIB_NAVIGATOR
+  - type: STR_MIB_ENFORCER
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 10000
     listOrder: 14603
-  - type: STR_MIB_MEDIC
+  - type: STR_MIB_SCIENTIST
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 10000
     listOrder: 14602
-  - type: STR_MIB_ENGINEER
+  - type: STR_MIB_EXECUTOR
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 10000
     listOrder: 14601
-  - type: STR_MIB_LEADER
+  - type: STR_MIB_COORDINATOR
     size: 0.0
     recover: true
     liveAlien: true

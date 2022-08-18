@@ -11,6 +11,11 @@
       - STR_GRAV_MODULE
       - STR_ALIEN_OPTICAL_PROCESSOR
     listOrder: 1898
+  - name: STR_CYBERDISC_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_CYBERDISC
   - name: STR_OBLITERATOR_AUTOPSY
     cost: 0
     points: 50
@@ -32,6 +37,11 @@
     cost: 0
     points: 50
     needItem: true
+  - name: STR_OBLITERATOR_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_OBLITERATOR
   - name: STR_PLASMA_BLADE
     cost: 100
     points: 10
@@ -150,6 +160,11 @@
       - STR_ALIEN_DIPLOMACY
       - STR_ENVOY_SHIP
     listOrder: 8510
+  - name: STR_ETHEREAL_SOLDIER_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ETHEREAL
   - name: STR_ENVOY_SHIP
     dependencies:
       - STR_ETHEREAL_GUARDIAN
@@ -224,6 +239,11 @@
     points: 30
     needItem: true
     listOrder: 9345
+  - name: STR_MIB_STORMTROOPER_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_MIB_STORMTROOPER
   - name: STR_MIB_HEAVY_TROOPER
     lookup: STR_MIB_ACTIVITY
     cost: 180
@@ -365,6 +385,11 @@
     points: 50
     lookup: STR_FLOATER_AUTOPSY
     needItem: true
+  - name: STR_FLOATER_SOLDIER_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_FLOATER
   - name: STR_PRECISE_ALLOY_SHAPING
     cost: 25
     points: 25
@@ -484,6 +509,11 @@
     points: 50
     needItem: true
     listOrder: 9351
+  - name: STR_ALIEN_DRONE_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIEN_DRONE
   - name: STR_HYBRID_AUTOPSY
     cost: 0
     points: 50
@@ -549,26 +579,38 @@
       - STR_ALIEN_REPRODUCTION
       - STR_ALIEN_SURGERY
     listOrder: 2850
-  - name: STR_MIB_SOLDIER
+  - name: STR_MIB_AGENT
     lookup: STR_MIB_ACTIVITY
     cost: 180
     points: 30
     needItem: true
     destroyItem: true
     listOrder: 9340
-  - name: STR_MIB_NAVIGATOR
+  - name: STR_MIB_AGENT_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_MIB_AGENT
+  - name: STR_MIB_ENFORCER
     lookup: STR_MIB_ACTIVITY
     cost: 180
     points: 30
     needItem: true
     destroyItem: true
     listOrder: 9343
-  - name: STR_MIB_MEDIC
+  - name: STR_MIB_ENFORCER_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_MIB_ENFORCER
+  - name: STR_MIB_SCIENTIST
     lookup: STR_MIB_ACTIVITY
     cost: 180
     points: 30
     needItem: true
     destroyItem: true
+    unlocks:
+      - STR_MIB_COMBAT_ARMOR
     getOneFree:
       - STR_SECTOID
       - STR_FLOATER
@@ -577,14 +619,23 @@
       - STR_FLOATER_CORPSE
       - STR_HYBRID_CORPSE
     listOrder: 9342
-  - name: STR_MIB_ENGINEER
+  - name: STR_MIB_EXECUTOR
     lookup: STR_MIB_ACTIVITY
     cost: 180
     points: 30
     needItem: true
     destroyItem: true
+    unlocks:
+      - STR_MIB_COMBAT_ARMOR
     listOrder: 9341
-  - name: STR_MIB_LEADER
+  - name: STR_MIB_COMBAT_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_MIB_SCIENTIST
+      - STR_MIB_EXECUTOR
+    listOrder: ???
+  - name: STR_MIB_COORDINATOR
     lookup: STR_MIB_IDENTITY
     cost: 192
     points: 50
@@ -594,6 +645,11 @@
       - STR_SECTOID
       - STR_HYBRID
     listOrder: 9346
+  - name: STR_MIB_COORDINATOR_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_MIB_COORDINATOR
   - name: STR_MIB_COMMANDER
     lookup: STR_MIB_IDENTITY
     cost: 192
@@ -608,6 +664,11 @@
       - STR_MEDIUM_SCOUT
       - STR_LARGE_SCOUT
     listOrder: 9347
+  - name: STR_MIB_COMMANDER_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_MIB_COMMANDER
   - name: STR_MIB_PSI_OPS
     cost: 192
     points: 50
@@ -620,6 +681,11 @@
       - STR_SECTOID
       - STR_HYBRID
     listOrder: 9348
+  - name: STR_MIB_PSI_OPS_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_MIB_PSI_OPS
   - name: STR_MIB0_CORPSE
     lookup: STR_MIB_AUTOPSY
     points: 0
@@ -715,39 +781,84 @@
     cost: 0
     points: 50
     needItem: true
+  - name: STR_HYBRID_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_HYBRID
   - name: STR_CEREBREAL
     cost: 0
     points: 50
     needItem: true
+  - name: STR_CEREBREAL_STANDARD_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_CEREBREAL
   - name: STR_CHTONITE
     cost: 0
     points: 50
     needItem: true
+  - name: STR_CHTONITE_STANDARD_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_CHTONITE
   - name: STR_CHASER
     cost: 0
     points: 50
     needItem: true
+  - name: STR_CHASER_STANDARD_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_CHASER
   - name: STR_REPTOID
     cost: 0
     points: 50
     needItem: true
+  - name: STR_REPTOID_STANDARD_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_REPTOID
   - name: STR_WASPITE
     cost: 0
     points: 50
     needItem: true
+  - name: STR_WASPITE_STANDARD_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_WASPITE
   - name: STR_GAZER
     cost: 0
     points: 50
     needItem: true
+  - name: STR_GAZER_STANDARD_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_GAZER
   - name: STR_ANTHROPOD
     cost: 0
     points: 50
     needItem: true
+  - name: STR_ANTHROPOD_SOLDIER_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ANTHROPOD
   - name: STR_SPITTER
     cost: 0
     points: 50
     needItem: true
     listOrder: 9922
+  - name: STR_SPITTER_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_SPITTER
   - name: STR_SALAMANDRON_TERRORIST
     cost: 110
     points: 50
@@ -762,21 +873,41 @@
     points: 50
     needItem: true
     listOrder: 9913
+  - name: STR_SALAMANDRON_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_SALAMANDRON
   - name: STR_CEREBREAL_LARVA
     cost: 0
     points: 50
     needItem: true
     listOrder: 9917
+  - name: STR_CEREBREAL_LARVA_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_CEREBREAL_LARVA
   - name: STR_HOLODRONE
     cost: 0
     points: 50
     needItem: true
     listOrder: 9908
+  - name: STR_HOLODRONE_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_HOLODRONE
   - name: STR_CYBERMITE
     cost: 0
     points: 50
     needItem: true
     listOrder: 9911
+  - name: STR_CYBERMITE_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_CYBERMITE
   - name: STR_CYBERMITE_TERRORIST
     cost: 110
     points: 50
@@ -940,6 +1071,21 @@
     unlocks:
       - STR_ALIEN_BIOLOGY
     listOrder: 6040
+  - name: STR_SILACOID_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_SILACOID
+  - name: STR_CELATID_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_CELATID
+  - name: STR_CHRYSSALID_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_CHRYSSALID
   - name: STR_ALIEN_ORIGINS
     cost: 300
     points: 60
@@ -1132,10 +1278,30 @@
     unlocks:
       - STR_ALIEN_BIOLOGY
       - STR_DART_RIFLE_CLIP_B_PREQ2
+  - name: STR_SNAKEMAN_SOLDIER_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_SNAKEMAN
   - name: STR_MUTON_AUTOPSY
     unlocks:
       - STR_ALIEN_BIOLOGY
       - STR_DART_RIFLE_CLIP_C_PREQ1
+  - name: STR_MUTON_SOLDIER_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_MUTON
+  - name: STR_MUTON_SOLDIER_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_MUTON
+  - name: STR_REAPER_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_REAPER
   - name: STR_SECTOID_AUTOPSY
     unlocks:
       - STR_ALIEN_BIOLOGY
@@ -1249,6 +1415,11 @@
     cost: 0
     points: 50
     needItem: true
+  - name: STR_SECTOPOD_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_SECTOPOD
   - name: STR_FLOATER_ENGINEER
     unlocks:
       - STR_ALIEN_ORIGINS
@@ -2808,6 +2979,11 @@
       - STR_ALIEN_POWER_SYSTEMS
     needItem: true
     listOrder: 8250
+  - name: STR_SECTOID_GUARDIAN_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_SECTOID_GUARDIAN
   - name: STR_SECTOID_SOLDIER
     unlocks:
       - STR_ALIEN_ORIGINS

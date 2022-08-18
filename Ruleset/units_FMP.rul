@@ -1,4 +1,28 @@
 ﻿units:
+  - type: STR_CHRYSSALID_TERRORIST
+    race: STR_CHRYSSALID
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 110
+      stamina: 140
+      health: 96
+      bravery: 100
+      reactions: 70
+      firing: 0
+      throwing: 0
+      strength: 110
+      psiStrength: 50
+      psiSkill: 0
+      melee: 80
+    armor: STR_CHRYSSALID_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 25
+    deathSound: 9
+    intelligence: 4
+    aggression: 1
+    energyRecovery: 40
+    livingWeapon: true
   - type: STR_CHASER_SOLDIER
     race: STR_CHASER
     rank: STR_LIVE_SOLDIER
@@ -726,7 +750,7 @@
     moveSound: 40
     energyRecovery: 50
     specab: 1
-  - type: STR_MIB_SOLDIER
+  - type: STR_MIB_AGENT
     race: STR_MIB
     rank: STR_LIVE_SOLDIER
     stats:
@@ -748,7 +772,7 @@
     deathSound: 41
     intelligence: 4
     aggression: 1
-  - type: STR_MIB_NAVIGATOR
+  - type: STR_MIB_ENFORCER
     race: STR_MIB
     rank: STR_LIVE_NAVIGATOR
     stats:
@@ -770,7 +794,7 @@
     deathSound: 42
     intelligence: 4
     aggression: 1
-  - type: STR_MIB_MEDIC
+  - type: STR_MIB_SCIENTIST
     race: STR_MIB
     rank: STR_LIVE_MEDIC
     stats:
@@ -792,7 +816,7 @@
     deathSound: 43
     intelligence: 5
     aggression: 0
-  - type: STR_MIB_ENGINEER
+  - type: STR_MIB_EXECUTOR
     race: STR_MIB
     rank: STR_LIVE_ENGINEER
     stats:
@@ -814,7 +838,7 @@
     deathSound: 41
     intelligence: 5
     aggression: 1
-  - type: STR_MIB_LEADER
+  - type: STR_MIB_COORDINATOR
     race: STR_MIB
     rank: STR_LIVE_LEADER
     stats:
@@ -924,7 +948,7 @@
       psiStrength: 25
       psiSkill: 0
       melee: 76
-    armor: STR_MUTON_ARMOR2
+    armor: STR_MUTON_ENGINEER_ARMOR
     standHeight: 21
     kneelHeight: 16
     value: 19
@@ -2046,7 +2070,7 @@
       psiStrength: 40
       psiSkill: 55
       melee: 30
-    armor: STR_SECTOID_ARMOR_HEAVY
+    armor: STR_SECTOID_GUARDIAN_ARMOR
     standHeight: 16
     kneelHeight: 12
     value: 20
@@ -2132,11 +2156,11 @@
   - type: STR_FLOATER_LEADER
     stats:
       melee: 45
-    armor: STR_FLOATER_ARMOR1
+    armor: STR_FLOATER_LEADER_ARMOR
   - type: STR_FLOATER_COMMANDER
     stats:
       melee: 55
-    armor: STR_FLOATER_ARMOR2
+    armor: STR_FLOATER_COMMANDER_ARMOR
   - type: STR_SNAKEMAN_SOLDIER
     stats:
       melee: 48
