@@ -885,6 +885,10 @@
     height: 40
     files:
       0: Resources/Races_Compilation/GazerRace/HOLODRONE.png
+  - type: inventory_HOLODRONE
+    singleImage: true
+    files:
+      0: Resources/Races_Compilation/GazerRace/inventory_HOLODRONE.png
   - type: inventory_WASPITE
     singleImage: true
     files:

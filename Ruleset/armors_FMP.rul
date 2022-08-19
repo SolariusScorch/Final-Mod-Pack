@@ -2118,6 +2118,7 @@
     loftempsSet: [ 3 ]
   - type: STR_HOLODRONE_ARMOR
     spriteSheet: HOLODRONE.PCK
+    spriteInv: inventory_HOLODRONE
     allowInv: false
     corpseBattle:
       - STR_HOLODRONE_CORPSE

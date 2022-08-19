@@ -1140,7 +1140,7 @@
       - STR_CEREBREAL_CORPSE
     image_id: UFOPEDIA_IMG_CEREBREAL_AUTOPSY
     text: STR_CEREBREAL_AUTOPSY_UFOPEDIA
-    text_width: 158
+    text_width: 148
     listOrder: 8771
   - id: STR_CEREBREAL_LARVA
     type_id: 7
@@ -1158,7 +1158,7 @@
       - STR_CEREBREAL_LARVA_CORPSE
     image_id: UFOPEDIA_IMG_CEREBREAL_LARVA_AUTOPSY
     text: STR_CEREBREAL_LARVA_AUTOPSY_UFOPEDIA
-    text_width: 158
+    text_width: 148
     listOrder: 9971
   - id: STR_MUTON_SHADER
     type_id: 7
@@ -1221,7 +1221,7 @@
       - STR_REPTOID_CORPSE
     image_id: UFOPEDIA_IMG_REPTOID_AUTOPSY
     text: STR_REPTOID_AUTOPSY_UFOPEDIA
-    text_width: 158
+    text_width: 148
     listOrder: 8756
   - id: STR_SALAMANDRON
     type_id: 7
@@ -1239,7 +1239,7 @@
       - STR_SALAMANDRON_CORPSE
     image_id: UFOPEDIA_IMG_SALAMANDRON_AUTOPSY
     text: STR_SALAMANDRON_AUTOPSY_UFOPEDIA
-    text_width: 158
+    text_width: 148
     listOrder: 9356
   - id: STR_SCOUT_DRONE
     type_id: 3
@@ -2451,7 +2451,6 @@
   - id: STR_CEREBREAL_STANDARD_ARMOR
     type_id: 5
     section: STR_ALIEN_LIFE_FORMS
-    text: STR_CEREBREAL_STANDARD_ARMOR_UFOPEDIA
     requires:
       - STR_CEREBREAL_STANDARD_ARMOR
     listOrder: 8772
