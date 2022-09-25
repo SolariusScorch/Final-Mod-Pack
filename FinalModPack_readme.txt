@@ -58,7 +58,7 @@ ANY FUTURE PLANS?
 I will do maintenance on the mod, and might add something new if I feel like it, but no promises - I am working on some other projects (mainly The X-Com Files, which is Final Mod Pack's younger, much bigger sibling).
 
 CHANGELOG:
-: New Postindustrial map.
+: New Postindustrial map. Terror Ship map fixes.
 2.2.1: Added forest roads. Fixed some more terrain generation crashes.
 3.2: Added dog inventory picture. Fixed a rare-ish crash on terrain generation. Minor fixes.
 3.1: Added analysis articles for all alien life forms. Synthsuit yields better bonuses. Alien Drones fly freely. Added Gravmodule stat bonuses. Hazmat is somewhat stronger. Auto Cannon fires 5 times on auto. HMG fires 10 times. Miniguns rebalanced. Plasma blades deal plasma damage. Fancier photonic blade effects. Flamethrower effects. Knives are faster and have sounds. Stun Rod is much faster, but no longer autohits. New MiB Commander sprites (by Brain_322). New Salamandron sprites (by Drages). New Juggernaut sprites (by Wolverin). Alien Drone weapon looks less like a laser. Alien Grenade and Elerium Bomb explosions are green. Added some new inventory pictures. Various armor tweaks and improvements. Soldier names code streamlined. Fixed Toxi-Suit palette.
