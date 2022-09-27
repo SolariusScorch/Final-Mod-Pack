@@ -583,7 +583,7 @@
     height: 680
     files:
       0: Resources/Races_Compilation/ChaserRace/CHASER.png
-  - type: inventory_CHASER
+  - type: inventory_CHASER.SPK
     singleImage: true
     files:
       0: Resources/Races_Compilation/ChaserRace/inventory_CHASER.png
@@ -618,7 +618,7 @@
     height: 200
     files:
       0: Resources/Races_Compilation/MutonRace/ufopedia_OBLITERATOR.png
-  - type: inventory_OBLITERATOR
+  - type: inventory_OBLITERATOR.SPK
     singleImage: true
     files:
       0: Resources/Races_Compilation/MutonRace/inventory_OBLITERATOR.png
@@ -636,11 +636,11 @@
     height: 160
     files:
       0: Resources/XComCyberdisc/cyborange.png
-  - type: inventory_CYBERDISC
+  - type: inventory_CYBERDISC.SPK
     singleImage: true
     files:
       0: Resources/Races_Compilation/SectoidRace/inventory_CYBERDISC.png
-  - type: inventory_SECTOPOD
+  - type: inventory_SECTOPOD.SPK
     singleImage: true
     files:
       0: Resources/Races_Compilation/SectopodRace/inventory_SECTOPOD.png
@@ -686,7 +686,7 @@
     height: 680
     files:
       0: Resources/Races_Compilation/MutonRace/MUTON_SHADER.png
-  - type: inventory_MUTON_SHADER
+  - type: inventory_MUTON_SHADER.SPK
     width: 320
     height: 200
     singleImage: true
@@ -789,7 +789,7 @@
     height: 200
     files:
       0: Resources/Races_Compilation/WhiteEtherealRace/Ethereal_white.png
-  - type: inventory_ETHEREAL_WHITE
+  - type: inventory_ETHEREAL_WHITE.SPK
     singleImage: true
     files:
       0: Resources/Races_Compilation/WhiteEtherealRace/inventory_ETHEREAL_WHITE.png
@@ -835,7 +835,7 @@
     height: 280
     files:
       0: Resources/Races_Compilation/WaspiteRace/WASPITE_WHITE.png
-  - type: inventory_GAZER
+  - type: inventory_GAZER.SPK
     singleImage: true
     files:
       0: Resources/Races_Compilation/GazerRace/inventory_GAZER.png
@@ -874,7 +874,7 @@
     height: 200
     files:
       0: Resources/Races_Compilation/AnthropodRace/SPITTER_RETRACT.png
-  - type: inventory_SPITTER
+  - type: inventory_SPITTER.SPK
     singleImage: true
     files:
       0: Resources/Races_Compilation/AnthropodRace/inventory_SPITTER.png
@@ -885,47 +885,47 @@
     height: 40
     files:
       0: Resources/Races_Compilation/GazerRace/HOLODRONE.png
-  - type: inventory_HOLODRONE
+  - type: inventory_HOLODRONE.SPK
     singleImage: true
     files:
       0: Resources/Races_Compilation/GazerRace/inventory_HOLODRONE.png
-  - type: inventory_WASPITE
+  - type: inventory_WASPITE.SPK
     singleImage: true
     files:
       0: Resources/Races_Compilation/WaspiteRace/inventory_WASPITE.png
-  - type: inventory_WASPITE_RED
+  - type: inventory_WASPITE_RED.SPK
     singleImage: true
     files:
       0: Resources/Races_Compilation/WaspiteRace/inventory_WASPITE_RED.png
-  - type: inventory_WASPITE_PURPLE
+  - type: inventory_WASPITE_PURPLE.SPK
     singleImage: true
     files:
       0: Resources/Races_Compilation/WaspiteRace/inventory_WASPITE_PURPLE.png
-  - type: inventory_WASPITE_BROWN
+  - type: inventory_WASPITE_BROWN.SPK
     singleImage: true
     files:
       0: Resources/Races_Compilation/WaspiteRace/inventory_WASPITE_BROWN.png
-  - type: inventory_WASPITE_WHITE
+  - type: inventory_WASPITE_WHITE.SPK
     singleImage: true
     files:
       0: Resources/Races_Compilation/WaspiteRace/inventory_WASPITE_WHITE.png
-  - type: inventory_ANTHROPOD
+  - type: inventory_ANTHROPOD.SPK
     singleImage: true
     files:
       0: Resources/Races_Compilation/AnthropodRace/inventory_ANTHROPOD.png
-  - type: inventory_SILACOID
+  - type: inventory_SILACOID.SPK
     singleImage: true
     files:
       0: Resources/Races_Compilation/SilacoidRace/inventory_SILACOID.png
-  - type: inventory_CELATID
+  - type: inventory_CELATID.SPK
     singleImage: true
     files:
       0: Resources/Races_Compilation/CelatidRace/inventory_CELATID.png
-  - type: inventory_CHRYSSALID
+  - type: inventory_CHRYSSALID.SPK
     singleImage: true
     files:
       0: Resources/Races_Compilation/SnakemanRace/inventory_CHRYSSALID.png
-  - type: inventory_SCOUT_DRONE
+  - type: inventory_SCOUT_DRONE.SPK
     singleImage: true
     files:
       0: Resources/Tanks_Compilation/Scoutdrone/inventory_SCOUT_DRONE.png
@@ -936,7 +936,7 @@
     height: 240
     files:
       0: Resources/Races_Compilation/WaspiteRace/CYBERMITE.png
-  - type: inventory_CYBERMITE
+  - type: inventory_CYBERMITE.SPK
     singleImage: true
     files:
       0: Resources/Races_Compilation/WaspiteRace/inventory_CYBERMITE.png
@@ -954,107 +954,107 @@
     height: 720
     files:
       0: Resources/Races_Compilation/ReptoidRace/REPTOID.png
-  - type: sectoidInventoryImage
+  - type: sectoidInventoryImage.SPK
     width: 320
     height: 200
     singleImage: true
     files:
       0: Resources/AlienInventory/sectoid.png
-  - type: mutonInventoryImage
+  - type: mutonInventoryImage.SPK
     width: 320
     height: 200
     singleImage: true
     files:
       0: Resources/AlienInventory/muton.png
-  - type: inventory_SNAKEMAN
+  - type: inventory_SNAKEMAN.SPK
     width: 320
     height: 200
     singleImage: true
     files:
       0: Resources/Races_Compilation/SnakemanRace/inventory_SNAKEMAN.png
-  - type: inventory_SNAKEMAN_NAVIGATOR
+  - type: inventory_SNAKEMAN_NAVIGATOR.SPK
     width: 320
     height: 200
     singleImage: true
     files:
       0: Resources/Races_Compilation/SnakemanRace/inventory_SNAKEMAN_NAVIGATOR.png
-  - type: inventory_SNAKEMAN_ENGINEER
+  - type: inventory_SNAKEMAN_ENGINEER.SPK
     width: 320
     height: 200
     singleImage: true
     files:
       0: Resources/Races_Compilation/SnakemanRace/inventory_SNAKEMAN_ENGINEER.png
-  - type: inventory_SNAKEMAN_LEADER
+  - type: inventory_SNAKEMAN_LEADER.SPK
     width: 320
     height: 200
     singleImage: true
     files:
       0: Resources/Races_Compilation/SnakemanRace/inventory_SNAKEMAN_LEADER.png
-  - type: inventory_SNAKEMAN_COMMANDER
+  - type: inventory_SNAKEMAN_COMMANDER.SPK
     width: 320
     height: 200
     singleImage: true
     files:
       0: Resources/Races_Compilation/SnakemanRace/inventory_SNAKEMAN_COMMANDER.png
-  - type: etherealInventoryImage
+  - type: etherealInventoryImage.SPK
     width: 320
     height: 200
     singleImage: true
     files:
       0: Resources/AlienInventory/ethereal.png
-  - type: floaterInventoryImage
+  - type: floaterInventoryImage.SPK
     width: 320
     height: 200
     singleImage: true
     files:
       0: Resources/AlienInventory/floater.png
-  - type: mutonengineerInventoryImage
+  - type: mutonengineerInventoryImage.SPK
     width: 320
     height: 200
     singleImage: true
     files:
       0: Resources/AlienInventory/mutonengineer.png
-  - type: mutonleaderInventoryImage
+  - type: mutonleaderInventoryImage.SPK
     width: 320
     height: 200
     singleImage: true
     files:
       0: Resources/AlienInventory/mutonleader.png
-  - type: mutoncommanderInventoryImage
+  - type: mutoncommanderInventoryImage.SPK
     width: 320
     height: 200
     singleImage: true
     files:
       0: Resources/AlienInventory/mutoncommander.png
-  - type: mutonmedicInventoryImage
+  - type: mutonmedicInventoryImage.SPK
     width: 320
     height: 200
     singleImage: true
     files:
       0: Resources/AlienInventory/mutonmedic.png
-  - type: sectoidcommanderInventoryImage
+  - type: sectoidcommanderInventoryImage.SPK
     width: 320
     height: 200
     singleImage: true
     files:
       0: Resources/AlienInventory/sectoidcommander.png
-  - type: sectoidguardianInventoryImage
+  - type: sectoidguardianInventoryImage.SPK
     width: 320
     height: 200
     singleImage: true
     files:
       0: Resources/AlienInventory/sectoidguardian.png
-  - type: floatercommanderInventoryImage
+  - type: floatercommanderInventoryImage.SPK
     width: 320
     height: 200
     singleImage: true
     files:
       0: Resources/AlienInventory/floatercommander.png
-  - type: inventory_CHTONITE
+  - type: inventory_CHTONITE.SPK
     singleImage: true
     files:
       0: Resources/Races_Compilation/ChtoniteRace/inventory_CHTONITE.png
-  - type: inventory_REPTOID
+  - type: inventory_REPTOID.SPK
     singleImage: true
     files:
       0: Resources/Races_Compilation/ReptoidRace/inventory_REPTOID.png
@@ -1065,7 +1065,7 @@
     height: 720
     files:
       0: Resources/Races_Compilation/HybridRace/HYBRID.png
-  - type: inventory_HYBRID
+  - type: inventory_HYBRID.SPK
     singleImage: true
     files:
       0: Resources/Races_Compilation/HybridRace/inventory_HYBRID.png
@@ -1076,11 +1076,11 @@
     height: 200
     files:
       0: Resources/Races_Compilation/HybridRace/DRONE.png
-  - type: inventory_ALIEN_DRONE
+  - type: inventory_ALIEN_DRONE.SPK
     singleImage: true
     files:
       0: Resources/Races_Compilation/HybridRace/inventory_DRONE.png
-  - type: inventory_REAPER
+  - type: inventory_REAPER.SPK
     width: 320
     height: 200
     singleImage: true
@@ -1093,7 +1093,7 @@
     height: 840
     files:
       0: Resources/Races_Compilation/ReptoidRace/SALAMANDRON.png
-  - type: inventory_SALAMANDRON
+  - type: inventory_SALAMANDRON.SPK
     singleImage: true
     files:
       0: Resources/Races_Compilation/ReptoidRace/inventory_SALAMANDRON.png
@@ -1118,11 +1118,11 @@
     subY: 40
     files:
       0: Resources/Tanks_Compilation/SECTOPOD_PLASMA.png
-  - type: inventory_TANK_CANNON
+  - type: inventory_TANK_CANNON.SPK
     singleImage: true
     files:
       0: Resources/Tanks_Compilation/Tanks/inventory_TANK_CANNON.png
-  - type: inventory_HOVERTANK
+  - type: inventory_HOVERTANK.SPK
     singleImage: true
     files:
       0: Resources/Tanks_Compilation/Tanks/inventory_HOVERTANK.png
@@ -1148,7 +1148,7 @@
     height: 200
     files:
       0: Resources/Doge/DOGE.png
-  - type: inventory_DOGE
+  - type: inventory_DOGE.SPK
     singleImage: true
     files:
       0: Resources/Doge/inventory_DOGE.png
@@ -1183,7 +1183,7 @@
     height: 200
     files:
       0: Resources/Races_Compilation/CerebrealRace/CEREBREAL.png
-  - type: inventory_CEREBREAL
+  - type: inventory_CEREBREAL.SPK
     singleImage: true
     files:
       0: Resources/Races_Compilation/CerebrealRace/inventory_CEREBREAL.png
@@ -1212,7 +1212,7 @@
     height: 40
     files:
       0: Resources/Races_Compilation/CerebrealRace/CEREBREAL_LARVA.png
-  - type: inventory_CEREBREAL_LARVA
+  - type: inventory_CEREBREAL_LARVA.SPK
     singleImage: true
     files:
       0: Resources/Races_Compilation/CerebrealRace/inventory_CEREBREAL_LARVA.png
@@ -1868,7 +1868,7 @@
     subY: 40
     files:
       0: Resources/men_in_black/MIB_0.png
-  - type: inventory_MIB0
+  - type: inventory_MIB0.SPK
     singleImage: true
     files:
       0: Resources/men_in_black/inventory_MIB0.png
@@ -1879,7 +1879,7 @@
     subY: 40
     files:
       0: Resources/men_in_black/MIB_1.png
-  - type: inventory_MIB1
+  - type: inventory_MIB1.SPK
     singleImage: true
     files:
       0: Resources/men_in_black/inventory_MIB1.png
@@ -1890,7 +1890,7 @@
     subY: 40
     files:
       0: Resources/men_in_black/MIB_2.png
-  - type: inventory_MIB2
+  - type: inventory_MIB2.SPK
     singleImage: true
     files:
       0: Resources/men_in_black/inventory_MIB2.png
@@ -1901,7 +1901,7 @@
     subY: 40
     files:
       0: Resources/men_in_black/MIB_3.png
-  - type: inventory_MIB3
+  - type: inventory_MIB3.SPK
     singleImage: true
     files:
       0: Resources/men_in_black/inventory_MIB3.png
@@ -1912,7 +1912,7 @@
     subY: 40
     files:
       0: Resources/men_in_black/MIB_4.png
-  - type: inventory_MIB4
+  - type: inventory_MIB4.SPK
     singleImage: true
     files:
       0: Resources/men_in_black/inventory_MIB4.png
@@ -1923,7 +1923,7 @@
     subY: 40
     files:
       0: Resources/men_in_black/MIB_5.png
-  - type: inventory_MIB5
+  - type: inventory_MIB5.SPK
     singleImage: true
     files:
       0: Resources/men_in_black/inventory_MIB5.png
@@ -1934,7 +1934,7 @@
     subY: 40
     files:
       0: Resources/men_in_black/MIB_PSI_OPS.png
-  - type: inventory_MIB_PSI_OPS
+  - type: inventory_MIB_PSI_OPS.SPK
     singleImage: true
     files:
       0: Resources/men_in_black/inventory_MIB_PSI_OPS.png
@@ -1945,7 +1945,7 @@
     subY: 40
     files:
       0: Resources/men_in_black/MIB_COMMANDER.png
-  - type: inventory_MIB_COMMANDER
+  - type: inventory_MIB_COMMANDER.SPK
     singleImage: true
     files:
       0: Resources/men_in_black/inventory_MIB_COMMANDER.png
@@ -2012,7 +2012,7 @@
     subY: 40
     files:
       0: Resources/men_in_black/MIBTANKS.png
-  - type: inventory_TANK_CANNON
+  - type: inventory_TANK_CANNON.SPK
     singleImage: true
     files:
       0: Resources/men_in_black/inventory_TANK_CANNON.png
