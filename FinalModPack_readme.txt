@@ -58,6 +58,7 @@ ANY FUTURE PLANS?
 I will do maintenance on the mod, and might add something new if I feel like it, but no promises - I am working on some other projects (mainly The X-Com Files, which is Final Mod Pack's younger, much bigger sibling).
 
 CHANGELOG:
+: 4 new Port map variants (by Thallori).
 3.2.2: New Postindustrial map. Terror Ship map fixes. Fixed some Ufopaedia crashing issues on vanilla OXC.
 3.2.1: Added forest roads. Fixed some more terrain generation crashes.
 3.2: Added dog inventory picture. Fixed a rare-ish crash on terrain generation. Minor fixes.
