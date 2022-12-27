@@ -2658,6 +2658,7 @@
     autoShots: 20
     battleType: 1
     fixedWeapon: true
+    bulletSpeed: 50
     dropoff: 1
     invWidth: 2
     invHeight: 3
