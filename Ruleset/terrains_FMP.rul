@@ -470,9 +470,24 @@
       - name: PORTUFO20B
         width: 20
         length: 20
+      - name: PORTUFO21
+        width: 20
+        length: 20
       - name: PORTUFO22
         width: 20
         length: 20
+      - name: PORTUFO23
+        width: 10
+        length: 10
+      - name: PORTUFO24
+        width: 10
+        length: 10
+      - name: PORTUFO25
+        width: 10
+        length: 10
+      - name: PORTUFO26
+        width: 10
+        length: 10
       - name: PORTUFO27
         width: 10
         length: 10
@@ -497,6 +512,9 @@
         width: 10
         length: 10
         groups: 3
+      - name: PORTUFO32
+        width: 20
+        length: 20
       - name: PORTUFO31B
         width: 10
         length: 10
