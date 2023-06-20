@@ -711,6 +711,7 @@ ko:
   STR_SPITTER_AUTOPSY_UFOPEDIA: "이 생물의 몸통에는 많은 양의 붕괴 효소를 분배하는 거대한 샘이 있다. 효소는 깔대기의 바닥에 위치한 용기에 저장되는데, 아마도 궁극적으로 그 물질을 표적으로 배출하기 위할 정도의 고압이 빠르게 생성되는 것 같다. 그 효소는 고도로 복잡한 폴리머로서 모든 물질을 거의 순식간에 분해한다. 우리는 현재로서는 그 효소를 합성할 수 없다. 이것은 또한 아주 저항성이 좋은 껍질도 가졌다."
   STR_XCOM_CYBERDISC_LASER_UFOPEDIA: "이 외계인제 로보트 탱크는 X-Com에게 포획되었고 외계인 무리에게 파멸을 일으킬 레이저 기관포를 장착했다."
   STR_XCOM_CYBERDISC_PLASMA_UFOPEDIA: "이 외계인이 설계한 로보트 탱크는 X-Com에 의해 포획되었고 그 강력한 플라스마 무기를 예전 주인에게 돌리기 위해 재프로그램되었다."
+  STR_LASER_SNIPER_RIFLE: "레이저 저격소총"
   STR_GRAV_MODULE: "중력 모듈"
   STR_GRAV_MODULE_UFOPEDIA: "중력 모듈은 소형 반중력 발생기로, 하나의 인간 크기 유니트를 거의 무한한 시간 동안 들어올릴 수 있다."
   STR_GRAV_MODULE_EXTRACTION_WASPITE: "중력 모듈 추출(와스파이트)"

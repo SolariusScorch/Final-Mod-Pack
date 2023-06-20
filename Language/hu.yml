@@ -1118,7 +1118,6 @@ hu:
   STR_SNIPER_RIFLES_UFOPEDIA: "A Mesterlövész puskák használójuktól magas tüzelési pontosságot igényelnek hogy igazán hatékonyak legyenek, de megfelelő kezében rendkívül pontos és erős fegyverek. Meglehetősen alacsony tűzgyorsasággal bírnak. Nagyon rövid távolságokon gyakran romlik a pontosságuk."
   STR_INCENDIARIES_UFOPEDIA: "A Gyújtó fegyverek direkt sebzésükön kívül a célterületet is lángokba borítják. A tűz minden minden alkalommal sebezi az összes benne álló egységet. A tűz nem okoz halálos sebeket, de nagyon legyengítheti a célba vett egységet. Egy égő egység minden körben sebeződni fog mintha a tűzben állna, és minden körben van esélye hogy elalszanak rajta a lángok . A páncélzatok nem védenek a tűztől, de bizonyos esetekben egy megadott százalékban a károkat mérsékelhetik."
   STR_DRAGONFLY_DARK: "Szitakötő"
-  STR_OPENXCOM: "Open X-Com: Final Mod Pack v3.2"
   STR_DAMAGE_10: "EMP"
   STR_DAMAGE_11: "ELEKTROMOS"
   STR_DAMAGE_13: "TORZÍTÓ"
