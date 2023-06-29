@@ -210,6 +210,8 @@ en-US:
   STR_OBLITERATOR_TERRORIST: "Obliterator Terrorist"
   STR_OBLITERATOR_UFOPEDIA: "This levitating machine of war is heavily armored and armed with powerful Elerium-based missiles. It is employed by the alien race of Mutons as a support unit, primarily in their terror attacks against Earth population."
   STR_OBLITERATOR_DISASSEMBLY: "Obliterator Disassembly"
+  STR_FIRE_EXTINGUISHER: "Fire Extinguisher"
+  STR_FIRE_EXTINGUISHER_UFOPEDIA: "A Fire Extinguisher can be a useful field tool for our agents, potentially saving both human life and property. Due to its weight and hardness, it can also be used to subdue any uncooperative individuals."
   STR_STIMS: "Stims"
   STR_STIMS_UFOPEDIA: "Stims help fight off tiredness and may force an incapacitated person to regain consciousness."
   STR_PAINKILLER: "Painkillers"
