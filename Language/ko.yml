@@ -1037,6 +1037,7 @@ ko:
   STR_MAGNUM_DRUM: "매그넘 .44 드럼"
   STR_MINIGUN: "미니건"
   STR_MINIGUN_CLIP: "미니건 탄약가방"
+  STR_LMG: "경기관총"
   STR_GRENADE_LAUNCHER: "유탄발사기"
   STR_LAUNCHER_FRAG: "46mm 유탄(고폭탄)"
   STR_LAUNCHER_SMOKE: "46mm 유탄(연막탄)"

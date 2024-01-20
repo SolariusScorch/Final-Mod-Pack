@@ -1356,7 +1356,7 @@ pl:
   STR_SNIPER_RIFLES_UFOPEDIA: "Karabiny snajperskie wymagają wysokich umiejętności strzeleckich, lecz we właściwych rękach są bardzo celne i mają wielką siłę obalającą. Są przy tym jednak dość powolne. Ich celność często spada na bardzo krótkich dystansach."
   STR_INCENDIARIES_UFOPEDIA: "Broń zapalająca zadaje bezpośrednie obrażenia oraz pokrywa okolicę płomieniami. Ogień zadaje obrażenia w każdej turze jednostkom, które w nim się znajdują. Ogień nie wywołuje krwawiących ran, ale może spowodować zapalenie się jednostki. Płonąca jednostka odnosi obrażenia w każdej turze, jakby stała w ogniu, ale w każdej turze ma szansę na zgaszenie ognia na sobie. Pancerz nie chroni przed ogniem, ale w niektórych przypadkach może obniżyć obrażenia od ognia o określony procent."
   STR_DRAGONFLY_DARK: "Ważka"
-  STR_OPENXCOM: "Open X-Com: Final Mod Pack wersja 3.3"
+  STR_OPENXCOM: "Open X-Com: Final Mod Pack wersja 3.4"
   STR_TROLLIUM: "(inne)"
   STR_PUNCH: "Uderzenie"
   STR_KICK: "Kopnięcie"
