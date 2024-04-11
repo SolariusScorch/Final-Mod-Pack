@@ -1353,24 +1353,43 @@
     requires:
       - STR_SECTOPOD_CONSTRUCTION
     text: STR_SECTOPOD_CONSTRUCTION_UFOPEDIA
+  - id: STR_SECTOPOD_GAUSS
+    type_id: 3
+    section: STR_HEAVY_WEAPONS_PLATFORMS
+    weapon: STR_HEAVY_GAUSS
+    requires:
+      - STR_HEAVY_GAUSS
+      - STR_SECTOPOD_CONSTRUCTION
+    text: STR_SECTOPOD_GAUSS_UFOPEDIA
+    listOrder: 1618
+  - id: STR_SECTOPOD_RAILGUN
+    type_id: 3
+    section: STR_HEAVY_WEAPONS_PLATFORMS
+    weapon: STR_HEAVY_RAILGUN
+    requires:
+      - STR_HEAVY_GAUSS
+      - STR_RAILGUNS
+      - STR_SECTOPOD_CONSTRUCTION
+    text: STR_SECTOPOD_RAILGUN_UFOPEDIA
+    listOrder: 1619
   - id: STR_SECTOPOD_LASER
     type_id: 3
     section: STR_HEAVY_WEAPONS_PLATFORMS
     weapon: STR_LASER_CANNON
-    listOrder: 1620
     requires:
       - STR_LASER_CANNON
       - STR_SECTOPOD_CONSTRUCTION
     text: STR_SECTOPOD_LASER_UFOPEDIA
+    listOrder: 1620
   - id: STR_SECTOPOD_PLASMA
     type_id: 3
     section: STR_HEAVY_WEAPONS_PLATFORMS
     weapon: STR_PLASMA_CANNON
-    listOrder: 1630
     requires:
       - STR_PLASMA_CANNON
       - STR_SECTOPOD_CONSTRUCTION
     text: STR_SECTOPOD_PLASMA_UFOPEDIA
+    listOrder: 1630
   - id: STR_FIRESTORM
     rect_stats:
       x: 180

@@ -2469,6 +2469,46 @@
     value: 20
     deathSound: 23
     moveSound: 40
+  - type: STR_SECTOPOD_GAUSS
+    race: STR_SECTOPOD_GAUSS
+    stats:
+      tu: 100
+      stamina: 100
+      health: 100
+      bravery: 110
+      reactions: 30
+      firing: 60
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 0
+    armor: STR_SECTOPOD_GAUSS_ARMOR
+    standHeight: 15
+    kneelHeight: 15
+    value: 20
+    deathSound: 23
+    moveSound: 23
+  - type: STR_SECTOPOD_RAILGUN
+    race: STR_SECTOPOD_RAILGUN
+    stats:
+      tu: 100
+      stamina: 100
+      health: 100
+      bravery: 110
+      reactions: 30
+      firing: 60
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 0
+    armor: STR_SECTOPOD_RAILGUN_ARMOR
+    standHeight: 15
+    kneelHeight: 15
+    value: 20
+    deathSound: 23
+    moveSound: 23
   - type: STR_SECTOPOD_LASER
     race: STR_SECTOPOD_LASER
     stats:

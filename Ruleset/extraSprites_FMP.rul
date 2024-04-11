@@ -264,6 +264,8 @@
       268: Resources/Races_Compilation/SnakemanRace/bigob_SNAKEMAN_LEADER.png
       269: Resources/Races_Compilation/SnakemanRace/bigob_SNAKEMAN_COMMANDER.png
       270: Resources/Races_Compilation/HybridRace/bigob_DroneWeapon.png
+      271: Resources/Tanks_Compilation/bigob_SectopodGauss.png
+      272: Resources/Tanks_Compilation/bigob_SectopodRailgun.png
   - type: FLOOROB.PCK
     files:
       41: Resources/GravArmors/PowerArmor/FloorCorpse.png
@@ -1118,6 +1120,20 @@
     subY: 40
     files:
       0: Resources/Tanks_Compilation/SECTOPOD_PLASMA.png
+  - type: SECTOPOD_GAUSS.PCK
+    width: 256
+    height: 840
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Tanks_Compilation/SECTOPOD_GAUSS.png
+  - type: SECTOPOD_RAILGUN.PCK
+    width: 256
+    height: 840
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Tanks_Compilation/SECTOPOD_RAILGUN.png
   - type: inventory_TANK_CANNON.SPK
     singleImage: true
     files:
@@ -1126,6 +1142,14 @@
     singleImage: true
     files:
       0: Resources/Tanks_Compilation/Tanks/inventory_HOVERTANK.png
+  - type: inventory_X_SECTOPOD_GAUSS.SPK
+    singleImage: true
+    files:
+      0: Resources/Tanks_Compilation/Sectopods/inventory_SectopodGauss.png
+  - type: inventory_X_SECTOPOD_RAILGUN.SPK
+    singleImage: true
+    files:
+      0: Resources/Tanks_Compilation/Sectopods/inventory_SectopodRailgun.png
   - type: inventory_X_SECTOPOD_LASER.SPK
     singleImage: true
     files:

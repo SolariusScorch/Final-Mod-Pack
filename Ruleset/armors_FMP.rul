@@ -2412,6 +2412,64 @@
       - 0.4
       - 0.0
     loftempsSet: [ 92, 89, 90, 91 ]
+  - type: STR_SECTOPOD_GAUSS_ARMOR
+    spriteSheet: SECTOPOD_GAUSS.PCK
+    spriteInv: inventory_X_SECTOPOD_GAUSS
+    allowInv: false
+    corpseBattle:
+      - SECTOPOD_CORPSE_1
+      - SECTOPOD_CORPSE_2
+      - SECTOPOD_CORPSE_3
+      - SECTOPOD_CORPSE_4
+    corpseGeo: STR_SECTOPOD_CORPSE
+    frontArmor: 145
+    sideArmor: 130
+    rearArmor: 100
+    underArmor: 90
+    moveSound: 109
+    drawingRoutine: 5
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.6
+      - 0.8
+      - 1.5
+      - 0.8
+      - 0.0
+      - 1.0
+      - 0.5
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: STR_SECTOPOD_RAILGUN_ARMOR
+    spriteSheet: SECTOPOD_RAILGUN.PCK
+    spriteInv: inventory_X_SECTOPOD_RAILGUN
+    allowInv: false
+    corpseBattle:
+      - SECTOPOD_CORPSE_1
+      - SECTOPOD_CORPSE_2
+      - SECTOPOD_CORPSE_3
+      - SECTOPOD_CORPSE_4
+    corpseGeo: STR_SECTOPOD_CORPSE
+    frontArmor: 145
+    sideArmor: 130
+    rearArmor: 100
+    underArmor: 90
+    moveSound: 109
+    drawingRoutine: 5
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.6
+      - 0.8
+      - 1.5
+      - 0.8
+      - 0.0
+      - 1.0
+      - 0.5
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
   - type: STR_SECTOPOD_LASER_ARMOR
     spriteSheet: TANK2.PCK
     spriteInv: inventory_X_SECTOPOD_LASER
