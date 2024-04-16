@@ -1399,6 +1399,8 @@ pl:
   STR_HWP_DISC_LASER_CANNON: "Działko laserowe cyberdysku"
   STR_SECTOPOD_WEAPON: "Działko laserowe sektopoda"
   STR_HWP_SECTOPOD_LASER_REPEATER: "Wielostrzałowe działko laserowe sektopoda"
+  STR_HWP_SECTOPOD_GAUSS: "Gauss sektopoda"
+  STR_HWP_SECTOPOD_RAILGUN: "Działo EM sektopoda"
   STR_HWP_RANGEFINDER: "Dalmierz drona"
   STR_MEASURE_RANGE: "Zmierz odległość"
   STR_SCOUT_DRONE_SHOTGUN: "Dronowa strzelba antydrzwiowa"

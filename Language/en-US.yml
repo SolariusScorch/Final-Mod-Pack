@@ -1427,6 +1427,8 @@ en-US:
   STR_HWP_DISC_LASER_CANNON: "Cyberdisc Laser Cannon"
   STR_SECTOPOD_WEAPON: "Sectopod Laser Cannon"
   STR_HWP_SECTOPOD_LASER_REPEATER: "Sectopod Laser Repeater"
+  STR_HWP_SECTOPOD_GAUSS: "Sectopod Gauss"
+  STR_HWP_SECTOPOD_RAILGUN: "Sectopod Railgun"
   STR_HWP_RANGEFINDER: "HWP Rangefinder"
   STR_MEASURE_RANGE: "Measure Range"
   STR_SCOUT_DRONE_SHOTGUN: "Drone Doorbreaker Shotgun"
