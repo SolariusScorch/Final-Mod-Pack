@@ -1399,6 +1399,8 @@ it:
   STR_HWP_DISC_LASER_CANNON: "Cannone Laser Cyberdisco"
   STR_SECTOPOD_WEAPON: "Cannone Laser Sectopode"
   STR_HWP_SECTOPOD_LASER_REPEATER: "Laser a Ripetizione Sectopode"
+  STR_HWP_SECTOPOD_GAUSS: "Gauss del Sectopode"
+  STR_HWP_SECTOPOD_RAILGUN: "Railgun del Sectopode"
   STR_HWP_RANGEFINDER: "Telemetro HWP"
   STR_MEASURE_RANGE: "Misura Distanza"
   STR_SCOUT_DRONE_SHOTGUN: "Doppietta da Sfondamento Drone"
