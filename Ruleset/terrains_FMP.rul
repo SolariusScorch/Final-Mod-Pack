@@ -1141,6 +1141,9 @@
       - name: URBANJUNKDIO_07
         width: 10
         length: 10
+      - name: URBANJUNKDIO_08
+        width: 20
+        length: 20
       - name: URBANJUNK_ROAD_00a
         width: 10
         length: 10
@@ -1185,6 +1188,7 @@
       - FRNITURE
       - URBITS
       - CULTIVAT
+      - CUNTTRYROAD_LT
     script: URBANJUNK
     civilianTypes:
       - STR_MALE_CIVILIAN_HUNTER
