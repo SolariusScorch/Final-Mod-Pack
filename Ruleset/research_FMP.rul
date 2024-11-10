@@ -634,7 +634,6 @@
     dependencies:
       - STR_MIB_SCIENTIST
       - STR_MIB_EXECUTOR
-    listOrder: ???
   - name: STR_MIB_COORDINATOR
     lookup: STR_MIB_IDENTITY
     cost: 192
