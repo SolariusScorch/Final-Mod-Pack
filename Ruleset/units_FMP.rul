@@ -902,7 +902,7 @@ units:
     kneelHeight: 16
     value: 25
     deathSound: 23
-    moveSound: 14  
+    moveSound: 14
     intelligence: 5
     aggression: 2
     livingWeapon: true
@@ -2343,7 +2343,7 @@ units:
     kneelHeight: 16
     value: 20
     deathSound: 23
-    moveSound: 14    
+    moveSound: 14
   - type: STR_TANK_LASER_CANNON
     race: STR_TANK_LASER_CANNON
     stats:

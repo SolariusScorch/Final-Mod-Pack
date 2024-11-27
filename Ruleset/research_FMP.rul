@@ -3513,7 +3513,7 @@ research:
       - STR_POWER_SOURCE_MINIATURIZATION
   - name: STR_GAUSS_RIFLE_CLIP
     cost: 0
-    dependencies: 
+    dependencies:
       - STR_GAUSS_RIFLE
   - name: STR_GAUSS_SNIPER_RIFLE
     cost: 150
@@ -3523,7 +3523,7 @@ research:
       - STR_GAUSS_RIFLE
   - name: STR_GAUSS_SNIPER_RIFLE_CLIP
     cost: 0
-    dependencies: 
+    dependencies:
       - STR_GAUSS_SNIPER_RIFLE
   - name: STR_HEAVY_GAUSS
     cost: 510
@@ -3534,7 +3534,7 @@ research:
       - STR_POWER_SOURCE_MINIATURIZATION
   - name: STR_HEAVY_GAUSS_CLIP
     cost: 0
-    dependencies: 
+    dependencies:
       - STR_HEAVY_GAUSS
   - name: STR_GAUSS_CANNON
     cost: 420

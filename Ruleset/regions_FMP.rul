@@ -743,7 +743,7 @@ regions:
         - [203.29, 203.69, -20.97, -20.66]
         - [177.75, 178.25, 17.5, 17.875]
         - [164.625, 164.75, 20.5, 20.75]
-      - 
+      -
         - [204.39, 204.39, -19.64, -19.64, -1, STR_HAWAII]
         - [193.45, 193.45, -60.17, -60.17, -1, STR_STLAWRENCE_ISLAND]
         - [182, 182, -28, -28, -1, STR_MIDWAY_ISLAND]
@@ -775,7 +775,7 @@ regions:
       STR_HYBRID_MEETING: 5
       STR_HYBRID_MIB_MEETING: 5
       STR_ALIEN_DIPLOMACY: 2
-  - type: STR_NORTH_ATLANTIC 
+  - type: STR_NORTH_ATLANTIC
     cost: 500000
     areas:
       - [305, 335, -70, -30]
@@ -906,7 +906,7 @@ regions:
         - [70, 71.125, -70, -68.125]
         - [70, 73.125, 60, 61.75]
         - [0, 6.875, 60, 65.25]
-  - type: STR_INDIAN_OCEAN 
+  - type: STR_INDIAN_OCEAN
     cost: 500000
     areas:
       - [55, 70, -15, 10]

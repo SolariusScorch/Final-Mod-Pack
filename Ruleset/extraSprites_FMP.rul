@@ -593,7 +593,7 @@ extraSprites:
     singleImage: true
     width: 320
     height: 200
-    files: 
+    files:
       0: Resources/Races_Compilation/ChaserRace/ufopedia_CHASER_AUTOPSY.png
   - type: UFOPEDIA_IMG_CHASER
     singleImage: true
@@ -1180,7 +1180,7 @@ extraSprites:
     singleImage: true
     width: 320
     height: 200
-    files: 
+    files:
       0: Resources/Races_Compilation/HybridRace/ufopedia_HYBRID_AUTOPSY.png
   - type: UFOPEDIA_IMG_HYBRID
     singleImage: true
@@ -1215,7 +1215,7 @@ extraSprites:
     singleImage: true
     width: 320
     height: 200
-    files: 
+    files:
       0: Resources/Races_Compilation/CerebrealRace/ufopedia_CEREBREAL_AUTOPSY.png
   - type: UFOPEDIA_IMG_CEREBREAL
     singleImage: true
@@ -1250,7 +1250,7 @@ extraSprites:
     singleImage: true
     width: 320
     height: 200
-    files: 
+    files:
       0: Resources/Races_Compilation/ChtoniteRace/ufopedia_CHTONITE_AUTOPSY.png
   - type: UFOPEDIA_IMG_CHTONITE
     singleImage: true
@@ -1262,7 +1262,7 @@ extraSprites:
     singleImage: true
     width: 320
     height: 200
-    files: 
+    files:
       0: Resources/Races_Compilation/GazerRace/ufopedia_GAZER_AUTOPSY.png
   - type: UFOPEDIA_IMG_GAZER
     singleImage: true
@@ -1286,7 +1286,7 @@ extraSprites:
     singleImage: true
     width: 320
     height: 200
-    files: 
+    files:
       0: Resources/Races_Compilation/WaspiteRace/ufopedia_WASPITE_AUTOPSY.png
   - type: UFOPEDIA_IMG_WASPITE
     singleImage: true
@@ -1298,7 +1298,7 @@ extraSprites:
     singleImage: true
     width: 320
     height: 200
-    files: 
+    files:
       0: Resources/Races_Compilation/ReptoidRace/ufopedia_REPTOID_AUTOPSY.png
   - type: UFOPEDIA_IMG_REPTOID
     singleImage: true
@@ -2147,14 +2147,14 @@ extraSprites:
     width: 31
     height: 496
     subX: 31
-    subY: 8 
+    subY: 8
     files:
       0: Resources/Commendations/SpriteSheet_CommendationCommendations.png
   - type: CommendationDecorations #Hardcoded
     width: 31
     height: 80
     subX: 31
-    subY: 8 
+    subY: 8
     files:
       0: Resources/Commendations/SpriteSheet_CommendationDecorations.png
   - type: ALIENS_KILLED
@@ -2198,7 +2198,7 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_AllBattleTypes.png 
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_AllBattleTypes.png
   - type: ALLMISSIONS
     singleImage: true
     width: 320

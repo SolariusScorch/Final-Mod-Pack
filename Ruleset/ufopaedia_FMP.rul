@@ -215,7 +215,7 @@ ufopaedia:
   - id: STR_MEDAL_WEAPON_PROFICIENCY
     type_id: 7
     section: STR_COMMENDATIONS_UC
-    image_id: WEAPON_PROFICIENCY 
+    image_id: WEAPON_PROFICIENCY
     text: STR_MEDAL_WEAPON_PROFICIENCY_UFOPEDIA
     text_width: 158
     listOrder: 6150
@@ -1077,7 +1077,7 @@ ufopaedia:
       - STR_HOLODRONE
     image_id: UFOPEDIA_IMG_HOLODRONE
     text: STR_HOLODRONE_UFOPEDIA
-    text_width: 158 
+    text_width: 158
     listOrder: 9510
   - id: STR_HOLODRONE_AUTOPSY
     type_id: 7
@@ -1113,7 +1113,7 @@ ufopaedia:
       - STR_CYBERMITE
     image_id: UFOPEDIA_IMG_CYBERMITE
     text: STR_CYBERMITE_UFOPEDIA
-    text_width: 158 
+    text_width: 158
     listOrder: 9350
   - id: STR_CYBERMITE_AUTOPSY
     type_id: 7
@@ -1149,7 +1149,7 @@ ufopaedia:
       - STR_CEREBREAL_LARVA
     image_id: UFOPEDIA_IMG_CEREBREAL_LARVA
     text: STR_CEREBREAL_LARVA_UFOPEDIA
-    text_width: 158 
+    text_width: 158
     listOrder: 9970
   - id: STR_CEREBREAL_LARVA_AUTOPSY
     type_id: 7
@@ -1230,7 +1230,7 @@ ufopaedia:
       - STR_SALAMANDRON
     image_id: UFOPEDIA_IMG_SALAMANDRON
     text: STR_SALAMANDRON_UFOPEDIA
-    text_width: 158 
+    text_width: 158
     listOrder: 9355
   - id: STR_SALAMANDRON_AUTOPSY
     type_id: 7
@@ -2303,7 +2303,7 @@ ufopaedia:
       - STR_OBLITERATOR
     image_id: UFOPEDIA_IMG_OBLITERATOR
     text: STR_OBLITERATOR_UFOPEDIA
-    text_width: 158 
+    text_width: 158
     listOrder: 9580
   - id: STR_OBLITERATOR_AUTOPSY
     type_id: 7
