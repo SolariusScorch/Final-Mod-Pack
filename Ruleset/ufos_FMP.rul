@@ -1,4 +1,4 @@
-﻿ufos:
+ufos:
   - type: STR_ENVOY_SHIP
     size: STR_SMALL
     modSprite: InterceptionEnvoyShip

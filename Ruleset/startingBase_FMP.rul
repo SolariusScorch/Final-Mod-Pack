@@ -1,4 +1,4 @@
-﻿startingBase:
+startingBase:
   facilities:
     - type: STR_ACCESS_LIFT
       x: 2

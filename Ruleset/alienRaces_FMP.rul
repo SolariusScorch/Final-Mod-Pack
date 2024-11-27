@@ -1,4 +1,4 @@
-﻿alienRaces:
+alienRaces:
   - id: STR_SECTOID
     members:
       - STR_SECTOID_COMMANDER

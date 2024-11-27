@@ -1,4 +1,4 @@
-﻿facilities:
+facilities:
   - type: STR_ALIEN_CONTAINMENT
     requires:
       - STR_ALIEN_CONTAINMENT

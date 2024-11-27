@@ -1,4 +1,4 @@
-﻿armors:
+armors:
   - type: STR_CHRYSSALID_ARMOR
     spriteSheet: CHRYS.PCK
     spriteInv: inventory_CHRYSSALID

@@ -1,4 +1,4 @@
-﻿craftWeapons:
+craftWeapons:
   - type: STR_STORMLANCE
     sprite: 0
     sound: 5

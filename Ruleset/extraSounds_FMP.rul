@@ -1,4 +1,4 @@
-﻿extraSounds:
+extraSounds:
   - type: BATTLE.CAT
     files:
       55: Resources/Weapons_Compilation/Minigun/Sounds/fire.wav

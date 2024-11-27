@@ -1,4 +1,4 @@
-﻿ufoTrajectories:
+ufoTrajectories:
   - id: H0
     groundTimer: 5000
     waypoints:
