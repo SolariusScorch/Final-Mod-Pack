@@ -58,7 +58,7 @@ ANY FUTURE PLANS?
 I will do maintenance on the mod, and might add something new if I feel like it, but no promises - I am working on some other projects (mainly The X-Com Files, which is Final Mod Pack's younger, much bigger sibling).
 
 CHANGELOG:
-3.5: 6 new Industrial Slum maps (by Dioxine) and enabled huge maps in the script. 2 new Urban maps (by Dioxine). 3 new Junkfarm maps (by Dioxine). Various Junkfarm terrain updates. Port terrain fixes (by Dioxine). Minor fixes (thanks Meridian).
+3.5: 6 new Industrial Slum maps (by Dioxine) and enabled huge maps in the script. 2 new Urban maps (by Dioxine). 3 new Junkfarm maps (by Dioxine). Various Junkfarm terrain updates. Improved diagonal UFO walls (thanks CrazedHarpooner). Port terrain fixes (by Dioxine). Minor fixes (thanks Meridian).
 3.4: New Sectopods: Gauss and Railgun. Fixed a hole in the Skyraider. Terrain fixes.
 3.3: 61 new countries. Updated globe map. New agent names. 7 new Port maps. 1 new Urban map (by Dioxine). 1 new Postindustrial map (by Dioxine). 2 new Jungle maps (by Dioxine). 4 new Port map variants (by Thallori). Desert stones are yellow. Fixed Trinidad position. Terrain fixes.
 3.2.2: New Postindustrial map. Terror Ship map fixes. Fixed some Ufopaedia crashing issues on vanilla OXC.
