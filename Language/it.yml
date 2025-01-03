@@ -1360,7 +1360,7 @@ it:
   STR_SNIPER_RIFLES_UFOPEDIA: "I fucili di precisione richiedono un'elevata precisione di tiro per essere efficaci, ma nelle mani giuste sono estremamente precisi e potenti. Tuttavia, sono piuttosto lenti a sparare. La loro precisione spesso diminuisce a distanze molto brevi."
   STR_INCENDIARIES_UFOPEDIA: "Le armi incendiarie infliggono danni diretti e coprono anche un'area con le fiamme. Il fuoco infligge danno ad ogni turno a tutte le unità che vi si trovano. Il fuoco non causa ferite fatali, ma può causare l'immolazione dell'unità bersaglio. Un'unità in fiamme subirà danni ogni turno, come se fosse in fiamme, e ha la possibilità di smettere di bruciare ogni turno. L'armatura non protegge dal fuoco, ma in alcuni casi può ridurre il danno di una percentuale prestabilita."
   STR_DRAGONFLY_DARK: "Libellula"
-  STR_OPENXCOM: "Open X-Com: Final Mod Pack 3.4 [IT]"
+  STR_OPENXCOM: "Open X-Com: Final Mod Pack 3.5 [IT]"
   STR_TROLLIUM: "(altro)"
   STR_PUNCH: "Pugno"
   STR_KICK: "Calcio"
