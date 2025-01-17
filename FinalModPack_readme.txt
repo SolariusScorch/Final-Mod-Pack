@@ -58,6 +58,7 @@ ANY FUTURE PLANS?
 I will do maintenance on the mod, and might add something new if I feel like it, but no promises - I am working on some other projects (mainly The X-Com Files, which is Final Mod Pack's younger, much bigger sibling).
 
 CHANGELOG:
+: Removed duplicate strings.
 3.5a: Minor fixes.
 3.5: 6 new Industrial Slum maps (by Dioxine) and enabled huge maps in the script. 2 new Urban maps (by Dioxine). 3 new Junkfarm maps (by Dioxine). Various Junkfarm terrain updates. Improved diagonal UFO walls (thanks CrazedHarpooner). Port terrain fixes (by Dioxine). Minor fixes (thanks Meridian).
 3.4: New Sectopods: Gauss and Railgun. Fixed a hole in the Skyraider. Terrain fixes.
