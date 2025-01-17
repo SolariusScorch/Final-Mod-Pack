@@ -1168,7 +1168,7 @@ en-GB:
   STR_SNIPER_RIFLES_UFOPEDIA: "Sniper Rifles require high Firing Accuracy to be effective, but in the right hands are extremely accurate and powerful. However, they are quite slow to fire. Their accuracy often drops at very short distances."
   STR_INCENDIARIES_UFOPEDIA: "Incendiary weapons deal direct damage and also cover an area with flames. Fire deals damage every turn to all units standing in it. Fire doesn't cause fatal wounds, but may cause immolation of the target unit. A burning unit will take damage every turn, as if it was standing in fire, and has a chance to stop burning every turn. Armor does not protect from fire, but may in some cases reduce damage by a set percentage."
   STR_DRAGONFLY_DARK: "Dragonfly"
-  STR_OPENXCOM: "Open X-Com: Final Mod Pack 3.4"
+  STR_OPENXCOM: "Open X-Com: Final Mod Pack 3.5"
   STR_TROLLIUM: "(other)"
   STR_PUNCH: "Punch"
   STR_KICK: "Kick"
