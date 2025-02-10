@@ -536,10 +536,22 @@ terrains:
         width: 10
         length: 10
         groups: 3
+      - name: PORTUFO31B
+        width: 10
+        length: 10
+        groups: 3
       - name: PORTUFO32
         width: 20
         length: 20
-      - name: PORTUFO31B
+      - name: PORTUFO33
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO34
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO35
         width: 10
         length: 10
         groups: 3
@@ -1552,6 +1564,9 @@ terrains:
         width: 20
         length: 20
       - name: POLARHUGE00
+        width: 30
+        length: 30
+      - name: POLARHUGE01
         width: 30
         length: 30
   - name: DESERT
