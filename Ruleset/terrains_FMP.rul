@@ -1670,7 +1670,6 @@ terrains:
         length: 10
         groups: 4
   - name: XOPSDESERT_NOCACTI
-    startingCondition: STR_DESERT_GEAR
     mapDataSets:
       - BLANKS
       - XOPSDESERT_NOCACTI
