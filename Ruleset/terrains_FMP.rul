@@ -747,6 +747,15 @@ terrains:
       - name: COMRCURBAN51
         width: 10
         length: 10
+      - name: COMRCURBAN52
+        width: 10
+        length: 10
+      - name: COMRCURBAN53
+        width: 10
+        length: 10
+      - name: COMRCURBAN54
+        width: 10
+        length: 10
   - name: RURAL
     mapDataSets:
       - BLANKS
