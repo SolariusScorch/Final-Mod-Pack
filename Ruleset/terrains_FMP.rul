@@ -201,6 +201,9 @@ terrains:
       - name: CIVURBAN47 # tiny store by Civilian
         width: 10
         length: 10
+      - name: URBANDIOHUGE00
+        width: 30
+        length: 30
       - name: URBANSANYASKILLPRO00 # school by Sanya Skill Pro
         width: 40
         length: 40
