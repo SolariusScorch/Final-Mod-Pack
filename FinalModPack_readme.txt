@@ -58,7 +58,7 @@ ANY FUTURE PLANS?
 I will do maintenance on the mod, and might add something new if I feel like it, but no promises - I am working on some other projects (mainly The X-Com Files, which is Final Mod Pack's younger, much bigger sibling).
 
 CHANGELOG:
-: 1 new Urban map (by Dioxine). 1 new Rocks map (by Dioxine). 1 new Port map (by Dioxine) and enabled huge maps in the script. 3 new Commercial maps (by Dioxine) and enabled huge maps in the script.
+: 1 new Urban map (by Dioxine). 1 new Rocks map (by Dioxine). 1 new Port map (by Dioxine) and enabled huge maps in the script. 3 new Commercial maps (by Dioxine) and enabled huge maps in the script. Minor fixes.
 3.7: Forest/Winter Marsh fixes (by Dioxine). 1 new Postindustrial map (by Dioxine).
 3.6: 6 new Port maps (1 by Dioxine). 3 new Commercial maps (2 by Dioxine). 1 new Polar map. Removed duplicate strings. Fixed civilian list in Native Urban. Minor fixes.
 3.5a: Minor fixes.
