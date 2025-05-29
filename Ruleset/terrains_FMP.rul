@@ -204,6 +204,12 @@ terrains:
       - name: URBANDIOHUGE00
         width: 30
         length: 30
+      - name: URBANDIOHUGE01
+        width: 30
+        length: 30
+      - name: URBANDIOHUGE02
+        width: 30
+        length: 30
       - name: URBANSANYASKILLPRO00 # school by Sanya Skill Pro
         width: 40
         length: 40
