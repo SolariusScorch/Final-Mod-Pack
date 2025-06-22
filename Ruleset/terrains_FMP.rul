@@ -780,10 +780,22 @@ terrains:
       - name: COMRCURBAN55
         width: 10
         length: 10
+      - name: COMRCURBAN_MEY_04
+        width: 20
+        length: 20
+      - name: COMRCURBAN_MEY_05
+        width: 20
+        length: 20
       - name: COMRCURBANHUGE01
         width: 30
         length: 30
       - name: COMRCURBANHUGE02
+        width: 30
+        length: 30
+      - name: COMRCURBANHUGE03
+        width: 30
+        length: 30
+      - name: COMRCURBANHUGE04
         width: 30
         length: 30
   - name: RURAL
