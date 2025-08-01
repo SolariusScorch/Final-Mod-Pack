@@ -1739,8 +1739,8 @@ armors:
       - 0.0
     loftempsSet: [ 3 ]
   - type: STR_ETHEREAL_COMMANDER_ARMOR
-    spriteSheet: ETHEREAL.PCK
-    spriteInv: etherealInventoryImage
+    spriteSheet: ETHEREAL_COMMANDER.PCK
+    spriteInv: inventory_ETHEREAL_COMMANDER.SPK
     corpseBattle:
       - STR_ETHEREAL_CORPSE
     frontArmor: 45

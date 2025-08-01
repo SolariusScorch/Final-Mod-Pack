@@ -239,7 +239,7 @@ extraSprites:
       243: Resources/Alt_aliens/Floater_Leader/bigob_FLOATER_LEADER.png
       244: Resources/Alt_aliens/Floater_Medic/bigob_FLOATER_MEDIC.png
       245: Resources/Alt_aliens/Floater_Navigator/bigob_FLOATER_NAVIGATOR.png
-      246: Resources/Races_Compilation/WhiteEtherealRace/bigobs_ETHEREAL_WHITE.png
+      246: Resources/Races_Compilation/EtherealRace/bigobs_ETHEREAL_WHITE.png
       247: Resources/Weapons_Compilation/GrenadeLauncher/bigob_GrenadeLauncherElerium.png
       248: Resources/Weapons_Compilation/PlasmaBlades/PlasmaBlade.png
       249: Resources/Weapons_Compilation/PlasmaBlades/PlasmaSword.png
@@ -361,7 +361,7 @@ extraSprites:
       163: Resources/Armors_Compilation/Alloy_Vest/floorob_ALLOY_VEST_CORPSE.png
       164: Resources/Weapons_Compilation/AlloySword/floorob_AlloyKnife.png
       165: Resources/Doge/floorob_DOGE_CORPSE.png
-      166: Resources/Races_Compilation/WhiteEtherealRace/floorob_ETHEREAL_WHITE.png
+      166: Resources/Races_Compilation/EtherealRace/floorob_ETHEREAL_WHITE.png
       167: Resources/Misc_Items_Compilation/floorob_AlienElectronics.png
       168: Resources/Weapons_Compilation/ClassicWeapons/floorob_MACHETE.png
       169: Resources/Alt_aliens/Sectoid_Guardian/floorob_SECTOID_GUARDIAN.png
@@ -790,11 +790,22 @@ extraSprites:
     width: 512
     height: 200
     files:
-      0: Resources/Races_Compilation/WhiteEtherealRace/Ethereal_white.png
+      0: Resources/Races_Compilation/EtherealRace/Ethereal_white.png
   - type: inventory_ETHEREAL_WHITE.SPK
     singleImage: true
     files:
-      0: Resources/Races_Compilation/WhiteEtherealRace/inventory_ETHEREAL_WHITE.png
+      0: Resources/Races_Compilation/EtherealRace/inventory_ETHEREAL_WHITE.png
+  - type: ETHEREAL_COMMANDER.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 200
+    files:
+      0: Resources/Races_Compilation/EtherealRace/ETHEREAL_COMMANDER.png
+  - type: inventory_ETHEREAL_COMMANDER.SPK
+    singleImage: true
+    files:
+      0: Resources/Races_Compilation/EtherealRace/inventory_ETHEREAL_COMMANDER.png
   - type: GAZER.PCK
     subX: 32
     subY: 40
