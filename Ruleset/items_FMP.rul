@@ -3003,7 +3003,7 @@ items:
     floorSprite: 12
     hitSound: 66
     hitAnimation: 26
-    power: 95
+    power: 100
     damageType: 1
     clipSize: 60
     battleType: 2
@@ -3064,7 +3064,7 @@ items:
     floorSprite: 12
     hitSound: 66
     hitAnimation: 96
-    power: 140
+    power: 150
     damageType: 1
     clipSize: 60
     battleType: 2
