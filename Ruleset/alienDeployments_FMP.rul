@@ -1,6 +1,6 @@
 alienDeployments:
   - type: STR_SMALL_SCOUT
-    height: 6
+    height: 10
     data:
       - alienRank: 5
         lowQty: 1
@@ -33,7 +33,7 @@ alienDeployments:
             - STR_HEAVY_PLASMA_CLIP
             - STR_MIND_PROBE
   - type: STR_MEDIUM_SCOUT
-    height: 6
+    height: 10
     data:
       - alienRank: 5
         lowQty: 2
@@ -87,7 +87,7 @@ alienDeployments:
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
   - type: STR_LARGE_SCOUT
-    height: 6
+    height: 10
     data:
       - alienRank: 5
         lowQty: 1
@@ -175,7 +175,7 @@ alienDeployments:
             - STR_STUN_BOMB
             - STR_STUN_BOMB
   - type: STR_HARVESTER
-    height: 6
+    height: 10
     data:
       - alienRank: 5
         lowQty: 5
@@ -314,7 +314,7 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_HEAVY_PLASMA_CLIP
   - type: STR_ABDUCTOR
-    height: 6
+    height: 10
     data:
       - alienRank: 5
         lowQty: 3
@@ -455,7 +455,7 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_HEAVY_PLASMA_CLIP
   - type: STR_TERROR_SHIP
-    height: 6
+    height: 10
     data:
       - alienRank: 5
         lowQty: 4
@@ -630,7 +630,7 @@ alienDeployments:
           -
             []
   - type: STR_BATTLESHIP
-    height: 6
+    height: 10
     width: 60
     length: 60
     data:
@@ -843,7 +843,7 @@ alienDeployments:
           -
             []
   - type: STR_SUPPLY_SHIP
-    height: 6
+    height: 10
     data:
       - alienRank: 5
         lowQty: 5
@@ -984,7 +984,7 @@ alienDeployments:
   - type: STR_TERROR_MISSION
     width: 50
     length: 50
-    height: 6
+    height: 10
     civilians: 12
     terrains:
       - URBAN
@@ -1877,7 +1877,7 @@ alienDeployments:
   - type: STR_EXCAVATOR
     width: 50
     length: 50
-    height: 6
+    height: 10
     data:
       - alienRank: 5
         lowQty: 1
@@ -1958,7 +1958,7 @@ alienDeployments:
   - type: STR_FIGHTER_SHIP
     width: 40
     length: 40
-    height: 6
+    height: 10
     data:
       - alienRank: 4
         lowQty: 2
@@ -1986,7 +1986,7 @@ alienDeployments:
   - type: STR_SENTRY_SHIP
     width: 40
     length: 40
-    height: 6
+    height: 10
     data:
       - alienRank: 5
         lowQty: 1
@@ -2069,7 +2069,7 @@ alienDeployments:
   - type: STR_LAB_SHIP
     width: 50
     length: 50
-    height: 6
+    height: 10
     data:
       - alienRank: 5
         lowQty: 2
@@ -2252,7 +2252,7 @@ alienDeployments:
   - type: STR_ENVOY_SHIP
     width: 50
     length: 50
-    height: 6
+    height: 10
     data:
       - alienRank: 3
         lowQty: 2
@@ -2320,7 +2320,7 @@ alienDeployments:
   - type: STR_SMALL_GROUND_CONVOY_TEMPERATE_HYBRID
     width: 50
     length: 50
-    height: 6
+    height: 10
     alert: STR_ALERT_SMALL_CONVOY_HYBRID
     briefing:
       palette: 2
@@ -2400,7 +2400,7 @@ alienDeployments:
   - type: STR_SMALL_GROUND_CONVOY_JUNGLE_HYBRID
     width: 50
     length: 50
-    height: 6
+    height: 10
     alert: STR_ALERT_SMALL_CONVOY_HYBRID
     briefing:
       palette: 2
@@ -2479,7 +2479,7 @@ alienDeployments:
   - type: STR_SMALL_GROUND_CONVOY_COLD_HYBRID
     width: 50
     length: 50
-    height: 6
+    height: 10
     alert: STR_ALERT_SMALL_CONVOY_HYBRID
     briefing:
       palette: 2
@@ -2559,7 +2559,7 @@ alienDeployments:
   - type: STR_SMALL_GROUND_CONVOY_DESERT_HYBRID
     width: 50
     length: 50
-    height: 6
+    height: 10
     alert: STR_ALERT_SMALL_CONVOY_HYBRID
     briefing:
       palette: 2
@@ -2633,7 +2633,7 @@ alienDeployments:
   - type: STR_MEDIUM_GROUND_CONVOY_TEMPERATE_HYBRID
     width: 50
     length: 50
-    height: 6
+    height: 10
     alert: STR_ALERT_MEDIUM_CONVOY_HYBRID
     briefing:
       palette: 2
@@ -2773,7 +2773,7 @@ alienDeployments:
   - type: STR_MEDIUM_GROUND_CONVOY_JUNGLE_HYBRID
     width: 50
     length: 50
-    height: 6
+    height: 10
     alert: STR_ALERT_MEDIUM_CONVOY_HYBRID
     briefing:
       palette: 2
@@ -2912,7 +2912,7 @@ alienDeployments:
   - type: STR_MEDIUM_GROUND_CONVOY_COLD_HYBRID
     width: 50
     length: 50
-    height: 6
+    height: 10
     alert: STR_ALERT_MEDIUM_CONVOY_HYBRID
     briefing:
       palette: 2
@@ -3052,7 +3052,7 @@ alienDeployments:
   - type: STR_MEDIUM_GROUND_CONVOY_DESERT_HYBRID
     width: 50
     length: 50
-    height: 6
+    height: 10
     alert: STR_ALERT_MEDIUM_CONVOY_HYBRID
     briefing:
       palette: 2
@@ -3186,7 +3186,7 @@ alienDeployments:
   - type: STR_MANSION
     width: 50
     length: 50
-    height: 6
+    height: 10
     data:
       - alienRank: 5
         lowQty: 4
@@ -3404,7 +3404,7 @@ alienDeployments:
   - type: STR_MANSION_MIB
     width: 50
     length: 50
-    height: 6
+    height: 10
     data:
       - alienRank: 5
         lowQty: 4
@@ -3621,7 +3621,7 @@ alienDeployments:
   - type: STR_KEEP
     width: 50
     length: 50
-    height: 6
+    height: 10
     data:
       - alienRank: 5
         lowQty: 4
@@ -3784,7 +3784,7 @@ alienDeployments:
   - type: STR_DRAGONFLY_DARK
     width: 40
     length: 40
-    height: 6
+    height: 10
     data:
       - alienRank: 5
         lowQty: 1
@@ -3818,7 +3818,7 @@ alienDeployments:
   - type: STR_MIB_COVERUP_0
     width: 50
     length: 50
-    height: 6
+    height: 10
     data:
       - alienRank: 5
         lowQty: 0
@@ -3919,7 +3919,7 @@ alienDeployments:
   - type: STR_MIB_COVERUP_1
     width: 50
     length: 50
-    height: 6
+    height: 10
     data:
       - alienRank: 5
         lowQty: 2
@@ -4092,7 +4092,7 @@ alienDeployments:
   - type: STR_MIB_COVERUP_2
     width: 50
     length: 50
-    height: 6
+    height: 10
     data:
       - alienRank: 5
         lowQty: 3
@@ -4266,7 +4266,7 @@ alienDeployments:
   - type: STR_MIB_TERROR_MISSION
     width: 50
     length: 50
-    height: 6
+    height: 10
     civilians: 16
     data:
       - alienRank: 5
@@ -4496,7 +4496,7 @@ alienDeployments:
   - type: STR_MIB_BASE_LANDING
     width: 50
     length: 50
-    height: 6
+    height: 10
     data:
       - alienRank: 5
         lowQty: 2
