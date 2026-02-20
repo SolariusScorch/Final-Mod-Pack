@@ -58,6 +58,7 @@ ANY FUTURE PLANS?
 I will do maintenance on the mod, and might add something new if I feel like it, but no promises - I am working on some other projects (mainly The X-Com Files, which is Final Mod Pack's younger, much bigger sibling).
 
 CHANGELOG:
+: Minor fixes.
 3.9: Streamlined Gauss and Railgun tanks' damage. Made surface maps taller to fit all buildings in.
 3.8: 3 new Urban maps (by Dioxine). 1 new Rocks map (by Dioxine). 2 new Postindustrial maps (by Dioxine). 1 new Port map (by Dioxine) and enabled huge maps in the script. 7 new Commercial maps (3 by Dioxine, 4 by MeyMey) and enabled huge maps in the script. Unique sprite for Ethereal Commander (design by Christof the Improper). Tweaked URBANJUNKDIO_07 (by Dioxine). Fixed MILTECH tileset. Door improvements. Minor fixes.
 3.7: Forest/Winter Marsh fixes (by Dioxine). 1 new Postindustrial map (by Dioxine).

@@ -988,6 +988,7 @@ ru:
   STR_MIB4_CORPSE: "Труп тяжелого пехотинца ЛвЧ"
   STR_MIB5_CORPSE: "Труп штурмовика ЛвЧ"
   STR_MIB_PSI_OPS_CORPSE: "Труп пси-спецназовца ЛвЧ"
+  STR_MIB_COMMANDER_CORPSE: "Труп командующего ЛвЧ"
   STR_MIBTANK_CORPSE: "Разбитый танк ЛвЧ"
   STR_MIB_COVERUP_0: "Транспорт ЛвЧ"
   STR_MIB_COVERUP_1: "Транспорт ЛвЧ II"

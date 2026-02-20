@@ -988,6 +988,7 @@ ja:
   STR_MIB4_CORPSE: "MiBヘビートルーパーの死体"
   STR_MIB5_CORPSE: "MiBストームトルーパーの死体"
   STR_MIB_PSI_OPS_CORPSE: "MiB超能力兵の死体"
+  STR_MIB_COMMANDER_CORPSE: "MiB司令官の死体"
   STR_MIBTANK_CORPSE: "MiB戦車の残骸"
   STR_MIB_COVERUP_0: "MiBの輸送機"
   STR_MIB_COVERUP_1: "MiBの輸送機 II"

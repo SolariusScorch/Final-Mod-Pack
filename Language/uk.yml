@@ -463,6 +463,7 @@ uk:
   STR_MIB4_CORPSE: "Труп важкого десантника ЛвЧ"
   STR_MIB5_CORPSE: "Труп штурмовика ЛвЧ"
   STR_MIB_PSI_OPS_CORPSE: "Труп пси-оперативника ЛвЧ"
+  STR_MIB_COMMANDER_CORPSE: "Труп командира ЛвЧ"
   STR_MIB_COVERUP_0: "Транспортер ЛвЧ"
   STR_MIB_TERROR_MISSION: "Місія терору ЛвЧ"
   STR_MIB_IDENTITY: "«Люди в Чорному»"

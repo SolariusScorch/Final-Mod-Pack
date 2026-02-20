@@ -988,6 +988,7 @@ de:
   STR_MIB4_CORPSE: "Toter MiB-Heavy Trooper"
   STR_MIB5_CORPSE: "Toter MiB-Stormtrooper"
   STR_MIB_PSI_OPS_CORPSE: "Toter MiB Psi-Ops"
+  STR_MIB_COMMANDER_CORPSE: "Toter MiS-Kommandant"
   STR_MIBTANK_CORPSE: "Mib Panzerwrack"
   STR_MIB_COVERUP_0: "MiB Transporter"
   STR_MIB_COVERUP_1: "MiB Transporter II"

@@ -1000,6 +1000,7 @@ en-US:
   STR_MIB4_CORPSE: "MiB Heavy Trooper Corpse"
   STR_MIB5_CORPSE: "MiB Stormtrooper Corpse"
   STR_MIB_PSI_OPS_CORPSE: "MiB Psi-Ops Corpse"
+  STR_MIB_COMMANDER_CORPSE: "MiB Commander Corpse"
   STR_MIBTANK_CORPSE: "Mib Tank Wreck"
   STR_MIB_COVERUP_0: "MiB Transporter"
   STR_MIB_COVERUP_1: "MiB Transporter II"

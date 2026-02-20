@@ -988,6 +988,7 @@ it:
   STR_MIB4_CORPSE: "MiB Cadavere"
   STR_MIB5_CORPSE: "MiB Cadavere"
   STR_MIB_PSI_OPS_CORPSE: "Cadavere Psionico MiB"
+  STR_MIB_COMMANDER_CORPSE: "Cadavere MiB Comandante"
   STR_MIBTANK_CORPSE: "Rottame Tank"
   STR_MIB_COVERUP_0: "Trasportatore MiB"
   STR_MIB_COVERUP_1: "Trasportatore II MiB"
