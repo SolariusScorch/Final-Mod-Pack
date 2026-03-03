@@ -4042,6 +4042,7 @@ items:
     tuAuto: 40
     tuSnap: 33
     tuAimed: 80
+    aimRange: 25
     snapRange: 25
     autoRange: 25
     autoShots: 5
