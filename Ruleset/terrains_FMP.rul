@@ -1794,6 +1794,9 @@ terrains:
       - name: SOLFOREST17
         width: 20
         length: 20
+      - name: SOLFOREST18
+        width: 10
+        length: 10
       - name: SOLFORESTHUGE00
         width: 30
         length: 30
