@@ -1304,6 +1304,11 @@ research:
     points: 0
     dependencies:
       - STR_REAPER
+  - name: STR_SECTOID_STANDARD_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_SECTOID_AUTOPSY
   - name: STR_SECTOID_AUTOPSY
     unlocks:
       - STR_ALIEN_BIOLOGY
