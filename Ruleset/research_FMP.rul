@@ -137,6 +137,7 @@ research:
       - STR_ALIEN_ORIGINS
       - STR_ALIEN_DIPLOMACY
       - STR_ETHEREAL_ORDER
+      - STR_PSIONICS_PREREQUISITE1
     listOrder: 8605
   - name: STR_ETHEREAL_GUARDIAN
     cost: 200
@@ -144,6 +145,7 @@ research:
     lookup: STR_ETHEREAL
     needItem: true
     unlocks:
+      - STR_PSIONICS_PREREQUISITE1
       - STR_ETHEREAL_ORDER
       - STR_ALIEN_ORIGINS
       - STR_ALIEN_DIPLOMACY
@@ -155,6 +157,7 @@ research:
     lookup: STR_ETHEREAL
     needItem: true
     unlocks:
+      - STR_PSIONICS_PREREQUISITE1
       - STR_ETHEREAL_ORDER
       - STR_ALIEN_ORIGINS
       - STR_ALIEN_DIPLOMACY
@@ -3563,6 +3566,9 @@ research:
     cost: 0
     points: 20
     dependencies:
+      - STR_ETHEREAL_GRAND_MASTER
+      - STR_ETHEREAL_SPEAKER
+      - STR_ETHEREAL_GUARDIAN
       - STR_ETHEREAL_COMMANDER
       - STR_ETHEREAL_LEADER
       - STR_ETHEREAL_SOLDIER
