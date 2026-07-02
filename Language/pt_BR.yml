@@ -969,6 +969,7 @@ pt-BR:
   STR_LAUNCHER_SMOKE: "Granada 46mm (FUMAÇA)"
   STR_HMG: "Metralhadora Pesada"
   STR_HMG_CLIP: "Munição da HMG"
+  STR_HMG_UFOPEDIA: "A Metralhadora Pesada lança uma saraivada devastadora de tiros, tornando-a uma excelente arma de suporte pesado. No entanto, é muito pesada para um soldado humano médio usar."
   STR_SKYRAIDER: "SKYRAIDER"
   STR_SKYRAIDER_UFOPEDIA: "Este avião pode transportar até 10 pessoas com velocidade sem precedentes."
   STR_MELEE_UFOPEDIA: "Para a maioria dos lutadores, as armas brancas são apenas para situações desesperadoras, mas alguns agentes preferem desfrutar de seus pontos fortes: potência e velocidade."

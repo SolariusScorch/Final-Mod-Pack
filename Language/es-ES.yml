@@ -35,6 +35,7 @@ es-ES:
   STR_MEDAL_ALLRANKS_DESCRIPTION: "Otorgada a un soldado que ha matado extraterrestres de todo los rangos."
   STR_MEDAL_ALLUFOS: "Insignia INTTEC"
   STR_MEDAL_ALLUFOS_DESCRIPTION: "Otorgada a un soldado que ha participado en misiones involucrando cada tipo de OVNI."
+  STR_MEDAL_ALLUFOS_UFOPEDIA: "INTTEC, o Inteligencia Técnica, implica ganar conocimiento de capacidades enemigas a través de explotación de equipo capturado. {NEWLINE}{NEWLINE}X-Com gana conocimiento y material de cada OVNI que recuperan. {NEWLINE}Soldados involucrados en misiones de cada tipo de OVNI recibirán este condecoración. Esta condecoración es distribuida una sola vez."
   STR_MEDAL_ANTITERROR: "Medalla de Hércules"
   STR_MEDAL_ANTITERROR_DESCRIPTION: "Otorgada a un soldado que ha matado todo los tipos de amenazas de terror."
   STR_MEDAL_BASE_DEFENDER: "Medalla del Defensor"
