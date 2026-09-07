@@ -58,7 +58,7 @@ ANY FUTURE PLANS?
 I will do maintenance on the mod, and might add something new if I feel like it, but no promises - I am working on some other projects (mainly The X-Com Files, which is Final Mod Pack's younger, much bigger sibling).
 
 CHANGELOG:
-4.2: 2 new Rice Farm maps and enabled huge maps in the script. Improved Slovak name list (thx Meridian). Minor fixes.
+4.2: 2 new Rice Farm maps and enabled huge maps in the script. Improved Slovak name list (thx Meridian). Fixed floating rocks on Sandy Rocks Alternative. Minor fixes.
 4.1: 4 new Port maps. Fixed incorrect values in some weapon descriptions.
 4.0: New Forest map. New Port map. New Postindustrial map (by Dioxine). Rare Ethereals also enable psionics. Fixed Sandy Plains Alternative walking sounds. Fixed Auto-Cannon aimed range. Fixed Sectoid Combat Analysis article display. Fixed an issue with Muton Commander corpse recovery. Fixed some walls in Alien Base. Minor fixes.
 3.9: Streamlined Gauss and Railgun tanks' damage. Made surface maps taller to fit all buildings in.
