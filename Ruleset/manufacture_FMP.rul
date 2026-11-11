@@ -205,6 +205,19 @@ manufacture:
     producedItems:
       STR_SYNTHMUSCLES: 1
     listOrder: 2951
+  - name: STR_BREAKDOWN_STR_ALIEN_LASER_RIFLE_CLIP
+    category: STR_BASIC_COMPONENTS
+    requires:
+      - STR_ALIEN_LASER_RIFLE_CLIP
+      - STR_ELERIUM_115
+    space: 2
+    time: 80
+    cost: 2000
+    requiredItems:
+      STR_ALIEN_LASER_RIFLE_CLIP: 1
+    producedItems:
+      STR_ELERIUM_115: 1
+    listOrder: 3780
   - name: STR_BREAKDOWN_STR_PLASMA_PISTOL_CLIP
     category: STR_BASIC_COMPONENTS
     requires:
