@@ -103,7 +103,7 @@ extraSprites:
       101: Resources/Weapons_Compilation/Magnum/bigob_MagnumDrum.png
       102: Resources/Weapons_Compilation/Submachinegun/bigob_SMG.png
       103: Resources/Weapons_Compilation/Submachinegun/bigob_SMGClip.png
-      104: Resources/Alt_aliens/Muton_Commander/bigob_MUTON_COMMANDER.png
+      104: Resources/Races_Compilation/MutonRace/bigob_MUTON_COMMANDER.png
       105: Resources/Weapons_Compilation/Minigun/Minigun.png
       106: Resources/Weapons_Compilation/Minigun/Minigun_Ammo.png
       107: Resources/Weapons_Compilation/Minigun/Minigun_light.png
@@ -179,13 +179,13 @@ extraSprites:
       180: Resources/Weapons_Compilation/AlloySword/bigob_AlloyKnife_Salo.png
       181: Resources/Doge/bigob_DOGE_BITE.png
       182: Resources/Doge/bigob_DOGE_CORPSE.png
-      183: Resources/Alt_aliens/Floater_Commander/bigob_FLOATER_COMMANDER.png
+      183: Resources/Races_Compilation/FloaterRace/bigob_FLOATER_COMMANDER.png
       184: Resources/Misc_Items_Compilation/bigob_AlienElectronics.png
       185: Resources/Weapons_Compilation/ClassicWeapons/bigobs_MACHETE.png
-      188: Resources/Alt_aliens/Sectoid_Guardian/bigob_SECTOID_GUARDIAN.png
-      189: Resources/Alt_aliens/Muton_Engineer/bigob_MUTON_ENGINEER.png
+      188: Resources/Races_Compilation/SectoidRace/bigob_SECTOID_GUARDIAN.png
+      189: Resources/Races_Compilation/MutonRace/bigob_MUTON_ENGINEER.png
       190: Resources/Races_Compilation/MutonRace/bigob_MUTON_LEADER.png
-      191: Resources/Alt_aliens/Muton_Medic/bigob_MUTON_MEDIC.png
+      191: Resources/Races_Compilation/MutonRace/bigob_MUTON_MEDIC.png
       192: Resources/Armors_Compilation/Stormtrooper_Suit/bigob_Stormtrooper.png
       193: Resources/Weapons_Compilation/HeavySniperRifle/bigob_TacticalSniperRifle.png
       194: Resources/Weapons_Compilation/HeavySniperRifle/bigob_TacticalSniperRifleClip_AP.png
@@ -235,10 +235,10 @@ extraSprites:
       239: Resources/AlienArmourySpecial/bigob_PhotonBlade.png
       240: Resources/AlienArmourySpecial/bigob_Whip.png
       241: Resources/AlloyAmmo/bigob_Shotgun_AA_Shells_BS.png
-      242: Resources/Alt_aliens/Floater_Engineer/bigob_FLOATER_ENGINEER.png
-      243: Resources/Alt_aliens/Floater_Leader/bigob_FLOATER_LEADER.png
-      244: Resources/Alt_aliens/Floater_Medic/bigob_FLOATER_MEDIC.png
-      245: Resources/Alt_aliens/Floater_Navigator/bigob_FLOATER_NAVIGATOR.png
+      242: Resources/Races_Compilation/FloaterRace/bigob_FLOATER_ENGINEER.png
+      243: Resources/Races_Compilation/FloaterRace/bigob_FLOATER_LEADER.png
+      244: Resources/Races_Compilation/FloaterRace/bigob_FLOATER_MEDIC.png
+      245: Resources/Races_Compilation/FloaterRace/bigob_FLOATER_NAVIGATOR.png
       246: Resources/Races_Compilation/EtherealRace/bigobs_ETHEREAL_WHITE.png
       247: Resources/Weapons_Compilation/GrenadeLauncher/bigob_GrenadeLauncherElerium.png
       248: Resources/Weapons_Compilation/PlasmaBlades/PlasmaBlade.png
@@ -246,7 +246,7 @@ extraSprites:
       250: Resources/Misc_Items_Compilation/bigob_HealingSpray.png
       251: Resources/Misc_Items_Compilation/bigob_Painkillers.png
       252: Resources/Misc_Items_Compilation/bigob_Stims.png
-      253: Resources/Alt_aliens/Sectoid_Commander/bigob_SECTOID_COMMANDER.png
+      253: Resources/Races_Compilation/SectoidRace/bigob_SECTOID_COMMANDER.png
       254: Resources/AlienArmouryExpanded/bigob_PlasmaSub.png
       255: Resources/AlienArmouryExpanded/bigob_PlasmaSubClip.png
       256: Resources/men_in_black/bigob_MIB_PSI_OPS.png
@@ -323,7 +323,7 @@ extraSprites:
       124: Resources/Races_Compilation/ChtoniteRace/floorob_CHTONITE_CORPSE.png
       126: Resources/Races_Compilation/CerebrealRace/floorob_CEREBREAL_CORPSE.png
       127: Resources/Races_Compilation/CerebrealRace/floorob_CEREBREAL_LARVA_CORPSE.png
-      128: Resources/Alt_aliens/Muton_Commander/floorob_MUTON_COMMANDER.png
+      128: Resources/Races_Compilation/MutonRace/floorob_MUTON_COMMANDER.png
       129: Resources/GravArmors/FlyingArmor/FloorCorpse.png
       130: Resources/GravArmors/JumpArmor/Floor_JumpArmor.png
       131: Resources/GravArmors/GravModule/Floor_GravModule.png
@@ -364,10 +364,10 @@ extraSprites:
       166: Resources/Races_Compilation/EtherealRace/floorob_ETHEREAL_WHITE.png
       167: Resources/Misc_Items_Compilation/floorob_AlienElectronics.png
       168: Resources/Weapons_Compilation/ClassicWeapons/floorob_MACHETE.png
-      169: Resources/Alt_aliens/Sectoid_Guardian/floorob_SECTOID_GUARDIAN.png
-      170: Resources/Alt_aliens/Muton_Engineer/floorob_MUTON_ENGINEER.png
+      169: Resources/Races_Compilation/SectoidRace/floorob_SECTOID_GUARDIAN.png
+      170: Resources/Races_Compilation/MutonRace/floorob_MUTON_ENGINEER.png
       171: Resources/Races_Compilation/MutonRace/floorob_MUTON_LEADER.png
-      172: Resources/Alt_aliens/Muton_Medic/floorob_MUTON_MEDIC.png
+      172: Resources/Races_Compilation/MutonRace/floorob_MUTON_MEDIC.png
       173: Resources/Armors_Compilation/Stormtrooper_Suit/floorob_Stormtrooper.png
       174: Resources/Weapons_Compilation/HeavySniperRifle/floorob_TacticalSniperRifle.png
       175: Resources/Weapons_Compilation/HeavySniperRifle/floorob_TacticalSniperRifleClip.png
@@ -652,7 +652,7 @@ extraSprites:
     width: 512
     height: 680
     files:
-      0: Resources/Alt_aliens/Muton_Commander/MUTCOM.png
+      0: Resources/Races_Compilation/MutonRace/MutonCommander.png
   - type: SNAKEMANCOM.PCK
     subX: 32
     subY: 40
@@ -720,70 +720,70 @@ extraSprites:
     width: 256
     height: 1440
     files:
-      0: Resources/Alt_aliens/Muton_Medic/MutMed.png
+      0: Resources/Races_Compilation/MutonRace/MutonMedic.png
   - type: MUTENG.PCK
     subX: 32
     subY: 40
     width: 512
     height: 720
     files:
-      0: Resources/Alt_aliens/Muton_Engineer/MutEng.png
+      0: Resources/Races_Compilation/MutonRace/MutonEngineer.png
   - type: SECTCOM.PCK
     subX: 32
     subY: 40
     width: 320
     height: 1080
     files:
-      0: Resources/Alt_aliens/Sectoid_Commander/sectoidCommander.png
+      0: Resources/Races_Compilation/SectoidRace/sectoidCommander.png
   - type: SECTARM.PCK
     subX: 32
     subY: 40
     width: 256
     height: 1440
     files:
-      0: Resources/Alt_aliens/Sectoid_Guardian/Mechtoid.png
+      0: Resources/Races_Compilation/SectoidRace/SectoidGuardian.png
   - type: FLOATER.PCK
     subX: 32
     subY: 40
     width: 512
     height: 280
     files:
-      0: Resources/Alt_aliens/Floater_Soldier/FloaterSoldier.png
+      0: Resources/Races_Compilation/FloaterRace/FloaterSoldier.png
   - type: FLOATER_WHITE.PCK
     subX: 32
     subY: 40
     width: 512
     height: 280
     files:
-      0: Resources/Alt_aliens/Floater_Medic/FloaterMedic.png
+      0: Resources/Races_Compilation/FloaterRace/FloaterMedic.png
   - type: FLOATER_BLUE.PCK
     subX: 32
     subY: 40
     width: 512
     height: 280
     files:
-      0: Resources/Alt_aliens/Floater_Navigator/FloaterNavigator.png
+      0: Resources/Races_Compilation/FloaterRace/FloaterNavigator.png
   - type: FLOATER_GREEN.PCK
     subX: 32
     subY: 40
     width: 512
     height: 280
     files:
-      0: Resources/Alt_aliens/Floater_Engineer/FloaterEngineer.png
+      0: Resources/Races_Compilation/FloaterRace/FloaterEngineer.png
   - type: FLOATCOM.PCK
     subX: 32
     subY: 40
     width: 512
     height: 280
     files:
-      0: Resources/Alt_aliens/Floater_Commander/Floater_Bleu.png
+      0: Resources/Races_Compilation/FloaterRace/Floater_Bleu.png
   - type: FLOATLEA.PCK
     subX: 32
     subY: 40
     width: 512
     height: 280
     files:
-      0: Resources/Alt_aliens/Floater_Leader/FloaterLeader.png
+      0: Resources/Races_Compilation/FloaterRace/FloaterLeader.png
   - type: ETHEREAL_WHITE.PCK
     subX: 32
     subY: 40
@@ -972,13 +972,19 @@ extraSprites:
     height: 200
     singleImage: true
     files:
-      0: Resources/AlienInventory/sectoid.png
-  - type: mutonInventoryImage.SPK
+      0: Resources/Races_Compilation/SectoidRace/inventory_SECTOID_SOLDIER.png
+  - type: sectoidcommanderInventoryImage.SPK
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/AlienInventory/muton.png
+      0: Resources/Races_Compilation/SectoidRace/inventory_SECTOID_COMMANDER.png
+  - type: sectoidguardianInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races_Compilation/SectoidRace/inventory_SECTOID_GUARDIAN.png
   - type: inventory_SNAKEMAN.SPK
     width: 320
     height: 200
@@ -1014,55 +1020,49 @@ extraSprites:
     height: 200
     singleImage: true
     files:
-      0: Resources/AlienInventory/ethereal.png
+      0: Resources/Races_Compilation/EtherealRace/inventory_ETHEREAL_SOLDIER.png
   - type: floaterInventoryImage.SPK
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/AlienInventory/floater.png
+      0: Resources/Races_Compilation/FloaterRace/inventory_FLOATER_SOLDIER.png
+  - type: mutonInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races_Compilation/MutonRace/inventory_MUTON_SOLDIER.png
   - type: mutonengineerInventoryImage.SPK
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/AlienInventory/mutonengineer.png
+      0: Resources/Races_Compilation/MutonRace/inventory_MUTON_ENGINEER.png
   - type: mutonleaderInventoryImage.SPK
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/AlienInventory/mutonleader.png
+      0: Resources/Races_Compilation/MutonRace/inventory_MUTON_LEADER.png
   - type: mutoncommanderInventoryImage.SPK
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/AlienInventory/mutoncommander.png
+      0: Resources/Races_Compilation/MutonRace/inventory_MUTON_COMMANDER.png
   - type: mutonmedicInventoryImage.SPK
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/AlienInventory/mutonmedic.png
-  - type: sectoidcommanderInventoryImage.SPK
-    width: 320
-    height: 200
-    singleImage: true
-    files:
-      0: Resources/AlienInventory/sectoidcommander.png
-  - type: sectoidguardianInventoryImage.SPK
-    width: 320
-    height: 200
-    singleImage: true
-    files:
-      0: Resources/AlienInventory/sectoidguardian.png
+      0: Resources/Races_Compilation/MutonRace/inventory_MUTON_MEDIC.png
   - type: floatercommanderInventoryImage.SPK
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/AlienInventory/floatercommander.png
+      0: Resources/Races_Compilation/FloaterRace/inventory_FLOATER_COMMANDER.png
   - type: inventory_CHTONITE.SPK
     singleImage: true
     files:
