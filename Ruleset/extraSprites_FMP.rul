@@ -1057,6 +1057,30 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Races_Compilation/MutonRace/inventory_MUTON_MEDIC.png
+  - type: floaternavigatorInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races_Compilation/FloaterRace/inventory_FLOATER_NAVIGATOR.png
+  - type: floatermedicInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races_Compilation/FloaterRace/inventory_FLOATER_MEDIC.png
+  - type: floaterengineerInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races_Compilation/FloaterRace/inventory_FLOATER_ENGINEER.png
+  - type: floaterleaderInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Races_Compilation/FloaterRace/inventory_FLOATER_LEADER.png
   - type: floatercommanderInventoryImage.SPK
     width: 320
     height: 200
